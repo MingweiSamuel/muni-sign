@@ -22,3 +22,7 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# GTFS data
+/sfmta_gtfs/
+/sfmta_gtfs.zip
