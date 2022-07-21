@@ -1,11 +1,17 @@
 <script lang="ts">
-    import { COLOR_STD } from "../js/dataLayer";
+    import { COLOR_RAPID, COLOR_STD, COLOR_HISTORIC_REPLACEMENT } from "../js/dataLayer";
 
     import TileBlank from "./TileBlank.svelte";
 
     export let hasMetro = false;
     export let hasRapid = false;
-    export let lineColor = COLOR_STD;
+    export let hasHistoric = false;
+    export let lineColor =
+        hasMetro || hasRapid
+            ? COLOR_RAPID
+            : hasHistoric
+            ? COLOR_HISTORIC_REPLACEMENT
+            : COLOR_STD;
 </script>
 
 <TileBlank {lineColor} />
@@ -28,5 +34,13 @@
         y="217"
         textLength="550"
         lengthAdjust="spacingAndGlyphs">Rapid</text
+    >
+{:else if hasHistoric}
+    <text
+        class="w rapid"
+        x="450"
+        y="217"
+        textLength="625"
+        lengthAdjust="spacingAndGlyphs">Historic</text
     >
 {/if}

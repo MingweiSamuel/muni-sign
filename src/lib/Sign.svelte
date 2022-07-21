@@ -125,9 +125,7 @@
             <TileMuni
                 hasMetro={data.hasMetro}
                 hasRapid={data.hasRapid}
-                lineColor={data.hasMetro || data.hasRapid
-                    ? COLOR_RAPID
-                    : COLOR_STD}
+                hasHistoric={data.hasHistoric}
             />
         </g>
         {#each data.lines as line, i}

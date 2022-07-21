@@ -150,8 +150,10 @@ export type StopTimes = {
     stopId: string;
     stopLoc: string;
     lines: StopLine[];
+
     hasMetro: boolean;
     hasRapid: boolean;
+    hasHistoric: boolean;
 };
 export type StopLine = {
     lineNum: string;
@@ -238,9 +240,11 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             lineDest1 = '';
         }
 
-        const lineTextColor = '#' + line.route_text_color;
-        const lineColor = 'KT' === lineNum ? 'url(#kt-fill)' : '#' + line.route_color;
-
+        let lineTextColor = '#' + line.route_text_color;
+        let lineColor = '#' + line.route_color
+        if ('KT' === lineNum) {
+            lineColor = 'url(#kt-fill)';
+        }
 
         // Handle MUNI Metro and Cable Car/Historic Streetcar lines.
         const routeType: RouteType = Number(line.route_type);
@@ -249,6 +253,11 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
         const isRapid = !isMetro && COLOR_RAPID === lineColor;
         const isCableCar = RouteType.CableCar === routeType;
         const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC === lineColor;
+
+        if (isCableCar || isHistoricStreetcar) {
+            lineColor = COLOR_HISTORIC_REPLACEMENT;
+            lineTextColor = '#FFFFFF';
+        }
 
 
         // Line name, hardcoded adjustments
@@ -275,14 +284,16 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
     });
     const hasMetro = lines.some(line => line.isMetro);
     const hasRapid = lines.some(line => line.isRapid);
+    const hasHistoric = lines.some(line => line.isCableCar || line.isHistoricStreetcar);
 
-    return { stopId, stopLoc, lines, hasMetro, hasRapid };
+    return { stopId, stopLoc, lines, hasMetro, hasRapid, hasHistoric };
 }
 
 export const COLOR_RAPID = '#BF2B45';
 export const COLOR_STD = '#005B95';
 export const COLOR_OWL = '#666666';
 export const COLOR_HISTORIC = '#B49A36';
+export const COLOR_HISTORIC_REPLACEMENT = '#CF8B29';
 
 const COLOR_ORDER = {
     [COLOR_RAPID]: -100,
