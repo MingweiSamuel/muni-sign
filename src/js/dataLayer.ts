@@ -181,9 +181,13 @@ function stripStreetSuffix(street: string): string {
     // Sometimes 3rd St is written out in letters.
     street = street.replaceAll(/\bThird St(?:reet)?\b/ig, '3rd St');
 
+    // Too many Buena Vistas, handle separately.
+    if (/^Buena Vista/i.test(street)) {
+        street = street.replace(/^Buena Vista (?:Ave )?([EW])(?:[ea]st)?(?: Ave)?/i, 'Buena Vista $1');
+    }
     // Remove rd/st/etc suffix if street is not numeric.
-    // Ignore "Right Of Way"
-    if (!/\d/.test(street[0]) && !/^Right Of/.test(street)) {
+    // Ignore "Right Of Way", "Upper/Lower Ter".
+    else if (!/\d/.test(street[0]) && !/^(Right Of|Upper|Lower)/i.test(street)) {
         // Space followed by suffix optionally followed by dot.
         const SUFFIX_REGEX = / (:?ST|RD|DR|AVE|WAY|TER|BLVD|STREET|AVENUE)\.?$/i;
         street = street.replace(SUFFIX_REGEX, '');
