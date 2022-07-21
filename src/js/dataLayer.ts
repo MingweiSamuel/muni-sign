@@ -148,16 +148,18 @@ export async function randomStopId(): Promise<string> {
 // Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
     if (/\D/.test(street[0])) {
-        if (street.endsWith(' St') || street.endsWith(' Rd') || street.endsWith(' Dr')) {
+        const supper = street.toUpperCase();
+        // Do not strip CT do to ambiguities.
+        if (supper.endsWith(' ST') || supper.endsWith(' RD') || supper.endsWith(' DR')) {
             street = street.slice(0, -3);
         }
-        else if (street.endsWith(' Ave') || street.endsWith(' Way') || street.endsWith(' Ter')) {
+        else if (supper.endsWith(' AVE') || supper.endsWith(' WAY') || supper.endsWith(' TER')) {
             street = street.slice(0, -4);
         }
-        else if (street.endsWith(' Blvd')) {
+        else if (supper.endsWith(' BLVD')) {
             street = street.slice(0, -5);
         }
-        else if (street.endsWith(' Street') || street.endsWith(' Avenue')) {
+        else if (supper.endsWith(' STREET') || supper.endsWith(' AVENUE')) {
             street = street.slice(0, -7)
         }
     }
