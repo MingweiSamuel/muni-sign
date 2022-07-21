@@ -5,7 +5,12 @@
 
     const SPACING = 262.5;
 
-    import { getStopTimes, COLOR_RAPID, COLOR_STD, type StopTimes } from "../js/dataLayer";
+    import {
+        getStopTimes,
+        COLOR_RAPID,
+        COLOR_STD,
+        type StopTimes,
+    } from "../js/dataLayer";
 
     export let stopId = "18088";
     let dataPromise: Promise<StopTimes> = new Promise(() => {});
