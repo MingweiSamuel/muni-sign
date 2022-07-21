@@ -174,8 +174,8 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
     if (null == stopLines) throw Error('Stop not found: ' + stopId);
 
     let stopLoc = stopLines[0].stop_name;
-    if (stopLoc.includes(' & ')) {
-        let [a, b] = stopLoc.split(' & ', 2);
+    if (stopLoc.includes('&')) {
+        let [a, b] = stopLoc.split(/ ?& ?/, 2);
         a = stripStreetSuffix(a);
         b = stripStreetSuffix(b);
         stopLoc = `${a} & ${b}`;
