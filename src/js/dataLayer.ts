@@ -154,20 +154,9 @@ function stripStreetSuffix(street: string): string {
 
     // Remove rd/st/etc suffix if street is not numeric.
     if (/\D/.test(street[0])) {
-        const supper = street.toUpperCase();
-        // Do not strip CT do to ambiguities.
-        if (supper.endsWith(' ST') || supper.endsWith(' RD') || supper.endsWith(' DR')) {
-            street = street.slice(0, -3);
-        }
-        else if (supper.endsWith(' AVE') || supper.endsWith(' WAY') || supper.endsWith(' TER')) {
-            street = street.slice(0, -4);
-        }
-        else if (supper.endsWith(' BLVD')) {
-            street = street.slice(0, -5);
-        }
-        else if (supper.endsWith(' STREET') || supper.endsWith(' AVENUE')) {
-            street = street.slice(0, -7)
-        }
+        // Space followed by suffix optionally followed by dot.
+        const SUFFIX_REGEX = / (:?ST|RD|DR|AVE|WAY|TER|BLVD|STREET|AVENUE)\.?$/i;
+        street = street.replace(SUFFIX_REGEX, '');
     }
     return street;
 }
