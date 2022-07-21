@@ -185,14 +185,26 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             lineNum = lineNum.replace(/(BUS|-OWL)$/, '');
         }
 
+        // Some basic cleanup for lineDest0/1
+        let lineDest0 = line.trip_headsign;
+        let lineDest1 = controlLocs[line.route_short_name][+line.direction_id];
+        // Ensure neither line is subset of (or equal to) other.
+        if (lineDest0.includes(lineDest1)) {
+            lineDest1 = '';
+        }
+        else if (lineDest1.includes(lineDest0)) {
+            lineDest0 = lineDest1;
+            lineDest1 = '';
+        }
+
         const lineTextColor = '#' + line.route_text_color;
         const lineColor = '#' + line.route_color;
         return {
             lineNum,
             lineMod,
             lineName: line.route_long_name, // TODO: fix capitalization?
-            lineDest0: line.trip_headsign,
-            lineDest1: controlLocs[line.route_short_name][+line.direction_id],
+            lineDest0,
+            lineDest1,
             lineTime: getLineTime(line),
 
             lineTextColor,
