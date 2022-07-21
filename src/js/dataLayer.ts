@@ -165,6 +165,9 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             else if (a.endsWith(' Blvd')) {
                 a = a.slice(0, -5);
             }
+            else if (a.endsWith(' Street')) {
+                a = a.slice(0, -7)
+            }
         }
         if (/\D/.test(b[0])) {
             if (b.endsWith(' St')) {
@@ -175,6 +178,9 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             }
             else if (b.endsWith(' Blvd')) {
                 b = b.slice(0, -5);
+            }
+            else if (b.endsWith(' Street')) {
+                b = b.slice(0, -7)
             }
         }
         stopLoc = `${a} & ${b}`;
