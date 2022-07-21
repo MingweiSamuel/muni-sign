@@ -243,10 +243,15 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
         const isCableCar = RouteType.CableCar === routeType;
         const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC === lineColor;
 
+
+        // Line name, hardcoded adjustments
+        // TODO: fix capitalization?
+        const lineName = line.route_long_name.replace(/^California Street\b/ig, 'California');
+
         return {
             lineNum,
             lineMod,
-            lineName: line.route_long_name, // TODO: fix capitalization?
+            lineName,
             lineDest0,
             lineDest1,
             lineTime: getLineTime(line),

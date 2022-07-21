@@ -32,14 +32,14 @@
     let nameNarrow = false;
     $: {
         if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
-            if (18 < line.lineName.length) {
+            if (20 <= line.lineName.length) {
                 nameLimit = 570;
-                nameNarrow = 21 < line.lineName.length;
+                nameNarrow = 22 <= line.lineName.length;
             }
         } else {
-            if (24 < line.lineName.length) {
+            if (25 <= line.lineName.length) {
                 nameLimit = 705;
-                nameNarrow = 28 < line.lineName.length;
+                nameNarrow = 28 <= line.lineName.length;
             }
         }
     }
