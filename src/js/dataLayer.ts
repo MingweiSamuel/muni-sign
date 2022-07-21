@@ -149,6 +149,7 @@ export async function randomStopId(): Promise<string> {
 
 // Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
+    street = street.replaceAll(/\bThird St(?:reet)\b?/ig, '3rd St');
     if (/\D/.test(street[0])) {
         const supper = street.toUpperCase();
         // Do not strip CT do to ambiguities.
