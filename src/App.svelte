@@ -14,7 +14,7 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div> -->
-  <h1>MUNI Bus Sign</h1>
+  <h1>MUNI Sign</h1>
 
   <div class="card">
     <input bind:value={stopId} type="text" />
