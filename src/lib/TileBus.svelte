@@ -8,7 +8,9 @@
     export let lineDest1 = "";
     export let lineTime = "Fruersdays ~ 14am-32pm";
 
-    export let isRapid = false;
+    export let lineTextColor = "#ffffff";
+    export let lineColor = "#ff00ff";
+
     export let isOwl = false;
 
     // Line ID layout calculations.
@@ -20,7 +22,6 @@
     let lineWeightTot = lineWeightNum + 5 + lineWeightMod;
 
     const scale = LINE_ID_MAX_WIDTH / lineWeightTot;
-    console.log(scale);
     if (scale < 1.0) {
         lineWeightTot = LINE_ID_MAX_WIDTH;
         lineWeightNum *= scale;
@@ -34,11 +35,12 @@
     let lineModW = lineWeightMod;
 </script>
 
-<TileBlank {isRapid} />
+<TileBlank {lineColor} />
 <text
     class="line-number"
     x={lineNumX}
     y="225"
+    fill={lineTextColor}
     textLength={lineNumW}
     lengthAdjust="spacingAndGlyphs">{lineNum}</text
 >
@@ -46,13 +48,14 @@
     class="line-modifier"
     x={lineModX}
     y="154"
+    fill={lineTextColor}
     textLength={lineModW}
     lengthAdjust="spacingAndGlyphs">{lineMod}</text
 >
-<text class="line-name" x="370" y="60">{lineName}</text>
-<text class="line-info" x="370" y="110">{lineDest0}</text>
-<text class="line-info" x="370" y="160">{lineDest1}</text>
-<text class="line-info" x="370" y="210">{lineTime}</text>
+<text class="line-name" x="370" y="60" fill={lineTextColor}>{lineName}</text>
+<text class="line-info" x="370" y="110" fill={lineTextColor}>{lineDest0}</text>
+<text class="line-info" x="370" y="160" fill={lineTextColor}>{lineDest1}</text>
+<text class="line-info" x="370" y="210" fill={lineTextColor}>{lineTime}</text>
 {#if isOwl}
     <path
         fill="white"
