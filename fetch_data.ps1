@@ -38,6 +38,7 @@ q -H '-d,' -O -C read @"
         JOIN "$FOLDER/calendar.txt" c on t.service_id = c.service_id
         WHERE
             c.start_date <= $DATE AND $DATE <= c.end_date
+            AND r.route_short_name NOT IN ('JBUS', 'KBUS', 'MBUS', 'NBUS', 'TBUS')
         GROUP BY st.stop_id, t.route_id, c.service_id
     )
     GROUP BY stop_code, route_id

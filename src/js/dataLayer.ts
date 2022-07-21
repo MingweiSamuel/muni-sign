@@ -44,7 +44,8 @@ function getLineTime(line: RawStopTime): string {
         return `24 Hours ${daysOfWeek}`;
     }
     if (line.start_time === line.end_time) {
-        return `${daysOfWeek} ~ ${roundTime(sh, sm, 5)} only`;
+        // Implies only one bus on some days. But maybe more than one on other days.
+        return `${daysOfWeek} ~ ${roundTime(sh, sm, 5)}`;
     }
     else {
         return `${daysOfWeek} ~ ${roundTime(sh, sm)}-${roundTime(eh, em)}`;
