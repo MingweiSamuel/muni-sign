@@ -131,7 +131,7 @@
 <style>
     @media screen {
         #sign {
-            box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.8);
+            box-shadow: 0 0.1vw 1.2vw #000;
         }
     }
 </style>
