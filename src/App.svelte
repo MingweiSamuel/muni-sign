@@ -2,7 +2,7 @@
   // import svelteLogo from "./assets/svelte.svg";
   import Sign from "./lib/Sign.svelte";
 
-  let stopId = "13772";
+  let stopId = "16371";
 </script>
 
 <main>
