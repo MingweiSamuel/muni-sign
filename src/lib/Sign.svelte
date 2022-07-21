@@ -23,14 +23,13 @@
     <p>Loading...</p>
 {:then data}
     <svg
+        id="sign"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
         viewBox="0 0 1100 {150 + (1 + data.lines.length) * SPACING}"
         style="background: white;"
     >
-        <style>
-            @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Sans+Arabic&family=Noto+Sans+KR&family=Noto+Sans+Thai&family=Open+Sans:wdth,wght@87.5,300;87.5,500;87.5,700;100,400;100,700&display=swap");
-
+        <style type="text/css">
             .w {
                 fill: white;
             }
@@ -128,3 +127,11 @@
 {:catch error}
     <p style="color: red">{error.message}</p>
 {/await}
+
+<style>
+    @media screen {
+        #sign {
+            box-shadow: 0.5vw 0.5vw 1.2vw rgba(0, 0, 0, 0.8);
+        }
+    }
+</style>

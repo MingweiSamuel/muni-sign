@@ -1,8 +1,19 @@
 <script lang="ts">
   // import svelteLogo from "./assets/svelte.svg";
   import Sign from "./lib/Sign.svelte";
+  import "./css/print.css";
+  import { saveSvg, savePng } from "./js/save";
 
   let stopId = "16371";
+
+  let disabled = false;
+  let exportPromise = Promise.resolve();
+  $: {
+    disabled = true;
+    exportPromise.then(() => {
+      disabled = false;
+    });
+  }
 </script>
 
 <main>
@@ -14,27 +25,53 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div> -->
-  <h1>MUNI Sign</h1>
+  <h1 class="no-print">MUNI Sign</h1>
 
-  <div class="card">
-    <input bind:value={stopId} type="text" />
+  <div class="card no-print">
+    <label>
+      Stop ID:
+      <input bind:value={stopId} type="text" />
+    </label>
+    &nbsp;
+    &nbsp;
+    <input
+      disabled={disabled || null}
+      type="button"
+      value="Save PNG"
+      title="Save the sign as a PNG image."
+      on:click={() => (exportPromise = savePng(stopId))}
+    />
+    <input
+      disabled={disabled || null}
+      type="button"
+      value="Save SVG"
+      title="Save the sign as a vector graphic. Requires internet access to correctly render fonts."
+      on:click={() => (exportPromise = saveSvg(stopId))}
+    />
+    <input
+      disabled={disabled || null}
+      type="button"
+      value="Print"
+      title="Print using the system dialog."
+      on:click={() => window.print()}
+    />
   </div>
   <div class="sign">
     <Sign {stopId} />
   </div>
 
-  <p class="read-the-docs">
-    You scrolled all the way to the bottom! Well, you can follow me <a
+  <p class="read-the-docs no-print">
+    You scrolled all the way to the bottom! You can follow me <a
       href="https://twitter.com/MingweiSamuel"
       target="_blank">@MingweiSamuel</a
     >
     on Twitter if you want. Or poke around the
     <a href="https://github.com/MingweiSamuel/muni-sign/" target="_blank"
       >GitHub repository</a
-    >, maybe
+    >. And maybe
     <a href="https://github.com/MingweiSamuel/muni-sign/issues/new"
       >submit a bug report</a
-    >.
+    >!
   </p>
 </main>
 
@@ -55,6 +92,13 @@
     height: calc(750px + 100vw);
     margin: auto;
   }
+  @media print {
+    .sign {
+      width: 11in;
+      height: auto;
+    }
+  }
+
   .read-the-docs {
     color: #888;
   }
