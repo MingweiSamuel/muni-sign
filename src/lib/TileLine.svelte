@@ -9,20 +9,40 @@
     const LINE_ID_MIN_X = 25;
     // const LINE_ID_MID_X = 220; // 220;
     const LINE_ID_MAX_WIDTH = 320;
-    let lineWeightNum = 140 * line.lineNum.length;
-    let lineWeightMod = 80 * line.lineMod.length;
-    let lineWeightTot = lineWeightNum + 5 + lineWeightMod;
 
-    const scale = Math.tanh(LINE_ID_MAX_WIDTH / lineWeightTot);
-    lineWeightTot *= scale;
-    lineWeightNum *= scale;
-    lineWeightMod *= scale;
+    let lineNumX, lineNumW, lineModX, lineModW;
+    $: {
+        let lineWeightNum = 140 * line.lineNum.length;
+        let lineWeightMod = 80 * line.lineMod.length;
+        let lineWeightTot = lineWeightNum + 5 + lineWeightMod;
 
-    let lineNumX = LINE_ID_MIN_X + (LINE_ID_MAX_WIDTH - lineWeightTot) / 2;
-    let lineNumW = lineWeightNum;
+        const scale = Math.tanh(LINE_ID_MAX_WIDTH / lineWeightTot);
+        lineWeightTot *= scale;
+        lineWeightNum *= scale;
+        lineWeightMod *= scale;
 
-    let lineModX = lineNumX + lineNumW + 5;
-    let lineModW = lineWeightMod;
+        lineNumX = LINE_ID_MIN_X + (LINE_ID_MAX_WIDTH - lineWeightTot) / 2;
+        lineNumW = lineWeightNum;
+
+        lineModX = lineNumX + lineNumW + 5;
+        lineModW = lineWeightMod;
+    }
+
+    let nameLimit = null;
+    let nameNarrow = false;
+    $: {
+        if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
+            if (18 < line.lineName.length) {
+                nameLimit = 570;
+                nameNarrow = 21 < line.lineName.length;
+            }
+        } else {
+            if (24 < line.lineName.length) {
+                nameLimit = 705;
+                nameNarrow = 28 < line.lineName.length;
+            }
+        }
+    }
 </script>
 
 <TileBlank lineColor={line.lineColor} />
@@ -53,8 +73,14 @@
     textLength={lineModW}
     lengthAdjust="spacingAndGlyphs">{line.lineMod}</text
 >
-<text class="line-name" x="370" y="60" fill={line.lineTextColor}
-    >{line.lineName}</text
+<text
+    class="line-name"
+    class:narrow={nameNarrow}
+    x="370"
+    y="60"
+    textLength={nameLimit}
+    lengthAdjust="spacingAndGlyphs"
+    fill={line.lineTextColor}>{line.lineName}</text
 >
 <text class="line-info" x="370" y="110" fill={line.lineTextColor}
     >{line.lineDest0}</text

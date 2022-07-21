@@ -70,6 +70,9 @@
                 font-weight: 700;
                 text-transform: uppercase;
             }
+            .line-name.narrow {
+                font-stretch: 87.5%;
+            }
 
             .line-info {
                 font-family: "Open Sans", sans-serif;
