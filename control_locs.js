@@ -1,5 +1,6 @@
 import fs from 'fs/promises';
 import { JSDOM } from 'jsdom';
+import fetch from 'node-fetch';
 
 function parseCsv(csvText) {
     const CELL_REGEX = /(,|\r?\n|^)("((?:[^"]|"")+)"|[^,\r\n]*)/g;
