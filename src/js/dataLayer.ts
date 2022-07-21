@@ -1,3 +1,5 @@
+import { set_svg_attributes } from "svelte/internal";
+
 function parseCsv(csvText: string): string[][] {
     const CELL_REGEX = /(,|\r?\n|^)("((?:[^"]|"")+)"|[^,\r\n]*)/g;
 
@@ -174,12 +176,10 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
     if (null == stopLines) throw Error('Stop not found: ' + stopId);
 
     let stopLoc = stopLines[0].stop_name;
-    if (stopLoc.includes('&')) {
-        let [a, b] = stopLoc.split(/ ?& ?/, 2);
-        a = stripStreetSuffix(a);
-        b = stripStreetSuffix(b);
-        stopLoc = `${a} & ${b}`;
-    }
+    stopLoc = stopLoc
+        .split(/ ?\/ ?/)
+        .map(seg => seg.split(/ ?& ?/).map(stripStreetSuffix).join(' & '))
+        .join(' / ');
 
     const lines = stopLines.map(line => {
         let lineNum = line.route_short_name;
