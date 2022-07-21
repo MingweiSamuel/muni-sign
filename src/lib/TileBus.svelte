@@ -18,15 +18,13 @@
     // const LINE_ID_MID_X = 220; // 220;
     const LINE_ID_MAX_WIDTH = 320;
     let lineWeightNum = 140 * lineNum.length;
-    let lineWeightMod = 70 * lineMod.length;
+    let lineWeightMod = 80 * lineMod.length;
     let lineWeightTot = lineWeightNum + 5 + lineWeightMod;
 
-    const scale = LINE_ID_MAX_WIDTH / lineWeightTot;
-    if (scale < 1.0) {
-        lineWeightTot = LINE_ID_MAX_WIDTH;
-        lineWeightNum *= scale;
-        lineWeightMod *= scale;
-    }
+    const scale = Math.tanh(LINE_ID_MAX_WIDTH / lineWeightTot);
+    lineWeightTot *= scale;
+    lineWeightNum *= scale;
+    lineWeightMod *= scale;
 
     let lineNumX = LINE_ID_MIN_X + (LINE_ID_MAX_WIDTH - lineWeightTot) / 2;
     let lineNumW = lineWeightNum;
