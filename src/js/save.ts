@@ -6,6 +6,10 @@ export async function savePng(stopId: string): Promise<void> {
         backgroundColor: "white",
         scale: 1.44 / (window.devicePixelRatio || 1),
     });
+    // For some reason the second time an image is saved it gets messed up,
+    // seems something stateful gets messed up in `saveSvgAsPng`.
+    // So we refresh to prevent that.
+    window.location.reload();
 };
 
 export async function saveSvg(stopId: string): Promise<void> {
