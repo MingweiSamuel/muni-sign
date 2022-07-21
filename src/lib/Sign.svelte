@@ -106,11 +106,24 @@
                 font-size: 21px;
             }
         </style>
+        <defs>
+            <pattern
+                id="kt-fill"
+                width="1100"
+                height="250"
+                patternUnits="userSpaceOnUse"
+            >
+                <rect width="1100" height="250" fill="#BF2B45" />
+                <path fill="#437C93" d="M 0,0 L 850,0 L 250,250 L 0,250 Z" />
+            </pattern>
+        </defs>
         <g transform="translate({0}, {0 * SPACING})">
             <TileMuni
                 hasMetro={data.hasMetro}
                 hasRapid={data.hasRapid}
-                lineColor={data.hasMetro || data.hasRapid ? COLOR_RAPID : COLOR_STD}
+                lineColor={data.hasMetro || data.hasRapid
+                    ? COLOR_RAPID
+                    : COLOR_STD}
             />
         </g>
         {#each data.lines as line, i}

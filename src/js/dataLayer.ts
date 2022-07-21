@@ -233,7 +233,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
         }
 
         const lineTextColor = '#' + line.route_text_color;
-        const lineColor = '#' + line.route_color;
+        const lineColor = 'KT' === lineNum ? 'url(#kt-fill)' : '#' + line.route_color;
 
 
         // Handle MUNI Metro and Cable Car/Historic Streetcar lines.
