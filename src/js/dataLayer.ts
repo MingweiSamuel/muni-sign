@@ -149,7 +149,10 @@ export async function randomStopId(): Promise<string> {
 
 // Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
-    street = street.replaceAll(/\bThird St(?:reet)\b?/ig, '3rd St');
+    // Sometimes 3rd St is written out in letters.
+    street = street.replaceAll(/\bThird St(?:reet)?\b/ig, '3rd St');
+
+    // Remove rd/st/etc suffix if street is not numeric.
     if (/\D/.test(street[0])) {
         const supper = street.toUpperCase();
         // Do not strip CT do to ambiguities.
@@ -177,6 +180,8 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
     if (null == stopLines) throw Error('Stop not found: ' + stopId);
 
     let stopLoc = stopLines[0].stop_name;
+    // Remove weird trailing suffixes.
+    stopLoc = stopLoc.replace(/[A-Z]{1,2}[-/][A-Z]{1,2} ?[-/] ?[A-Z]{1,2}$/i, '');
     stopLoc = stopLoc
         .split(/ ?\/ ?/)
         .map(seg => seg.split(/ ?& ?/).map(stripStreetSuffix).join(' & '))
