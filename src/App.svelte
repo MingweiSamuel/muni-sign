@@ -113,7 +113,7 @@
   } */
   .sign {
     width: calc(300px + 40vw);
-    height: calc(750px + 100vw);
+    height: calc(900px + 120vw);
     margin: auto;
   }
   @media print {
