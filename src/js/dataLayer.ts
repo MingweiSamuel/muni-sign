@@ -43,6 +43,9 @@ function getLineTime(line: RawStopTime): string {
     if (23 <= eh - sh) {
         return `24 Hours ${daysOfWeek}`;
     }
+    if (line.start_time === line.end_time) {
+        return `${daysOfWeek} ~ ${roundTime(sh, sm, 5)} only`;
+    }
     else {
         return `${daysOfWeek} ~ ${roundTime(sh, sm)}-${roundTime(eh, em)}`;
     }
