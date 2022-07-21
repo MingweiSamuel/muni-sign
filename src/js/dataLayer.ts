@@ -240,7 +240,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
         const isMetro = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
         const isRapid = !isMetro && COLOR_RAPID === lineColor;
         const isCableCar = RouteType.CableCar === routeType;
-        const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
+        const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC === lineColor;
 
         return {
             lineNum,
