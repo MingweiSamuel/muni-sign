@@ -1,10 +1,17 @@
 <script lang="ts">
-  // import svelteLogo from "./assets/svelte.svg";
   import Sign from "./lib/Sign.svelte";
   import "./css/print.css";
   import { saveSvg, savePng } from "./js/save";
+  import { randomStopId } from "./js/dataLayer";
 
-  let stopId = "16371";
+  let stopId = window.location.hash ? window.location.hash.slice(1) : "16371";
+  let timer;
+  $: {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      window.history.pushState(null, null, "#" + stopId);
+    }, 3000);
+  }
 
   let disabled = false;
   let exportPromise = Promise.resolve();
@@ -16,6 +23,10 @@
   }
 </script>
 
+<svelte:window
+  on:hashchange={() =>
+    window.location.hash && (stopId = window.location.hash.slice(1))}
+/>
 <main>
   <!-- <div>
     <a href="https://vitejs.dev" target="_blank">
@@ -32,8 +43,14 @@
       Stop ID:
       <input bind:value={stopId} type="text" />
     </label>
-    &nbsp;
-    &nbsp;
+    <input
+      disabled={disabled || null}
+      type="button"
+      value="🔀"
+      title="Use random stop ID."
+      on:click={() => randomStopId().then((id) => (location.hash = "#" + id))}
+    />
+    &nbsp; &nbsp;
     <input
       disabled={disabled || null}
       type="button"

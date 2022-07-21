@@ -139,6 +139,12 @@ export type StopLine = {
     isOwl: boolean;
 };
 
+export async function randomStopId(): Promise<string> {
+    const stops = await STOP_TIMES;
+    const keys = Object.keys(stops);
+    return keys[0 | (Math.random() * keys.length)];
+}
+
 export async function getStopTimes(stopId: string): Promise<StopTimes> {
     const stops = await STOP_TIMES;
     const controlLocs = await CONTROL_LOCS;

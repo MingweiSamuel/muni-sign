@@ -12,7 +12,7 @@
         type StopTimes,
     } from "../js/dataLayer";
 
-    export let stopId = "18088";
+    export let stopId = "16371";
     let dataPromise: Promise<StopTimes> = new Promise(() => {});
     $: {
         dataPromise = getStopTimes(stopId);
