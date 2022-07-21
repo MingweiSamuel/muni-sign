@@ -289,3 +289,5 @@ const COLOR_ORDER = {
     [COLOR_STD]: 100,
     [COLOR_OWL]: 200,
 };
+
+export const COMMIT_HASH = __defines__.COMMIT_HASH as string;

@@ -16,6 +16,7 @@
     class="w stop-loc"
     x="1075"
     y="55"
+    text-anchor="end"
     textLength={stopLocLimit}
     lengthAdjust="spacingAndGlyphs">{stopLoc}</text
 >

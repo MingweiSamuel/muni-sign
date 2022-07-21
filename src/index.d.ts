@@ -1,3 +1,5 @@
+declare var __defines__: Record<string, unknown>;
+
 declare module 'save-svg-as-png' {
     export type Options = {
         /** Creates a PNG with the given background color. Defaults to transparent. */

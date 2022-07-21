@@ -10,6 +10,7 @@
         COLOR_RAPID,
         COLOR_STD,
         type StopTimes,
+        COMMIT_HASH,
     } from "../js/dataLayer";
 
     export let stopId = "16371";
@@ -26,7 +27,7 @@
         id="sign"
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
-        viewBox="0 0 1100 {150 + (1 + data.lines.length) * SPACING}"
+        viewBox="0 0 1100 {165 + (1 + data.lines.length) * SPACING}"
         style="background: white;"
     >
         <style type="text/css">
@@ -90,20 +91,23 @@
                 text-transform: uppercase;
             }
 
-            .stop-loc {
-                text-anchor: end;
-            }
-
             .sfmta {
                 font-family: "Open Sans", sans-serif;
                 font-size: 54px;
                 font-weight: 700;
             }
-
             .i18n {
                 font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
                     "Noto Sans KR", sans-serif;
                 font-size: 21px;
+            }
+
+            .footnote {
+                font-family: "Open Sans", sans-serif;
+                font-size: 14px;
+                font-stretch: 87.5%;
+                font-weight: 700;
+                fill: #444;
             }
         </style>
         <defs>
@@ -134,6 +138,17 @@
         <g transform="translate({0}, {(1 + data.lines.length) * SPACING})">
             <TileFooter stopId={data.stopId} stopLoc={data.stopLoc} />
         </g>
+        <text
+            class="footnote"
+            x="1075"
+            y={(1 + data.lines.length) * SPACING + 163}
+            text-anchor="end"
+            >{[
+                "SFMTA.COM/" + stopId,
+                COMMIT_HASH.toUpperCase(),
+                new Date().toISOString().slice(0, 10),
+            ].join("\xa0\u2003\xa0")}
+        </text>
     </svg>
 {:catch error}
     <p style="color: red">{error.message}</p>
