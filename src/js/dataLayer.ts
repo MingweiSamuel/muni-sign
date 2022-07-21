@@ -159,7 +159,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             if (a.endsWith(' St') || a.endsWith(' Dr')) {
                 a = a.slice(0, -3);
             }
-            else if (a.endsWith(' Ave')) {
+            else if (a.endsWith(' Ave') || a.endsWith(' Way') || a.endsWith(' Ter')) {
                 a = a.slice(0, -4);
             }
             else if (a.endsWith(' Blvd')) {
@@ -173,7 +173,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             if (b.endsWith(' St') || b.endsWith(' Dr')) {
                 b = b.slice(0, -3);
             }
-            else if (b.endsWith(' Ave')) {
+            else if (b.endsWith(' Ave') || b.endsWith(' Way') || b.endsWith(' Ter')) {
                 b = b.slice(0, -4);
             }
             else if (b.endsWith(' Blvd')) {
