@@ -43,4 +43,4 @@ q -H '-d,' -O -C read @"
     ORDER BY stop_code
 "@ | Out-File 'public/data/stop_times.csv'
 
-node .\control_locs.js
+node 'control_locs.js'
