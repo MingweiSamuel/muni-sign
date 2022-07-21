@@ -4,7 +4,14 @@
   import { saveSvg, savePng } from "./js/save";
   import { randomStopId } from "./js/dataLayer";
 
-  let stopId = window.location.hash ? window.location.hash.slice(1) : "16371";
+  let stopId = '';
+  if (window.location.hash) {
+    stopId = window.location.hash.slice(1);
+  }
+  else {
+    randomStopId().then((id) => (location.hash = "#" + id));
+  }
+
   let timer;
   $: {
     clearTimeout(timer);
