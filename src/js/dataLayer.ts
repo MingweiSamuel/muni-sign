@@ -157,7 +157,7 @@ function stripStreetSuffix(street: string): string {
         else if (street.endsWith(' Blvd')) {
             street = street.slice(0, -5);
         }
-        else if (street.endsWith(' Street')) {
+        else if (street.endsWith(' Street') || street.endsWith(' Avenue')) {
             street = street.slice(0, -7)
         }
     }
