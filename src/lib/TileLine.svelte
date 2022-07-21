@@ -1,24 +1,16 @@
 <script lang="ts">
+    import type { StopLine } from "src/js/dataLayer";
+
     import TileBlank from "./TileBlank.svelte";
 
-    export let lineNum = "0";
-    export let lineMod = "";
-    export let lineName = "Unnamed";
-    export let lineDest0 = "Somewhere";
-    export let lineDest1 = "";
-    export let lineTime = "Fruersdays ~ 14am-32pm";
-
-    export let lineTextColor = "#ffffff";
-    export let lineColor = "#ff00ff";
-
-    export let isOwl = false;
+    export let line: StopLine;
 
     // Line ID layout calculations.
     const LINE_ID_MIN_X = 25;
     // const LINE_ID_MID_X = 220; // 220;
     const LINE_ID_MAX_WIDTH = 320;
-    let lineWeightNum = 140 * lineNum.length;
-    let lineWeightMod = 80 * lineMod.length;
+    let lineWeightNum = 140 * line.lineNum.length;
+    let lineWeightMod = 80 * line.lineMod.length;
     let lineWeightTot = lineWeightNum + 5 + lineWeightMod;
 
     const scale = Math.tanh(LINE_ID_MAX_WIDTH / lineWeightTot);
@@ -33,28 +25,47 @@
     let lineModW = lineWeightMod;
 </script>
 
-<TileBlank {lineColor} />
+<TileBlank lineColor={line.lineColor} />
+{#if line.isMetro}
+    <rect
+        x={lineNumX - 25}
+        y="25"
+        width={lineNumW + 60}
+        height="200"
+        rx="100"
+        fill={line.lineTextColor}
+    />
+{/if}
 <text
     class="line-number"
+    class:metro={line.isMetro}
     x={lineNumX}
-    y="225"
-    fill={lineTextColor}
+    y={line.isMetro ? 195 : 225}
+    fill={line.isMetro ? line.lineColor : line.lineTextColor}
     textLength={lineNumW}
-    lengthAdjust="spacingAndGlyphs">{lineNum}</text
+    lengthAdjust="spacingAndGlyphs">{line.lineNum}</text
 >
 <text
     class="line-modifier"
     x={lineModX}
     y="154"
-    fill={lineTextColor}
+    fill={line.lineTextColor}
     textLength={lineModW}
-    lengthAdjust="spacingAndGlyphs">{lineMod}</text
+    lengthAdjust="spacingAndGlyphs">{line.lineMod}</text
 >
-<text class="line-name" x="370" y="60" fill={lineTextColor}>{lineName}</text>
-<text class="line-info" x="370" y="110" fill={lineTextColor}>{lineDest0}</text>
-<text class="line-info" x="370" y="160" fill={lineTextColor}>{lineDest1}</text>
-<text class="line-info" x="370" y="210" fill={lineTextColor}>{lineTime}</text>
-{#if isOwl}
+<text class="line-name" x="370" y="60" fill={line.lineTextColor}
+    >{line.lineName}</text
+>
+<text class="line-info" x="370" y="110" fill={line.lineTextColor}
+    >{line.lineDest0}</text
+>
+<text class="line-info" x="370" y="160" fill={line.lineTextColor}
+    >{line.lineDest1}</text
+>
+<text class="line-info" x="370" y="210" fill={line.lineTextColor}
+    >{line.lineTime}</text
+>
+{#if line.isOwl}
     <path
         fill="white"
         transform="translate(950, 62.5) scale(12.5)"

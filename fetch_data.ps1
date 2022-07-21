@@ -18,6 +18,7 @@ q -H '-d,' -O -C read @"
         stop_name,
         route_short_name,
         route_long_name,
+        route_type,
         direction_id,
         trip_headsign,
         route_text_color,

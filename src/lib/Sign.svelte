@@ -1,5 +1,5 @@
 <script lang="ts">
-    import TileBus from "./TileBus.svelte";
+    import TileLine from "./TileLine.svelte";
     import TileFooter from "./TileFooter.svelte";
     import TileMuni from "./TileMuni.svelte";
 
@@ -49,6 +49,10 @@
                 font-weight: 500;
                 letter-spacing: -0.05em;
                 text-align: center;
+            }
+            .line-number.metro {
+                font-size: 200px;
+                /* font-stretch: 100%; */
             }
             .line-modifier {
                 font-family: "Open Sans", sans-serif;
@@ -101,23 +105,14 @@
         </style>
         <g transform="translate({0}, {0 * SPACING})">
             <TileMuni
+                hasMetro={data.hasMetro}
                 hasRapid={data.hasRapid}
-                lineColor={data.hasRapid ? COLOR_RAPID : COLOR_STD}
+                lineColor={data.hasMetro || data.hasRapid ? COLOR_RAPID : COLOR_STD}
             />
         </g>
         {#each data.lines as line, i}
             <g transform="translate({0}, {(1 + i) * SPACING})">
-                <TileBus
-                    lineNum={line.lineNum}
-                    lineMod={line.lineMod}
-                    lineName={line.lineName}
-                    lineDest0={line.lineDest0}
-                    lineDest1={line.lineDest1}
-                    lineTime={line.lineTime}
-                    lineTextColor={line.lineTextColor}
-                    lineColor={line.lineColor}
-                    isOwl={line.isOwl}
-                />
+                <TileLine {line} />
             </g>
         {/each}
         <g transform="translate({0}, {(1 + data.lines.length) * SPACING})">

@@ -1,5 +1,3 @@
-import { set_svg_attributes } from "svelte/internal";
-
 function parseCsv(csvText: string): string[][] {
     const CELL_REGEX = /(,|\r?\n|^)("((?:[^"]|"")+)"|[^,\r\n]*)/g;
 
@@ -78,11 +76,36 @@ function roundTime(h: number, m: number, res = 15, fn = Math.floor): string {
     return `${h}${M}${suf}`;
 }
 
+/// https://developers.google.com/transit/gtfs/reference#routestxt
+export enum RouteType {
+    /// 0 - Tram, Streetcar, Light rail. Any light rail or street level system within a metropolitan area.
+    LightRail = 0,
+    /// 1 - Subway, Metro. Any underground rail system within a metropolitan area.
+    Subway = 1,
+    /// 2 - Rail. Used for intercity or long-distance travel.
+    Rail = 2,
+    /// 3 - Bus. Used for short- and long-distance bus routes.
+    Bus = 3,
+    /// 4 - Ferry. Used for short- and long-distance boat service.
+    Ferry = 4,
+    /// 5 - Cable tram. Used for street-level rail cars where the cable runs beneath the vehicle, e.g., cable car in San Francisco.
+    CableCar = 5,
+    /// 6 - Aerial lift, suspended cable car (e.g., gondola lift, aerial tramway). Cable transport where cabins, cars, gondolas or open chairs are suspended by means of one or more cables.
+    Aerial = 6,
+    /// 7 - Funicular. Any rail system designed for steep inclines.
+    Funicular = 7,
+    /// 11 - Trolleybus. Electric buses that draw power from overhead wires using poles.
+    Trolleybus = 11,
+    /// 12 - Monorail. Railway in which the track consists of a single rail or a beam.
+    Monorail = 12,
+}
+
 type RawStopTime = {
     stop_code: string,
     stop_name: string,
     route_short_name: string,
     route_long_name: string,
+    route_type: string,
     direction_id: '0' | '1',
     trip_headsign: string,
     route_text_color: string,
@@ -99,7 +122,7 @@ const STOP_TIMES = (async () => {
 
     const data: Record<string, RawStopTime[]> = {};
     for (const row of rows) {
-        const rowObj = Object.fromEntries(row.map((x, i) => [header[i], x])) as RawStopTime;
+        const rowObj = Object.fromEntries(row.map((x, i) => [header[i], x])) as unknown as RawStopTime;
         (data[rowObj.stop_code] || (data[rowObj.stop_code] = [])).push(rowObj);
     }
 
@@ -126,6 +149,7 @@ export type StopTimes = {
     stopId: string;
     stopLoc: string;
     lines: StopLine[];
+    hasMetro: boolean;
     hasRapid: boolean;
 };
 export type StopLine = {
@@ -137,8 +161,12 @@ export type StopLine = {
     lineTime: string;
     lineTextColor: string;
     lineColor: string;
+
     isRapid: boolean;
     isOwl: boolean;
+    isMetro: boolean;
+    isCableCar: boolean;
+    isHistoricStreetcar: boolean;
 };
 
 export async function randomStopId(): Promise<string> {
@@ -204,6 +232,16 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
 
         const lineTextColor = '#' + line.route_text_color;
         const lineColor = '#' + line.route_color;
+
+
+        // Handle MUNI Metro and Cable Car/Historic Streetcar lines.
+        const routeType: RouteType = Number(line.route_type);
+        const isOwl = COLOR_OWL === lineColor;
+        const isMetro = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
+        const isRapid = !isMetro && COLOR_RAPID === lineColor;
+        const isCableCar = RouteType.CableCar === routeType;
+        const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
+
         return {
             lineNum,
             lineMod,
@@ -215,18 +253,23 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             lineTextColor,
             lineColor,
 
-            isRapid: COLOR_RAPID === lineColor,
-            isOwl: COLOR_OWL === lineColor,
+            isRapid,
+            isOwl,
+            isMetro,
+            isCableCar,
+            isHistoricStreetcar,
         };
     });
+    const hasMetro = lines.some(line => line.isMetro);
     const hasRapid = lines.some(line => line.isRapid);
 
-    return { stopId, stopLoc, lines, hasRapid };
+    return { stopId, stopLoc, lines, hasMetro, hasRapid };
 }
 
 export const COLOR_RAPID = '#BF2B45';
 export const COLOR_STD = '#005B95';
 export const COLOR_OWL = '#666666';
+export const COLOR_HISTORIC = '#B49A36';
 
 const COLOR_ORDER = {
     [COLOR_RAPID]: -100,
