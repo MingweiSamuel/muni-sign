@@ -145,6 +145,25 @@ export async function randomStopId(): Promise<string> {
     return keys[0 | (Math.random() * keys.length)];
 }
 
+// Strips the trailing 'St, Rd' suffix unless the street is numbered.
+function stripStreetSuffix(street: string): string {
+    if (/\D/.test(street[0])) {
+        if (street.endsWith(' St') || street.endsWith(' Rd') || street.endsWith(' Dr')) {
+            street = street.slice(0, -3);
+        }
+        else if (street.endsWith(' Ave') || street.endsWith(' Way') || street.endsWith(' Ter')) {
+            street = street.slice(0, -4);
+        }
+        else if (street.endsWith(' Blvd')) {
+            street = street.slice(0, -5);
+        }
+        else if (street.endsWith(' Street')) {
+            street = street.slice(0, -7)
+        }
+    }
+    return street;
+}
+
 export async function getStopTimes(stopId: string): Promise<StopTimes> {
     const stops = await STOP_TIMES;
     const controlLocs = await CONTROL_LOCS;
@@ -155,34 +174,8 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
     let stopLoc = stopLines[0].stop_name;
     if (stopLoc.includes(' & ')) {
         let [a, b] = stopLoc.split(' & ', 2);
-        if (/\D/.test(a[0])) {
-            if (a.endsWith(' St') || a.endsWith(' Dr')) {
-                a = a.slice(0, -3);
-            }
-            else if (a.endsWith(' Ave') || a.endsWith(' Way') || a.endsWith(' Ter')) {
-                a = a.slice(0, -4);
-            }
-            else if (a.endsWith(' Blvd')) {
-                a = a.slice(0, -5);
-            }
-            else if (a.endsWith(' Street')) {
-                a = a.slice(0, -7)
-            }
-        }
-        if (/\D/.test(b[0])) {
-            if (b.endsWith(' St') || b.endsWith(' Dr')) {
-                b = b.slice(0, -3);
-            }
-            else if (b.endsWith(' Ave') || b.endsWith(' Way') || b.endsWith(' Ter')) {
-                b = b.slice(0, -4);
-            }
-            else if (b.endsWith(' Blvd')) {
-                b = b.slice(0, -5);
-            }
-            else if (b.endsWith(' Street')) {
-                b = b.slice(0, -7)
-            }
-        }
+        a = stripStreetSuffix(a);
+        b = stripStreetSuffix(b);
         stopLoc = `${a} & ${b}`;
     }
 
