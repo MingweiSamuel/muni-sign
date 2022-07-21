@@ -181,7 +181,8 @@ function stripStreetSuffix(street: string): string {
     street = street.replaceAll(/\bThird St(?:reet)?\b/ig, '3rd St');
 
     // Remove rd/st/etc suffix if street is not numeric.
-    if (/\D/.test(street[0])) {
+    // Ignore "Right Of Way"
+    if (!/\d/.test(street[0]) && !/^Right Of/.test(street)) {
         // Space followed by suffix optionally followed by dot.
         const SUFFIX_REGEX = / (:?ST|RD|DR|AVE|WAY|TER|BLVD|STREET|AVENUE)\.?$/i;
         street = street.replace(SUFFIX_REGEX, '');
