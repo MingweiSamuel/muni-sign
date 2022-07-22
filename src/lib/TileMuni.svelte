@@ -1,5 +1,9 @@
 <script lang="ts">
-    import { COLOR_RAPID, COLOR_STD, COLOR_HISTORIC_REPLACEMENT } from "../js/dataLayer";
+    import {
+        COLOR_RAPID,
+        COLOR_STD,
+        COLOR_HISTORIC_REPLACEMENT,
+    } from "../js/dataLayer";
 
     import TileBlank from "./TileBlank.svelte";
 

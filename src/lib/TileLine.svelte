@@ -1,5 +1,6 @@
 <script lang="ts">
     import type { StopLine } from "src/js/dataLayer";
+    import SvgA from "./SvgA.svelte";
 
     import TileBlank from "./TileBlank.svelte";
 
@@ -46,33 +47,35 @@
 </script>
 
 <TileBlank lineColor={line.lineColor} />
-{#if line.isMetro}
-    <rect
-        x={lineNumX - 25}
-        y="25"
-        width={lineNumW + 60}
-        height="200"
-        rx="100"
+<SvgA href="https://www.sfmta.com/{line.lineId}">
+    {#if line.isMetro}
+        <rect
+            x={lineNumX - 25}
+            y="25"
+            width={lineNumW + 60}
+            height="200"
+            rx="100"
+            fill={line.lineTextColor}
+        />
+    {/if}
+    <text
+        class="line-number"
+        class:metro={line.isMetro}
+        x={lineNumX}
+        y={line.isMetro ? 195 : 225}
+        fill={line.isMetro ? line.lineColor : line.lineTextColor}
+        textLength={lineNumW}
+        lengthAdjust="spacingAndGlyphs">{line.lineNum}</text
+    >
+    <text
+        class="line-modifier"
+        x={lineModX}
+        y="154"
         fill={line.lineTextColor}
-    />
-{/if}
-<text
-    class="line-number"
-    class:metro={line.isMetro}
-    x={lineNumX}
-    y={line.isMetro ? 195 : 225}
-    fill={line.isMetro ? line.lineColor : line.lineTextColor}
-    textLength={lineNumW}
-    lengthAdjust="spacingAndGlyphs">{line.lineNum}</text
->
-<text
-    class="line-modifier"
-    x={lineModX}
-    y="154"
-    fill={line.lineTextColor}
-    textLength={lineModW}
-    lengthAdjust="spacingAndGlyphs">{line.lineMod}</text
->
+        textLength={lineModW}
+        lengthAdjust="spacingAndGlyphs">{line.lineMod}</text
+    >
+</SvgA>
 <text
     class="line-name"
     class:narrow={nameNarrow}

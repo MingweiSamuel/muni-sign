@@ -5,13 +5,8 @@
 
     const SPACING = 262.5;
 
-    import {
-        getStopTimes,
-        COLOR_RAPID,
-        COLOR_STD,
-        type StopTimes,
-        COMMIT_HASH,
-    } from "../js/dataLayer";
+    import { getStopTimes, type StopTimes, COMMIT_HASH } from "../js/dataLayer";
+    import { now } from "svelte/internal";
 
     export let stopId = "16371";
     let dataPromise: Promise<StopTimes> = new Promise(() => {});
@@ -121,7 +116,10 @@
                 <path fill="#437C93" d="M 0,0 L 850,0 L 250,250 L 0,250 Z" />
             </pattern>
         </defs>
-        <g transform="translate({0}, {0 * SPACING})">
+        <clipPath id="clip-tile">
+            <rect x="0" y="0" width="1100" height="250" />
+        </clipPath>
+        <g clip-path="url(#clip-tile)">
             <TileMuni
                 hasMetro={data.hasMetro}
                 hasRapid={data.hasRapid}
@@ -129,24 +127,26 @@
             />
         </g>
         {#each data.lines as line, i}
-            <g transform="translate({0}, {(1 + i) * SPACING})">
+            <g
+                clip-path="url(#clip-tile)"
+                transform="translate({0}, {(1 + i) * SPACING})"
+            >
                 <TileLine {line} />
             </g>
         {/each}
-        <g transform="translate({0}, {(1 + data.lines.length) * SPACING})">
+        <g
+            clip-path="url(#clip-tile)"
+            transform="translate({0}, {(1 + data.lines.length) * SPACING})"
+        >
             <TileFooter stopId={data.stopId} stopLoc={data.stopLoc} />
+            <text class="footnote" x="1075" y="163" text-anchor="end"
+                >{[
+                    "SFMTA.COM/" + stopId,
+                    COMMIT_HASH.toUpperCase(),
+                    new Date().toISOString().slice(0, 10),
+                ].join("\xa0\u2003\xa0")}
+            </text>
         </g>
-        <text
-            class="footnote"
-            x="1075"
-            y={(1 + data.lines.length) * SPACING + 163}
-            text-anchor="end"
-            >{[
-                "SFMTA.COM/" + stopId,
-                COMMIT_HASH.toUpperCase(),
-                new Date().toISOString().slice(0, 10),
-            ].join("\xa0\u2003\xa0")}
-        </text>
     </svg>
 {:catch error}
     <p style="color: red">{error.message}</p>

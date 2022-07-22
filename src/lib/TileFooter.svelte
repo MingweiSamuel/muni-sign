@@ -1,4 +1,6 @@
 <script lang="ts">
+    import SvgA from "./SvgA.svelte";
+
     export let stopId = "19999";
     export let stopLoc = "Somewhere";
 
@@ -11,18 +13,22 @@
 </script>
 
 <rect x="0" y="0" width="1100" height="151" fill="#000" />
-<text class="w stop-id" x="25" y="55">Stop ID:&#8194; {stopId}</text>
-<text
-    class="w stop-loc"
-    x="1075"
-    y="55"
-    text-anchor="end"
-    textLength={stopLocLimit}
-    lengthAdjust="spacingAndGlyphs">{stopLoc}</text
->
-<text class="w sfmta" x="25" y="125">
-    SFMTA<tspan style="font-stretch: 87.5%;">.com</tspan>
-</text>
+<SvgA href="https://www.sfmta.com/{stopId}">
+    <text class="w stop-id" x="25" y="55">Stop ID:&#8194; {stopId}</text>
+    <text
+        class="w stop-loc"
+        x="1075"
+        y="55"
+        text-anchor="end"
+        textLength={stopLocLimit}
+        lengthAdjust="spacingAndGlyphs">{stopLoc}</text
+    >
+</SvgA>
+<SvgA href="https://www.sfmta.com">
+    <text class="w sfmta" x="25" y="125">
+        SFMTA<tspan style="font-stretch: 87.5%;">.com</tspan>
+    </text>
+</SvgA>
 <path
     class="w"
     transform="translate(330, 80) scale(5)"

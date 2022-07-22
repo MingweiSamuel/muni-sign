@@ -91,7 +91,7 @@
   </div>
 
   <p class="footer no-print">
-    You scrolled all the way to the bottom! You can follow me <a
+    You can follow me <a
       href="https://twitter.com/MingweiSamuel"
       target="_blank">@MingweiSamuel</a
     >
