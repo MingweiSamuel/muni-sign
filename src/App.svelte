@@ -1,14 +1,13 @@
 <script lang="ts">
   import Sign from "./lib/Sign.svelte";
   import "./css/print.css";
-  import { saveSvg, savePng } from "./js/save";
+  import { saveSvg, savePng, savePdf } from "./js/save";
   import { randomStopId } from "./js/dataLayer";
 
-  let stopId = '';
+  let stopId = "";
   if (window.location.hash) {
     stopId = window.location.hash.slice(1);
-  }
-  else {
+  } else {
     randomStopId().then((id) => (location.hash = "#" + id));
   }
 
@@ -58,6 +57,13 @@
       on:click={() => randomStopId().then((id) => (location.hash = "#" + id))}
     />
     &nbsp; &nbsp;
+    <input
+      disabled={disabled || null}
+      type="button"
+      value="Save PDF"
+      title="Save the sign as a PDF."
+      on:click={() => (exportPromise = savePdf(stopId))}
+    />
     <input
       disabled={disabled || null}
       type="button"

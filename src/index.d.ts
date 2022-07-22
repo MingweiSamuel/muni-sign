@@ -34,9 +34,9 @@ declare module 'save-svg-as-png' {
         excludeCss?: boolean,
     };
 
-    export function svgAsDataUri(el: SVGElement, options: Options, done?: (string, number, number) => void): Promise<string>;
-    export function svgAsPngUri(el: SVGElement, options: Options, done?: (string, number, number) => void): Promise<string>;
+    export function svgAsDataUri(el: SVGSVGElement, options: Options, done?: (string, number, number) => void): Promise<string>;
+    export function svgAsPngUri(el: SVGSVGElement, options: Options, done?: (string, number, number) => void): Promise<string>;
     export function download(name: string, uri: string, options?: { popup: WindowProxy | null });
-    export function saveSvg(el: SVGElement, name: string, options: Options = {}): Promise<void>;
-    export function saveSvgAsPng(el: SVGElement, name: string, options: Options = {}): Promise<void>;
+    export function saveSvg(el: SVGSVGElement, name: string, options: Options = {}): Promise<void>;
+    export function saveSvgAsPng(el: SVGSVGElement, name: string, options: Options = {}): Promise<void>;
 }

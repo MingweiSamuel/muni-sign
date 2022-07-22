@@ -13,6 +13,7 @@
     "@sveltejs/vite-plugin-svelte": "^1.0.1",
     "@tsconfig/svelte": "^3.0.0",
     "jsdom": "^20.0.0",
+    "jspdf": "^2.5.1",
     "node-fetch": "^3.2.9",
     "save-svg-as-png": "^1.4.17",
     "svelte": "^3.49.0",
