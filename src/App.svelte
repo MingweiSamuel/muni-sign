@@ -90,7 +90,7 @@
     <Sign {stopId} />
   </div>
 
-  <p class="read-the-docs no-print">
+  <p class="footer no-print">
     You scrolled all the way to the bottom! You can follow me <a
       href="https://twitter.com/MingweiSamuel"
       target="_blank">@MingweiSamuel</a
@@ -106,22 +106,6 @@
 </main>
 
 <style>
-  /* .logo {
-    height: 6em;
-    padding: 1.5em;
-    will-change: filter;
-  }
-  .logo:hover {
-    filter: drop-shadow(0 0 2em #646cffaa);
-  }
-  .logo.svelte:hover {
-    filter: drop-shadow(0 0 2em #ff3e00aa);
-  } */
-  .sign {
-    width: calc(300px + 40vw);
-    height: calc(900px + 120vw);
-    margin: auto;
-  }
   @media print {
     .sign {
       width: 11in;
@@ -129,7 +113,7 @@
     }
   }
 
-  .read-the-docs {
+  .footer {
     color: #888;
   }
 </style>
