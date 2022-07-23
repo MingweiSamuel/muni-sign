@@ -169,6 +169,7 @@ export type StopTimes = {
     hasHistoric: boolean;
 };
 export type StopLine = {
+    lineId: string;
     lineNum: string;
     lineMod: string;
     lineName: string;
@@ -278,6 +279,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
         const lineName = line.route_long_name.replace(/^California Street\b/ig, 'California');
 
         return {
+            lineId: line.route_short_name,
             lineNum,
             lineMod,
             lineName,
