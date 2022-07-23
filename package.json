@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "pwsh fetch_data.ps1 && vite build",
+    "build": "pwsh scripts/fetch_data.ps1 && vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },

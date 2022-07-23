@@ -40,12 +40,16 @@ function getLineTime(line: RawStopTime): string {
     const [sh, sm, _ss] = parseTime(line.start_time);
     const [eh, em, _es] = parseTime(line.end_time);
 
-    if (23 <= eh - sh) {
-        return `24 Hours ${daysOfWeek}`;
-    }
     if (line.start_time === line.end_time) {
         // Implies only one bus on some days. But maybe more than one on other days.
         return `${daysOfWeek} ~ ${roundTime(sh, sm, 5)}`;
+    }
+
+    // const headway = [line.day_headway_min, line.day_headway, line.owl_headway_min, line.owl_headway]
+    //     .map(x => Math.round(parseInt(x))).join(',');
+
+    if (23 <= eh - sh) {
+        return `24 Hours ${daysOfWeek}`;
     }
     else {
         return `${daysOfWeek} ~ ${roundTime(sh, sm)}-${roundTime(eh, em)}`;
@@ -104,15 +108,24 @@ export enum RouteType {
 type RawStopTime = {
     stop_code: string,
     stop_name: string,
+
     route_short_name: string,
     route_long_name: string,
     route_type: string,
+    route_color: string,
+    route_text_color: string,
+
     direction_id: '0' | '1',
     trip_headsign: string,
-    route_text_color: string,
-    route_color: string,
-    start_time: string,
-    end_time: string,
+
+    start_time: `${number}:${number}:${number}`,
+    end_time: `${number}:${number}:${number}`,
+
+    day_headway: `${number}`,
+    owl_headway: `${number}`,
+    day_headway_min: `${number}`,
+    owl_headway_min: `${number}`,
+
     mon: '0' | '1', tue: '0' | '1', wed: '0' | '1', thu: '0' | '1', fri: '0' | '1', sat: '0' | '1', sun: '0' | '1',
 };
 

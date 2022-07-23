@@ -16,13 +16,17 @@ q -H '-d,' -O -C read @"
     SELECT
         stop_code,
         stop_name,
+
         route_short_name,
         route_long_name,
         route_type,
-        direction_id,
-        trip_headsign,
+
         route_text_color,
         route_color,
+
+        direction_id,
+        trip_headsign,
+
         MAX(dt_min) start_time,
         MIN(dt_max) end_time,
         MAX(monday) mon, MAX(tuesday) tue, MAX(wednesday) wed, MAX(thursday) thu, MAX(friday) fri, MAX(saturday) sat, MAX(sunday) sun
@@ -45,4 +49,4 @@ q -H '-d,' -O -C read @"
     ORDER BY stop_code
 "@ | Out-File 'public/data/stop_times.csv'
 
-node 'control_locs.js'
+node "$PSScriptRoot/control_locs.js"
