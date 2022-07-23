@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/control_locs.js && pwsh scripts/fetch_data.ps1 && vite build",
+    "build": "pwsh scripts/fetch_data.ps1 && node scripts/control_locs.js && vite build",
     "preview": "vite preview",
     "check": "svelte-check --tsconfig ./tsconfig.json"
   },
