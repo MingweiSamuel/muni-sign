@@ -1,5 +1,3 @@
-node "$PSScriptRoot/control_locs.js"
-
 $FOLDER = 'sfmta_gtfs'
 $DATE = Get-Date -UFormat '%Y%m%d'
 
