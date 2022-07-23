@@ -42,7 +42,7 @@
       <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
     </a>
   </div> -->
-  <h1 class="no-print">MUNI Sign</h1>
+  <h1 class="no-print">Muni Sign</h1>
 
   <div class="card no-print">
     <label>

@@ -260,7 +260,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             lineColor = 'url(#kt-fill)';
         }
 
-        // Handle MUNI Metro and Cable Car/Historic Streetcar lines.
+        // Handle Muni Metro and Cable Car/Historic Streetcar lines.
         const routeType: RouteType = Number(line.route_type);
         const isOwl = COLOR_OWL === lineColor;
         const isMetro = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
