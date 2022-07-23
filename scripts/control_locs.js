@@ -1,4 +1,3 @@
-import process from 'process';
 import fs from 'fs/promises';
 import { JSDOM } from 'jsdom';
 import fetch from 'node-fetch';
@@ -53,7 +52,7 @@ async function main() {
     // TODO: manual override here.
     data['43'][1] = '';
 
-    await fs.writeFile(`${process.cwd()}/public/data/control_locs.json`, JSON.stringify(data, null, 2), 'utf-8');
+    await fs.writeFile('public/data/control_locs.json', JSON.stringify(data, null, 2), 'utf-8');
 }
 
 main().catch(console.error);

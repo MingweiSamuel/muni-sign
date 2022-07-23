@@ -26,3 +26,7 @@ dist-ssr
 # GTFS data
 /sfmta_gtfs/
 /sfmta_gtfs.zip
+
+/public/data/control_locs.json
+/public/data/stop_times.csv
+
