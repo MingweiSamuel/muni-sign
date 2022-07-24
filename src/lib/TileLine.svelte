@@ -44,6 +44,19 @@
             }
         }
     }
+
+    let timeLimit = null;
+    $: {
+        if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
+            if (33 <= line.lineTime.length) {
+                timeLimit = 580;
+            }
+        } else {
+            if (41 <= line.lineTime.length) {
+                timeLimit = 705;
+            }
+        }
+    }
 </script>
 
 <TileBlank lineColor={line.lineColor} />
@@ -81,9 +94,9 @@
     class:narrow={nameNarrow}
     x="370"
     y="60"
+    fill={line.lineTextColor}
     textLength={nameLimit}
-    lengthAdjust="spacingAndGlyphs"
-    fill={line.lineTextColor}>{line.lineName}</text
+    lengthAdjust="spacingAndGlyphs">{line.lineName}</text
 >
 <text class="line-info" x="370" y="110" fill={line.lineTextColor}
     >{line.lineDest0}</text
@@ -91,8 +104,13 @@
 <text class="line-info" x="370" y="160" fill={line.lineTextColor}
     >{line.lineDest1}</text
 >
-<text class="line-info" x="370" y="210" fill={line.lineTextColor}
-    >{line.lineTime}</text
+<text
+    class="line-info"
+    x="370"
+    y="210"
+    fill={line.lineTextColor}
+    textLength={timeLimit}
+    lengthAdjust="spacingAndGlyphs">{line.lineTime}</text
 >
 {#if line.isCableCar || line.isHistoricStreetcar}
     <path

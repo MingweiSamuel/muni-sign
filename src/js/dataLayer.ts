@@ -42,18 +42,28 @@ function getLineTime(line: RawStopTime): string {
 
     if (line.start_time === line.end_time) {
         // Implies only one bus on some days. But maybe more than one on other days.
-        return `${daysOfWeek} ~ ${roundTime(sh, sm, 5)}`;
+        return `${daysOfWeek} ~\u2009${roundTime(sh, sm, 5)}`;
     }
 
-    // const headway = [line.day_headway_min, line.day_headway, line.owl_headway_min, line.owl_headway]
-    //     .map(x => Math.round(parseInt(x))).join(',');
+    // console.log([line.day_headway_min, line.day_headway, line.owl_headway_min, line.owl_headway].join(','));
 
+    let hours;
     if (23 <= eh - sh) {
-        return `24 Hours ${daysOfWeek}`;
+        hours = `24 Hours ${daysOfWeek}`;
     }
     else {
-        return `${daysOfWeek} ~ ${roundTime(sh, sm)}-${roundTime(eh, em)}`;
+        hours = `${daysOfWeek} ~\u2009${roundTime(sh, sm)}-${roundTime(eh, em)}`;
     }
+
+    let headway = '';
+    if (line.day_headway || line.owl_headway) {
+        headway = `, Every ~\u2009${Math.round(0.2 + Number(line.day_headway || line.owl_headway))}m`;
+        if (line.day_headway && line.owl_headway) {
+            headway += ` (Owl ${Math.round(0.15 + Number(line.owl_headway))}m)`;
+        }
+    }
+
+    return hours + headway;
 }
 
 function parseTime(time: string): [number, number, number] {
