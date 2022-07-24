@@ -226,77 +226,80 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
         .map(seg => seg.split(/ ?& ?/).map(stripStreetSuffix).join(' & '))
         .join(' / ');
 
-    const lines = stopLines.map(line => {
-        let lineNum = line.route_short_name;
-        let lineMod = '';
-        const match = lineNum.match(/^(\d+)([A-Za-z]+)$/);
-        if (match) {
-            ([lineNum, lineMod] = match.slice(1));
-        }
-        else {
-            lineNum = lineNum.replace(/(BUS|-OWL)$/, '');
-        }
-        // Replace droopy J with Greek Yot (non-droopy).
-        // Found here: https://github.com/codebox/homoglyph/blob/763c79a20ba054cc028b3336b5c7b1822db36dc8/raw_data/chars.txt#L48
-        lineNum = lineNum.replaceAll('J', '\u037F');
+    const lines = stopLines
+        // https://github.com/MingweiSamuel/muni-sign/issues/7
+        .filter(line => !['JBUS', 'KBUS', 'MBUS', 'NBUS', 'TBUS'].includes(line.route_short_name))
+        .map(line => {
+            let lineNum = line.route_short_name;
+            let lineMod = '';
+            const match = lineNum.match(/^(\d+)([A-Za-z]+)$/);
+            if (match) {
+                ([lineNum, lineMod] = match.slice(1));
+            }
+            else {
+                lineNum = lineNum.replace(/(BUS|-OWL)$/, '');
+            }
+            // Replace droopy J with Greek Yot (non-droopy).
+            // Found here: https://github.com/codebox/homoglyph/blob/763c79a20ba054cc028b3336b5c7b1822db36dc8/raw_data/chars.txt#L48
+            lineNum = lineNum.replaceAll('J', '\u037F');
 
-        // Some basic cleanup for lineDest0/1
-        let lineDest0 = line.trip_headsign.replace(/\s+\([^)]+\)$/, '');
-        let lineDest1 = controlLocs[line.route_short_name][+line.direction_id];
-        // Ensure neither line is subset of (or equal to) other.
-        const l0 = lineDest0.toUpperCase();
-        const l1 = lineDest1.toUpperCase();
-        if (l0.includes(l1)) {
-            lineDest1 = '';
-        }
-        else if (l1.includes(l0)) {
-            lineDest0 = lineDest1;
-            lineDest1 = '';
-        }
+            // Some basic cleanup for lineDest0/1
+            let lineDest0 = line.trip_headsign.replace(/\s+\([^)]+\)$/, '');
+            let lineDest1 = controlLocs[line.route_short_name][+line.direction_id];
+            // Ensure neither line is subset of (or equal to) other.
+            const l0 = lineDest0.toUpperCase();
+            const l1 = lineDest1.toUpperCase();
+            if (l0.includes(l1)) {
+                lineDest1 = '';
+            }
+            else if (l1.includes(l0)) {
+                lineDest0 = lineDest1;
+                lineDest1 = '';
+            }
 
-        let lineTextColor = '#' + line.route_text_color;
-        let lineColor = '#' + line.route_color
-        if ('KT' === lineNum) {
-            lineColor = 'url(#kt-fill)';
-        }
+            let lineTextColor = '#' + line.route_text_color;
+            let lineColor = '#' + line.route_color
+            if ('KT' === lineNum) {
+                lineColor = 'url(#kt-fill)';
+            }
 
-        // Handle Muni Metro and Cable Car/Historic Streetcar lines.
-        const routeType: RouteType = Number(line.route_type);
-        const isOwl = COLOR_OWL === lineColor;
-        const isMetro = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
-        const isRapid = !isMetro && COLOR_RAPID === lineColor;
-        const isCableCar = RouteType.CableCar === routeType;
-        const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC === lineColor;
+            // Handle Muni Metro and Cable Car/Historic Streetcar lines.
+            const routeType: RouteType = Number(line.route_type);
+            const isOwl = COLOR_OWL === lineColor;
+            const isMetro = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
+            const isRapid = !isMetro && COLOR_RAPID === lineColor;
+            const isCableCar = RouteType.CableCar === routeType;
+            const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC === lineColor;
 
-        if (isCableCar || isHistoricStreetcar) {
-            lineColor = COLOR_HISTORIC_REPLACEMENT;
-            lineTextColor = '#FFFFFF';
-        }
+            if (isCableCar || isHistoricStreetcar) {
+                lineColor = COLOR_HISTORIC_REPLACEMENT;
+                lineTextColor = '#FFFFFF';
+            }
 
 
-        // Line name, hardcoded adjustments
-        // TODO: fix capitalization?
-        const lineName = line.route_long_name.replace(/^California Street\b/ig, 'California');
+            // Line name, hardcoded adjustments
+            // TODO: fix capitalization?
+            const lineName = line.route_long_name.replace(/^California Street\b/ig, 'California');
 
-        return {
-            lineId: line.route_short_name,
-            lineNum,
-            lineMod,
-            lineName,
-            lineDest0,
-            lineDest1,
-            lineTime: getLineTime(line),
+            return {
+                lineId: line.route_short_name,
+                lineNum,
+                lineMod,
+                lineName,
+                lineDest0,
+                lineDest1,
+                lineTime: getLineTime(line),
 
-            lineTextColor,
-            lineColor,
+                lineTextColor,
+                lineColor,
 
-            isRapid,
-            isOwl,
-            isMetro,
-            isCableCar,
-            isHistoricStreetcar,
-        };
-    });
+                isRapid,
+                isOwl,
+                isMetro,
+                isCableCar,
+                isHistoricStreetcar,
+            };
+        });
     const hasMetro = lines.some(line => line.isMetro);
     const hasRapid = lines.some(line => line.isRapid);
     const hasHistoric = lines.some(line => line.isCableCar || line.isHistoricStreetcar);
