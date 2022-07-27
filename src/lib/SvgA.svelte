@@ -6,7 +6,7 @@
         mouseDownTime = Date.now();
     }
     function anchorClick(e: MouseEvent) {
-        if (100 < Date.now() - mouseDownTime) {
+        if (200 < Date.now() - mouseDownTime) {
             e.preventDefault();
         }
     }
