@@ -7,6 +7,7 @@
 
     import { getStopTimes, type StopTimes, COMMIT_HASH } from "../js/dataLayer";
     import { now } from "svelte/internal";
+    import SvgA from "./SvgA.svelte";
 
     export let stopId = "16371";
     let dataPromise: Promise<StopTimes> = new Promise(() => {});
@@ -139,12 +140,28 @@
             transform="translate({0}, {(1 + data.lines.length) * SPACING})"
         >
             <TileFooter stopId={data.stopId} stopLoc={data.stopLoc} />
-            <text class="footnote" x="1075" y="163" text-anchor="end"
-                >{[
-                    "SFMTA.COM/" + stopId,
-                    COMMIT_HASH.toUpperCase(),
-                    new Date().toISOString().slice(0, 10),
-                ].join("\xa0\u2003\xa0")}
+            <SvgA href="https://www.sfmta.com/{stopId}">
+                <text class="footnote" x="25" y="163">
+                    SFMTA.COM/{stopId}
+                </text>
+            </SvgA>
+            <SvgA href="https://muni-sign.safestreetrebel.com/#{stopId}">
+                <text class="footnote" x="584" y="163" text-anchor="end">
+                    MUNI-SIGN.SAFESTREETREBEL.COM/#{stopId}
+                </text>
+            </SvgA>
+            <SvgA
+                href="https://github.com/MingweiSamuel/muni-sign/commit/{COMMIT_HASH}"
+            >
+                <text class="footnote" x="665" y="163" text-anchor="end">
+                    {COMMIT_HASH.toUpperCase()}
+                </text>
+            </SvgA>
+            <text class="footnote" x="980" y="163" text-anchor="end">
+                PROVIDED AS-IS. ACCURACY NOT GUARANTEED
+            </text>
+            <text class="footnote" x="1075" y="163" text-anchor="end">
+                {new Date().toISOString().slice(0, 10)}
             </text>
         </g>
     </svg>
