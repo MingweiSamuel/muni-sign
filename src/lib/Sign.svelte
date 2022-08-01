@@ -151,7 +151,7 @@
                 </text>
             </SvgA>
             <SvgA
-                href="https://github.com/MingweiSamuel/muni-sign/commit/{COMMIT_HASH}"
+                href="https://github.com/MingweiSamuel/muni-sign/tree/{COMMIT_HASH}"
             >
                 <text class="footnote" x="665" y="163" text-anchor="end">
                     {COMMIT_HASH.toUpperCase()}
