@@ -30,6 +30,7 @@ $STOP_TIMES_NON_LAST = @"
 "@
 
 # stop_id, route_id, direction_id, service_id => trip_headsign, start_time, end_time
+# TODO: Fix headsign "Ask Driver for Terminal"
 $OPERATING_TIMES = @"
     SELECT
         stop_id,
@@ -37,7 +38,7 @@ $OPERATING_TIMES = @"
         direction_id,
         service_id,
 
-        MIN(trip_headsign) AS trip_headsign,
+        MAX(trip_headsign) AS trip_headsign,
 
         MIN(departure_time) AS start_time,
         MAX(departure_time) AS end_time
