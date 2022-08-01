@@ -91,9 +91,9 @@
   </div>
 
   <p class="footer no-print">
-    You can follow me <a
-      href="https://twitter.com/MingweiSamuel"
-      target="_blank">@MingweiSamuel</a
+    Follow us at <a
+      href="https://twitter.com/SafeStreetRebel"
+      target="_blank">@SafeStreetRebel</a
     >
     on Twitter if you want. Or poke around the
     <a href="https://github.com/MingweiSamuel/muni-sign/" target="_blank"
