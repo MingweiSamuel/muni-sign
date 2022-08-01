@@ -1,7 +1,6 @@
 $FOLDER = 'sfmta_gtfs'
 $DATE = Get-Date -UFormat '%Y%m%d'
 
-
 If (-Not (Test-Path $FOLDER)) {
     Write-Host 'Downloading SFMTA GTFS zip.'
     Invoke-WebRequest 'https://gtfs.sfmta.com/transitdata/google_transit.zip' -OutFile 'sfmta_gtfs.zip'
@@ -134,17 +133,17 @@ $STOP_TEMPORALITIES = @"
 
 $STOP_ALL_DATA = @"
     SELECT
-        stop_code,
-        stop_name,
+        TRIM(stop_code) AS stop_code,
+        TRIM(stop_name) AS stop_name,
 
-        route_short_name,
-        route_long_name,
+        TRIM(route_short_name) AS route_short_name,
+        TRIM(route_long_name) AS route_long_name,
         route_type,
-        route_color,
-        route_text_color,
+        TRIM(route_color) AS route_color,
+        TRIM(route_text_color) AS route_text_color,
 
         direction_id,
-        trip_headsign,
+        TRIM(trip_headsign) AS trip_headsign,
 
         start_time,
         end_time,
@@ -160,7 +159,7 @@ $STOP_ALL_DATA = @"
     JOIN "$FOLDER/stops.txt" USING (stop_id)
     JOIN "$FOLDER/routes.txt" USING (route_id)
     ORDER BY
-        stop_code
+        stop_code, route_short_name, direction_id
 "@
 # q -H '-d,' -O -C read $STOP_ALL_DATA
 
