@@ -49,6 +49,7 @@ jobs:
       if: ${{ github.event_name == 'push' && github.ref == 'refs/heads/main' }}
       shell: bash
       run: |
+        cp -r .github/gh-pages/. "$WWW_DIR/"
         git -C "$WWW_DIR" init -q
         git -C "$WWW_DIR" remote add origin "$(git remote get-url origin)"
         git -C "$WWW_DIR" config credential.helper "$(git config credential.helper)"
