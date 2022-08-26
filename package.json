@@ -15,6 +15,7 @@
     "jsdom": "^20.0.0",
     "jspdf": "^2.5.1",
     "node-fetch": "^3.2.9",
+    "qrcode-generator": "^1.4.4",
     "save-svg-as-png": "^1.4.17",
     "svelte": "^3.49.0",
     "svelte-check": "^2.8.0",

@@ -7,8 +7,8 @@
     export let line: StopLine;
 
     // Line ID layout calculations.
-    const LINE_ID_MIN_X = 36;
-    const LINE_ID_MAX_WIDTH = 465;
+    const LINE_ID_MIN_X = 40;
+    const LINE_ID_MAX_WIDTH = 450;
 
     let lineNumX: number, lineNumW: number, lineModX: number, lineModW: number;
     $: {
@@ -91,21 +91,21 @@
 <text
     class="line-name"
     class:narrow={nameNarrow}
-    x="555"
+    x="530"
     y="90"
     fill={line.lineTextColor}
     textLength={nameLimit}
     lengthAdjust="spacingAndGlyphs">{line.lineName}</text
 >
-<text class="line-info" x="555" y="165" fill={line.lineTextColor}
+<text class="line-info" x="530" y="165" fill={line.lineTextColor}
     >{line.lineDest0}</text
 >
-<text class="line-info" x="555" y="240" fill={line.lineTextColor}
+<text class="line-info" x="530" y="240" fill={line.lineTextColor}
     >{line.lineDest1}</text
 >
 <text
     class="line-info"
-    x="555"
+    x="530"
     y="315"
     fill={line.lineTextColor}
     textLength={timeLimit}

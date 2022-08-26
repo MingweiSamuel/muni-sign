@@ -80,7 +80,7 @@
             .stop-id,
             .stop-loc {
                 font-family: "Open Sans", sans-serif;
-                font-size: 72px;
+                font-size: 85px;
                 font-stretch: 87.5%;
                 font-weight: 500;
                 text-transform: uppercase;
@@ -88,13 +88,13 @@
 
             .sfmta {
                 font-family: "Open Sans", sans-serif;
-                font-size: 81px;
+                font-size: 85px;
                 font-weight: 700;
             }
             .i18n {
                 font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
                     "Noto Sans KR", sans-serif;
-                font-size: 21px;
+                font-size: 32px;
             }
 
             .footnote {
@@ -102,7 +102,8 @@
                 font-size: 25px;
                 font-stretch: 87.5%;
                 font-weight: 700;
-                fill: #444;
+                fill: #000;
+                text-transform: uppercase;
             }
         </style>
         <defs>
@@ -136,26 +137,18 @@
         {/each}
         <g transform="translate({0}, {(1 + data.lines.length) * SPACING})">
             <TileFooter stopId={data.stopId} stopLoc={data.stopLoc} />
-            <SvgA href="https://www.sfmta.com/{stopId}">
-                <text class="footnote" x="25" y="396.5">
-                    SFMTA.COM/{stopId}
-                </text>
-            </SvgA>
             <SvgA href="https://muni-sign.safestreetrebel.com/#{stopId}">
-                <text class="footnote" x="750" y="396.5" text-anchor="end">
-                    MUNI-SIGN.SAFESTREETREBEL.COM/#{stopId}
+                <text class="footnote" x="400" y="396.5">
+                    muni-sign.safestreetrebel.com/#{stopId}
                 </text>
             </SvgA>
             <SvgA
                 href="https://github.com/MingweiSamuel/muni-sign/tree/{COMMIT_HASH}"
             >
-                <text class="footnote" x="880" y="396.5" text-anchor="end">
+                <text class="footnote" x="1370" y="396.5" text-anchor="end">
                     {COMMIT_HASH.toUpperCase()}
                 </text>
             </SvgA>
-            <text class="footnote" x="1420" y="396.5" text-anchor="end">
-                PROVIDED AS-IS. ACCURACY NOT GUARANTEED
-            </text>
             <text class="footnote" x="1575" y="396.5" text-anchor="end">
                 {new Date().toISOString().slice(0, 10)}
             </text>
