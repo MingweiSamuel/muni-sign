@@ -26,12 +26,14 @@
         style="background: white;"
     >
         <style type="text/css">
+            text {
+                font-family: "Open Sans", sans-serif;
+            }
             .w {
                 fill: white;
             }
 
             .rapid {
-                font-family: "Open Sans", sans-serif;
                 font-size: 390px;
                 font-stretch: 87.5%;
                 font-weight: 300;
@@ -39,7 +41,6 @@
             }
 
             .line-number {
-                font-family: "Open Sans", sans-serif;
                 font-size: 420px;
                 font-stretch: 87.5%;
                 font-weight: 500;
@@ -51,7 +52,6 @@
                 /* font-stretch: 100%; */
             }
             .line-modifier {
-                font-family: "Open Sans", sans-serif;
                 font-size: 270px;
                 font-stretch: 87.5%;
                 font-weight: 500;
@@ -60,7 +60,6 @@
             }
 
             .line-name {
-                font-family: "Open Sans", sans-serif;
                 font-size: 72px;
                 font-stretch: 100%;
                 font-weight: 700;
@@ -71,7 +70,6 @@
             }
 
             .line-info {
-                font-family: "Open Sans", sans-serif;
                 font-size: 54px;
                 font-stretch: 100%;
                 font-weight: 400;
@@ -79,26 +77,30 @@
 
             .stop-id,
             .stop-loc {
-                font-family: "Open Sans", sans-serif;
                 font-size: 85px;
                 font-stretch: 87.5%;
                 font-weight: 500;
                 text-transform: uppercase;
             }
 
-            .sfmta {
-                font-family: "Open Sans", sans-serif;
-                font-size: 85px;
+            .nextmuni,
+            .t511 {
+                font-size: 56px;
+            }
+            .t511 {
+                font-weight: 700;
+            }
+            .t311 {
+                font-size: 56px;
                 font-weight: 700;
             }
             .i18n {
                 font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
                     "Noto Sans KR", sans-serif;
-                font-size: 32px;
+                font-size: 42px;
             }
 
             .footnote {
-                font-family: "Open Sans", sans-serif;
                 font-size: 25px;
                 font-stretch: 87.5%;
                 font-weight: 700;
@@ -137,21 +139,22 @@
         {/each}
         <g transform="translate({0}, {(1 + data.lines.length) * SPACING})">
             <TileFooter stopId={data.stopId} stopLoc={data.stopLoc} />
-            <SvgA href="https://muni-sign.safestreetrebel.com/#{stopId}">
-                <text class="footnote" x="400" y="396.5">
-                    muni-sign.safestreetrebel.com/#{stopId}
+            <SvgA href="https://twitter.com/SafeStreetRebel">
+                <path
+                    transform="translate(1170, 378) scale(0.1)"
+                    d="M221.95 51.29c.15 2.17.15 4.34.15 6.53 0 66.73-50.8 143.69-143.69 143.69v-.04c-27.44.04-54.31-7.82-77.41-22.64 3.99.48 8 .72 12.02.73 22.74.02 44.83-7.61 62.72-21.66-21.61-.41-40.56-14.5-47.18-35.07 7.57 1.46 15.37 1.16 22.8-.87-23.56-4.76-40.51-25.46-40.51-49.5v-.64c7.02 3.91 14.88 6.08 22.92 6.32C11.58 63.31 4.74 33.79 18.14 10.71c25.64 31.55 63.47 50.73 104.08 52.76-4.07-17.54 1.49-35.92 14.61-48.25 20.34-19.12 52.33-18.14 71.45 2.19 11.31-2.23 22.15-6.38 32.07-12.26-3.77 11.69-11.66 21.62-22.2 27.93 10.01-1.18 19.79-3.86 29-7.95-6.78 10.16-15.32 19.01-25.2 26.16z"
+                />
+                <text class="footnote" x="1200" y="396.5">
+                    safe&hairsp;street&hairsp;rebel
                 </text>
             </SvgA>
             <SvgA
                 href="https://github.com/MingweiSamuel/muni-sign/tree/{COMMIT_HASH}"
             >
-                <text class="footnote" x="1370" y="396.5" text-anchor="end">
-                    {COMMIT_HASH.toUpperCase()}
+                <text class="footnote" x="1575" y="396.5" text-anchor="end">
+                    {new Date().toISOString().slice(0, 10).replaceAll("-", " ")}
                 </text>
             </SvgA>
-            <text class="footnote" x="1575" y="396.5" text-anchor="end">
-                {new Date().toISOString().slice(0, 10)}
-            </text>
         </g>
     </svg>
 {:catch error}
