@@ -32,14 +32,14 @@
     let nameNarrow = false;
     $: {
         if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
-            if (20 <= line.lineName.length) {
-                nameLimit = 830;
-                nameNarrow = 22 <= line.lineName.length;
+            if (17 <= line.lineName.length) {
+                nameLimit = 850;
+                nameNarrow = 20 <= line.lineName.length;
             }
         } else {
-            if (25 <= line.lineName.length) {
-                nameLimit = 1025;
-                nameNarrow = 28 <= line.lineName.length;
+            if (23 <= line.lineName.length) {
+                nameLimit = 1020;
+                nameNarrow = 26 <= line.lineName.length;
             }
         }
     }
@@ -47,12 +47,12 @@
     let timeLimit = null;
     $: {
         if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
-            if (33 <= line.lineTime.length) {
-                timeLimit = 840;
+            if (31 <= line.lineTime.length) {
+                timeLimit = 880;
             }
         } else {
-            if (41 <= line.lineTime.length) {
-                timeLimit = 1025;
+            if (34 <= line.lineTime.length) {
+                timeLimit = 1020;
             }
         }
     }
@@ -79,34 +79,36 @@
         textLength={lineNumW}
         lengthAdjust="spacingAndGlyphs">{line.lineNum}</text
     >
+    {#if line.lineMod}
+        <text
+            class="line-modifier"
+            x={lineModX}
+            y="231"
+            fill={line.lineTextColor}
+            textLength={lineModW}
+            lengthAdjust="spacingAndGlyphs">{line.lineMod}</text
+        >
+    {/if}
     <text
-        class="line-modifier"
-        x={lineModX}
-        y="231"
+        class="line-name"
+        class:narrow={nameNarrow}
+        x="530"
+        y="90"
         fill={line.lineTextColor}
-        textLength={lineModW}
-        lengthAdjust="spacingAndGlyphs">{line.lineMod}</text
+        textLength={nameLimit}
+        lengthAdjust="spacingAndGlyphs">{line.lineName}</text
     >
 </SvgA>
-<text
-    class="line-name"
-    class:narrow={nameNarrow}
-    x="530"
-    y="90"
-    fill={line.lineTextColor}
-    textLength={nameLimit}
-    lengthAdjust="spacingAndGlyphs">{line.lineName}</text
->
-<text class="line-info" x="530" y="165" fill={line.lineTextColor}
+<text class="line-info" x="530" y="170" fill={line.lineTextColor}
     >{line.lineDest0}</text
 >
-<text class="line-info" x="530" y="240" fill={line.lineTextColor}
+<text class="line-info" x="530" y="250" fill={line.lineTextColor}
     >{line.lineDest1}</text
 >
 <text
     class="line-info"
     x="530"
-    y="315"
+    y="330"
     fill={line.lineTextColor}
     textLength={timeLimit}
     lengthAdjust="spacingAndGlyphs">{line.lineTime}</text
