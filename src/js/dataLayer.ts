@@ -153,9 +153,9 @@ const STOP_TIMES = (async () => {
     // Sort each stop's list of lines.
     for (const list of Object.values(data)) {
         list.sort((a, b) => {
-            return (parseInt(a.route_short_name) - parseInt(b.route_short_name))
-                || (-a.route_short_name.localeCompare(b.route_short_name))
-                || ((COLOR_ORDER['#' + a.route_color] || 0) - (COLOR_ORDER['#' + b.route_color] || 0));
+            return ((COLOR_GROUP_ORDER['#' + a.route_color] || 0) - (COLOR_GROUP_ORDER['#' + b.route_color] || 0))
+                || (parseInt(a.route_short_name) - parseInt(b.route_short_name))
+                || (-a.route_short_name.localeCompare(b.route_short_name));
         });
     }
 
@@ -324,10 +324,11 @@ export const COLOR_OWL = '#666666';
 export const COLOR_HISTORIC = '#B49A36';
 export const COLOR_HISTORIC_REPLACEMENT = '#CF8B29';
 
-const COLOR_ORDER = {
-    [COLOR_RAPID]: -100,
+const COLOR_GROUP_ORDER = {
+    [COLOR_HISTORIC]: -100,
+    [COLOR_RAPID]: 100,
     [COLOR_STD]: 100,
-    [COLOR_OWL]: 200,
-};
+    [COLOR_OWL]: 200
+}
 
 export const COMMIT_HASH = __defines__.COMMIT_HASH as string;
