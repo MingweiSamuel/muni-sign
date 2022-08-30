@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   width="10"
+   height="10"
+   id="svg2"
+   sodipodi:docname="phone2.svg"
+   inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <sodipodi:namedview
+     id="namedview15"
+     pagecolor="#505050"
+     bordercolor="#ffffff"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="1"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="90.509668"
+     inkscape:cx="3.9553786"
+     inkscape:cy="4.9552717"
+     inkscape:window-width="2560"
+     inkscape:window-height="1361"
+     inkscape:window-x="-9"
+     inkscape:window-y="464"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2901" />
+  <title
+     id="title4">phone mine</title>
+  <defs
+     id="defs6">
+    <radialGradient
+       cx="372.42999"
+       cy="461.26001"
+       r="361.03"
+       id="svg_7"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         id="stop34"
+         style="stop-color:#3f6894;stop-opacity:1"
+         offset="0" />
+      <stop
+         id="stop36"
+         style="stop-color:#062749;stop-opacity:0.99609399"
+         offset="1" />
+    </radialGradient>
+    <radialGradient
+       cx="372.42999"
+       cy="461.26001"
+       r="361.03"
+       id="radialGradient2898"
+       xlink:href="#svg_7"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-11.3982,-100.234)" />
+  </defs>
+  <g
+     id="g2901">
+    <path
+       d="M 8.806046,9.999945 C 9.464742,9.999945 10,9.464687 10,8.803969 V 1.193968 C 10,0.533236 9.464742,0 8.806046,0 H 1.1939678 C 0.53527185,0 0,0.533236 0,1.193968 v 7.610001 c 0,0.660718 0.53527185,1.195976 1.1939678,1.195976 z"
+       id="path6908"
+       style="fill:#ffffff;fill-rule:nonzero;stroke-width:0.0138492" />
+    <path
+       id="path6910"
+       style="fill:#000000;fill-rule:nonzero;stroke-width:0.0138492"
+       d="M 5.0770809,0.79882812 C 4.6733524,0.84223511 3.2073522,1.5142873 3.1630183,4.9707031 3.1165878,8.6133071 4.6713118,9.3811177 5.079034,9.3730469 l 0.00195,-2.40625 C 4.745075,6.9667489 4.6772238,6.6005449 4.6005183,5.8457031 4.5510563,5.3458594 4.5345963,4.730468 4.6005183,4.1152344 4.6481843,3.6852146 4.7269209,3.2635859 5.079034,3.2636719 Z m 0.3125,0.002775 V 3.2664469 l 0.6796874,0.00195 0.00391,-0.00195 c 0.1568385,-6e-7 0.2656215,-0.12687 0.2656213,-0.2695309 h 0.00195 c 0,0 -0.00195,-1.9295626 -0.00195,-1.9316406 -10e-8,-0.14873985 -0.1189054,-0.26367179 -0.265625,-0.26367187 z m 0.00152,6.16031838 -0.00195,2.4101563 c 0,0 0.6796867,0.002 0.6796875,0 h 0.00195 c 0.1568422,0 0.2675252,-0.1249171 0.2675781,-0.2675781 l 0.00195,-0.00391 c 0,0 -1e-5,-1.8711079 0,-1.8730469 3.7e-5,-0.1487492 -0.1208585,-0.2655702 -0.2675782,-0.265625 z"
+       sodipodi:nodetypes="ccccccccccccccssccccsccccc" />
+  </g>
+  <metadata
+     id="metadata292">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:title>phone mine</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+</svg>
