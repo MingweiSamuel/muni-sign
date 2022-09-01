@@ -151,12 +151,18 @@ const STOP_TIMES = (async () => {
     }
 
     // Sort each stop's list of lines.
+    // TODO(mingwei): Do more of `getStopTimes`'s processing here, not just sorting.
     for (const list of Object.values(data)) {
-        list.sort((a, b) => {
-            return ((COLOR_GROUP_ORDER['#' + a.route_color] || 0) - (COLOR_GROUP_ORDER['#' + b.route_color] || 0))
-                || (parseInt(a.route_short_name) - parseInt(b.route_short_name))
-                || (-a.route_short_name.localeCompare(b.route_short_name));
-        });
+        list.sort((a, b) =>
+            // Sort Historic -> Metro -> Rapid+Regular -> Owl.
+            ((COLOR_GROUP_ORDER[`#${a.route_color.toUpperCase()}`] || 0) - (COLOR_GROUP_ORDER[`#${b.route_color.toUpperCase()}`] || 0)) ||
+            // Sort lines numerically: 1 -> 5 -> 38.
+            (parseInt(a.route_short_name) - parseInt(b.route_short_name)) ||
+            // Sort rapid before anything else: 9R -> 9AX or 9BX or 9.
+            (+(COLOR_RAPID != `#${a.route_color.toUpperCase()}`) - +(COLOR_RAPID != `#${b.route_color.toUpperCase()}`)) ||
+            // Sort alphabetically: 8AX -> 8BX -> 8.
+            (-a.route_short_name.localeCompare(b.route_short_name))
+        );
     }
 
     return data;
