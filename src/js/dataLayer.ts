@@ -6,7 +6,7 @@ function parseCsv(csvText: string): string[][] {
     const grid = [];
     let row = null;
 
-    let match;
+    let match: null | RegExpExecArray;
     while ((match = CELL_REGEX.exec(csvText))) {
         const sep = match[1];
         const val = match[3] ? match[3].replace(/""/g, '"') : match[2];
@@ -47,7 +47,7 @@ function getLineTime(line: RawStopTime): string {
 
     // console.log([line.day_headway_min, line.day_headway, line.owl_headway_min, line.owl_headway].join(','));
 
-    let hours;
+    let hours: string;
     if (23 <= eh - sh) {
         hours = `24 Hours ${daysOfWeek}`;
     }

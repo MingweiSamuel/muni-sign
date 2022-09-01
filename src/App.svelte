@@ -11,7 +11,7 @@
     randomStopId().then((id) => (location.hash = "#" + id));
   }
 
-  let timer;
+  let timer: NodeJS.Timeout;
   $: {
     clearTimeout(timer);
     timer = setTimeout(() => {
@@ -91,9 +91,8 @@
   </div>
 
   <p class="footer no-print">
-    Follow us at <a
-      href="https://twitter.com/SafeStreetRebel"
-      target="_blank">@SafeStreetRebel</a
+    Follow us at <a href="https://twitter.com/SafeStreetRebel" target="_blank"
+      >@SafeStreetRebel</a
     >
     on Twitter if you want. Or poke around the
     <a href="https://github.com/MingweiSamuel/muni-sign/" target="_blank"

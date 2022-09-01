@@ -48,7 +48,8 @@ export async function saveSvg(stopId: string): Promise<void> {
     const svgString = new XMLSerializer().serializeToString(svg);
     const svgDataUrl =
         "data:image/svg+xml;base64," +
-        btoa(unescape(encodeURIComponent(svgString)));
+        // TODO(mingwei): Do this in a better way, avoid using unescape.
+        window.btoa(unescape(encodeURIComponent(svgString)));
     const name = stopId + ".svg";
 
     const a = document.createElement("a");

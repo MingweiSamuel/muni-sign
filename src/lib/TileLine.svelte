@@ -11,7 +11,7 @@
     // const LINE_ID_MID_X = 220; // 220;
     const LINE_ID_MAX_WIDTH = 320;
 
-    let lineNumX, lineNumW, lineModX, lineModW;
+    let lineNumX: number, lineNumW: number, lineModX: number, lineModW: number;
     $: {
         let lineWeightNum = 140 * line.lineNum.length;
         let lineWeightMod = 80 * line.lineMod.length;
@@ -29,7 +29,7 @@
         lineModW = lineWeightMod;
     }
 
-    let nameLimit = null;
+    let nameLimit: null | number = null;
     let nameNarrow = false;
     $: {
         if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {

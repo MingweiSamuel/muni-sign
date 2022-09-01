@@ -6,7 +6,6 @@
     const SPACING = 262.5;
 
     import { getStopTimes, type StopTimes, COMMIT_HASH } from "../js/dataLayer";
-    import { now } from "svelte/internal";
     import SvgA from "./SvgA.svelte";
 
     export let stopId = "16371";
