@@ -30,15 +30,7 @@
         x="687.5"
         y="325"
         textLength="862.5"
-        lengthAdjust="spacingAndGlyphs">Metro</text
-    >
-{:else if hasRapid}
-    <text
-        class="w rapid"
-        x="687.5"
-        y="325"
-        textLength="875"
-        lengthAdjust="spacingAndGlyphs">Rapid</text
+        lengthAdjust="spacingAndGlyphs">METRO</text
     >
 {:else if hasHistoric}
     <text
@@ -46,6 +38,14 @@
         x="687.5"
         y="325"
         textLength="862.5"
-        lengthAdjust="spacingAndGlyphs">Historic</text
+        lengthAdjust="spacingAndGlyphs">HISTORIC</text
+    >
+{:else if hasRapid}
+    <text
+        class="w rapid"
+        x="687.5"
+        y="325"
+        textLength="875"
+        lengthAdjust="spacingAndGlyphs">RAPID</text
     >
 {/if}
