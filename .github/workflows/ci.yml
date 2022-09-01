@@ -17,6 +17,30 @@ jobs:
         with:
           cancel_others: 'true'
 
+  check:
+    name: Check
+    needs: pre_job
+    if: ${{ needs.pre_job.outputs.should_skip != 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 1
+    steps:
+
+    - name: Checkout sources
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+
+    - name: Setup Node
+      uses: actions/setup-node@v2
+      with:
+        node-version: '16'
+
+    - name: Install Node packages
+      run: npm ci
+
+    - name: Check
+      run: npm run check
+
   build:
     name: Build
     needs: pre_job
