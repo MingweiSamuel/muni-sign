@@ -96,7 +96,7 @@
         y="90"
         fill={line.lineTextColor}
         textLength={nameLimit}
-        lengthAdjust="spacingAndGlyphs">{line.lineName}</text
+        lengthAdjust="spacingAndGlyphs">{line.lineName?.toUpperCase()}</text
     >
 </SvgA>
 <text class="line-info" x="530" y="170" fill={line.lineTextColor}
