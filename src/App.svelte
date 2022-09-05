@@ -1,9 +1,12 @@
-<script lang="ts">
-  import Sign from "./lib/Sign.svelte";
+<script lang="ts" context="module">
+  import Sign, { FooterType, FOOTER_DESC } from "./lib/Sign.svelte";
   import "./css/print.css";
   import { saveSvg, savePng, savePdf } from "./js/save";
   import { randomStopId } from "./js/dataLayer";
+</script>
 
+<script lang="ts">
+  let footerType: FooterType | null = FooterType.I2;
   let stopId = "";
   if (window.location.hash) {
     stopId = window.location.hash.slice(1);
@@ -27,6 +30,8 @@
       disabled = false;
     });
   }
+
+  let signHeight = 0;
 </script>
 
 <svelte:window
@@ -34,14 +39,6 @@
     window.location.hash && (stopId = window.location.hash.slice(1))}
 />
 <main>
-  <!-- <div>
-    <a href="https://vitejs.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite Logo" />
-    </a>
-    <a href="https://svelte.dev" target="_blank">
-      <img src={svelteLogo} class="logo svelte" alt="Svelte Logo" />
-    </a>
-  </div> -->
   <h1 class="no-print">Muni Sign</h1>
 
   <div class="card no-print">
@@ -56,7 +53,20 @@
       title="Use random stop ID."
       on:click={() => randomStopId().then((id) => (location.hash = "#" + id))}
     />
-    &nbsp; &nbsp;
+  </div>
+  <div class="card no-print">
+    <label>
+      Footer Type:
+      <select bind:value={footerType}>
+        {#each Object.values(FooterType).filter((x) => !isNaN(+x)) as footerTypeOption}
+          <option value={footerTypeOption}
+            >{FOOTER_DESC[footerTypeOption]}</option
+          >
+        {/each}
+      </select>
+    </label>
+  </div>
+  <div class="card no-print">
     <input
       disabled={disabled || null}
       type="button"
@@ -86,8 +96,11 @@
       on:click={() => window.print()}
     />
   </div>
+  <div class="card no-print">
+    Standard Size (w x h): 16in x {signHeight / 100}in
+  </div>
   <div class="sign">
-    <Sign {stopId} />
+    <Sign {stopId} {footerType} bind:height={signHeight} />
   </div>
 
   <p class="footer no-print">
