@@ -1,4 +1,4 @@
-<script lang="ts">
+<script lang="ts" context="module">
     import {
         COLOR_RAPID,
         COLOR_STD,
@@ -6,7 +6,9 @@
     } from "../js/dataLayer";
 
     import TileBlank from "./TileBlank.svelte";
+</script>
 
+<script lang="ts">
     export let hasMetro = false;
     export let hasRapid = false;
     export let hasHistoric = false;

@@ -1,9 +1,11 @@
-<script lang="ts">
+<script lang="ts" context="module">
     import type { StopLine } from "src/js/dataLayer";
     import SvgA from "./SvgA.svelte";
 
     import TileBlank from "./TileBlank.svelte";
+</script>
 
+<script lang="ts">
     export let line: StopLine;
 
     // Line ID layout calculations.
