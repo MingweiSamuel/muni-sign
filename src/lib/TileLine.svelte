@@ -7,13 +7,13 @@
     export let line: StopLine;
 
     // Line ID layout calculations.
-    const LINE_ID_MIN_X = 40;
-    const LINE_ID_MAX_WIDTH = 450;
+    const LINE_ID_MIN_X = 20;
+    const LINE_ID_MAX_WIDTH = 480;
 
     let lineNumX: number, lineNumW: number, lineModX: number, lineModW: number;
     $: {
-        let lineWeightNum = 200 * line.lineNum.length;
-        let lineWeightMod = 116 * line.lineMod.length;
+        let lineWeightNum = 220 * line.lineNum.length;
+        let lineWeightMod = 133 * line.lineMod.length;
         let lineWeightTot = lineWeightNum + 7 + lineWeightMod;
 
         const scale = Math.tanh(LINE_ID_MAX_WIDTH / lineWeightTot);
