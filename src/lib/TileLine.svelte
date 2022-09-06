@@ -76,7 +76,7 @@
                 timeLimit = 860;
             }
         } else {
-            if (35 <= line.lineTime.length) {
+            if (36 <= line.lineTime.length) {
                 timeLimit = 1020;
             }
         }
