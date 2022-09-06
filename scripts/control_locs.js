@@ -37,20 +37,20 @@ async function main() {
             const htmlBody = await response.text();
             const dom = new JSDOM(htmlBody);
 
-            const DEST_REGEX = /(?:In|Out|East|West|North|South)bound to (.+) stop list/;
+            const DEST_REGEX = /(?:In|Out|East|West|North|South)bound to\s+(.+?)\s+stop list/;
             const outbound = dom.window.document.querySelector('#outboud a').textContent.match(DEST_REGEX)[1];
             const inbound = dom.window.document.querySelector('#inbound a').textContent.match(DEST_REGEX)[1];
 
-            return [routeId, [outbound, inbound]];
+            const pair = [outbound, inbound];
+            console.log(`${routeId}:`.padEnd(8) + JSON.stringify(pair));
+
+            return [routeId, pair];
         }
         catch (e) {
             console.error(routeId, e);
         }
     });
     const data = Object.fromEntries(await Promise.all(promises));
-
-    // TODO: manual override here.
-    data['43'][1] = '';
 
     await fs.writeFile('public/data/control_locs.json', JSON.stringify(data, null, 2), 'utf-8');
 }
