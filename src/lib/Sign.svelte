@@ -3,8 +3,9 @@
     import TileFooter4InQr from "./TileFooter4InQr.svelte";
     import TileMuni from "./TileMuni.svelte";
 
-    import { getStopTimes, type StopTimes } from "../js/dataLayer";
+    import { COLOR_STD, getStopTimes, type StopTimes } from "../js/dataLayer";
     import TileFooter2In from "./TileFooter2In.svelte";
+    import TileBlank from "./TileBlank.svelte";
 
     export enum FooterType {
         I2 = 0,
@@ -21,14 +22,14 @@
 
 <script lang="ts">
     export let stopId = "16371";
+    export let footerType: FooterType | null = FooterType.I2;
+    export let numBlanks = 0;
+
     let dataPromise: Promise<StopTimes> = new Promise(() => {});
     $: {
         dataPromise = getStopTimes(stopId);
     }
 
-    console.log({ FooterType });
-
-    export let footerType: FooterType | null = FooterType.I2;
     let footerComponent;
     let footerHeight = 0;
     $: {
@@ -52,7 +53,8 @@
     export let height = 0;
     $: {
         dataPromise.then((data) => {
-            height = (1 + data.lines.length) * SPACING + footerHeight;
+            height =
+                (1 + data.lines.length + numBlanks) * SPACING + footerHeight;
         });
     }
 </script>
@@ -202,9 +204,19 @@
                 <TileLine {line} />
             </g>
         {/each}
+        {#each Array(numBlanks).fill(null) as _, i}
+            <g
+                clip-path="url(#clip-tile)"
+                transform="translate({0}, {(1 + data.lines.length + i) *
+                    SPACING})"
+            >
+                <TileBlank lineColor={COLOR_STD} />
+            </g>
+        {/each}
         <g
             class={FooterType[footerType]}
-            transform="translate({0}, {(1 + data.lines.length) * SPACING})"
+            transform="translate({0}, {(1 + data.lines.length + numBlanks) *
+                SPACING})"
         >
             <svelte:component
                 this={footerComponent}

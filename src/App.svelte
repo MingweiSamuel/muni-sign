@@ -3,10 +3,14 @@
   import "./css/print.css";
   import { saveSvg, savePng, savePdf } from "./js/save";
   import { isValidStopId, randomStopId } from "./js/dataLayer";
+
+  const SEARCH_FOOTERTYPE = "foot";
+  const SEARCH_NUMBLANKS = "blank";
 </script>
 
 <script lang="ts">
   let footerType: FooterType | null = FooterType.I2;
+  let numBlanks = 0;
   let stopId = "";
   function updateState(random = false) {
     if (!random && window.location.hash) {
@@ -14,7 +18,8 @@
       stopId = id;
       if (search) {
         const searchParams = new URLSearchParams(search);
-        footerType = +searchParams.get("footer") || 0;
+        footerType = +searchParams.get(SEARCH_FOOTERTYPE) || 0;
+        numBlanks = +searchParams.get(SEARCH_NUMBLANKS) || 0;
       }
     } else {
       randomStopId().then((id) => (stopId = id));
@@ -24,11 +29,15 @@
 
   // Maintain URL and history stack:
   $: {
-    isValidStopId(stopId).then(() => {
-      let hash = "#" + stopId;
-      if (footerType) {
-        hash += "?footer=" + footerType;
-      }
+    isValidStopId(stopId).then((isValid) => {
+      if (!isValid) return;
+
+      const searchParams = new URLSearchParams();
+      if (footerType) searchParams.append(SEARCH_FOOTERTYPE, "" + footerType);
+      if (numBlanks) searchParams.append(SEARCH_NUMBLANKS, "" + numBlanks);
+      const search = searchParams.toString();
+
+      let hash = "#" + stopId + (search ? "?" + search : "");
       if (window.location.hash !== hash) {
         window.history.pushState(null, null, hash);
       }
@@ -69,9 +78,19 @@
       Footer Type:
       <select bind:value={footerType}>
         {#each Object.values(FooterType).filter((x) => !isNaN(+x)) as footerTypeOption}
-          <option value={footerTypeOption}
-            >{FOOTER_DESC[footerTypeOption]}</option
-          >
+          <option value={footerTypeOption}>
+            {FOOTER_DESC[footerTypeOption]}
+          </option>
+        {/each}
+      </select>
+    </label>
+  </div>
+  <div class="card no-print">
+    <label>
+      Blank Tiles:
+      <select bind:value={numBlanks}>
+        {#each [0, 1, 2, 3, 4, 5] as numBlanksOption}
+          <option value={numBlanksOption}>{numBlanksOption}</option>
         {/each}
       </select>
     </label>
@@ -110,7 +129,7 @@
     Standard Size (w x h): 16in x {signHeight / 100}in
   </div>
   <div class="sign">
-    <Sign {stopId} {footerType} bind:height={signHeight} />
+    <Sign {stopId} {footerType} {numBlanks} bind:height={signHeight} />
   </div>
 
   <p class="footer no-print">
