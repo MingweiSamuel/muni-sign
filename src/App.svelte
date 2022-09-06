@@ -12,6 +12,9 @@
   let footerType: FooterType | null = FooterType.I2;
   let numBlanks = 0;
   let stopId = "";
+
+  /// Update the svelte state based on the `window.location.hash`.
+  /// Or randomize if `random` is `true`.
   function updateState(random = false) {
     if (!random && window.location.hash) {
       const [id, search] = window.location.hash.slice(1).split("?", 2);
@@ -44,6 +47,7 @@
     });
   }
 
+  // Disable png/svg/pdf/etc. buttons when exporting.
   let disabled = false;
   let exportPromise = Promise.resolve();
   $: {
@@ -53,7 +57,12 @@
     });
   }
 
+  // Set by <Sign bind:height={signHeight} />
   let signHeight = 0;
+
+  // Current URL for github issue report
+  let currentUrl = null;
+  $: currentUrl = stopId, footerType, numBlanks, window.location.href;
 </script>
 
 <svelte:window on:hashchange={() => updateState()} />
@@ -142,7 +151,7 @@
     >. And maybe
     <a
       href="https://github.com/MingweiSamuel/muni-sign/issues/new?body={encodeURIComponent(
-        'URL: ' + window.location.toString()
+        'URL: ' + currentUrl
       )}"
       target="_blank">submit a bug report</a
     >!
