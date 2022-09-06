@@ -135,7 +135,7 @@
     />
   </div>
   <div class="card no-print">
-    Standard Size (w x h): 16in x {signHeight / 100}in
+    Standard w &times; h: 16in &times; {signHeight / 100}in
   </div>
   <div class="sign">
     <Sign {stopId} {footerType} {numBlanks} bind:height={signHeight} />
