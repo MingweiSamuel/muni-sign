@@ -267,15 +267,18 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             // Some basic cleanup for lineDest0/1
             let lineDest0 = line.trip_headsign.replace(/\s+\([^)]+\)$/, '');
             let lineDest1 = controlLocs[line.route_short_name][+line.direction_id];
-            // Ensure neither line is subset of (or equal to) other.
-            const l0 = lineDest0.toUpperCase();
-            const l1 = lineDest1.toUpperCase();
-            if (l0.includes(l1)) {
-                lineDest1 = '';
-            }
-            else if (l1.includes(l0)) {
-                lineDest0 = lineDest1;
-                lineDest1 = '';
+            {
+                // Ensure neither line is subset of (or equal to) other,
+                // ignoring non-alphanumeric characters.
+                const l0 = lineDest0.toUpperCase().replaceAll(/[^A-Z0-9]/ig, '');
+                const l1 = lineDest1.toUpperCase().replaceAll(/[^A-Z0-9]/ig, '');
+                if (l0.includes(l1)) {
+                    lineDest1 = '';
+                }
+                else if (l1.includes(l0)) {
+                    lineDest0 = lineDest1;
+                    lineDest1 = '';
+                }
             }
 
             let lineTextColor = '#' + line.route_text_color;
