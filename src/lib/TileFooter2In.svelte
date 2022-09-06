@@ -39,10 +39,10 @@
     />
     <text class="w t311" x="580" y="170">311</text>
 </g>
-<text class="w i18n" x="730" y="132">
+<text class="w i18n" x="730" y="135">
     中文 / Español / Français / 日本語 / 한국어 /
 </text>
-<text class="w i18n" x="730" y="167">
+<text class="w i18n" x="730" y="170">
     русский / Filipino / tiếng Việt / ภาษาไทย / اللغة العربية
 </text>
 <path
