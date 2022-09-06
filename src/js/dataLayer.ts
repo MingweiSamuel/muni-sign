@@ -202,6 +202,11 @@ export type StopLine = {
     isHistoricStreetcar: boolean;
 };
 
+export async function isValidStopId(stopId: string): Promise<boolean> {
+    const stops = await STOP_TIMES;
+    return Object.hasOwnProperty.call(stops, stopId);
+}
+
 export async function randomStopId(): Promise<string> {
     const stops = await STOP_TIMES;
     const keys = Object.keys(stops);
