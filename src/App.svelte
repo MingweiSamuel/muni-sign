@@ -140,8 +140,11 @@
     <a href="https://github.com/MingweiSamuel/muni-sign/" target="_blank"
       >GitHub repository</a
     >. And maybe
-    <a href="https://github.com/MingweiSamuel/muni-sign/issues/new"
-      >submit a bug report</a
+    <a
+      href="https://github.com/MingweiSamuel/muni-sign/issues/new?body={encodeURIComponent(
+        'URL: ' + window.location.toString()
+      )}"
+      target="_blank">submit a bug report</a
     >!
   </p>
 </main>
