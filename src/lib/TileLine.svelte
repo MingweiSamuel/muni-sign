@@ -50,10 +50,10 @@
     $: {
         if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
             if (31 <= line.lineTime.length) {
-                timeLimit = 880;
+                timeLimit = 860;
             }
         } else {
-            if (34 <= line.lineTime.length) {
+            if (35 <= line.lineTime.length) {
                 timeLimit = 1020;
             }
         }
@@ -76,7 +76,7 @@
         class="line-number"
         class:metro={line.isMetro}
         x={lineNumX}
-        y={line.isMetro ? 292.5 : 337.5}
+        y={line.isMetro ? 292.5 : 332.5}
         fill={line.isMetro ? line.lineColor : line.lineTextColor}
         textLength={lineNumW}
         lengthAdjust="spacingAndGlyphs">{line.lineNum}</text
@@ -95,22 +95,22 @@
         class="line-name"
         class:narrow={nameNarrow}
         x="530"
-        y="90"
+        y="95"
         fill={line.lineTextColor}
         textLength={nameLimit}
         lengthAdjust="spacingAndGlyphs">{line.lineName?.toUpperCase()}</text
     >
 </SvgA>
-<text class="line-info" x="530" y="170" fill={line.lineTextColor}
-    >{line.lineDest0}</text
->
-<text class="line-info" x="530" y="250" fill={line.lineTextColor}
-    >{line.lineDest1}</text
->
+<text class="line-info" x="530" y="170" fill={line.lineTextColor}>
+    {line.lineDest0}
+</text>
+<text class="line-info" x="530" y="240" fill={line.lineTextColor}>
+    {line.lineDest1}
+</text>
 <text
     class="line-info"
     x="530"
-    y="330"
+    y="310"
     fill={line.lineTextColor}
     textLength={timeLimit}
     lengthAdjust="spacingAndGlyphs">{line.lineTime}</text

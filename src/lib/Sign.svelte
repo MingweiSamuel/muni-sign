@@ -99,7 +99,7 @@
             }
 
             .line-number {
-                font-size: 420px;
+                font-size: 410px;
                 font-stretch: semi-condensed;
                 font-weight: 500;
                 letter-spacing: -0.05em;
@@ -124,7 +124,7 @@
                 font-stretch: semi-condensed;
             }
             .line-info {
-                font-size: 58px;
+                font-size: 56px;
                 font-weight: 400;
             }
 
