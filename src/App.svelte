@@ -30,8 +30,11 @@
   }
   updateState();
 
+  // Current URL for github issue report
+  let currentUrl = window.location.href;
   // Maintain URL and history stack:
   $: {
+    currentUrl = window.location.href;
     isValidStopId(stopId).then((isValid) => {
       if (!isValid) return;
 
@@ -60,9 +63,6 @@
   // Set by <Sign bind:height={signHeight} />
   let signHeight = 0;
 
-  // Current URL for github issue report
-  let currentUrl = null;
-  $: currentUrl = stopId, footerType, numBlanks, window.location.href;
 </script>
 
 <svelte:window on:hashchange={() => updateState()} />
