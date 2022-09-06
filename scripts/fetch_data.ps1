@@ -29,22 +29,39 @@ $STOP_TIMES_NON_LAST = @"
         stop_sequence < stop_sequence_max
 "@
 
-# stop_id, route_id, direction_id, service_id => trip_headsign, start_time, end_time
-# TODO: Fix headsign "Ask Driver for Terminal"
-$OPERATING_TIMES = @"
+# Operating times but also grouped by headsign.
+# stop_id, route_id, direction_id, service_id, trip_headsign => start_time, end_time
+$OPERATING_TIMES_HEADSIGNS = @"
     SELECT
         stop_id,
         route_id,
         direction_id,
         service_id,
-
-        MAX(trip_headsign) AS trip_headsign,
+        TRIM(trip_headsign) as trip_headsign,
 
         MIN(departure_time) AS start_time,
         MAX(departure_time) AS end_time
 
     FROM "$FOLDER/stop_times.txt"
     JOIN "$FOLDER/trips.txt" USING (trip_id)
+    GROUP BY
+        stop_id, route_id, direction_id, service_id, TRIM(trip_headsign)
+    ORDER BY
+        stop_id, route_id, direction_id, service_id, TRIM(trip_headsign)
+"@
+# stop_id, route_id, direction_id, service_id => start_time, end_time, trip_headsigns
+$OPERATING_TIMES = @"
+    SELECT
+        stop_id,
+        route_id,
+        direction_id,
+        service_id,
+        GROUP_CONCAT(trip_headsign, '###') AS trip_headsigns,
+
+        start_time,
+        end_time
+
+    FROM ($OPERATING_TIMES_HEADSIGNS)
     GROUP BY
         stop_id, route_id, direction_id, service_id
     ORDER BY
@@ -107,7 +124,7 @@ $STOP_TEMPORALITIES = @"
         route_id,
         direction_id,
 
-        trip_headsign,
+        trip_headsigns,
 
         MAX(start_time) AS start_time,
         MIN(end_time) AS end_time,
@@ -144,7 +161,7 @@ $STOP_ALL_DATA = @"
         TRIM(route_text_color) AS route_text_color,
 
         direction_id,
-        TRIM(trip_headsign) AS trip_headsign,
+        trip_headsigns,
 
         start_time,
         end_time,
