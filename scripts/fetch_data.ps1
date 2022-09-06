@@ -49,15 +49,15 @@ $OPERATING_TIMES_HEADSIGNS = @"
     ORDER BY
         stop_id, route_id, direction_id, service_id, TRIM(trip_headsign)
 "@
-# stop_id, route_id, direction_id, service_id => start_time, end_time, trip_headsigns
+# stop_id, route_id, direction_id, service_id => trip_headsigns, start_time, end_time
 $OPERATING_TIMES = @"
     SELECT
         stop_id,
         route_id,
         direction_id,
         service_id,
-        GROUP_CONCAT(trip_headsign, '###') AS trip_headsigns,
 
+        GROUP_CONCAT(trip_headsign, '###') AS trip_headsigns,
         start_time,
         end_time
 
