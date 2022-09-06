@@ -284,7 +284,6 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             const isOwl = COLOR_OWL === lineColor;
             const isMetro = RouteType.LightRail === routeType && COLOR_HISTORIC !== lineColor;
             const isRapid = !isMetro && COLOR_RAPID === lineColor;
-            console.log(isRapid, COLOR_RAPID, lineColor);
             const isCableCar = RouteType.CableCar === routeType;
             const isHistoricStreetcar = RouteType.LightRail === routeType && COLOR_HISTORIC === lineColor;
 
