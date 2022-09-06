@@ -226,7 +226,8 @@ function stripStreetSuffix(street: string): string {
     // Ignore "Right Of Way", "Upper/Lower Ter".
     else if (!/\d/.test(street[0]) && !/^(Right Of|Upper|Lower)/i.test(street)) {
         // Space followed by suffix optionally followed by dot.
-        const SUFFIX_REGEX = / (:?ST|RD|DR|AVE|WAY|TER|BLVD|STREET|AVENUE)\.?$/i;
+        // 17727: 'Fulton S T'
+        const SUFFIX_REGEX = /\s+(:?ST|RD|DR|S T|AVE|WAY|TER|BLVD|STREET|AVENUE)\.?$/i;
         street = street.replace(SUFFIX_REGEX, '');
     }
     return street;
@@ -265,13 +266,14 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             lineNum = lineNum.replaceAll('J', '\u037F');
 
             // Some basic cleanup for lineDest0/1
-            let lineDest0 = line.trip_headsign.replace(/\s+\([^)]+\)$/, '');
-            let lineDest1 = controlLocs[line.route_short_name][+line.direction_id];
+            let lineDest0 = controlLocs[line.route_short_name][+line.direction_id];
+            let lineDest1 = line.trip_headsign.replace(/\s+\([^)]+\)$/, '');
             {
                 // Ensure neither line is subset of (or equal to) other,
                 // ignoring non-alphanumeric characters.
                 const l0 = lineDest0.toUpperCase().replaceAll(/[^A-Z0-9]/ig, '');
                 const l1 = lineDest1.toUpperCase().replaceAll(/[^A-Z0-9]/ig, '');
+
                 if (l0.includes(l1)) {
                     lineDest1 = '';
                 }
@@ -280,9 +282,13 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
                     lineDest1 = '';
                 }
             }
+            // Prepend 'To' to first dest line.
+            lineDest0 = 'To ' + lineDest0;
 
+            // Line colors.
             let lineTextColor = '#' + line.route_text_color;
             let lineColor = '#' + line.route_color.toUpperCase();
+            // Special split background for KT.
             if ('KT' === lineNum) {
                 lineColor = 'url(#kt-fill)';
             }

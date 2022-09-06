@@ -59,6 +59,13 @@
             if (28 <= line.lineDest1.length) {
                 dest1Limit = 820;
             }
+        } else {
+            if (36 <= line.lineDest0.length) {
+                dest0Limit = 1020;
+            }
+            if (36 <= line.lineDest1.length) {
+                dest1Limit = 1020;
+            }
         }
     }
 
