@@ -12,12 +12,13 @@
     export let hasMetro = false;
     export let hasRapid = false;
     export let hasHistoric = false;
-    export let lineColor =
-        hasMetro || hasRapid
-            ? COLOR_RAPID
-            : hasHistoric
-            ? COLOR_HISTORIC_REPLACEMENT
-            : COLOR_STD;
+    export let lineColor = hasMetro
+        ? COLOR_RAPID
+        : hasHistoric
+        ? COLOR_HISTORIC_REPLACEMENT
+        : hasRapid
+        ? COLOR_RAPID
+        : COLOR_STD;
 </script>
 
 <TileBlank {lineColor} />
