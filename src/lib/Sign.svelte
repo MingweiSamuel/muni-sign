@@ -165,7 +165,7 @@
             .I2 .i18n {
                 font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
                     "Noto Sans KR", sans-serif;
-                font-size: 30px;
+                font-size: 29px;
             }
 
             .footnote {
