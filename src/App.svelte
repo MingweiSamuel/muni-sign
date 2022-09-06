@@ -2,24 +2,37 @@
   import Sign, { FooterType, FOOTER_DESC } from "./lib/Sign.svelte";
   import "./css/print.css";
   import { saveSvg, savePng, savePdf } from "./js/save";
-  import { randomStopId } from "./js/dataLayer";
+  import { isValidStopId, randomStopId } from "./js/dataLayer";
 </script>
 
 <script lang="ts">
   let footerType: FooterType | null = FooterType.I2;
   let stopId = "";
-  if (window.location.hash) {
-    stopId = window.location.hash.slice(1);
-  } else {
-    randomStopId().then((id) => (location.hash = "#" + id));
+  function updateState(random = false) {
+    if (!random && window.location.hash) {
+      const [id, search] = window.location.hash.slice(1).split("?", 2);
+      stopId = id;
+      if (search) {
+        const searchParams = new URLSearchParams(search);
+        footerType = +searchParams.get("footer") || 0;
+      }
+    } else {
+      randomStopId().then((id) => (stopId = id));
+    }
   }
+  updateState();
 
-  let timer: NodeJS.Timeout;
+  // Maintain URL and history stack:
   $: {
-    clearTimeout(timer);
-    timer = setTimeout(() => {
-      window.history.pushState(null, null, "#" + stopId);
-    }, 3000);
+    isValidStopId(stopId).then(() => {
+      let hash = "#" + stopId;
+      if (footerType) {
+        hash += "?footer=" + footerType;
+      }
+      if (window.location.hash !== hash) {
+        window.history.pushState(null, null, hash);
+      }
+    });
   }
 
   let disabled = false;
@@ -34,10 +47,7 @@
   let signHeight = 0;
 </script>
 
-<svelte:window
-  on:hashchange={() =>
-    window.location.hash && (stopId = window.location.hash.slice(1))}
-/>
+<svelte:window on:hashchange={() => updateState()} />
 <main>
   <h1 class="no-print">Muni Sign</h1>
 
@@ -51,7 +61,7 @@
       type="button"
       value="🔀"
       title="Use random stop ID."
-      on:click={() => randomStopId().then((id) => (location.hash = "#" + id))}
+      on:click={() => updateState(true)}
     />
   </div>
   <div class="card no-print">

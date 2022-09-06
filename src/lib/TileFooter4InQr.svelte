@@ -2,6 +2,7 @@
     import qrcode from "qrcode-generator";
 
     import SvgA from "./SvgA.svelte";
+    import { COMMIT_HASH } from "../js/dataLayer";
 </script>
 
 <script lang="ts">
@@ -78,5 +79,10 @@
     />
     <text class="footnote" x="485" y="397">
         SAFE&hairsp;STREET&hairsp;REBEL
+    </text>
+</SvgA>
+<SvgA href="https://github.com/MingweiSamuel/muni-sign/tree/{COMMIT_HASH}">
+    <text class="footnote" x="1394" y="397" text-anchor="end">
+        {new Date().toISOString().slice(0, 10).replaceAll("-", " ")}
     </text>
 </SvgA>

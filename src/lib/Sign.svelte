@@ -16,6 +16,7 @@
     };
 
     const SPACING = 400;
+    const SHOW_I150_BORDER = false;
 </script>
 
 <script lang="ts">
@@ -50,8 +51,8 @@
 
     export let height = 0;
     $: {
-        dataPromise.then(data => {
-            height = (1 + data.lines.length) * SPACING + footerHeight
+        dataPromise.then((data) => {
+            height = (1 + data.lines.length) * SPACING + footerHeight;
         });
     }
 </script>
@@ -154,7 +155,8 @@
                 font-stretch: semi-condensed;
                 font-weight: 500;
             }
-            .I2 .t511, .I2 .t311 {
+            .I2 .t511,
+            .I2 .t311 {
                 font-size: 78px;
                 font-weight: 700;
             }
@@ -210,16 +212,18 @@
                 stopLoc={data.stopLoc}
             />
         </g>
-        <!-- <rect
-            x="1"
-            y="1"
-            width="1598"
-            height={400 + (1 + data.lines.length) * SPACING - 2}
-            rx="150"
-            fill="none"
-            stroke="#f0f"
-            stroke-width="2"
-        /> -->
+        {#if SHOW_I150_BORDER}
+            <rect
+                x="1"
+                y="1"
+                width="1598"
+                height={height - 2}
+                rx="150"
+                fill="none"
+                stroke="#f0f"
+                stroke-width="2"
+            />
+        {/if}
     </svg>
 {:catch error}
     <p style="color: red">{error.message}</p>

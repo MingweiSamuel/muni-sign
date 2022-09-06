@@ -1,5 +1,6 @@
 <script lang="ts" context="module">
     import SvgA from "./SvgA.svelte";
+    import { COMMIT_HASH } from "../js/dataLayer";
 </script>
 
 <script lang="ts">
@@ -62,5 +63,10 @@
     />
     <text class="footnote" x="560" y="-3">
         SAFE&hairsp;STREET&hairsp;REBEL
+    </text>
+</SvgA>
+<SvgA href="https://github.com/MingweiSamuel/muni-sign/tree/{COMMIT_HASH}">
+    <text class="footnote" x="1550" y="-3" text-anchor="end">
+        {new Date().toISOString().slice(0, 10).replaceAll("-", " ")}
     </text>
 </SvgA>
