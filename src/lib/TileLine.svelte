@@ -13,6 +13,7 @@
     const LINE_ID_MAX_WIDTH = 480;
 
     let lineNumX: number, lineNumW: number, lineModX: number, lineModW: number;
+    let hasIcon = false;
     $: {
         let lineWeightNum = 220 * line.lineNum.length;
         let lineWeightMod = 133 * line.lineMod.length;
@@ -28,12 +29,14 @@
 
         lineModX = lineNumX + lineNumW + 7;
         lineModW = lineWeightMod;
+
+        hasIcon = line.isOwl || line.isCableCar || line.isHistoricStreetcar;
     }
 
     let nameLimit: null | number = null;
     let nameNarrow = false;
     $: {
-        if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
+        if (hasIcon) {
             if (17 <= line.lineName.length) {
                 nameLimit = 850;
                 nameNarrow = 20 <= line.lineName.length;
@@ -46,9 +49,22 @@
         }
     }
 
+    let dest0Limit: null | number = null;
+    let dest1Limit: null | number = null;
+    $: {
+        if (hasIcon) {
+            if (28 <= line.lineDest0.length) {
+                dest0Limit = 820;
+            }
+            if (28 <= line.lineDest1.length) {
+                dest1Limit = 820;
+            }
+        }
+    }
+
     let timeLimit = null;
     $: {
-        if (line.isOwl || line.isCableCar || line.isHistoricStreetcar) {
+        if (hasIcon) {
             if (31 <= line.lineTime.length) {
                 timeLimit = 860;
             }
@@ -101,10 +117,24 @@
         lengthAdjust="spacingAndGlyphs">{line.lineName?.toUpperCase()}</text
     >
 </SvgA>
-<text class="line-info" x="530" y="170" fill={line.lineTextColor}>
+<text
+    class="line-info"
+    x="530"
+    y="170"
+    fill={line.lineTextColor}
+    textLength={dest0Limit}
+    lengthAdjust="spacingAndGlyphs"
+>
     {line.lineDest0}
 </text>
-<text class="line-info" x="530" y="240" fill={line.lineTextColor}>
+<text
+    class="line-info"
+    x="530"
+    y="240"
+    fill={line.lineTextColor}
+    textLength={dest1Limit}
+    lengthAdjust="spacingAndGlyphs"
+>
     {line.lineDest1}
 </text>
 <text
