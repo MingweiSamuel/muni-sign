@@ -1,5 +1,6 @@
 <script lang="ts" context="module">
-    import type { StopLine } from "src/js/dataLayer";
+    import type { StopLine } from "../js/dataLayer";
+    import { sfmtaUrl } from "../js/util";
     import SvgA from "./SvgA.svelte";
 
     import TileBlank from "./TileBlank.svelte";
@@ -84,7 +85,7 @@
 </script>
 
 <TileBlank lineColor={line.lineColor} />
-<SvgA href="https://www.sfmta.com/{line.lineId}">
+<SvgA href={sfmtaUrl(line.lineId)}>
     {#if line.isMetro}
         <rect
             x={lineNumX - 37.5}

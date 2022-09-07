@@ -2,7 +2,7 @@
     import qrcode from "qrcode-generator";
 
     import SvgA from "./SvgA.svelte";
-    import { COMMIT_HASH } from "../js/dataLayer";
+    import { COMMIT_HASH, sfmtaUrl } from "../js/util";
 </script>
 
 <script lang="ts">
@@ -19,7 +19,7 @@
     let qrSvg = null;
     $: {
         const qr = qrcode(2, "L");
-        qr.addData(`sfmta.com/${stopId}?utm_source=SSR`);
+        qr.addData(sfmtaUrl(stopId, true));
         qr.make();
         qrSvg = qr.createSvgTag({ cellSize: 12, margin: 37.5 });
     }
@@ -27,7 +27,7 @@
 
 <rect x="420" width="1180" height="225" fill="#000" />
 <rect x="420" y="235" width="1180" height="140" fill="#000" />
-<SvgA href="https://www.sfmta.com/{stopId}?utm_source=SSR">
+<SvgA href={sfmtaUrl(stopId)}>
     <g transform="translate(32.5, 0)">
         {@html qrSvg}
     </g>
