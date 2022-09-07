@@ -39,7 +39,7 @@
     />
     <text class="w t311" x="580" y="170.5">311</text>
 </g>
-<text class="w i18n" x="730" y="135.5">
+<text class="w i18n" x="730" y="132.5">
     中文 / Español / Français / 日本語 / 한국어 /
 </text>
 <text class="w i18n" x="730" y="170.5">

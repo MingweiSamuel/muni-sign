@@ -61,10 +61,10 @@
     />
     <text class="w t311" x="540" y="340.5">311</text>
 </g>
-<text class="w i18n" x="690" y="303">
+<text class="w i18n" x="690" y="301">
     中文 / Español / Français / 日本語 / 한국어 /
 </text>
-<text class="w i18n" x="690" y="340.5">
+<text class="w i18n" x="690" y="343">
     русский / Filipino / tiếng Việt / ภาษาไทย / اللغة العربية
 </text>
 <path
