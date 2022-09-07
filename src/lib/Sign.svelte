@@ -1,19 +1,23 @@
 <script lang="ts" context="module">
+    import { COLOR_STD, getStopTimes, type StopTimes } from "../js/dataLayer";
+
     import TileLine from "./TileLine.svelte";
     import TileFooter4InQr from "./TileFooter4InQr.svelte";
     import TileMuni from "./TileMuni.svelte";
 
-    import { COLOR_STD, getStopTimes, type StopTimes } from "../js/dataLayer";
     import TileFooter2In from "./TileFooter2In.svelte";
     import TileBlank from "./TileBlank.svelte";
+    import TileFooter4InQrBigI18n from "./TileFooter4InQrBigI18n.svelte";
 
     export enum FooterType {
         I2 = 0,
         I4QR = 1,
+        I4QR_BIGI18N = 11,
     }
     export const FOOTER_DESC = {
         [FooterType.I2]: "Standard 2in",
         [FooterType.I4QR]: "QR 4in",
+        [FooterType.I4QR_BIGI18N]: "QR 4in (Big I18n)",
     };
 
     const SPACING = 400;
@@ -40,6 +44,10 @@
                 break;
             case FooterType.I4QR:
                 footerComponent = TileFooter4InQr;
+                footerHeight = 400;
+                break;
+            case FooterType.I4QR_BIGI18N:
+                footerComponent = TileFooter4InQrBigI18n;
                 footerHeight = 400;
                 break;
             default:
@@ -128,30 +136,6 @@
                 font-weight: 400;
             }
 
-            .I4QR .stop-loc {
-                font-size: 85px;
-                font-stretch: semi-condensed;
-                font-weight: 500;
-            }
-            .I4QR .nextmuni {
-                font-size: 64px;
-                font-weight: 500;
-                font-stretch: semi-condensed;
-            }
-            .I4QR .t511 {
-                font-size: 64px;
-                font-weight: 700;
-            }
-            .I4QR .t311 {
-                font-size: 48px;
-                font-weight: 700;
-            }
-            .I4QR .i18n {
-                font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
-                    "Noto Sans KR", sans-serif;
-                font-size: 40px;
-            }
-
             .I2 .stop-loc {
                 font-size: 68px;
                 font-stretch: semi-condensed;
@@ -166,6 +150,55 @@
                 font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
                     "Noto Sans KR", sans-serif;
                 font-size: 29px;
+            }
+
+            .I4QR .stop-loc {
+                font-size: 85px;
+                font-stretch: semi-condensed;
+                font-weight: 500;
+            }
+            .I4QR .nextmuni {
+                font-size: 45px;
+                font-stretch: semi-condensed;
+                font-weight: 500;
+            }
+            .I4QR .t511 {
+                font-size: 76px;
+                font-stretch: semi-condensed;
+                font-weight: 700;
+            }
+            .I4QR .t311 {
+                font-size: 78px;
+                font-weight: 700;
+            }
+            .I4QR .i18n {
+                font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
+                    "Noto Sans KR", sans-serif;
+                font-size: 31px;
+            }
+
+            .I4QR_BIGI18N .stop-loc {
+                font-size: 85px;
+                font-stretch: semi-condensed;
+                font-weight: 500;
+            }
+            .I4QR_BIGI18N .nextmuni {
+                font-size: 64px;
+                font-weight: 500;
+                font-stretch: semi-condensed;
+            }
+            .I4QR_BIGI18N .t511 {
+                font-size: 64px;
+                font-weight: 700;
+            }
+            .I4QR_BIGI18N .t311 {
+                font-size: 48px;
+                font-weight: 700;
+            }
+            .I4QR_BIGI18N .i18n {
+                font-family: "Noto Sans", "Noto Sans Arabic", "Noto Sans Thai",
+                    "Noto Sans KR", sans-serif;
+                font-size: 40px;
             }
 
             .footnote {

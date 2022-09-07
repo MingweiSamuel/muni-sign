@@ -84,7 +84,7 @@
   </div>
   <div class="card no-print">
     <label>
-      Footer Type:
+      Footer:
       <select bind:value={footerType}>
         {#each Object.values(FooterType).filter((x) => !isNaN(+x)) as footerTypeOption}
           <option value={footerTypeOption}>
