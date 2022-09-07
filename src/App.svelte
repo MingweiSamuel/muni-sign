@@ -19,11 +19,12 @@
     if (!random && window.location.hash) {
       const [id, search] = window.location.hash.slice(1).split("?", 2);
       stopId = id;
-      if (search) {
-        const searchParams = new URLSearchParams(search);
-        footerType = +searchParams.get(SEARCH_FOOTERTYPE) || 0;
-        numBlanks = +searchParams.get(SEARCH_NUMBLANKS) || 0;
-      }
+
+      // If `undefined === search` then `searchParams` will be empty, vals set
+      // to zero as desired.
+      const searchParams = new URLSearchParams(search);
+      footerType = +searchParams.get(SEARCH_FOOTERTYPE) || 0;
+      numBlanks = +searchParams.get(SEARCH_NUMBLANKS) || 0;
     } else {
       randomStopId().then((id) => (stopId = id));
     }
