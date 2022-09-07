@@ -37,7 +37,8 @@ $OPERATING_TIMES_HEADSIGNS = @"
         route_id,
         direction_id,
         service_id,
-        TRIM(trip_headsign) as trip_headsign,
+
+        TRIM(trip_headsign) || '@@@' || COUNT(trip_headsign) AS trip_headsign,
 
         MIN(departure_time) AS start_time,
         MAX(departure_time) AS end_time

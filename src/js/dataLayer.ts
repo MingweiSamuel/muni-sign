@@ -126,7 +126,7 @@ type RawStopTime = {
     route_text_color: string,
 
     direction_id: '0' | '1',
-    trip_headsign: string,
+    trip_headsigns: string,
 
     start_time: `${number}:${number}:${number}`,
     end_time: `${number}:${number}:${number}`,
@@ -233,6 +233,16 @@ function stripStreetSuffix(street: string): string {
     return street;
 }
 
+function processHeadsignCounts(headsigns: string): [string, number][] {
+    const headsignCounts = headsigns
+        .split('###')
+        .map(row => row.split('@@@', 2))
+        .map(([headsign, count]) => [headsign, +count] as [string, number]);
+    // Sort big (most frequent) to small (least frequent); c1, c0 reversed.
+    headsignCounts.sort(([_h0, c0], [_h1, c1]) => c1 - c0);
+    return headsignCounts;
+}
+
 export async function getStopTimes(stopId: string): Promise<StopTimes> {
     const stops = await STOP_TIMES;
     const controlLocs = await CONTROL_LOCS;
@@ -265,9 +275,20 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             // Found here: https://github.com/codebox/homoglyph/blob/763c79a20ba054cc028b3336b5c7b1822db36dc8/raw_data/chars.txt#L48
             lineNum = lineNum.replaceAll('J', '\u037F');
 
-            // Some basic cleanup for lineDest0/1
+            // Handle headsigns.
+            const headsignCounts = processHeadsignCounts(line.trip_headsigns);
+            const headsignsTotal = headsignCounts
+                .map(([_headsign, count]) => count)
+                .reduce((a, b) => a + b);
+            // Only include headsigns that make up at least 1/4 of all headsigns.
+            const headsigns = headsignCounts
+                .filter(([_headsign, count]) => headsignsTotal <= 4 * count)
+                .map(([headsign, _count]) => headsign)
+                .join('\u2002 / \u2002'); // En spaces.
+
+            // Some basic cleanup for lineDest0/1 below.
             let lineDest0 = controlLocs[line.route_short_name][+line.direction_id];
-            let lineDest1 = line.trip_headsign.replace(/\s+\([^)]+\)$/, '');
+            let lineDest1 = headsigns;
             {
                 // Ensure neither line is subset of (or equal to) other,
                 // ignoring non-alphanumeric characters.
