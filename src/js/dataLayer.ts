@@ -216,6 +216,13 @@ export async function randomStopId(): Promise<string> {
     return keys[0 | (Math.random() * keys.length)];
 }
 
+// Streets which should not have their suffixes removed, either because it
+// would create confusion:
+// E.g. "Innes & Hunters Point" is confusing.
+// Or because it would just be weird (like "Cargo").
+// "Castro [St]" vs "The Castro" is fine.
+const CONFUSABLE_STREETS = /^(:?Hunters Point|Portola|Cargo)/i;
+
 // Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
     // Sometimes 3rd St is written out in letters.
@@ -227,7 +234,7 @@ function stripStreetSuffix(street: string): string {
     }
     // Remove rd/st/etc suffix if street is not numeric.
     // Ignore "Right Of Way", "Upper/Lower Ter".
-    else if (!/\d/.test(street[0]) && !/^(Right Of|Upper|Lower)/i.test(street)) {
+    else if (!/\d/.test(street[0]) && !/^(Right Of|Upper|Lower)/i.test(street) && !CONFUSABLE_STREETS.test(street)) {
         // Space followed by suffix optionally followed by dot.
         // 17727: 'Fulton S T'
         const SUFFIX_REGEX = /\s+(:?ST|RD|DR|S T|AVE|WAY|TER|BLVD|STREET|AVENUE)\.?$/i;
