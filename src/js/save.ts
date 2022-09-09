@@ -49,8 +49,32 @@ export async function savePdf(stopId: string): Promise<void> {
 
 export async function saveSvg(stopId: string): Promise<void> {
     const svg = document.getElementById("sign") as unknown as SVGSVGElement;
-    await saveSvgAsSvg(svg, stopId + ".svg", SVG_AS_PNG_OPTIONS);
+    const box = svg.viewBox.baseVal;
+    const styleImport = document.createElement("style");
+    styleImport.setAttribute("type", "text/css");
+    const gsheetUrl =
+        document.querySelector<HTMLLinkElement>("link#link-gfonts").sheet
+            .href;
+    styleImport.innerHTML = `@import url('${gsheetUrl}');`;
+    svg.appendChild(styleImport);
+    svg.setAttribute("width", `${16}in`);
+    svg.setAttribute("height", `${16 * box.height / box.width}in`);
 
-    // See note above.
-    reloadOnFocus = true;
+    const svgString = new XMLSerializer().serializeToString(svg);
+    const svgDataUrl =
+        "data:image/svg+xml;base64," +
+        // TODO(mingwei): Do this in a better way, avoid using unescape.
+        window.btoa(unescape(encodeURIComponent(svgString)));
+    const name = stopId + ".svg";
+
+    const a = document.createElement("a");
+    a.setAttribute("href", svgDataUrl);
+    a.setAttribute("download", name);
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    svg.removeChild(styleImport);
+    svg.removeAttribute("width");
+    svg.removeAttribute("height");
 };
