@@ -158,10 +158,12 @@ const STOP_TIMES = (async () => {
             ((COLOR_GROUP_ORDER[`#${a.route_color.toUpperCase()}`] || 0) - (COLOR_GROUP_ORDER[`#${b.route_color.toUpperCase()}`] || 0)) ||
             // Sort lines numerically: 1 -> 5 -> 38.
             (parseInt(a.route_short_name) - parseInt(b.route_short_name)) ||
-            // Sort rapid before anything else: 9R -> 9AX or 9BX or 9.
+            // Sort rapid before anything else: 9R -> 9AX or 9BX or 9 (fake).
             (+(COLOR_RAPID != `#${a.route_color.toUpperCase()}`) - +(COLOR_RAPID != `#${b.route_color.toUpperCase()}`)) ||
-            // Sort alphabetically: 8AX -> 8BX -> 8.
-            (-a.route_short_name.localeCompare(b.route_short_name)) ||
+            // Sort longer (express) routes first: 8AX, 8BX -> 8.
+            (-a.route_short_name.length + b.route_short_name.length) ||
+            // Sort suffixes alphabetically: 8AX -> 8BX.
+            (a.route_short_name.localeCompare(b.route_short_name)) ||
             // Sort by frequent headway: 30 every 15min -> 30 evening loop only
             // See: https://github.com/MingweiSamuel/muni-sign/issues/9#issue-1315584493
             ((+a.day_headway || +a.owl_headway || Number.MAX_SAFE_INTEGER) - (+b.day_headway || +b.owl_headway || Number.MAX_SAFE_INTEGER))
