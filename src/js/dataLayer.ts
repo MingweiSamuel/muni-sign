@@ -292,9 +292,9 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             const headsignsTotal = headsignCounts
                 .map(([_headsign, count]) => count)
                 .reduce((a, b) => a + b);
-            // Only include headsigns that make up at least 1/4 of all headsigns.
+            // Only include headsigns that make up at least 1/10 of all headsigns.
             const headsigns = headsignCounts
-                .filter(([_headsign, count]) => headsignsTotal <= 4 * count)
+                .filter(([_headsign, count]) => headsignsTotal <= 10 * count)
                 .map(([headsign, _count]) => headsign)
                 .join('\u2002 / \u2002'); // En spaces.
 
