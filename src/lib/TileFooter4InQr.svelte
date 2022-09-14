@@ -11,7 +11,7 @@
 
     let stopLocLimit = null;
     $: {
-        if (25 <= stopLoc.length) {
+        if (24 <= stopLoc.length) {
             stopLocLimit = 1095;
         }
     }
