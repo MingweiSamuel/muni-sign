@@ -1,0 +1,14 @@
+{
+    "agencies": [
+        {
+            "agency_key": "sfmta_muni",
+            "path": "./sfmta_gtfs/"
+        }
+    ],
+    "bufferSizeMeters": 400,
+    "coordinatePrecision": 5,
+    "outputType": "agency",
+    "outputFormat": "lines",
+    "verbose": true,
+    "zipOutput": false
+}
