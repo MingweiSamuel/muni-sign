@@ -21,10 +21,12 @@ function parseCsv(csvText: string): string[][] {
 }
 
 function getLineTime(line: RawStopTime): string {
+    const isNight = !!(line.start_time && ('23:00:00'.localeCompare(line.start_time) < 0));
+
     let daysOfWeek = line.mon + line.tue + line.wed + line.thu + line.fri + line.sat + line.sun;
     switch (daysOfWeek) {
         case '1111111':
-            daysOfWeek = 'Daily';
+            daysOfWeek = isNight ? 'Nightly' : 'Daily';
             break;
         case '1111100':
             daysOfWeek = 'Weekdays';
