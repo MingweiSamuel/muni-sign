@@ -225,7 +225,7 @@ export async function randomStopId(): Promise<string> {
 // E.g. "Innes & Hunters Point" is confusing.
 // Or because it would just be weird (like "Cargo").
 // "Castro [St]" vs "The Castro" is fine.
-const CONFUSABLE_STREETS = /^(:?Hunters Point|Portola|Cargo)/i;
+const CONFUSABLE_STREETS = /^(:?Hunters Point|Bernal Heights|Portola|Cargo)/i;
 
 // Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
