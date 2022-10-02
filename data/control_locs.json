@@ -175,41 +175,73 @@
     "Daly City BART",
     "Downtown"
   ],
-  "N-OWL": [
-    "Ocean Beach",
-    "Downtown"
-  ],
-  "5R": [
-    "The Richmond",
-    "Downtown"
-  ],
-  "L-OWL": [
-    "SF Zoo via Downtown",
-    "Fisherman's Wharf via Downtown"
-  ],
-  "N": [
-    "Ocean Beach",
-    "Caltrain via Downtown"
-  ],
-  "NBUS": [
-    "Ocean Beach",
-    "Caltrain"
-  ],
-  "LBUS": [
-    "SF Zoo",
-    "West Portal Station"
-  ],
-  "KBUS": [
-    "Balboa Park",
+  "14R": [
+    "Daly City BART",
     "Downtown"
   ],
   "38R": [
     "The Richmond",
     "Downtown"
   ],
+  "5R": [
+    "The Richmond",
+    "Downtown"
+  ],
   "8AX": [
     "Visitacion Valley",
     "North Beach via Downtown"
+  ],
+  "8BX": [
+    "Visitacion Valley",
+    "Fisherman's Wharf via Downtown"
+  ],
+  "9R": [
+    "Visitacion Valley",
+    "Downtown"
+  ],
+  "C": [
+    "Van Ness",
+    "Embarcadero"
+  ],
+  "F": [
+    "The Castro",
+    "Fisherman's Wharf"
+  ],
+  "J": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "KBUS": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "KT": [
+    "Balboa Park via Downtown",
+    "Sunnydale via Downtown"
+  ],
+  "L-OWL": [
+    "SF Zoo via Downtown",
+    "Fisherman's Wharf via Downtown"
+  ],
+  "LBUS": [
+    "SF Zoo",
+    "West Portal Station"
+  ],
+  "M": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "N": [
+    "Ocean Beach",
+    "Caltrain via Downtown"
+  ],
+  "N-OWL": [
+    "Ocean Beach",
+    "Downtown"
+  ],
+  "NBUS": [
+    "Ocean Beach",
+    "Caltrain"
   ],
   "PH": [
     "Fisherman's Wharf",
@@ -219,40 +251,8 @@
     "Fisherman's Wharf",
     "Powell and Market"
   ],
-  "C": [
-    "Van Ness",
-    "Embarcadero"
-  ],
   "TBUS": [
     "The Castro via Downtown",
     "Visitacion Valley via Downtown"
-  ],
-  "M": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "KT": [
-    "Balboa Park via Downtown",
-    "Sunnydale via Downtown"
-  ],
-  "J": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "9R": [
-    "Visitacion Valley",
-    "Downtown"
-  ],
-  "F": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
-  "8BX": [
-    "Visitacion Valley",
-    "Fisherman's Wharf via Downtown"
-  ],
-  "14R": [
-    "Daly City BART",
-    "Downtown"
   ]
 }
