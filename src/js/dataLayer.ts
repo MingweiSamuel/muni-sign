@@ -344,7 +344,9 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
 
             // Line name, hardcoded adjustments
             // TODO: fix capitalization?
-            const lineName = line.route_long_name.replace(/^California Street\b/ig, 'California');
+            const lineName = line.route_long_name
+                .replace(/^ALIFORNIA STREET ABLE AR$/i, 'California Street Cable Car')
+                .replace(/^California Street\b/ig, 'California');
 
             return {
                 lineId: line.route_short_name,
