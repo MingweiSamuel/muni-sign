@@ -175,6 +175,14 @@
     "Daly City BART",
     "Downtown"
   ],
+  "14R": [
+    "Daly City BART",
+    "Downtown"
+  ],
+  "38R": [
+    "The Richmond",
+    "Downtown"
+  ],
   "5R": [
     "The Richmond",
     "Downtown"
@@ -190,22 +198,6 @@
   "9R": [
     "Visitacion Valley",
     "Downtown"
-  ],
-  "14R": [
-    "Daly City BART",
-    "Downtown"
-  ],
-  "38R": [
-    "The Richmond",
-    "Downtown"
-  ],
-  "PM": [
-    "Fisherman's Wharf",
-    "Powell and Market"
-  ],
-  "PH": [
-    "Fisherman's Wharf",
-    "Powell and Market"
   ],
   "C": [
     "Van Ness",
@@ -250,6 +242,14 @@
   "NBUS": [
     "Ocean Beach",
     "Caltrain"
+  ],
+  "PH": [
+    "Fisherman's Wharf",
+    "Powell and Market"
+  ],
+  "PM": [
+    "Fisherman's Wharf",
+    "Powell and Market"
   ],
   "TBUS": [
     "The Castro via Downtown",

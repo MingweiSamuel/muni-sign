@@ -31,7 +31,9 @@ async function main() {
         .map(row => Object.fromEntries(row.map((x, i) => [header[i], x])))
         .map(route => route.route_short_name));
 
-    const promises = Array.from(routes).map(async routeId => {
+    const routesSorted = Array.from(routes);
+    routesSorted.sort((a, b) => a.localeCompare(b));
+    const promises = Array.from(routesSorted).map(async routeId => {
         try {
             const response = await fetch(`https://www.sfmta.com/${routeId}`);
             const htmlBody = await response.text();
