@@ -128,7 +128,14 @@ type RawStopTime = {
     route_text_color: string,
 
     direction_id: '0' | '1',
-    trip_headsigns: string,
+
+    /// EOL stop counts Dict<string, number> in `key1@@@val1###key2@val2`
+    /// format.
+    eol_stop_names_all: string,
+    /// Above but "day" only (see fetch_data.ps1)
+    eol_stop_names_day: string,
+    /// Above but "owl" only (see fetch_data.ps1)
+    eol_stop_names_owl: string,
 
     start_time: `${number}:${number}:${number}`,
     end_time: `${number}:${number}:${number}`,
@@ -220,14 +227,14 @@ export async function randomStopId(): Promise<string> {
     return keys[0 | (Math.random() * keys.length)];
 }
 
-// Streets which should not have their suffixes removed, either because it
-// would create confusion:
-// E.g. "Innes & Hunters Point" is confusing.
-// Or because it would just be weird (like "Cargo").
-// "Castro [St]" vs "The Castro" is fine.
-const CONFUSABLE_STREETS = /^(:?Hunters Point|Bernal Heights|Portola|Cargo)/i;
+/// Streets which should not have their suffixes removed, either because it
+/// would create confusion:
+/// E.g. "Innes & Hunters Point" is confusing.
+/// Or because it would just be weird (like "Cargo").
+/// "Castro [St]" vs "The Castro" is fine.
+const CONFUSABLE_STREETS = /^(:?Hunters Point|Bernal Heights|Portola|Cargo|Main)/i;
 
-// Strips the trailing 'St, Rd' suffix unless the street is numbered.
+/// Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
     // Sometimes 3rd St is written out in letters.
     street = street.replaceAll(/\bThird St(?:reet)?\b/ig, '3rd St');
@@ -247,14 +254,69 @@ function stripStreetSuffix(street: string): string {
     return street;
 }
 
-function processHeadsignCounts(headsigns: string): [string, number][] {
-    const headsignCounts = headsigns
-        .split('###')
-        .map(row => row.split('@@@', 2))
-        .map(([headsign, count]) => [headsign, +count] as [string, number]);
-    // Sort big (most frequent) to small (least frequent); c1, c0 reversed.
-    headsignCounts.sort(([_h0, c0], [_h1, c1]) => c1 - c0);
-    return headsignCounts;
+/// Shortens and cleans up a stop's name.
+function processStopName(stopLoc: string): string {
+    // Remove weird trailing suffixes.
+    stopLoc = stopLoc.replace(/[A-Z]{1,2}[-/][A-Z]{1,2} ?[-/] ?[A-Z]{1,2}$/i, '');
+    stopLoc = stopLoc
+        .split(/ ?\/ ?/)
+        .map(seg => seg.split(/ ?& ?/).map(stripStreetSuffix).join(' & '))
+        .join(' / ');
+    return stopLoc;
+}
+
+/// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
+/// Returns each row and the total. Rows sorted from most to least.
+function parseEolCounts(eolsStr: string): [[string, number][], number] {
+    const eolCountsDict: Record<string, number> = {};
+    for (const row of eolsStr.split('###')) {
+        let [eolStop, count] = row.split('@@@', 2);
+        // Treat all Transit Center bays as the Transit Center.
+        eolStop = eolStop.replace(/^Transit Center Bay\b.*/i, 'Transit Center');
+        eolStop = processStopName(eolStop);
+
+        eolCountsDict[eolStop] = (eolCountsDict[eolStop] || 0) + (+count);
+    }
+
+    // Sort big (most frequent) to small (least frequent); count1, count0 reversed.
+    const eolCounts = Object.entries(eolCountsDict);
+    eolCounts.sort(([_eolStop0, count0], [_eolStop1, count1]) => count1 - count0);
+
+    const sum = eolCounts.reduce((sum, [_eolStop, count]) => sum + count, 0);
+    return [eolCounts, sum];
+}
+
+/// Logic for determining the dest0 and dest1 rows of the sign.
+/// Simple case:
+/// - To ${control loc}
+///   - (inbound/outbound desination listed on SFMTA.com, tends to be a neighborhood)
+/// - ${primary EOL} (Owl ${owl EOL, optional})
+///   - (tends to be a Street A + Street B specific stop location)
+///
+/// In more complicated cases, the control loc & EOL may be combined.
+/// Or there may be multiple primary EOLs to concatenate.
+function processDestinations(controlLoc: string, line: RawStopTime): [string, string] {
+
+    const [eolsAll, numEolsAll] = parseEolCounts(line.eol_stop_names_all);
+    // const [eolsDay, numEolsDay] = parseEolCounts(line.eol_stop_names_day);
+    const [eolsOwl, _numEolsOwl] = parseEolCounts(line.eol_stop_names_owl);
+
+    // Include EOLs that make up at least 1/4 of all EOLs.
+    const primaryEols = eolsAll
+        .filter(([_eol, count]) => numEolsAll < 4 * count)
+        .map(([eol, _count]) => eol);
+
+    // Include first owl EOL only if it isn't in the primary(ies).
+    const [owlEol] = eolsOwl.slice(0, 1)
+        .filter(([eol, _count]) => !primaryEols.includes(eol))
+        .map(([eol, _count]) => eol);
+
+    return [
+        // Prepend 'To' to controlLoc.
+        // Currently no special combining logic for controlLoc.
+        'To ' + controlLoc,
+        primaryEols.join('\u2002 / \u2002') + (owlEol ? ` (Owl to ${owlEol})` : ''),
+    ];
 }
 
 export async function getStopTimes(stopId: string): Promise<StopTimes> {
@@ -264,13 +326,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
     const stopLines = stops[stopId];
     if (null == stopLines) throw Error('Stop not found: ' + stopId);
 
-    let stopLoc = stopLines[0].stop_name;
-    // Remove weird trailing suffixes.
-    stopLoc = stopLoc.replace(/[A-Z]{1,2}[-/][A-Z]{1,2} ?[-/] ?[A-Z]{1,2}$/i, '');
-    stopLoc = stopLoc
-        .split(/ ?\/ ?/)
-        .map(seg => seg.split(/ ?& ?/).map(stripStreetSuffix).join(' & '))
-        .join(' / ');
+    const stopLoc = processStopName(stopLines[0].stop_name);
 
     const lines = stopLines
         // https://github.com/MingweiSamuel/muni-sign/issues/7
@@ -289,36 +345,8 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             // Found here: https://github.com/codebox/homoglyph/blob/763c79a20ba054cc028b3336b5c7b1822db36dc8/raw_data/chars.txt#L48
             lineNum = lineNum.replaceAll('J', '\u037F');
 
-            // Handle headsigns.
-            const headsignCounts = processHeadsignCounts(line.trip_headsigns);
-            const headsignsTotal = headsignCounts
-                .map(([_headsign, count]) => count)
-                .reduce((a, b) => a + b);
-            // Only include headsigns that make up at least 1/4 of all headsigns.
-            const headsigns = headsignCounts
-                .filter(([_headsign, count]) => headsignsTotal <= 4 * count)
-                .map(([headsign, _count]) => headsign)
-                .join('\u2002 / \u2002'); // En spaces.
-
-            // Some basic cleanup for lineDest0/1 below.
-            let lineDest0 = controlLocs[line.route_short_name][+line.direction_id];
-            let lineDest1 = headsigns;
-            {
-                // Ensure neither line is subset of (or equal to) other,
-                // ignoring non-alphanumeric characters.
-                const l0 = lineDest0.toUpperCase().replaceAll(/[^A-Z0-9]/ig, '');
-                const l1 = lineDest1.toUpperCase().replaceAll(/[^A-Z0-9]/ig, '');
-
-                if (l0.includes(l1)) {
-                    lineDest1 = '';
-                }
-                else if (l1.includes(l0)) {
-                    lineDest0 = lineDest1;
-                    lineDest1 = '';
-                }
-            }
-            // Prepend 'To' to first dest line.
-            lineDest0 = 'To ' + lineDest0;
+            const controlLoc = controlLocs[line.route_short_name][+line.direction_id];
+            let [lineDest0, lineDest1] = processDestinations(controlLoc, line);
 
             // Line colors.
             let lineTextColor = '#' + line.route_text_color;
