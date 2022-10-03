@@ -63,7 +63,6 @@
 
   // Set by <Sign bind:height={signHeight} />
   let signHeight = 0;
-
 </script>
 
 <svelte:window on:hashchange={() => updateState()} />
@@ -156,6 +155,12 @@
       )}"
       target="_blank">submit a bug report</a
     >!
+    <br />
+    <span class="footer copyright no-print">
+      Generated signs are public domain excluding the Muni Worm, Muni Owl, SF
+      Municipal Railway, and Twitter Logo symbols which belong to their
+      respective organizations.
+    </span>
   </p>
 </main>
 
@@ -169,5 +174,8 @@
 
   .footer {
     color: #888;
+  }
+  .copyright {
+    font-size: 0.8rem;
   }
 </style>
