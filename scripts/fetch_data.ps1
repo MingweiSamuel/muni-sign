@@ -76,13 +76,13 @@ $TRIP_EOLS = @"
 "@
 # q -H '-d,' -O -C read $TRIP_EOLS
 
-# stop_id, route_id, direction_id, service_id, eol_stop_name => count_all, count_day, count_owl
+# stop_id, route_id, direction_id, eol_stop_name => count_all, count_day, count_owl
+# FILTER calendar.txt service_id early so we can aggregate the dictionary.
 $STOP_EOLS = @"
     SELECT
         stop_id,
         route_id,
         direction_id,
-        service_id,
         eol_stop_name,
 
         COUNT(*) AS count_all,
@@ -98,20 +98,23 @@ $STOP_EOLS = @"
     JOIN "$FOLDER/stop_times.txt" USING (stop_id)
     JOIN ($TRIP_EOLS) USING (trip_id)
 
+    JOIN "$FOLDER/calendar.txt" USING (service_id)
+    WHERE
+        $DATE BETWEEN start_date AND end_date
+
     GROUP BY
-        stop_id, route_id, direction_id, service_id, eol_stop_name
+        stop_id, route_id, direction_id, eol_stop_name
     ORDER BY
-        stop_id, route_id, direction_id, service_id, eol_stop_name
+        stop_id, route_id, direction_id, eol_stop_name
 "@
 # q -H '-d,' -O -C read $STOP_EOLS
 
-# stop_id, route_id, direction_id, service_id => eol_stop_names_all/day/owl (dicts)
+# stop_id, route_id, direction_id => eol_stop_names_all/day/owl (dicts)
 $STOP_EOLS_FLAT = @"
     SELECT
         stop_id,
         route_id,
         direction_id,
-        service_id,
 
         GROUP_CONCAT(
             CASE WHEN 0 < count_all THEN
@@ -134,9 +137,9 @@ $STOP_EOLS_FLAT = @"
 
     FROM ($STOP_EOLS)
     GROUP BY
-        stop_id, route_id, direction_id, service_id
+        stop_id, route_id, direction_id
     ORDER BY
-        stop_id, route_id, direction_id, service_id
+        stop_id, route_id, direction_id
 "@
 # q -H '-d,' -O -C read $STOP_EOLS_FLAT
 
@@ -213,7 +216,7 @@ $STOP_TEMPORALITIES = @"
         MAX(saturday) AS sat, MAX(sunday) AS sun
 
     FROM ($OPERATING_TIMES)
-    JOIN ($STOP_EOLS_FLAT) USING (stop_id, route_id, direction_id, service_id)
+    JOIN ($STOP_EOLS_FLAT) USING (stop_id, route_id, direction_id)
     JOIN ($HEADWAYS) USING (stop_id, route_id, direction_id, service_id)
     JOIN "$FOLDER/calendar.txt" USING (service_id)
     WHERE
