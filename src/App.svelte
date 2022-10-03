@@ -68,6 +68,12 @@
 <svelte:window on:hashchange={() => updateState()} />
 <main>
   <h1 class="no-print">Muni Sign</h1>
+  <p class="no-print" style="padding-bottom: 2em;">
+    Vote <a
+      href="https://www.sfchronicle.com/opinion/editorials/article/endorsement-SF-proposition-L-17460901.php"
+      >YES on Prop L</a
+    > to support the bus!
+  </p>
 
   <div class="card no-print">
     <label>
