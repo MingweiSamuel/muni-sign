@@ -298,12 +298,14 @@ function parseEolCounts(eolsStr: string): [[string, number][], number] {
 function processDestinations(controlLoc: string, line: RawStopTime): [string, string] {
 
     const [eolsAll, numEolsAll] = parseEolCounts(line.eol_stop_names_all);
-    // const [eolsDay, numEolsDay] = parseEolCounts(line.eol_stop_names_day);
+    const [eolsDay, numEolsDay] = parseEolCounts(line.eol_stop_names_day);
     const [eolsOwl, _numEolsOwl] = parseEolCounts(line.eol_stop_names_owl);
 
+    let [eolsMain, numEolsMain] = 10 < numEolsDay ? [eolsDay, numEolsDay] : [eolsAll, numEolsAll];
+
     // Include EOLs that make up at least 1/4 of all EOLs.
-    const primaryEols = eolsAll
-        .filter(([_eol, count]) => numEolsAll < 4 * count)
+    const primaryEols = eolsMain
+        .filter(([_eol, count]) => numEolsMain < 4 * count)
         .map(([eol, _count]) => eol);
 
     // Include first owl EOL only if it isn't in the primary(ies).
