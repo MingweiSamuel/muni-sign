@@ -265,15 +265,28 @@ function processStopName(stopLoc: string): string {
     return stopLoc;
 }
 
+/// Map some EOL names to a more notable nearby intersection.
+const EOL_MAPPING = {
+    // 29 EOL: https://sfmta.com/14648
+    'FITZGERALD AVE & KEITH ST': '3rd St & Gilman/Paul',
+}
+
 /// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
 /// Returns each row and the total. Rows sorted from most to least.
 function parseEolCounts(eolsStr: string): [[string, number][], number] {
     const eolCountsDict: Record<string, number> = {};
     for (const row of eolsStr.split('###')) {
         let [eolStop, count] = row.split('@@@', 2);
-        // Treat all Transit Center bays as the Transit Center.
-        eolStop = eolStop.replace(/^Transit Center Bay\b.*/i, 'Transit Center');
-        eolStop = processStopName(eolStop);
+
+        const eolStopCaps = eolStop.toLocaleUpperCase();
+        if (eolStopCaps in EOL_MAPPING) {
+            eolStop = EOL_MAPPING[eolStopCaps];
+        }
+        else {
+            // Treat all Transit Center bays as just the Transit Center.
+            eolStop = eolStop.replace(/^Transit Center Bay\b.*/i, 'Transit Center');
+            eolStop = processStopName(eolStop);
+        }
 
         eolCountsDict[eolStop] = (eolCountsDict[eolStop] || 0) + (+count);
     }
