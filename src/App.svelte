@@ -31,11 +31,8 @@
   }
   updateState();
 
-  // Current URL for github issue report
-  let currentUrl = window.location.href;
   // Maintain URL and history stack:
   $: {
-    currentUrl = window.location.href;
     isValidStopId(stopId).then((isValid) => {
       if (!isValid) return;
 
@@ -59,6 +56,15 @@
     exportPromise.then(() => {
       disabled = false;
     });
+  }
+
+  type X = svelte.JSX.MouseEventHandler<HTMLAnchorElement>;
+  function updateReportUrl(
+    event: MouseEvent & { currentTarget: EventTarget & HTMLAnchorElement }
+  ) {
+    const url = new URL(event.currentTarget.href);
+    url.searchParams.set("body", "URL: " + window.location.href);
+    event.currentTarget.href = url.toString();
   }
 
   // Set by <Sign bind:height={signHeight} />
@@ -158,9 +164,9 @@
       >GitHub repository</a
     >. And maybe
     <a
-      href="https://github.com/MingweiSamuel/muni-sign/issues/new?body={encodeURIComponent(
-        'URL: ' + currentUrl
-      )}"
+      on:mouseenter={updateReportUrl}
+      on:click={updateReportUrl}
+      href="https://github.com/MingweiSamuel/muni-sign/issues/new"
       target="_blank">submit a bug report</a
     >!
     <br />
