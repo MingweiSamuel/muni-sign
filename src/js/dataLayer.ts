@@ -269,6 +269,8 @@ function processStopName(stopLoc: string): string {
 const EOL_MAPPING = {
     // 29 EOL: https://sfmta.com/14648
     'FITZGERALD AVE & KEITH ST': '3rd St & Gilman/Paul',
+    // 44 owl
+    'BOSWORTH ST & DIAMOND ST': 'Glen Park BART',
 }
 
 /// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
