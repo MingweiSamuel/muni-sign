@@ -94,3 +94,14 @@ jobs:
         else
           echo 'No changes to commit'
         fi
+
+    # https://github.com/marketplace/actions/cloudflare-pages-github-action
+    - name: Deploy to Cloudflare Pages
+      if: ${{ github.event_name != 'pull_request' }}
+      uses: cloudflare/pages-action@1
+      with:
+        apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+        accountId: 7e02b4cfe04874f3be5b4266b005f6ab
+        projectName: muni-sign
+        directory: dist
+        gitHubToken: ${{ secrets.GITHUB_TOKEN }}
