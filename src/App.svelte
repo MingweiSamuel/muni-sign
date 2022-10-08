@@ -108,7 +108,7 @@
 <svelte:window on:hashchange={() => updateState()} />
 <main>
   <h1 class="no-print">Muni Sign</h1>
-  <p class="no-print" style="padding-bottom: 2em;">
+  <p class="no-print" style="padding-bottom: 1em;">
     Vote <a
       href="https://www.sfchronicle.com/opinion/editorials/article/endorsement-SF-proposition-L-17460901.php"
       >YES on Prop L</a
@@ -129,28 +129,6 @@
       title="Use random stop ID."
       on:click={() => updateState(true)}
     />
-  </div>
-  <div class="card no-print">
-    <label>
-      Footer:
-      <select bind:value={footerType}>
-        {#each Object.values(FooterType).filter((x) => !isNaN(+x)) as footerTypeOption}
-          <option value={footerTypeOption}>
-            {FOOTER_DESC[footerTypeOption]}
-          </option>
-        {/each}
-      </select>
-    </label>
-  </div>
-  <div class="card no-print">
-    <label>
-      Blank Tiles:
-      <select bind:value={numBlanks}>
-        {#each [0, 1, 2, 3, 4, 5] as numBlanksOption}
-          <option value={numBlanksOption}>{numBlanksOption}</option>
-        {/each}
-      </select>
-    </label>
   </div>
   <div class="card no-print">
     <input
@@ -182,10 +160,7 @@
       on:click={() => window.print()}
     />
   </div>
-  <div class="card no-print">
-    Standard w &times; h: 16in &times; {signHeight / 100}in
-  </div>
-  <div class="sign">
+  <div class="card sign">
     <Sign
       {stopId}
       {footerType}
@@ -195,6 +170,31 @@
     />
   </div>
 
+  <div class="card no-print">
+    <label>
+      Footer:
+      <select bind:value={footerType}>
+        {#each Object.values(FooterType).filter((x) => !isNaN(+x)) as footerTypeOption}
+          <option value={footerTypeOption}>
+            {FOOTER_DESC[footerTypeOption]}
+          </option>
+        {/each}
+      </select>
+    </label>
+  </div>
+  <div class="card no-print">
+    <label>
+      Blank Tiles:
+      <select bind:value={numBlanks}>
+        {#each [0, 1, 2, 3, 4, 5] as numBlanksOption}
+          <option value={numBlanksOption}>{numBlanksOption}</option>
+        {/each}
+      </select>
+    </label>
+  </div>
+  <div class="card no-print">
+    Standard size: 16in &times; {signHeight / 100}in (w &times; h)
+  </div>
   <p class="footer no-print">
     Follow us at <a href="https://twitter.com/SafeStreetRebel" target="_blank"
       >@SafeStreetRebel</a
