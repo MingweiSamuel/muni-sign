@@ -66,7 +66,7 @@
 
       if (USE_SPA) {
         const pathname = "/" + stopId + searchWithQ;
-        if (window.location.pathname !== pathname) {
+        if (window.location.pathname + window.location.search !== pathname) {
           window.history.pushState(null, "", pathname);
         }
       } else {
