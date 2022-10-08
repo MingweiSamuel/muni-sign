@@ -59,11 +59,13 @@
     }
 
     export let height = 0;
+    export let stopLoc = "";
     let numNonOwl = 0;
     $: {
         dataPromise.then((data) => {
             height =
                 (1 + data.lines.length + numBlanks) * SPACING + footerHeight;
+            stopLoc = data.stopLoc;
             numNonOwl = data.lines.filter((line) => !line.isOwl).length;
         });
     }

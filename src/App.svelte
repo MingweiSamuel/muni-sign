@@ -97,8 +97,12 @@
     event.currentTarget.href = url.toString();
   }
 
-  // Set by <Sign bind:height={signHeight} />
+  // Set by <Sign bind:* />
   let signHeight = 0;
+  let stopLoc = "";
+  $: {
+    window.document.title = `${stopLoc} #${stopId}`;
+  }
 </script>
 
 <svelte:window on:hashchange={() => updateState()} />
@@ -182,7 +186,13 @@
     Standard w &times; h: 16in &times; {signHeight / 100}in
   </div>
   <div class="sign">
-    <Sign {stopId} {footerType} {numBlanks} bind:height={signHeight} />
+    <Sign
+      {stopId}
+      {footerType}
+      {numBlanks}
+      bind:height={signHeight}
+      bind:stopLoc
+    />
   </div>
 
   <p class="footer no-print">
