@@ -7,6 +7,15 @@
   const SEARCH_FOOTERTYPE = "foot";
   const SEARCH_NUMBLANKS = "blank";
 
+  // Redirect to munisign.org.
+  if (
+    window.location.hostname.toUpperCase() === "MUNI-SIGN.SAFESTREETREBEL.COM"
+  ) {
+    window.location.replace(
+      "https://munisign.org/" + window.location.hash.slice(1)
+    );
+  }
+
   const USE_SPA =
     window.location.hostname.toUpperCase() === "LOCALHOST" ||
     window.location.hostname.toUpperCase().endsWith(".PAGES.DEV") ||
