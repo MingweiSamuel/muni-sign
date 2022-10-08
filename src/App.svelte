@@ -6,6 +6,11 @@
 
   const SEARCH_FOOTERTYPE = "foot";
   const SEARCH_NUMBLANKS = "blank";
+
+  const USE_SPA =
+    window.location.hostname.toUpperCase() === "LOCALHOST" ||
+    window.location.hostname.toUpperCase().endsWith(".PAGES.DEV") ||
+    window.location.hostname.toUpperCase() === "MUNISIGN.ORG";
 </script>
 
 <script lang="ts">
@@ -13,10 +18,18 @@
   let numBlanks = 0;
   let stopId = "";
 
-  /// Update the svelte state based on the `window.location.hash`.
+  /// Update the svelte state.
+  /// - Based on the path and search params if `USE_SPA`.
+  /// - Based on the `window.location.hash` if `!USE_SPA`.
   /// Or randomize if `random` is `true`.
   function updateState(random = false) {
-    if (!random && window.location.hash) {
+    if (!random && USE_SPA && 1 < window.location.pathname.length) {
+      stopId = window.location.pathname.slice(1);
+      const searchParams = new URLSearchParams(window.location.search);
+
+      footerType = +searchParams.get(SEARCH_FOOTERTYPE) || 0;
+      numBlanks = +searchParams.get(SEARCH_NUMBLANKS) || 0;
+    } else if (!random && !USE_SPA && window.location.hash) {
       const [id, search] = window.location.hash.slice(1).split("?", 2);
       stopId = id;
 
@@ -40,10 +53,18 @@
       if (footerType) searchParams.append(SEARCH_FOOTERTYPE, "" + footerType);
       if (numBlanks) searchParams.append(SEARCH_NUMBLANKS, "" + numBlanks);
       const search = searchParams.toString();
+      const searchWithQ = search ? "?" + search : "";
 
-      let hash = "#" + stopId + (search ? "?" + search : "");
-      if (window.location.hash !== hash) {
-        window.history.pushState(null, null, hash);
+      if (USE_SPA) {
+        const pathname = "/" + stopId + searchWithQ;
+        if (window.location.pathname !== pathname) {
+          window.history.pushState(null, "", pathname);
+        }
+      } else {
+        const hash = "#" + stopId + searchWithQ;
+        if (window.location.hash !== hash) {
+          window.history.pushState(null, "", hash);
+        }
       }
     });
   }
