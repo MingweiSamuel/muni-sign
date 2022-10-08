@@ -59,10 +59,12 @@
     }
 
     export let height = 0;
+    export let numNonOwl = 0;
     $: {
         dataPromise.then((data) => {
             height =
                 (1 + data.lines.length + numBlanks) * SPACING + footerHeight;
+            numNonOwl = data.lines.filter((line) => !line.isOwl).length;
         });
     }
 </script>
@@ -229,7 +231,7 @@
                 hasHistoric={data.hasHistoric}
             />
         </g>
-        {#each data.lines as line, i}
+        {#each data.lines.filter((line) => !line.isOwl) as line, i}
             <g
                 clip-path="url(#clip-tile)"
                 transform="translate({0}, {(1 + i) * SPACING})"
@@ -240,10 +242,18 @@
         {#each Array(numBlanks).fill(null) as _, i}
             <g
                 clip-path="url(#clip-tile)"
-                transform="translate({0}, {(1 + data.lines.length + i) *
-                    SPACING})"
+                transform="translate({0}, {(1 + numNonOwl + i) * SPACING})"
             >
                 <TileBlank lineColor={COLOR_STD} />
+            </g>
+        {/each}
+        {#each data.lines.filter((line) => line.isOwl) as line, i}
+            <g
+                clip-path="url(#clip-tile)"
+                transform="translate({0}, {(1 + numNonOwl + numBlanks + i) *
+                    SPACING})"
+            >
+                <TileLine {line} />
             </g>
         {/each}
         <g
