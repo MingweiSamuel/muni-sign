@@ -59,7 +59,7 @@
     }
 
     export let height = 0;
-    export let numNonOwl = 0;
+    let numNonOwl = 0;
     $: {
         dataPromise.then((data) => {
             height =
