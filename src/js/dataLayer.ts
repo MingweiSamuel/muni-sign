@@ -271,6 +271,10 @@ const EOL_MAPPING = {
     'FITZGERALD AVE & KEITH ST': '3rd St & Gilman/Paul',
     // 44 owl
     'BOSWORTH ST & DIAMOND ST': 'Glen Park BART',
+    // 8ax, help prevent confusion with 8's "Kearny & North Point".
+    'KEARNY ST & PACIFIC AVE': 'Kearny & Pacific & Columbus',
+    // 9 san bruno
+    'MARKET ST & STEUART ST': 'Market & Steuart, Embarcadero Plaza',
 }
 
 /// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
