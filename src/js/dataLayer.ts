@@ -236,7 +236,8 @@ export async function randomStopId(): Promise<string> {
 /// Or because it would just be weird (like "Cargo").
 /// "Castro [St]" vs "The Castro" is fine.
 /// San Bruno and San Jose cause they always confuse me when SF people are talking about them.
-const CONFUSABLE_STREETS = /^(:?Hunters Point|Bernal Heights|Portola|Cargo|Main|San Bruno|San Jose)/i;
+/// Mission Bay [Blvd] [North/South] (are there any stops that use this? 17765 doesn't include "Blvd")
+const CONFUSABLE_STREETS = /^(:?Hunters Point|Bernal Heights|Portola|Cargo|Main|San Bruno|San Jose|Mission Bay)/i;
 
 /// Strips the trailing 'St, Rd' suffix unless the street is numbered.
 function stripStreetSuffix(street: string): string {
