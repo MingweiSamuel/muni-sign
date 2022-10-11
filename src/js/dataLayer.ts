@@ -280,6 +280,13 @@ const EOL_MAPPING = {
     'KEARNY ST & PACIFIC AVE': 'Kearny & Pacific & Columbus',
     // 9 san bruno
     'MARKET ST & STEUART ST': 'Market & Steuart, Embarcadero Plaza',
+    // N-OWL
+    'TOWNSEND ST & 5 ST': 'Townsend & 4th St',
+    'TOWNSEND ST & 5TH ST': 'Townsend & 4th St',
+    // 30 stockton, is all-caps, fix capitalization.
+    'TOWNSEND ST & 4TH ST': 'Townsend & 4th St',
+    // 45 union-stockton
+    'TOWNSEND ST & LUSK ST': 'Townsent & 4th St',
 }
 
 /// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
