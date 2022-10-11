@@ -105,7 +105,10 @@
   }
 </script>
 
-<svelte:window on:hashchange={() => updateState()} />
+<svelte:window
+  on:hashchange={() => updateState()}
+  on:popstate={() => updateState()}
+/>
 <main>
   <h1 class="no-print">Muni Sign</h1>
   <p class="no-print" style="padding-bottom: 1em;">
