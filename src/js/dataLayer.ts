@@ -61,7 +61,10 @@ function getLineTime(line: RawStopTime): string {
     if (line.day_headway || line.owl_headway) {
         headway = `, Every ~\u2009${Math.round(0.2 + Number(line.day_headway || line.owl_headway))}m`;
         if (line.day_headway && line.owl_headway) {
-            headway += ` (Owl ${Math.round(0.15 + Number(line.owl_headway))}m)`;
+            // Lot of this code is overly hacky.
+            let owlHeadway = Math.round(0.15 + Number(line.owl_headway));
+            if (29 == owlHeadway) owlHeadway = 30;
+            headway += ` (Owl ${owlHeadway}m)`;
         }
     }
 
@@ -310,7 +313,7 @@ function parseEolCounts(eolsStr: string): [[string, number][], number] {
 /// Simple case:
 /// - To ${control loc}
 ///   - (inbound/outbound desination listed on SFMTA.com, tends to be a neighborhood)
-/// - ${primary EOL} (Owl ${owl EOL, optional})
+/// - ${primary EOL} (Owl to ${owl EOL, optional})
 ///   - (tends to be a Street A + Street B specific stop location)
 ///
 /// In more complicated cases, the control loc & EOL may be combined.
