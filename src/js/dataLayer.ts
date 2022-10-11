@@ -287,6 +287,8 @@ const EOL_MAPPING = {
     'TOWNSEND ST & 4TH ST': 'Townsend & 4th St',
     // 45 union-stockton
     'TOWNSEND ST & LUSK ST': 'Townsent & 4th St',
+    // 22 fillmore
+    'MISSION BAY NORTH & 3RD ST': 'Mission Bay Blvd North & 3rd St'
 }
 
 /// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
