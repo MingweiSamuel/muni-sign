@@ -286,7 +286,7 @@ const EOL_MAPPING = {
     // 30 stockton, is all-caps, fix capitalization.
     'TOWNSEND ST & 4TH ST': 'Townsend & 4th St',
     // 45 union-stockton
-    'TOWNSEND ST & LUSK ST': 'Townsent & 4th St',
+    'TOWNSEND ST & LUSK ST': 'Townsend & 4th St',
     // 22 fillmore
     'MISSION BAY NORTH & 3RD ST': 'Mission Bay Blvd North & 3rd St'
 }
