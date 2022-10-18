@@ -187,7 +187,7 @@
   </div>
   <div class="card no-print">
     <label>
-      Blank Tiles:
+      Blank tiles:
       <select bind:value={numBlanks}>
         {#each [0, 1, 2, 3, 4, 5] as numBlanksOption}
           <option value={numBlanksOption}>{numBlanksOption}</option>
@@ -196,7 +196,7 @@
     </label>
   </div>
   <div class="card no-print">
-    Standard size: 16in &times; {signHeight / 100}in (w &times; h)
+    Ref size: 16in &times; {signHeight / 100}in (w &times; h)
   </div>
   <p class="footer no-print">
     Follow us at <a href="https://twitter.com/SafeStreetRebel" target="_blank"
