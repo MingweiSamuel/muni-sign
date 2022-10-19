@@ -63,7 +63,7 @@ function getLineTime(line: RawStopTime): string {
         if (line.day_headway && line.owl_headway) {
             // Lot of this code is overly hacky.
             let owlHeadway = Math.round(0.15 + Number(line.owl_headway));
-            if (29 == owlHeadway) owlHeadway = 30;
+            if (29 == owlHeadway || 31 == owlHeadway) owlHeadway = 30;
             headway += ` (Owl ${owlHeadway}m)`;
         }
     }
