@@ -32,13 +32,16 @@
   /// - Based on the `window.location.hash` if `!USE_SPA`.
   /// Or randomize if `random` is `true`.
   function updateState(random = false) {
+    // Use SPA, base state off of query params if set.
     if (!random && USE_SPA && 1 < window.location.pathname.length) {
       stopId = window.location.pathname.slice(1);
       const searchParams = new URLSearchParams(window.location.search);
 
       footerType = +searchParams.get(SEARCH_FOOTERTYPE) || 0;
       numBlanks = +searchParams.get(SEARCH_NUMBLANKS) || 0;
-    } else if (!random && !USE_SPA && window.location.hash) {
+    }
+    // Not SPA, base state off of hash if set.
+    else if (!random && !USE_SPA && window.location.hash) {
       const [id, search] = window.location.hash.slice(1).split("?", 2);
       stopId = id;
 
@@ -47,7 +50,13 @@
       const searchParams = new URLSearchParams(search);
       footerType = +searchParams.get(SEARCH_FOOTERTYPE) || 0;
       numBlanks = +searchParams.get(SEARCH_NUMBLANKS) || 0;
-    } else {
+    }
+    // If we're a search indexing bot, don't default to random.
+    else if (!random && /bot|crawl|spider/i.test(navigator.userAgent)) {
+      stopId = "";
+    }
+    // If random or no query/hash state was found, go to a random stop.
+    else {
       randomStopId().then((id) => (stopId = id));
     }
   }
@@ -101,7 +110,9 @@
   let signHeight = 0;
   let stopLoc = "";
   $: {
-    window.document.title = `${stopLoc} #${stopId}`;
+    window.document.title = stopLoc
+      ? `${stopLoc} #${stopId}`
+      : "Muni Sign Generator";
   }
 </script>
 

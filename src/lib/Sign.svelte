@@ -31,7 +31,13 @@
 
     let dataPromise: Promise<StopTimes> = new Promise(() => {});
     $: {
-        dataPromise = getStopTimes(stopId);
+        dataPromise = stopId
+            ? getStopTimes(stopId)
+            : Promise.reject(
+                  new Error(
+                      "Enter a Stop ID above or click the 🔀 button for a random stop."
+                  )
+              );
     }
 
     let footerComponent;
@@ -62,12 +68,15 @@
     export let stopLoc = "";
     let numNonOwl = 0;
     $: {
-        dataPromise.then((data) => {
-            height =
-                (1 + data.lines.length + numBlanks) * SPACING + footerHeight;
-            stopLoc = data.stopLoc;
-            numNonOwl = data.lines.filter((line) => !line.isOwl).length;
-        });
+        dataPromise
+            .then((data) => {
+                height =
+                    (1 + data.lines.length + numBlanks) * SPACING +
+                    footerHeight;
+                stopLoc = data.stopLoc;
+                numNonOwl = data.lines.filter((line) => !line.isOwl).length;
+            })
+            .catch((_err) => (stopLoc = ""));
     }
 </script>
 
