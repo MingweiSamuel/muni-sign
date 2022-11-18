@@ -123,12 +123,7 @@
 <main>
   <h1 class="no-print">Muni Sign</h1>
   <p class="no-print" style="padding-bottom: 1em;">
-    Vote <a
-      href="https://www.sfchronicle.com/opinion/editorials/article/endorsement-SF-proposition-L-17460901.php"
-      >YES on Prop L</a
-    >
-    to support the bus! &bull; Want to
-    <a href="https://www.safestreetrebel.com/muni-signs/">make a sign?</a>
+    <a href="https://www.safestreetrebel.com/muni-signs/">Make a sign!</a>
   </p>
 
   <div class="card no-print">
