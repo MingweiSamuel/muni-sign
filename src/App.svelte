@@ -220,9 +220,8 @@
     >!
     <br />
     <span class="footer copyright no-print">
-      Generated signs are public domain excluding the Muni Worm, Muni Owl, SF
-      Municipal Railway, and Twitter Logo symbols which belong to their
-      respective organizations.
+      Generated signs are public domain excluding the Muni Worm, Muni Owl, and
+      SF Municipal Railway symbols which belong to the SFMTA.
     </span>
   </p>
 </main>
