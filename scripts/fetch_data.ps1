@@ -3,7 +3,12 @@ $DATE = Get-Date -UFormat '%Y%m%d'
 
 If (-Not (Test-Path $FOLDER)) {
     Write-Host 'Downloading SFMTA GTFS zip.'
-    Invoke-WebRequest 'https://gtfs.sfmta.com/transitdata/google_transit.zip' -OutFile 'sfmta_gtfs.zip'
+
+    if ($null -Eq $env:_511_KEY) {
+        $env:_511_KEY = Get-Content 511.key -Raw
+    }
+
+    Invoke-WebRequest "https://api.511.org/transit/datafeeds?operator_id=SF&api_key=$env:_511_KEY" -OutFile 'sfmta_gtfs.zip'
     Expand-Archive 'sfmta_gtfs.zip' -DestinationPath $FOLDER
 }
 Else {

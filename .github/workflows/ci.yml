@@ -70,6 +70,8 @@ jobs:
         sudo apt install ./q.deb
 
     - name: Build
+      env:
+        _511_KEY: ${{ secrets._511_KEY }}
       run: npm run build
 
     - name: Deploy to gh-pages
