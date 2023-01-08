@@ -374,7 +374,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
                 ([lineNum, lineMod] = match.slice(1));
             }
             else {
-                lineNum = lineNum.replace(/(BUS|-OWL)$/, '');
+                lineNum = lineNum.replace(/(BUS|OWL)$/, '');
             }
             // Replace droopy J with Greek Yot (non-droopy).
             // Found here: https://github.com/codebox/homoglyph/blob/763c79a20ba054cc028b3336b5c7b1822db36dc8/raw_data/chars.txt#L48
