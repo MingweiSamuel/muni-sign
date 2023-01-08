@@ -386,10 +386,11 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             // Line colors.
             let lineTextColor = '#' + line.route_text_color;
             let lineColor = '#' + line.route_color.toUpperCase();
-            // Special split background for KT.
-            if ('KT' === lineNum) {
-                lineColor = 'url(#kt-fill)';
+            // Fix for black 'K' (bad data). TODO.
+            if ('K' === lineNum && '#000000' === lineColor) {
+                lineColor = '#437C93'; // From KBUS.
             }
+
 
             // Handle Muni Metro and Cable Car/Historic Streetcar lines.
             const routeType: RouteType = Number(line.route_type);

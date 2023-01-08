@@ -221,17 +221,6 @@
                 fill: #000;
             }
         </style>
-        <defs>
-            <pattern
-                id="kt-fill"
-                width="1600"
-                height="375"
-                patternUnits="userSpaceOnUse"
-            >
-                <rect width="1600" height="375" fill="#BF2B45" />
-                <path fill="#437C93" d="M 0,0 L 1240,0 L 360,375 L 0,375 Z" />
-            </pattern>
-        </defs>
         <clipPath id="clip-tile">
             <rect x="0" y="0" width="1600" height="375" />
         </clipPath>
