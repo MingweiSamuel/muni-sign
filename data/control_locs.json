@@ -179,6 +179,10 @@
     "Daly City BART",
     "Downtown"
   ],
+  "1X": [
+    "Richmond District",
+    "Financial District"
+  ],
   "38R": [
     "The Richmond",
     "Downtown"
@@ -250,6 +254,10 @@
   "PM": [
     "Fisherman's Wharf",
     "Powell and Market"
+  ],
+  "S": [
+    "West Portal Station",
+    "Embarcadero Station"
   ],
   "T": [
     "Chinatown",
