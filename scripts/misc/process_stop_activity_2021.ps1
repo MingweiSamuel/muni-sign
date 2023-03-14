@@ -1,4 +1,4 @@
-$STOP_ACTIVITY = 'scripts/SFMTA_Stop_Activity_2021-01-23_2021-02-05.csv'
+$STOP_ACTIVITY = 'scripts/misc/SFMTA_Stop_Activity_2021-01-23_2021-02-05.csv'
 
 # Use max "on"s across WEEKDAY, SATURDAY, SUNDAY
 $MAX_ONS_PER_BSID = @"

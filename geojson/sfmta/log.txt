@@ -1,0 +1,8 @@
+Feed Version: 20230218
+GTFS-to-geoJSON Version: 3.2.0
+Date Generated: Mon Mar 13 2023 22:22:38 GMT-0700 (Pacific Daylight Time)
+Route Count: 0
+Shape Count: 0
+GeoJSON File Count: 1
+Output Type: agency
+Source: ./sfmta_gtfs/

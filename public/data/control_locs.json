@@ -179,6 +179,10 @@
     "Daly City BART",
     "Downtown"
   ],
+  "1X": [
+    "Richmond District",
+    "Financial District"
+  ],
   "38R": [
     "The Richmond",
     "Downtown"
@@ -212,8 +216,8 @@
     "Downtown"
   ],
   "K": [
-    "Balboa Park via Downtown",
-    "Sunnydale via Downtown"
+    "Balboa Park",
+    "Embarcadero"
   ],
   "KBUS": [
     "Balboa Park",
@@ -221,7 +225,7 @@
   ],
   "LBUS": [
     "SF Zoo",
-    "Embarcadero"
+    "West Portal or Embarcadero"
   ],
   "LOWL": [
     "SF Zoo via Downtown",
@@ -250,6 +254,10 @@
   "PM": [
     "Fisherman's Wharf",
     "Powell and Market"
+  ],
+  "S": [
+    "West Portal Station",
+    "Embarcadero Station"
   ],
   "T": [
     "Chinatown",
