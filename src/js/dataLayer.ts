@@ -270,25 +270,27 @@ function processStopName(stopLoc: string): string {
     return stopLoc;
 }
 
-/// Map some EOL names to a more notable nearby intersection.
+/// Map some (capitalized) EOL names to a more notable nearby intersection.
 const EOL_MAPPING = {
-    // 29 EOL: https://sfmta.com/14648
-    'FITZGERALD AVE & KEITH ST': '3rd St & Gilman/Paul',
-    // 44 owl
-    'BOSWORTH ST & DIAMOND ST': 'Glen Park BART',
+    // N-OWL
+    'TOWNSEND ST & 5 ST': 'Townsend & 4th St',
+    'TOWNSEND ST & 5TH ST': 'Townsend & 4th St',
     // 8ax, help prevent confusion with 8's "Kearny & North Point".
     'KEARNY ST & PACIFIC AVE': 'Kearny & Pacific & Columbus',
     // 9 san bruno
     'MARKET ST & STEUART ST': 'Market & Steuart, Embarcadero Plaza',
-    // N-OWL
-    'TOWNSEND ST & 5 ST': 'Townsend & 4th St',
-    'TOWNSEND ST & 5TH ST': 'Townsend & 4th St',
+    // 22 fillmore
+    'MISSION BAY NORTH & 3RD ST': 'Mission Bay Blvd North & 3rd St',
+    // 29 EOL: https://sfmta.com/14648
+    'FITZGERALD AVE & KEITH ST': '3rd St & Gilman/Paul',
     // 30 stockton, is all-caps, fix capitalization.
     'TOWNSEND ST & 4TH ST': 'Townsend & 4th St',
+    // 31 balboa
+    'CYRIL MAGNIN ST & MARKET ST': 'Powell BART',
+    // 44 owl
+    'BOSWORTH ST & DIAMOND ST': 'Glen Park BART',
     // 45 union-stockton
     'TOWNSEND ST & LUSK ST': 'Townsend & 4th St',
-    // 22 fillmore
-    'MISSION BAY NORTH & 3RD ST': 'Mission Bay Blvd North & 3rd St'
 }
 
 /// Parses a eol counts dict in `key1@@@val1###key2@val2` format.
