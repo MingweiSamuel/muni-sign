@@ -15,24 +15,36 @@ Else {
     Write-Host 'SFMTA GTFS folder already exists, not downloading.'
 }
 
+# `departure_time`s with leading zero for AM times.
+$STOP_TIMES_FIXED = @"
+    SELECT
+        trip_id,
+        stop_id,
+        stop_sequence,
+        SUBSTR('0' || departure_time, -8) AS departure_time
+    FROM "$FOLDER/stop_times.txt"
+"@
+q -H '-d,' -O -C read $STOP_TIMES_FIXED | Out-File "$FOLDER/stop_times_fixed.txt"
+
 # stop_times excluding last stop for a trip.
 $STOP_TIMES_NON_LAST = @"
     SELECT
         *
     FROM
-        "$FOLDER/stop_times.txt"
+        "$FOLDER/stop_times_fixed.txt"
     JOIN (
         SELECT
             trip_id,
             MAX(stop_sequence) AS stop_sequence_max
         FROM
-            "$FOLDER/stop_times.txt"
+            "$FOLDER/stop_times_fixed.txt"
         GROUP BY
             trip_id
     ) USING (trip_id)
     WHERE
         stop_sequence < stop_sequence_max
 "@
+# q -H '-d,' -O -C read $STOP_TIMES_NON_LAST
 
 # stop_id, route_id, direction_id, service_id => start_time, end_time
 $OPERATING_TIMES = @"
@@ -45,7 +57,7 @@ $OPERATING_TIMES = @"
         MIN(departure_time) AS start_time,
         MAX(departure_time) AS end_time
 
-    FROM "$FOLDER/stop_times.txt"
+    FROM "$FOLDER/stop_times_fixed.txt"
     JOIN "$FOLDER/trips.txt" USING (trip_id)
     GROUP BY
         stop_id, route_id, direction_id, service_id
@@ -63,12 +75,12 @@ $TRIP_EOLS = @"
         trip_id,
         stop_name AS eol_stop_name
 
-    FROM "$FOLDER/stop_times.txt"
+    FROM "$FOLDER/stop_times_fixed.txt"
     JOIN (
         SELECT
             trip_id,
             MAX(stop_sequence) AS stop_sequence
-        FROM "$FOLDER/stop_times.txt"
+        FROM "$FOLDER/stop_times_fixed.txt"
         GROUP BY
             trip_id
     ) USING (trip_id, stop_sequence)
@@ -100,7 +112,7 @@ $STOP_EOLS = @"
 
 
     FROM "$FOLDER/stops.txt"
-    JOIN "$FOLDER/stop_times.txt" USING (stop_id)
+    JOIN "$FOLDER/stop_times_fixed.txt" USING (stop_id)
     JOIN ($TRIP_EOLS) USING (trip_id)
 
     JOIN "$FOLDER/calendar.txt" USING (service_id)

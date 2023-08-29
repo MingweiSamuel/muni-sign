@@ -80,12 +80,12 @@
     "The Presidio"
   ],
   "30": [
-    "The Marina",
+    "The Presidio",
     "Caltrain via Downtown"
   ],
   "31": [
     "The Richmond",
-    "Downtown"
+    "Downtown/Caltrain"
   ],
   "33": [
     "San Francisco General Hospital",
@@ -182,6 +182,10 @@
   "1X": [
     "Richmond District",
     "Financial District"
+  ],
+  "28R": [
+    "Daly City BART",
+    "The Inner Richmond"
   ],
   "38R": [
     "The Richmond",
