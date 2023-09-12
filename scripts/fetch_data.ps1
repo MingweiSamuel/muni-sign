@@ -1,5 +1,4 @@
 $FOLDER = 'sfmta_gtfs'
-$DATE = Get-Date -UFormat '%Y%m%d'
 
 If (-Not (Test-Path $FOLDER)) {
     Write-Host 'Downloading SFMTA GTFS zip.'
@@ -14,6 +13,18 @@ If (-Not (Test-Path $FOLDER)) {
 Else {
     Write-Host 'SFMTA GTFS folder already exists, not downloading.'
 }
+
+# Find the closest calendar range in case they upload one early.
+# Actually finds the top three, one for weekdays, one for Saturday, and one for Sunday.
+$DATE = Get-Date -UFormat '%Y%m%d'
+$CALENDAR_CLOSEST = @"
+    SELECT *
+    FROM "$FOLDER/calendar.txt"
+    ORDER BY
+        MAX(start_date - $DATE, $DATE - end_date) ASC
+    LIMIT 3
+"@
+# q -H '-d,' -O -C read $CALENDAR_CLOSEST
 
 # `departure_time`s with leading zero for AM times.
 $STOP_TIMES_FIXED = @"
@@ -94,7 +105,7 @@ $TRIP_EOLS = @"
 # q -H '-d,' -O -C read $TRIP_EOLS
 
 # stop_id, route_id, direction_id, eol_stop_name => count_all, count_day, count_owl
-# FILTER calendar.txt service_id early so we can aggregate the dictionary.
+# FILTER calendar service_id early so we can aggregate the dictionary.
 $STOP_EOLS = @"
     SELECT
         stop_id,
@@ -114,10 +125,7 @@ $STOP_EOLS = @"
     FROM "$FOLDER/stops.txt"
     JOIN "$FOLDER/stop_times_fixed.txt" USING (stop_id)
     JOIN ($TRIP_EOLS) USING (trip_id)
-
-    JOIN "$FOLDER/calendar.txt" USING (service_id)
-    WHERE
-        $DATE BETWEEN start_date AND end_date
+    JOIN ($CALENDAR_CLOSEST) USING (service_id)
 
     GROUP BY
         stop_id, route_id, direction_id, eol_stop_name
@@ -235,9 +243,8 @@ $STOP_TEMPORALITIES = @"
     FROM ($OPERATING_TIMES)
     JOIN ($STOP_EOLS_FLAT) USING (stop_id, route_id, direction_id)
     JOIN ($HEADWAYS) USING (stop_id, route_id, direction_id, service_id)
-    JOIN "$FOLDER/calendar.txt" USING (service_id)
-    WHERE
-        $DATE BETWEEN start_date AND end_date
+    JOIN ($CALENDAR_CLOSEST) USING (service_id)
+
     GROUP BY
         stop_id, route_id, direction_id
     ORDER BY
