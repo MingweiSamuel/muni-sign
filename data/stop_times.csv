@@ -2808,7 +2808,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15630,Munich St & Cordova Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@199,Marina Blvd & Laguna St@@@77,,05:03:36,23:53:09,19.95,,11.970588235294118,,1,1,1,1,1,1,1
 15631,Munich St & Geneva Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@199,Marina Blvd & Laguna St@@@79,,05:00:00,23:50:00,19.952380952380953,,12.0,,1,1,1,1,1,1,1
 15632,Munich St & Naples St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@199,Marina Blvd & Laguna St@@@77,,05:04:36,23:54:01,19.95,,11.970588235294118,,1,1,1,1,1,1,1
-15633,Galvez Ave & Horne Ave,19,POLK,3,005B95,FFFFFF,0,Donahue St & Innes Ave@@@169,Donahue St & Innes Ave@@@69,,05:45:38,22:47:38,20.35,,15.153846153846153,,1,1,1,1,1,1,1
+15633,Galvez Ave & Robinson Ave,19,POLK,3,005B95,FFFFFF,0,Donahue St & Innes Ave@@@169,Donahue St & Innes Ave@@@69,,05:45:38,22:47:38,20.35,,15.153846153846153,,1,1,1,1,1,1,1
 15634,33 Moffitt St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@87,Bosworth St & Diamond St@@@42,,07:15:46,21:14:23,30.076923076923077,,30.076923076923077,,1,1,1,1,1,1,1
 15638,Market St & 1st St,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@356,Transit Center Bay D@@@136,Transit Center Bay D@@@24,06:05:23,29:49:23,10.0,30.428571428571427,8.058823529411764,30.142857142857142,1,1,1,1,1,1,1
 15638,Market St & 1st St,38R,GEARY RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay C@@@325,Transit Center Bay C@@@151,,06:38:23,21:39:59,10.05,,6.044117647058823,,1,1,1,1,1,1,1
