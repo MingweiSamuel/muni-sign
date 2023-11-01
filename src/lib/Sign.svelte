@@ -7,17 +7,14 @@
 
     import TileFooter2In from "./TileFooter2In.svelte";
     import TileBlank from "./TileBlank.svelte";
-    import TileFooter4InQrBigI18n from "./TileFooter4InQrBigI18n.svelte";
 
     export enum FooterType {
         I2 = 0,
         I4QR = 1,
-        I4QR_BIGI18N = 11,
     }
     export const FOOTER_DESC = {
-        [FooterType.I2]: "Standard 2in",
-        [FooterType.I4QR]: "QR 4in",
-        [FooterType.I4QR_BIGI18N]: "QR 4in (Big I18n)",
+        [FooterType.I2]: "SFMTA 2\"",
+        [FooterType.I4QR]: "QR 4\"",
     };
 
     const SPACING = 400;
@@ -50,10 +47,6 @@
                 break;
             case FooterType.I4QR:
                 footerComponent = TileFooter4InQr;
-                footerHeight = 400;
-                break;
-            case FooterType.I4QR_BIGI18N:
-                footerComponent = TileFooter4InQrBigI18n;
                 footerHeight = 400;
                 break;
             default:
@@ -171,13 +164,13 @@
                 font-weight: 500;
             }
             .I4QR .nextmuni {
-                font-size: 45px;
+                font-size: 56px;
                 font-stretch: semi-condensed;
                 font-weight: 500;
             }
             .I4QR .t511 {
-                font-size: 76px;
-                font-stretch: semi-condensed;
+                font-size: 56px;
+                font-stretch: semi-expanded;
                 font-weight: 700;
             }
             .I4QR .t311 {
