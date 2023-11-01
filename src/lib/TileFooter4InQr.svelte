@@ -34,24 +34,23 @@
     <text
         class="w stop-loc"
         x="1550"
-        y="95"
+        y="105"
         textLength={stopLocLimit}
         text-anchor="end"
         lengthAdjust="spacingAndGlyphs">{stopLoc?.toUpperCase()}</text
     >
-    <!-- <text class="w nextmuni" x="455" y="170">Next</text> -->
-    <text class="w nextmuni" x="455" y="200">Next&hairsp;Muni?</text>
+    <text class="w nextmuni" x="455" y="195">Next&hairsp;Muni?</text>
     <path
         class="w"
-        transform="translate(680, 132) scale(8)"
+        transform="translate(800, 144) scale(6)"
         d="M 5.0770809,0.79882812 C 4.6733524,0.84223511 3.2073522,1.5142873 3.1630183,4.9707031 3.1165878,8.6133071 4.6713118,9.3811177 5.079034,9.3730469 l 0.00195,-2.40625 C 4.745075,6.9667489 4.6772238,6.6005449 4.6005183,5.8457031 4.5510563,5.3458594 4.5345963,4.730468 4.6005183,4.1152344 4.6481843,3.6852146 4.7269209,3.2635859 5.079034,3.2636719 Z m 0.3125,0.002775 V 3.2664469 l 0.6796874,0.00195 0.00391,-0.00195 c 0.1568385,-6e-7 0.2656215,-0.12687 0.2656213,-0.2695309 h 0.00195 c 0,0 -0.00195,-1.9295626 -0.00195,-1.9316406 -10e-8,-0.14873985 -0.1189054,-0.26367179 -0.265625,-0.26367187 z m 0.00152,6.16031838 -0.00195,2.4101563 c 0,0 0.6796867,0.002 0.6796875,0 h 0.00195 c 0.1568422,0 0.2675252,-0.1249171 0.2675781,-0.2675781 l 0.00195,-0.00391 c 0,0 -1e-5,-1.8711079 0,-1.8730469 3.7e-5,-0.1487492 -0.1208585,-0.2655702 -0.2675782,-0.265625 z"
     />
-    <text class="w t511 stretch-sc" x="745" y="200">511</text>
-    <text class="w t511" x="1315" y="200" text-anchor="end">
+    <text class="w t511 stretch-sc" x="850" y="195">511</text>
+    <text class="w t511" x="1350" y="195" text-anchor="end">
         SFMTA.com/
     </text>
-    <rect x="1325" y="135" rx="10" width="225" height="76.5" fill="#fff" />
-    <text class="t511" x="1437.5" y="200" text-anchor="middle">{stopId}</text>
+    <rect x="1360" y="146.5" rx="10" width="180" height="56" fill="#fff" />
+    <text class="t511" x="1449" y="195" text-anchor="middle">{stopId}</text>
 </SvgA>
 <g>
     <rect class="w" x="455" y="277.5" width="70" height="70" rx="5" ry="5" />
