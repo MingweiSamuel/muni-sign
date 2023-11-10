@@ -227,6 +227,10 @@
     "Balboa Park",
     "Downtown"
   ],
+  "KT": [
+    "Balboa Park via Downtown",
+    "Sunnydale via Downtown"
+  ],
   "LBUS": [
     "SF Zoo",
     "West Portal or Embarcadero"
@@ -239,10 +243,6 @@
     "Balboa Park",
     "Downtown"
   ],
-  "MBUS": [
-    "Balboa Park",
-    "Embarcadero"
-  ],
   "N": [
     "Ocean Beach",
     "Caltrain via Downtown"
@@ -254,6 +254,10 @@
   "NOWL": [
     "Ocean Beach",
     "Downtown"
+  ],
+  "P": [
+    "Washington & Jackson - Cable Cars",
+    "Powell & Market"
   ],
   "PH": [
     "Fisherman's Wharf",
