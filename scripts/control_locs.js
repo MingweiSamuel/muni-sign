@@ -40,8 +40,14 @@ async function main() {
             const dom = new JSDOM(htmlBody);
 
             const DEST_REGEX = /(?:In|Out|East|West|North|South)bound to\s+(.+?)\s+stop list/;
-            const outbound = dom.window.document.querySelector('#outboud a').textContent.match(DEST_REGEX)[1];
-            const inbound = dom.window.document.querySelector('#inbound a').textContent.match(DEST_REGEX)[1];
+            const outboundA = dom.window.document.querySelector('#outboud a');
+            const inboundA = dom.window.document.querySelector('#inbound a');
+            if (!outboundA || !inboundA) {
+                console.warn(`No inbound/outbound data for ${response.url}`);
+                return null;
+            }
+            const outbound = outboundA.textContent.match(DEST_REGEX)[1];
+            const inbound = inboundA.textContent.match(DEST_REGEX)[1];
 
             const pair = [outbound, inbound];
             console.log(`${routeId}:`.padEnd(8) + JSON.stringify(pair));
@@ -49,10 +55,11 @@ async function main() {
             return [routeId, pair];
         }
         catch (e) {
-            console.error(routeId, e);
+            console.error(`Unexpected error finding inbound/outbound data for ${routeId}`, e);
+            return null;
         }
     });
-    const data = Object.fromEntries(await Promise.all(promises));
+    const data = Object.fromEntries((await Promise.all(promises)).filter(pair => null != pair));
 
     await fs.writeFile('public/data/control_locs.json', JSON.stringify(data, null, 2), 'utf-8');
 }
