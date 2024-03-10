@@ -19,7 +19,7 @@ Else {
 $DATE = Get-Date -UFormat '%Y%m%d'
 $CALENDAR_CLOSEST = @"
     SELECT *
-    FROM "$FOLDER/calendar.txt"
+    FROM $FOLDER/calendar.txt
     ORDER BY
         MAX(start_date - $DATE, $DATE - end_date) ASC
     LIMIT 3
@@ -33,22 +33,22 @@ $STOP_TIMES_FIXED = @"
         stop_id,
         stop_sequence,
         SUBSTR('0' || departure_time, -8) AS departure_time
-    FROM "$FOLDER/stop_times.txt"
+    FROM $FOLDER/stop_times.txt
 "@
-q -H '-d,' -O -C read $STOP_TIMES_FIXED | Out-File "$FOLDER/stop_times_fixed.txt"
+q -H '-d,' -O -C read $STOP_TIMES_FIXED | Out-File $FOLDER/stop_times_fixed.txt
 
 # stop_times excluding last stop for a trip.
 $STOP_TIMES_NON_LAST = @"
     SELECT
         *
     FROM
-        "$FOLDER/stop_times_fixed.txt"
+        $FOLDER/stop_times_fixed.txt
     JOIN (
         SELECT
             trip_id,
             MAX(stop_sequence) AS stop_sequence_max
         FROM
-            "$FOLDER/stop_times_fixed.txt"
+            $FOLDER/stop_times_fixed.txt
         GROUP BY
             trip_id
     ) USING (trip_id)
@@ -68,8 +68,8 @@ $OPERATING_TIMES = @"
         MIN(departure_time) AS start_time,
         MAX(departure_time) AS end_time
 
-    FROM "$FOLDER/stop_times_fixed.txt"
-    JOIN "$FOLDER/trips.txt" USING (trip_id)
+    FROM $FOLDER/stop_times_fixed.txt
+    JOIN $FOLDER/trips.txt USING (trip_id)
     GROUP BY
         stop_id, route_id, direction_id, service_id
     ORDER BY
@@ -86,18 +86,18 @@ $TRIP_EOLS = @"
         trip_id,
         stop_name AS eol_stop_name
 
-    FROM "$FOLDER/stop_times_fixed.txt"
+    FROM $FOLDER/stop_times_fixed.txt
     JOIN (
         SELECT
             trip_id,
             MAX(stop_sequence) AS stop_sequence
-        FROM "$FOLDER/stop_times_fixed.txt"
+        FROM $FOLDER/stop_times_fixed.txt
         GROUP BY
             trip_id
     ) USING (trip_id, stop_sequence)
-    JOIN "$FOLDER/trips.txt" USING (trip_id)
-    JOIN "$FOLDER/routes.txt" USING (route_id)
-    JOIN "$FOLDER/stops.txt" USING (stop_id)
+    JOIN $FOLDER/trips.txt USING (trip_id)
+    JOIN $FOLDER/routes.txt USING (route_id)
+    JOIN $FOLDER/stops.txt USING (stop_id)
     ORDER BY
         trip_id,
         route_id, direction_id, service_id, eol_stop_name
@@ -122,8 +122,8 @@ $STOP_EOLS = @"
         ) AS count_owl
 
 
-    FROM "$FOLDER/stops.txt"
-    JOIN "$FOLDER/stop_times_fixed.txt" USING (stop_id)
+    FROM $FOLDER/stops.txt
+    JOIN $FOLDER/stop_times_fixed.txt USING (stop_id)
     JOIN ($TRIP_EOLS) USING (trip_id)
     JOIN ($CALENDAR_CLOSEST) USING (service_id)
 
@@ -202,7 +202,7 @@ $HEADWAYS = @"
                 departure_time BETWEEN '09:00:00' AND '16:00:00' AS is_day,
                 departure_time BETWEEN '26:00:00' AND '48:00:00' AS is_owl
             FROM ($STOP_TIMES_NON_LAST)
-            JOIN "$FOLDER/trips.txt" USING (trip_id)
+            JOIN $FOLDER/trips.txt USING (trip_id)
         )
     )
     GROUP BY
@@ -280,8 +280,8 @@ $STOP_ALL_DATA = @"
         mon, tue, wed, thu, fri, sat, sun
 
     FROM ($STOP_TEMPORALITIES)
-    JOIN "$FOLDER/stops.txt" USING (stop_id)
-    JOIN "$FOLDER/routes.txt" USING (route_id)
+    JOIN $FOLDER/stops.txt USING (stop_id)
+    JOIN $FOLDER/routes.txt USING (route_id)
     ORDER BY
         stop_code, route_short_name, direction_id
 "@
