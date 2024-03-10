@@ -179,6 +179,14 @@
     "Daly City BART",
     "Downtown"
   ],
+  "1X": [
+    "Richmond District",
+    "Financial District"
+  ],
+  "28R": [
+    "Daly City BART",
+    "The Inner Richmond"
+  ],
   "38R": [
     "The Richmond",
     "Downtown"
@@ -199,7 +207,7 @@
     "Visitacion Valley",
     "Downtown"
   ],
-  "C": [
+  "CA": [
     "Van Ness",
     "Embarcadero"
   ],
@@ -211,33 +219,45 @@
     "Balboa Park",
     "Downtown"
   ],
+  "K": [
+    "Balboa Park",
+    "Embarcadero"
+  ],
   "KBUS": [
     "Balboa Park",
     "Downtown"
   ],
-  "L-OWL": [
-    "SF Zoo via Downtown",
-    "Fisherman's Wharf via Downtown"
+  "KLM": [
+    "St. Francis Circle",
+    "Brannan & The Embarcadero"
   ],
   "LBUS": [
     "SF Zoo",
     "West Portal or Embarcadero"
   ],
+  "LOWL": [
+    "SF Zoo via Downtown",
+    "Fisherman's Wharf via Downtown"
+  ],
   "M": [
     "Balboa Park",
     "Downtown"
+  ],
+  "MBUS": [
+    "Balboa Park",
+    "Embarcadero"
   ],
   "N": [
     "Ocean Beach",
     "Caltrain via Downtown"
   ],
-  "N-OWL": [
-    "Ocean Beach",
-    "Downtown"
-  ],
   "NBUS": [
     "Ocean Beach",
     "Caltrain"
+  ],
+  "NOWL": [
+    "Ocean Beach",
+    "Downtown"
   ],
   "PH": [
     "Fisherman's Wharf",
@@ -246,6 +266,14 @@
   "PM": [
     "Fisherman's Wharf",
     "Powell and Market"
+  ],
+  "S": [
+    "West Portal Station",
+    "Embarcadero Station"
+  ],
+  "T": [
+    "Chinatown",
+    "Sunnydale"
   ],
   "TBUS": [
     "Chinatown via Downtown",
