@@ -7,6 +7,9 @@ export default defineConfig({
   define: {
     '__defines__.COMMIT_HASH': JSON.stringify(execSync('git rev-parse --short HEAD').toString().trim()),
   },
+  build: {
+    sourcemap: true,
+  },
   plugins: [svelte()],
   base: '',
 })
