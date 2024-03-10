@@ -16,7 +16,7 @@ $SITEMAP_WRITER.WriteEndElement()
 # Each stop ID.
 $STOP_IDS = @"
     SELECT DISTINCT stop_code
-    FROM "public/data/stop_times.csv"
+    FROM public/data/stop_times.csv
     ORDER BY stop_code
 "@
 q -H '-d,' -O -C read $STOP_IDS | ConvertFrom-Csv | Foreach-Object {
