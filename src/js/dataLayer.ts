@@ -382,7 +382,7 @@ export async function getStopTimes(stopId: string): Promise<StopTimes> {
             // Found here: https://github.com/codebox/homoglyph/blob/763c79a20ba054cc028b3336b5c7b1822db36dc8/raw_data/chars.txt#L48
             lineNum = lineNum.replaceAll('J', '\u037F');
 
-            const controlLoc = controlLocs[line.route_short_name][+line.direction_id];
+            const controlLoc = controlLocs[line.route_short_name]?.[+line.direction_id] ?? '<UNKNOWN>';
             let [lineDest0, lineDest1] = processDestinations(controlLoc, line);
 
             // Line colors.
