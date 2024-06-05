@@ -39,19 +39,14 @@ async function main() {
             const htmlBody = await response.text();
             const dom = new JSDOM(htmlBody);
 
-            const DEST_REGEX = /(?:In|Out|East|West|North|South)bound to\s+(.+?)\s+stop list/;
-            const outboundA = dom.window.document.querySelector('#outboud a');
-            const inboundA = dom.window.document.querySelector('#inbound a');
+            const outboundA = dom.window.document.querySelector('details#outbound > summary > span');
+            const inboundA = dom.window.document.querySelector('details#inbound > summary > span');
             if (!outboundA || !inboundA) {
                 console.warn(`No inbound/outbound data for ${response.url}`);
                 return null;
             }
-            const outbound = outboundA.textContent.match(DEST_REGEX)[1];
-            const inbound = inboundA.textContent.match(DEST_REGEX)[1];
-
-            const pair = [outbound, inbound];
+            const pair = [outboundA.textContent, inboundA.textContent];
             console.log(`${routeId}:`.padEnd(8) + JSON.stringify(pair));
-
             return [routeId, pair];
         }
         catch (e) {
