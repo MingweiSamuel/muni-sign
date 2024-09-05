@@ -1777,11 +1777,6 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/13545</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/13546</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
@@ -2733,6 +2728,11 @@
   </url>
   <url>
     <loc>https://munisign.org/13814</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.1</priority>
+  </url>
+  <url>
+    <loc>https://munisign.org/13815</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
@@ -7857,11 +7857,6 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/15246</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/15247</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
@@ -10517,11 +10512,6 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/15929</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/15930</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
@@ -11817,17 +11807,7 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/16267</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/16268</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://munisign.org/16269</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
@@ -15207,11 +15187,6 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/17582</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/17592</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
@@ -15717,11 +15692,6 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/17893</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/17899</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
@@ -15798,11 +15768,6 @@
   </url>
   <url>
     <loc>https://munisign.org/17926</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://munisign.org/17940</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
@@ -16268,11 +16233,6 @@
   </url>
   <url>
     <loc>https://munisign.org/18122</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://munisign.org/18129</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
