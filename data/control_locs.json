@@ -1,19 +1,15 @@
 {
-  "1": [
-    "The Richmond",
-    "Downtown"
-  ],
   "2": [
     "The Richmond",
     "Downtown"
   ],
-  "5": [
-    "The Richmond",
+  "6": [
+    "The Inner Sunset",
     "Downtown"
   ],
-  "12": [
-    "The Mission via Rincon Hill",
-    "Nob Hill via Rincon Hill"
+  "9": [
+    "Visitacion Valley",
+    "Downtown"
   ],
   "14": [
     "Daly City",
@@ -27,29 +23,17 @@
     "Stonestown",
     "Outer Richmond"
   ],
-  "19": [
-    "Hunters Point",
-    "Fisherman's Wharf"
-  ],
-  "21": [
-    "Inner Richmond",
-    "Civic Center"
-  ],
-  "22": [
-    "Mission Bay/UCSF",
-    "The Marina"
-  ],
   "23": [
     "SF Zoo",
     "Bayview"
   ],
-  "24": [
-    "Bayview",
-    "Pacific Heights"
-  ],
   "25": [
     "Treasure Island",
     "Downtown"
+  ],
+  "27": [
+    "The Mission",
+    "Russian Hill"
   ],
   "29": [
     "Bayview",
@@ -67,6 +51,10 @@
     "San Francisco General Hospital",
     "The Richmond District"
   ],
+  "35": [
+    "Glen Park",
+    "The Castro"
+  ],
   "36": [
     "The Mission District",
     "Forest Hill/Midtown Terrace"
@@ -74,6 +62,10 @@
   "37": [
     "Twin Peaks",
     "The Haight"
+  ],
+  "38": [
+    "The Richmond",
+    "Downtown"
   ],
   "39": [
     "Coit Tower",
@@ -90,6 +82,10 @@
   "45": [
     "The Marina via Downtown",
     "Caltrain via Downtown"
+  ],
+  "48": [
+    "Ocean Beach",
+    "Potrero Hill"
   ],
   "49": [
     "City College",
@@ -111,17 +107,17 @@
     "Daly City BART via Stonestown",
     "West Portal Station via Stonestown"
   ],
-  "91": [
-    "West Portal",
-    "SFSU"
+  "67": [
+    "Bernal Heights",
+    "The Mission"
+  ],
+  "714": [
+    "Daly City BART",
+    "Downtown"
   ],
   "14R": [
     "Daly City BART",
     "Downtown"
-  ],
-  "1X": [
-    "Richmond District",
-    "Financial District"
   ],
   "28R": [
     "Daly City BART",
@@ -135,28 +131,32 @@
     "The Richmond",
     "Downtown"
   ],
+  "8AX": [
+    "Visitacion Valley",
+    "North Beach via Downtown "
+  ],
   "8BX": [
     "Visitacion Valley",
     "Fisherman's Wharf via Downtown"
   ],
-  "CA": [
-    "Van Ness",
-    "Embarcadero"
+  "9R": [
+    "Visitacion Valley",
+    "Downtown"
   ],
-  "LBUS": [
-    "SF Zoo",
-    "West Portal or Embarcadero"
+  "KBUS": [
+    "Balboa Park",
+    "Downtown"
   ],
   "LOWL": [
     "SF Zoo via Downtown",
     "Fisherman's Wharf via Downtown"
   ],
-  "M": [
-    "Balboa Park",
-    "Downtown"
-  ],
   "PH": [
     "Fisherman's Wharf",
     "Powell and Market"
+  ],
+  "PM": [
+    "Fisherman's Wharf",
+    " Powell and Market"
   ]
 }
