@@ -1,8 +1,4 @@
 {
-  "1": [
-    "The Richmond",
-    "Downtown"
-  ],
   "2": [
     "The Richmond",
     "Downtown"
@@ -18,10 +14,6 @@
   "7": [
     "Ocean Beach",
     "Downtown"
-  ],
-  "8": [
-    "City College via Visitacion Valley",
-    "Fisherman's Wharf via Downtown"
   ],
   "9": [
     "Visitacion Valley",
@@ -107,10 +99,6 @@
     "The Richmond",
     "Downtown"
   ],
-  "39": [
-    "Coit Tower",
-    "Fisherman's Wharf"
-  ],
   "43": [
     "Munich & Geneva via The Presidio",
     "Fort Mason via The Presidio"
@@ -187,10 +175,6 @@
     "Daly City BART",
     "The Inner Richmond"
   ],
-  "38R": [
-    "The Richmond",
-    "Downtown"
-  ],
   "5R": [
     "The Richmond",
     "Downtown"
@@ -207,10 +191,6 @@
     "Visitacion Valley",
     "Downtown"
   ],
-  "CA": [
-    "Van Ness",
-    "Embarcadero"
-  ],
   "F": [
     "The Castro",
     "Fisherman's Wharf"
@@ -219,10 +199,6 @@
     "The Castro",
     "Fisherman's Wharf"
   ],
-  "J": [
-    "Balboa Park",
-    "Downtown"
-  ],
   "K": [
     "Balboa Park",
     "Embarcadero"
@@ -230,10 +206,6 @@
   "KBUS": [
     "Balboa Park",
     "Downtown"
-  ],
-  "LBUS": [
-    "SF Zoo",
-    "West Portal or Embarcadero"
   ],
   "LOWL": [
     "SF Zoo via Downtown",
@@ -251,10 +223,6 @@
     "Ocean Beach",
     "Caltrain"
   ],
-  "NOWL": [
-    "Ocean Beach",
-    "Downtown"
-  ],
   "PH": [
     "Fisherman's Wharf",
     "Powell and Market"
@@ -262,10 +230,6 @@
   "PM": [
     "Fisherman's Wharf",
     " Powell and Market"
-  ],
-  "S": [
-    "West Portal Station",
-    "Embarcadero Station"
   ],
   "T": [
     "Chinatown",
