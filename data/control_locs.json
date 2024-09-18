@@ -3,6 +3,10 @@
     "The Richmond",
     "Downtown"
   ],
+  "2": [
+    "The Richmond",
+    "Downtown"
+  ],
   "6": [
     "The Inner Sunset",
     "Downtown"
@@ -10,10 +14,6 @@
   "7": [
     "Ocean Beach",
     "Downtown"
-  ],
-  "12": [
-    "The Mission via Rincon Hill",
-    "Nob Hill via Rincon Hill"
   ],
   "14": [
     "Daly City",
@@ -35,6 +35,10 @@
     "Inner Richmond",
     "Civic Center"
   ],
+  "22": [
+    "Mission Bay/UCSF",
+    "The Marina"
+  ],
   "23": [
     "SF Zoo",
     "Bayview"
@@ -42,10 +46,6 @@
   "24": [
     "Bayview",
     "Pacific Heights"
-  ],
-  "25": [
-    "Treasure Island",
-    "Downtown"
   ],
   "27": [
     "The Mission",
@@ -55,13 +55,21 @@
     "Daly City BART",
     "Fisherman's Wharf"
   ],
-  "29": [
-    "Bayview",
-    "The Presidio"
+  "31": [
+    "The Richmond",
+    "Downtown/Caltrain"
+  ],
+  "33": [
+    "San Francisco General Hospital",
+    "The Richmond District"
   ],
   "35": [
     "Glen Park",
     "The Castro"
+  ],
+  "37": [
+    "Twin Peaks",
+    "The Haight"
   ],
   "38": [
     "The Richmond",
@@ -71,9 +79,13 @@
     "Munich & Geneva via The Presidio",
     "Fort Mason via The Presidio"
   ],
-  "49": [
-    "City College",
-    "Fort Mason"
+  "48": [
+    "Ocean Beach",
+    "Potrero Hill"
+  ],
+  "52": [
+    "The Excelsior",
+    "Forest Hill Station"
   ],
   "54": [
     "Daly City BART",
@@ -83,21 +95,13 @@
     "Dogpatch",
     "16th Street/Mission BART Station"
   ],
-  "57": [
-    "Daly City BART via Stonestown",
-    "West Portal Station via Stonestown"
+  "58": [
+    "Daly City via Daly City BART",
+    "Stonestown"
   ],
-  "66": [
-    "Parkside",
-    "Inner Sunset"
-  ],
-  "91": [
-    "West Portal",
-    "SFSU"
-  ],
-  "714": [
-    "Daly City BART",
-    "Downtown"
+  "90": [
+    "Visitacion Valley",
+    "Fort Mason"
   ],
   "14R": [
     "Daly City BART",
@@ -107,12 +111,20 @@
     "Richmond District",
     "Financial District"
   ],
+  "28R": [
+    "Daly City BART",
+    "The Inner Richmond"
+  ],
+  "CA": [
+    "Van Ness",
+    "Embarcadero"
+  ],
+  "LBUS": [
+    "SF Zoo",
+    "West Portal or Embarcadero"
+  ],
   "LOWL": [
     "SF Zoo via Downtown",
     "Fisherman's Wharf via Downtown"
-  ],
-  "T": [
-    "Chinatown",
-    "Sunnydale"
   ]
 }
