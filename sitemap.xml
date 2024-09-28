@@ -11807,11 +11807,6 @@
     <priority>0.1</priority>
   </url>
   <url>
-    <loc>https://munisign.org/16268</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
     <loc>https://munisign.org/16274</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
@@ -14378,11 +14373,6 @@
   </url>
   <url>
     <loc>https://munisign.org/17109</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.1</priority>
-  </url>
-  <url>
-    <loc>https://munisign.org/17111</loc>
     <changefreq>monthly</changefreq>
     <priority>0.1</priority>
   </url>
