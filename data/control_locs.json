@@ -1,26 +1,10 @@
 {
-  "1": [
-    "The Richmond",
-    "Downtown"
-  ],
   "2": [
-    "The Richmond",
-    "Downtown"
-  ],
-  "5": [
     "The Richmond",
     "Downtown"
   ],
   "6": [
     "The Inner Sunset",
-    "Downtown"
-  ],
-  "7": [
-    "Ocean Beach",
-    "Downtown"
-  ],
-  "9": [
-    "Visitacion Valley",
     "Downtown"
   ],
   "12": [
@@ -59,21 +43,9 @@
     "Bayview",
     "Pacific Heights"
   ],
-  "25": [
-    "Treasure Island",
-    "Downtown"
-  ],
-  "27": [
-    "The Mission",
-    "Russian Hill"
-  ],
   "28": [
     "Daly City BART",
     "Fisherman's Wharf"
-  ],
-  "29": [
-    "Bayview",
-    "The Presidio"
   ],
   "30": [
     "The Presidio",
@@ -91,14 +63,6 @@
     "Glen Park",
     "The Castro"
   ],
-  "36": [
-    "The Mission District",
-    "Forest Hill/Midtown Terrace"
-  ],
-  "37": [
-    "Twin Peaks",
-    "The Haight"
-  ],
   "38": [
     "The Richmond",
     "Downtown"
@@ -114,10 +78,6 @@
   "44": [
     "Hunters Point",
     "The Richmond"
-  ],
-  "45": [
-    "The Marina via Downtown",
-    "Caltrain via Downtown"
   ],
   "48": [
     "Ocean Beach",
@@ -159,10 +119,6 @@
     "Visitacion Valley",
     "Fort Mason"
   ],
-  "714": [
-    "Daly City BART",
-    "Downtown"
-  ],
   "14R": [
     "Daly City BART",
     "Downtown"
@@ -183,24 +139,12 @@
     "The Richmond",
     "Downtown"
   ],
-  "8BX": [
+  "8AX": [
     "Visitacion Valley",
-    "Fisherman's Wharf via Downtown"
+    "North Beach via Downtown "
   ],
   "9R": [
     "Visitacion Valley",
-    "Downtown"
-  ],
-  "F": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
-  "FBUS": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
-  "J": [
-    "Balboa Park",
     "Downtown"
   ],
   "KBUS": [
@@ -211,9 +155,9 @@
     "SF Zoo",
     "West Portal or Embarcadero"
   ],
-  "LOWL": [
-    "SF Zoo via Downtown",
-    "Fisherman's Wharf via Downtown"
+  "NOWL": [
+    "Ocean Beach",
+    "Downtown"
   ],
   "PH": [
     "Fisherman's Wharf",
@@ -222,13 +166,5 @@
   "PM": [
     "Fisherman's Wharf",
     " Powell and Market"
-  ],
-  "T": [
-    "Chinatown",
-    "Sunnydale"
-  ],
-  "TBUS": [
-    "Chinatown via Downtown",
-    "Visitacion Valley via Downtown"
   ]
 }
