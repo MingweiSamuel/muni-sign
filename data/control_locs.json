@@ -1,27 +1,19 @@
 {
-  "2": [
+  "1": [
     "The Richmond",
     "Downtown"
   ],
-  "6": [
-    "The Inner Sunset",
+  "7": [
+    "Ocean Beach",
     "Downtown"
   ],
   "12": [
     "The Mission via Rincon Hill",
     "Nob Hill via Rincon Hill"
   ],
-  "14": [
-    "Daly City",
-    "Downtown"
-  ],
   "15": [
     "Bayview and Hunters Point",
     "Downtown"
-  ],
-  "18": [
-    "Stonestown",
-    "Outer Richmond"
   ],
   "19": [
     "Hunters Point",
@@ -43,9 +35,9 @@
     "Bayview",
     "Pacific Heights"
   ],
-  "28": [
-    "Daly City BART",
-    "Fisherman's Wharf"
+  "25": [
+    "Treasure Island",
+    "Downtown"
   ],
   "30": [
     "The Presidio",
@@ -59,21 +51,17 @@
     "San Francisco General Hospital",
     "The Richmond District"
   ],
-  "35": [
-    "Glen Park",
-    "The Castro"
+  "36": [
+    "The Mission District",
+    "Forest Hill/Midtown Terrace"
+  ],
+  "37": [
+    "Twin Peaks",
+    "The Haight"
   ],
   "38": [
     "The Richmond",
     "Downtown"
-  ],
-  "39": [
-    "Coit Tower",
-    "Fisherman's Wharf"
-  ],
-  "43": [
-    "Munich & Geneva via The Presidio",
-    "Fort Mason via The Presidio"
   ],
   "44": [
     "Hunters Point",
@@ -119,9 +107,9 @@
     "Visitacion Valley",
     "Fort Mason"
   ],
-  "14R": [
-    "Daly City BART",
-    "Downtown"
+  "91": [
+    "West Portal",
+    "SFSU"
   ],
   "1X": [
     "Richmond District",
@@ -131,21 +119,25 @@
     "Daly City BART",
     "The Inner Richmond"
   ],
-  "38R": [
-    "The Richmond",
-    "Downtown"
-  ],
   "5R": [
     "The Richmond",
     "Downtown"
   ],
-  "8AX": [
+  "8BX": [
     "Visitacion Valley",
-    "North Beach via Downtown "
+    "Fisherman's Wharf via Downtown"
   ],
   "9R": [
     "Visitacion Valley",
     "Downtown"
+  ],
+  "CA": [
+    "Van Ness",
+    "Embarcadero"
+  ],
+  "K": [
+    "Balboa Park",
+    "Embarcadero"
   ],
   "KBUS": [
     "Balboa Park",
@@ -155,16 +147,24 @@
     "SF Zoo",
     "West Portal or Embarcadero"
   ],
+  "M": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "NBUS": [
+    "Ocean Beach",
+    "Caltrain"
+  ],
   "NOWL": [
     "Ocean Beach",
     "Downtown"
   ],
-  "PH": [
-    "Fisherman's Wharf",
-    "Powell and Market"
-  ],
   "PM": [
     "Fisherman's Wharf",
     " Powell and Market"
+  ],
+  "TBUS": [
+    "Chinatown via Downtown",
+    "Visitacion Valley via Downtown"
   ]
 }
