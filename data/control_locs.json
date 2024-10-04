@@ -15,6 +15,10 @@
     "The Inner Sunset",
     "Downtown"
   ],
+  "7": [
+    "Ocean Beach",
+    "Downtown"
+  ],
   "8": [
     "City College via Visitacion Valley",
     "Fisherman's Wharf via Downtown"
@@ -183,6 +187,10 @@
     "Daly City BART",
     "The Inner Richmond"
   ],
+  "38R": [
+    "The Richmond",
+    "Downtown"
+  ],
   "5R": [
     "The Richmond",
     "Downtown"
@@ -203,6 +211,10 @@
     "Van Ness",
     "Embarcadero"
   ],
+  "F": [
+    "The Castro",
+    "Fisherman's Wharf"
+  ],
   "FBUS": [
     "The Castro",
     "Fisherman's Wharf"
@@ -217,6 +229,10 @@
   ],
   "KBUS": [
     "Balboa Park",
+    "Downtown"
+  ],
+  "L": [
+    "The Zoo",
     "Downtown"
   ],
   "LBUS": [
@@ -254,6 +270,10 @@
   "S": [
     "West Portal Station",
     "Embarcadero Station"
+  ],
+  "T": [
+    "Chinatown",
+    "Sunnydale"
   ],
   "TBUS": [
     "Chinatown via Downtown",
