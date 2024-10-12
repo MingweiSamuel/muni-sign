@@ -434,7 +434,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13406,20th Av/Macy'S Stonestown,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:20:56,22:19:09,24.875,,20.55,,1,1,1,1,1,1,1
 13408,20th Ave & Winston Dr,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:10:32,22:00:28,20.0,,20.0,,1,1,1,1,1,1,1
 13408,20th Ave & Winston Dr,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:20:12,22:18:29,24.8125,,20.5,,1,1,1,1,1,1,1
-13408,20th Ave & Winston Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+13408,20th Ave & Winston Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:00:35,22:00:35,30.0,,30.0,,1,1,1,1,1,1,1
 13409,20th Ave & Winston Dr,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:07:32,22:07:32,25.0625,,20.15,,1,1,1,1,1,1,1
 13410,20th St & 3rd St,55,DOGPATCH,3,005B95,FFFFFF,1,16th St & Mission St@@@156,16th St & Mission St@@@66,,05:00:00,22:00:00,20.0,,20.0,,1,1,1,1,1,1,1
 13414,20th St & Collingwood St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@87,Bosworth St & Diamond St@@@42,,07:02:38,21:02:25,30.0,,30.0,,1,1,1,1,1,1,1
@@ -658,11 +658,11 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13622,Alemany Blvd & Arch St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@63,,05:43:00,21:58:00,20.05,,20.0,,1,1,1,1,1,1,1
 13628,Alemany Blvd & St Charles Ave,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@63,,05:42:26,21:57:26,20.05,,20.0,,1,1,1,1,1,1,1
 13628,Alemany Blvd & St Charles Ave,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:06:39,22:06:22,25.125,,20.5,,1,1,1,1,1,1,1
-13628,Alemany Blvd & St Charles Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+13628,Alemany Blvd & St Charles Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:10:12,22:10:12,30.0,,30.0,,1,1,1,1,1,1,1
 13630,Alemany Blvd & Victoria St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@142,Daly City BART West Station Rd@@@61,,06:33:42,22:39:42,20.263157894736842,,19.85,,1,1,1,1,1,1,1
 13631,Alemany Blvd & Victoria St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@63,,05:43:34,21:58:30,20.05,,20.0,,1,1,1,1,1,1,1
 13641,Arch St & Alemany Blvd,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@52,,05:18:26,22:18:26,25.2,,20.31578947368421,,1,1,1,1,1,1,1
-13641,Arch St & Alemany Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+13641,Arch St & Alemany Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:23:53,22:23:53,30.0,,30.0,,1,1,1,1,1,1,1
 13642,Arguello Blvd & Balboa St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@151,25th St & Potrero Ave@@@65,,05:19:41,21:56:47,20.2,,19.333333333333332,,1,1,1,1,1,1,1
 13643,Arguello Blvd & California St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,1,Arguello Blvd & California St@@@21###Sacramento St & Cherry St@@@130,Sacramento St & Cherry St@@@61,,06:39:00,23:23:00,21.157894736842106,,20.15,,1,1,1,1,1,1,1
 13644,Arguello Blvd & California St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@151,25th St & Potrero Ave@@@64,,05:16:40,21:52:55,20.105263157894736,,19.333333333333332,,1,1,1,1,1,1,1
@@ -1863,17 +1863,17 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14827,Kiska Rd & Dormitory Rd,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@98,,08:31:53,22:32:53,12.741935483870968,,12.424242424242424,,1,1,1,1,1,1,1
 14827,Kiska Rd & Dormitory Rd,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,1,Sutter St & Sansome St@@@209,Sutter St & Sansome St@@@103,,08:08:52,22:08:52,12.363636363636363,,12.0,,1,1,1,1,1,1,1
 14827,Kiska Rd & Dormitory Rd,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@145,Newhall St & Hudson@@@63,,06:31:37,22:48:37,20.25,,20.05,,1,1,1,1,1,1,1
-14828,1100 Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
-14829,1100 Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+14828,1100 Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:18:01,22:18:01,30.0,,30.0,,1,1,1,1,1,1,1
+14829,1100 Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:16:47,22:16:47,30.0,,30.0,,1,1,1,1,1,1,1
 14833,Lake Merced Blvd & Font Blvd,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@54,,05:15:05,22:13:55,25.125,,20.526315789473685,,1,1,1,1,1,1,1
-14836,Lake Merced Blvd & Lake Merced Hills Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
-14837,Lake Merced Blvd & Lake Merced Hills Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+14836,Lake Merced Blvd & Lake Merced Hills Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:18:41,22:18:41,30.0,,30.0,,1,1,1,1,1,1,1
+14837,Lake Merced Blvd & Lake Merced Hills Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:16:15,22:16:15,30.0,,30.0,,1,1,1,1,1,1,1
 14838,Lake Merced & Middlefield Dr,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:13:06,22:02:42,20.0,,20.0,,1,1,1,1,1,1,1
 14838,Lake Merced & Middlefield Dr,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:39:04,24:33:42,12.0,,8.583333333333334,,1,1,1,1,1,1,1
-14838,Lake Merced & Middlefield Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+14838,Lake Merced & Middlefield Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:03:40,22:03:40,30.0,,30.0,,1,1,1,1,1,1,1
 14839,Lake Merced & Middlefield Dr,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:24:32,22:28:11,20.05,,20.05,,1,1,1,1,1,1,1
 14839,Lake Merced & Middlefield Dr,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@119,,05:23:52,24:17:37,12.176470588235293,,8.625,,1,1,1,1,1,1,1
-14839,Lake Merced & Middlefield Dr,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+14839,Lake Merced & Middlefield Dr,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:30:10,22:30:10,30.0,,30.0,,1,1,1,1,1,1,1
 14840,Lake Merced Blvd/Sfsu,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:11:19,22:11:19,25.125,,20.2,,1,1,1,1,1,1,1
 14842,La Playa St & Cabrillo St,5,FULTON,3,005B95,FFFFFF,0,Cabrillo St & La Playa St@@@288,Cabrillo St & La Playa St@@@84,Cabrillo St & La Playa St@@@21,04:54:45,29:23:45,9.853658536585366,30.0,9.853658536585366,30.0,1,1,1,1,1,1,1
 14842,La Playa St & Cabrillo St,5R,FULTON RAPID,3,BF2B45,FFFFFF,0,Cabrillo St & La Playa St@@@63,Cabrillo St & La Playa St@@@35,,07:34:43,19:51:40,12.088235294117647,,12.088235294117647,,1,1,1,1,1,0,0
@@ -2193,12 +2193,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15124,Irving St & Arguello Blvd,N,JUDAH,0,005B95,FFFFFF,1,Duboce Ave & Church St@@@13###King St & 4th St@@@256,King St & 4th St@@@110,,07:51:06,24:53:11,12.212121212121213,,9.951219512195122,,1,1,1,1,1,1,1
 15124,Irving St & Arguello Blvd,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@25,,,05:24:01,24:13:27,,,,,1,1,1,1,1,1,1
 15124,Irving St & Arguello Blvd,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:32:44,29:32:44,,30.0,,30.0,1,1,1,1,1,1,1
-15125,515 John Muir Dr,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-15126,515 John Muir Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
-15129,655 John Muir Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-15130,655 John Muir Ave,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
-15131,John Muir Dr & Skyline Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-15132,John Muir Dr & Skyline Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+15125,515 John Muir Dr,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:20:26,22:20:26,30.0,,30.0,,1,1,1,1,1,1,1
+15126,515 John Muir Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:14:29,22:14:29,30.0,,30.0,,1,1,1,1,1,1,1
+15129,655 John Muir Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:21:01,22:21:01,30.0,,30.0,,1,1,1,1,1,1,1
+15130,655 John Muir Ave,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:13:58,22:13:58,30.0,,30.0,,1,1,1,1,1,1,1
+15131,John Muir Dr & Skyline Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:21:47,22:21:47,30.0,,30.0,,1,1,1,1,1,1,1
+15132,John Muir Dr & Skyline Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:13:14,22:13:14,30.0,,30.0,,1,1,1,1,1,1,1
 15134,Junipero Serra Blvd & Brotherhood Way,28,19TH AVENUE,3,005B95,FFFFFF,1,19th Avenue & Holloway St@@@4###Powell St & Beach St@@@259,Powell St & Beach St@@@105,,05:08:15,24:32:15,12.029411764705882,,11.970588235294118,,1,1,1,1,1,1,1
 15135,Junipero Serra Blvd / S.F. Golf Club,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@100,,05:41:08,24:45:34,12.5625,,12.151515151515152,,1,1,1,1,1,1,1
 15136,Junipero Serra Blvd & Font Blvd,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@101,,05:40:22,24:44:39,12.5625,,12.088235294117647,,1,1,1,1,1,1,1
@@ -4004,12 +4004,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16426,Skyview Way & Aquavista Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@92,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:58:37,22:51:17,30.0,,30.0,,1,1,1,1,1,1,1
 16427,Skyview Way & City View Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@92,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:59:12,22:51:50,30.0,,30.0,,1,1,1,1,1,1,1
 16428,Skyview Way & Gladeview Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@92,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:58:57,22:51:35,30.0,,30.0,,1,1,1,1,1,1,1
-16429,Skyline Blvd & Zoo Rd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-16431,Skyline Blvd & Harding Rd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-16432,Skyline Blvd & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+16429,Skyline Blvd & Zoo Rd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:24:40,22:24:40,30.0,,30.0,,1,1,1,1,1,1,1
+16431,Skyline Blvd & Harding Rd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:24:07,22:24:07,30.0,,30.0,,1,1,1,1,1,1,1
+16432,Skyline Blvd & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:25:41,22:25:41,30.0,,30.0,,1,1,1,1,1,1,1
 16433,Skyline Blvd & Sloat Blvd,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:16:27,22:05:39,20.0,,20.0,,1,1,1,1,1,1,1
 16434,Skyline Blvd & Sloat Blvd,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:21:44,22:24:59,20.0,,20.0,,1,1,1,1,1,1,1
-16434,Skyline Blvd & Sloat Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+16434,Skyline Blvd & Sloat Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:08:12,22:08:12,30.0,,30.0,,1,1,1,1,1,1,1
 16435,Sloat Blvd & 19th Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:37:28,22:28:33,30.0,,19.8,,1,1,1,1,1,1,1
 16436,Sloat Blvd & 19th Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:14:24,22:11:19,30.076923076923077,,20.1,,1,1,1,1,1,1,1
 16437,Sloat Blvd & 21st Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:38:00,22:29:10,30.0,,19.8,,1,1,1,1,1,1,1
@@ -4018,7 +4018,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16440,Sloat Blvd & 26th Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:13:05,22:09:48,30.076923076923077,,20.05,,1,1,1,1,1,1,1
 16441,Sloat Blvd & 34th Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:40:36,22:32:12,30.0,,19.85,,1,1,1,1,1,1,1
 16442,Sloat Blvd & 36th Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:40:56,22:32:35,30.076923076923077,,19.8,,1,1,1,1,1,1,1
-16442,Sloat Blvd & 36th Ave,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+16442,Sloat Blvd & 36th Ave,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:07:22,22:07:22,30.0,,30.0,,1,1,1,1,1,1,1
 16443,Sloat Blvd & 36th Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:10:55,22:07:20,30.0,,20.0,,1,1,1,1,1,1,1
 16444,Sloat Blvd & 37th Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:10:42,22:07:05,30.0,,20.0,,1,1,1,1,1,1,1
 16445,Sloat Blvd & 39th Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:41:33,22:33:19,30.076923076923077,,19.8,,1,1,1,1,1,1,1
@@ -4155,9 +4155,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16539,Sunset Blvd & Noriega St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@283,Fitzgerald Ave & Keith St@@@117,,05:17:00,24:12:00,12.151515151515152,,8.583333333333334,,1,1,1,1,1,1,1
 16540,Sunset Blvd & Noriega St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:46:00,24:40:00,12.029411764705882,,8.583333333333334,,1,1,1,1,1,1,1
 16541,Sunset Blvd & Ocean Ave,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@119,,05:21:49,24:15:56,12.147058823529411,,8.604166666666666,,1,1,1,1,1,1,1
-16541,Sunset Blvd & Ocean Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+16541,Sunset Blvd & Ocean Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:27:34,22:27:34,30.0,,30.0,,1,1,1,1,1,1,1
 16542,Sunset Blvd & Ocean Ave,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:41:06,24:35:33,12.029411764705882,,8.583333333333334,,1,1,1,1,1,1,1
-16542,Sunset Blvd & Ocean Ave,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+16542,Sunset Blvd & Ocean Ave,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:06:07,22:06:07,30.0,,30.0,,1,1,1,1,1,1,1
 16543,Sunset Blvd & Ortega St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:45:43,24:39:44,12.029411764705882,,8.583333333333334,,1,1,1,1,1,1,1
 16544,Sunset Blvd & Ortega St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@283,Fitzgerald Ave & Keith St@@@117,,05:17:29,24:12:24,12.151515151515152,,8.583333333333334,,1,1,1,1,1,1,1
 16547,Sunset Blvd & Quintara St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:44:51,24:38:57,12.029411764705882,,8.583333333333334,,1,1,1,1,1,1,1
@@ -4171,7 +4171,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16559,Sunset Blvd & Vicente St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@118,,05:20:20,24:14:43,12.147058823529411,,8.617021276595745,,1,1,1,1,1,1,1
 16560,Sunset Blvd & Vicente St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@117,,05:42:37,24:36:56,12.030303030303031,,8.583333333333334,,1,1,1,1,1,1,1
 16563,Sunset Blvd & Yorba St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:41:48,24:36:11,12.029411764705882,,8.583333333333334,,1,1,1,1,1,1,1
-16563,Sunset Blvd & Yorba St,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+16563,Sunset Blvd & Yorba St,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:06:58,22:06:58,30.0,,30.0,,1,1,1,1,1,1,1
 16564,Sunset Blvd & Yorba St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@119,,05:21:12,24:15:26,12.147058823529411,,8.604166666666666,,1,1,1,1,1,1,1
 16565,1725 Sunnydale Ave,9,SAN BRUNO,3,005B95,FFFFFF,1,Market St & Steuart St@@@214,Market St & Steuart St@@@84,,05:03:52,23:51:52,10.0,,10.0,,1,1,1,1,1,1,1
 16565,1725 Sunnydale Ave,9R,SAN BRUNO RAPID,3,BF2B45,FFFFFF,1,Main St & Mission St@@@56,Main St & Mission St@@@35,,07:01:04,18:01:04,12.0,,12.0,,1,1,1,1,1,0,0
@@ -4521,21 +4521,21 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16950,Winston Dr & 20th Ave,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@118,,05:36:29,24:31:21,12.029411764705882,,8.595744680851064,,1,1,1,1,1,1,1
 16951,Winston Dr & 20th Ave,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:26:48,22:30:46,20.0,,20.0,,1,1,1,1,1,1,1
 16951,Winston Dr & 20th Ave,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@116,,05:26:22,24:19:40,12.181818181818182,,8.659574468085106,,1,1,1,1,1,1,1
-16951,Winston Dr & 20th Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+16951,Winston Dr & 20th Ave,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:33:19,22:33:19,30.0,,30.0,,1,1,1,1,1,1,1
 16952,Winston Dr & Buckingham Way,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:11:11,22:01:02,20.0,,20.0,,1,1,1,1,1,1,1
 16952,Winston Dr & Buckingham Way,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@118,,05:37:09,24:31:58,12.0,,8.595744680851064,,1,1,1,1,1,1,1
-16952,Winston Dr & Buckingham Way,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+16952,Winston Dr & Buckingham Way,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:01:22,22:01:22,30.0,,30.0,,1,1,1,1,1,1,1
 16953,Winston Dr & Buckingham Way,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:26:06,22:29:59,20.0,,20.0,,1,1,1,1,1,1,1
 16953,Winston Dr & Buckingham Way,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@116,,05:25:36,24:19:02,12.181818181818182,,8.659574468085106,,1,1,1,1,1,1,1
-16953,Winston Dr & Buckingham Way,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+16953,Winston Dr & Buckingham Way,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:32:29,22:32:29,30.0,,30.0,,1,1,1,1,1,1,1
 16954,Winston Dr & Lake Merced Blvd,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:12:12,22:01:56,20.0,,20.0,,1,1,1,1,1,1,1
 16954,Winston Dr & Lake Merced Blvd,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:38:11,24:32:53,12.0,,8.583333333333334,,1,1,1,1,1,1,1
 16954,Winston Dr & Lake Merced Blvd,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:10:52,22:10:52,25.0625,,20.2,,1,1,1,1,1,1,1
-16954,Winston Dr & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+16954,Winston Dr & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:02:36,22:02:36,30.0,,30.0,,1,1,1,1,1,1,1
 16955,Winston Dr & Lake Merced Blvd,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:25:17,22:29:02,20.05,,20.05,,1,1,1,1,1,1,1
 16955,Winston Dr & Lake Merced Blvd,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@119,,05:24:41,24:18:17,12.176470588235293,,8.625,,1,1,1,1,1,1,1
 16955,Winston Dr & Lake Merced Blvd,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@54,,05:16:08,22:14:52,25.1875,,20.57894736842105,,1,1,1,1,1,1,1
-16955,Winston Dr & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+16955,Winston Dr & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:31:12,22:31:12,30.0,,30.0,,1,1,1,1,1,1,1
 16961,Wisconsin St & 25th St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:22:15,22:11:15,20.0,,15.0,,1,1,1,1,1,1,1
 16964,Wisconsin St & Connecticut St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:21:51,22:10:51,20.0,,15.037037037037036,,1,1,1,1,1,1,1
 16968,Williams Ave & 3rd St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@142,Daly City BART West Station Rd@@@62,,05:59:00,22:09:00,20.157894736842106,,20.0,,1,1,1,1,1,1,1
@@ -4880,7 +4880,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17606,Daly City BART West Station Rd,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@64,,05:40:00,21:55:00,20.0,,20.0,,1,1,1,1,1,1,1
 17622,5th St & Brannan St,31,BALBOA,3,005B95,FFFFFF,1,Townsend St & 4th St@@@50,Townsend St & 4th St@@@21,,05:16:16,21:41:01,20.0,,20.0,,1,1,1,1,1,0,0
 17622,5th St & Brannan St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,05:06:09,22:26:51,15.148148148148149,,9.975609756097562,,1,1,1,1,1,1,1
-17624,Zoo Rd & Amory Rd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+17624,Zoo Rd & Amory Rd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:09:41,22:09:41,30.0,,30.0,,1,1,1,1,1,1,1
 17626,Alemany Blvd & Flosom St,67,BERNAL HEIGHTS,3,005B95,FFFFFF,0,Ellsworth St & Crescent Ave@@@147,Ellsworth St & Crescent Ave@@@63,,06:14:47,22:14:47,20.0,,20.0,,1,1,1,1,1,1,1
 17632,Mendell St & Cargo Way,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,West Portal Ave & Ulloa St@@@39,,West Portal Ave & Ulloa St@@@27,24:05:16,30:06:16,,30.0,,30.0,1,1,1,1,1,1,1
 17635,Mcallister St & Leavenworth St,5,FULTON,3,005B95,FFFFFF,1,4th St & Market St@@@67###Transit Center Bay B@@@285,Transit Center Bay B@@@119,4th St & Market St@@@27,05:28:11,29:51:54,11.911764705882353,29.625,10.097560975609756,28.625,1,1,1,1,1,1,1
@@ -4954,23 +4954,23 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17788,Font Blvd & Tapia Dr,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:13:18,22:13:18,25.125,,20.25,,1,1,1,1,1,1,1
 17789,Font Blvd & Serrano Dr,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:13:46,22:13:46,25.125,,20.25,,1,1,1,1,1,1,1
 17790,Font Blvd & Juan Bautisa Cir,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:14:16,22:14:16,25.1875,,20.25,,1,1,1,1,1,1,1
-17792,Brotherhood Way & Chumasero Dr,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-17793,Brotherhood Way & Summit Way,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
-17796,Brotherhood Way & Grace Community Church,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
-17797,Brotherhood Way & Church Access Rd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
-17798,Brotherhood Way & Summit Way,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+17792,Brotherhood Way & Chumasero Dr,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:12:23,22:12:23,30.0,,30.0,,1,1,1,1,1,1,1
+17793,Brotherhood Way & Summit Way,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:12:50,22:12:50,30.0,,30.0,,1,1,1,1,1,1,1
+17796,Brotherhood Way & Grace Community Church,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:20:40,22:20:40,30.0,,30.0,,1,1,1,1,1,1,1
+17797,Brotherhood Way & Church Access Rd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:21:42,22:21:42,30.0,,30.0,,1,1,1,1,1,1,1
+17798,Brotherhood Way & Summit Way,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:21:59,22:21:59,30.0,,30.0,,1,1,1,1,1,1,1
 17800,Lombard St & Gough St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@106,,05:07:27,24:08:27,11.941176470588236,,11.857142857142858,,1,1,1,1,1,1,1
 17800,Lombard St & Gough St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:53:40,30:23:40,,30.0,,30.0,1,1,1,1,1,1,1
-17801,Brotherhood Way & Grace Community Church,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+17801,Brotherhood Way & Grace Community Church,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:14:08,22:14:08,30.0,,30.0,,1,1,1,1,1,1,1
 17804,Ocean Ave & I-280 On Ramp,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:23:37,24:20:30,12.0,,8.604166666666666,,1,1,1,1,1,1,1
 17804,Ocean Ave & I-280 On Ramp,49,VAN NESS-MISSION,3,005B95,FFFFFF,0,City College Terminal@@@439,City College Terminal@@@171,,05:02:58,24:42:58,8.12,,6.088235294117647,,1,1,1,1,1,1,1
 17805,Chumasero Dr & Galindo Ave,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:09:46,22:09:10,25.0625,,20.45,,1,1,1,1,1,1,1
 17806,Font Blvd & Mary Ward Hall,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@54,,05:14:07,22:13:03,25.125,,20.526315789473685,,1,1,1,1,1,1,1
 17807,Buckingham Way & Winston Dr,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:09:44,22:09:44,25.125,,20.2,,1,1,1,1,1,1,1
 17808,Font Blvd & Mary Ward Hall,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:12:28,22:12:28,25.125,,20.25,,1,1,1,1,1,1,1
-17815,Skyline Blvd & Sloat Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+17815,Skyline Blvd & Sloat Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:26:41,22:26:41,30.0,,30.0,,1,1,1,1,1,1,1
 17820,Arch St & Alemany St,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:07:27,22:07:05,25.0625,,20.45,,1,1,1,1,1,1,1
-17820,Arch St & Alemany St,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
+17820,Arch St & Alemany St,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:10:51,22:10:51,30.0,,30.0,,1,1,1,1,1,1,1
 17833,Steuart St & Don Chee Way,6,HAIGHT-PARNASSUS,3,005B95,FFFFFF,0,11th St & Market St@@@9###14th Ave & Quintara St@@@166,14th Ave & Quintara St@@@63,,05:30:00,24:20:00,20.0,,20.0,,1,1,1,1,1,1,1
 17835,37th Ave & Ortega St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@1,Fitzgerald Ave & Keith St@@@1,,15:55:00,15:55:00,,,,,1,1,1,1,1,0,0
 17836,30th Ave & Geary Blvd,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@1,Transit Center Bay D@@@1,,15:55:00,15:55:00,,,,,1,1,1,1,1,0,0
@@ -5058,7 +5058,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17945,Mission St & Fremont St,14,MISSION,3,005B95,FFFFFF,1,Steuart St & Mission St@@@474,Steuart St & Mission St@@@163,Steuart St & Mission St@@@45,05:02:00,29:39:34,9.833333333333334,15.0,6.983050847457627,15.0,1,1,1,1,1,1,1
 17945,Mission St & Fremont St,14R,MISSION RAPID,3,BF2B45,FFFFFF,1,Mission St & Main St@@@317,Mission St & Main St@@@148,,05:42:47,22:47:54,10.170731707317072,,6.492063492063492,,1,1,1,1,1,1,1
 17948,Transit Center Bay 29,25,TREASURE ISLAND,3,005B95,FFFFFF,0,Clipper Cove Way & Treasure Island Rd@@@140,Clipper Cove Way & Treasure Island Rd@@@55,,06:25:00,24:00:00,25.0,,20.0,,1,1,1,1,1,1,1
-17951,Zoo Rd & Skyline Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@45,,06:00:00,22:00:00,30.0,,30.0,,1,1,1,1,1,1,1
+17951,Zoo Rd & Skyline Blvd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:10:15,22:10:15,30.0,,30.0,,1,1,1,1,1,1,1
 17953,Geary Blvd & Masonic St,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@359,Transit Center Bay D@@@136,Transit Center Bay D@@@24,05:50:00,29:32:00,10.024390243902438,30.142857142857142,8.0,30.0,1,1,1,1,1,1,1
 17953,Geary Blvd & Masonic St,38R,GEARY RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay C@@@325,Transit Center Bay C@@@154,,06:19:00,21:19:00,10.024390243902438,,6.0144927536231885,,1,1,1,1,1,1,1
 17954,Geary Blvd & Fillmore St,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@359,Transit Center Bay D@@@136,Transit Center Bay D@@@24,05:56:00,29:35:00,10.024390243902438,30.142857142857142,8.0,30.0,1,1,1,1,1,1,1
