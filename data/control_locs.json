@@ -7,6 +7,10 @@
     "The Richmond",
     "Downtown"
   ],
+  "5": [
+    "The Richmond",
+    "Downtown"
+  ],
   "7": [
     "Ocean Beach",
     "Downtown"
@@ -31,9 +35,9 @@
     "Hunters Point",
     "Fisherman's Wharf"
   ],
-  "22": [
-    "Mission Bay/UCSF",
-    "The Marina"
+  "21": [
+    "Inner Richmond",
+    "Civic Center"
   ],
   "23": [
     "SF Zoo",
@@ -47,13 +51,13 @@
     "Treasure Island",
     "Downtown"
   ],
-  "27": [
-    "The Mission",
-    "Russian Hill"
-  ],
   "28": [
     "Daly City BART",
     "Fisherman's Wharf"
+  ],
+  "29": [
+    "Bayview",
+    "The Presidio"
   ],
   "30": [
     "The Presidio",
@@ -63,21 +67,33 @@
     "The Richmond",
     "Downtown/Caltrain"
   ],
-  "36": [
-    "The Mission District",
-    "Forest Hill/Midtown Terrace"
+  "35": [
+    "Glen Park",
+    "The Castro"
+  ],
+  "38": [
+    "The Richmond",
+    "Downtown"
   ],
   "39": [
     "Coit Tower",
     "Fisherman's Wharf"
   ],
+  "43": [
+    "Munich & Geneva via The Presidio",
+    "Fort Mason via The Presidio"
+  ],
+  "44": [
+    "Hunters Point",
+    "The Richmond"
+  ],
+  "45": [
+    "The Marina via Downtown",
+    "Caltrain via Downtown"
+  ],
   "48": [
     "Ocean Beach",
     "Potrero Hill"
-  ],
-  "49": [
-    "City College",
-    "Fort Mason"
   ],
   "52": [
     "The Excelsior",
@@ -87,6 +103,10 @@
     "Daly City BART",
     "Hunters Point"
   ],
+  "55": [
+    "Dogpatch",
+    "16th Street/Mission BART Station"
+  ],
   "56": [
     "Arleta & Bayshore via Mansell",
     "Visitacion Valley"
@@ -94,6 +114,10 @@
   "57": [
     "Daly City BART via Stonestown",
     "West Portal Station via Stonestown"
+  ],
+  "58": [
+    "Daly City via Daly City BART",
+    "Stonestown"
   ],
   "66": [
     "Parkside",
@@ -103,24 +127,28 @@
     "Bernal Heights",
     "The Mission"
   ],
+  "90": [
+    "Visitacion Valley",
+    "Fort Mason"
+  ],
+  "714": [
+    "Daly City BART",
+    "Downtown"
+  ],
   "14R": [
     "Daly City BART",
     "Downtown"
+  ],
+  "1X": [
+    "Richmond District",
+    "Financial District"
   ],
   "38R": [
     "The Richmond",
     "Downtown"
   ],
-  "8BX": [
-    "Visitacion Valley",
-    "Fisherman's Wharf via Downtown"
-  ],
-  "9R": [
-    "Visitacion Valley",
-    "Downtown"
-  ],
-  "J": [
-    "Balboa Park",
+  "5R": [
+    "The Richmond",
     "Downtown"
   ],
   "KBUS": [
@@ -130,5 +158,13 @@
   "NOWL": [
     "Ocean Beach",
     "Downtown"
+  ],
+  "PH": [
+    "Fisherman's Wharf",
+    "Powell and Market"
+  ],
+  "PM": [
+    "Fisherman's Wharf",
+    " Powell and Market"
   ]
 }
