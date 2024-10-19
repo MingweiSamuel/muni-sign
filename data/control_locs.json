@@ -7,6 +7,10 @@
     "The Richmond",
     "Downtown"
   ],
+  "6": [
+    "The Inner Sunset",
+    "Downtown"
+  ],
   "7": [
     "Ocean Beach",
     "Downtown"
@@ -83,17 +87,9 @@
     "The Mission District",
     "Forest Hill/Midtown Terrace"
   ],
-  "37": [
-    "Twin Peaks",
-    "The Haight"
-  ],
   "38": [
     "The Richmond",
     "Downtown"
-  ],
-  "39": [
-    "Coit Tower",
-    "Fisherman's Wharf"
   ],
   "43": [
     "Munich & Geneva via The Presidio",
@@ -139,10 +135,6 @@
     "Daly City via Daly City BART",
     "Stonestown"
   ],
-  "66": [
-    "Parkside",
-    "Inner Sunset"
-  ],
   "67": [
     "Bernal Heights",
     "The Mission"
@@ -183,25 +175,45 @@
     "Visitacion Valley",
     "North Beach via Downtown "
   ],
-  "8BX": [
+  "9R": [
     "Visitacion Valley",
-    "Fisherman's Wharf via Downtown"
-  ],
-  "CA": [
-    "Van Ness",
-    "Embarcadero"
+    "Downtown"
   ],
   "FBUS": [
     "The Castro",
     "Fisherman's Wharf"
   ],
+  "J": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "K": [
+    "Balboa Park",
+    "Embarcadero"
+  ],
   "KBUS": [
     "Balboa Park",
     "Downtown"
   ],
-  "NBUS": [
+  "LOWL": [
+    "SF Zoo via Downtown",
+    "Fisherman's Wharf via Downtown"
+  ],
+  "M": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "N": [
     "Ocean Beach",
-    "Caltrain"
+    "Caltrain via Downtown"
+  ],
+  "NOWL": [
+    "Ocean Beach",
+    "Downtown"
+  ],
+  "PH": [
+    "Fisherman's Wharf",
+    "Powell and Market"
   ],
   "PM": [
     "Fisherman's Wharf",
