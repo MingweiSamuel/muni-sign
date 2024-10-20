@@ -3,10 +3,6 @@
     "The Richmond",
     "Downtown"
   ],
-  "2": [
-    "The Richmond",
-    "Downtown"
-  ],
   "6": [
     "The Inner Sunset",
     "Downtown"
@@ -14,6 +10,10 @@
   "7": [
     "Ocean Beach",
     "Downtown"
+  ],
+  "8": [
+    "City College via Visitacion Valley",
+    "Fisherman's Wharf via Downtown"
   ],
   "12": [
     "The Mission via Rincon Hill",
@@ -87,13 +87,17 @@
     "The Mission District",
     "Forest Hill/Midtown Terrace"
   ],
+  "37": [
+    "Twin Peaks",
+    "The Haight"
+  ],
   "38": [
     "The Richmond",
     "Downtown"
   ],
-  "43": [
-    "Munich & Geneva via The Presidio",
-    "Fort Mason via The Presidio"
+  "39": [
+    "Coit Tower",
+    "Fisherman's Wharf"
   ],
   "44": [
     "Hunters Point",
@@ -107,33 +111,21 @@
     "Ocean Beach",
     "Potrero Hill"
   ],
-  "49": [
-    "City College",
-    "Fort Mason"
-  ],
   "52": [
     "The Excelsior",
     "Forest Hill Station"
-  ],
-  "54": [
-    "Daly City BART",
-    "Hunters Point"
-  ],
-  "55": [
-    "Dogpatch",
-    "16th Street/Mission BART Station"
   ],
   "56": [
     "Arleta & Bayshore via Mansell",
     "Visitacion Valley"
   ],
-  "57": [
-    "Daly City BART via Stonestown",
-    "West Portal Station via Stonestown"
-  ],
   "58": [
     "Daly City via Daly City BART",
     "Stonestown"
+  ],
+  "66": [
+    "Parkside",
+    "Inner Sunset"
   ],
   "67": [
     "Bernal Heights",
@@ -163,49 +155,25 @@
     "Daly City BART",
     "The Inner Richmond"
   ],
-  "38R": [
-    "The Richmond",
-    "Downtown"
-  ],
-  "5R": [
-    "The Richmond",
-    "Downtown"
-  ],
   "8AX": [
     "Visitacion Valley",
     "North Beach via Downtown "
   ],
-  "9R": [
+  "8BX": [
     "Visitacion Valley",
-    "Downtown"
+    "Fisherman's Wharf via Downtown"
+  ],
+  "F": [
+    "The Castro",
+    "Fisherman's Wharf"
   ],
   "FBUS": [
     "The Castro",
     "Fisherman's Wharf"
   ],
-  "J": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "K": [
-    "Balboa Park",
-    "Embarcadero"
-  ],
-  "KBUS": [
-    "Balboa Park",
-    "Downtown"
-  ],
   "LOWL": [
     "SF Zoo via Downtown",
     "Fisherman's Wharf via Downtown"
-  ],
-  "M": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "N": [
-    "Ocean Beach",
-    "Caltrain via Downtown"
   ],
   "NOWL": [
     "Ocean Beach",
