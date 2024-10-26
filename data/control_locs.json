@@ -19,6 +19,10 @@
     "Ocean Beach",
     "Downtown"
   ],
+  "8": [
+    "City College via Visitacion Valley",
+    "Fisherman's Wharf via Downtown"
+  ],
   "9": [
     "Visitacion Valley",
     "Downtown"
@@ -135,10 +139,6 @@
     "Daly City BART",
     "Hunters Point"
   ],
-  "55": [
-    "Dogpatch",
-    "16th Street/Mission BART Station"
-  ],
   "56": [
     "Arleta & Bayshore via Mansell",
     "Visitacion Valley"
@@ -207,10 +207,6 @@
     "Van Ness",
     "Embarcadero"
   ],
-  "F": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
   "FBUS": [
     "The Castro",
     "Fisherman's Wharf"
@@ -231,10 +227,6 @@
     "The Zoo",
     "Downtown"
   ],
-  "LOWL": [
-    "SF Zoo via Downtown",
-    "Fisherman's Wharf via Downtown"
-  ],
   "M": [
     "Balboa Park",
     "Downtown"
@@ -246,10 +238,6 @@
   "NBUS": [
     "Ocean Beach",
     "Caltrain"
-  ],
-  "NOWL": [
-    "Ocean Beach",
-    "Downtown"
   ],
   "PH": [
     "Fisherman's Wharf",
