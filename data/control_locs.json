@@ -7,8 +7,12 @@
     "The Richmond",
     "Downtown"
   ],
-  "5": [
-    "The Richmond",
+  "8": [
+    "City College via Visitacion Valley",
+    "Fisherman's Wharf via Downtown"
+  ],
+  "9": [
+    "Visitacion Valley",
     "Downtown"
   ],
   "12": [
@@ -22,10 +26,6 @@
   "15": [
     "Bayview and Hunters Point",
     "Downtown"
-  ],
-  "18": [
-    "Stonestown",
-    "Outer Richmond"
   ],
   "19": [
     "Hunters Point",
@@ -43,10 +43,6 @@
     "SF Zoo",
     "Bayview"
   ],
-  "24": [
-    "Bayview",
-    "Pacific Heights"
-  ],
   "25": [
     "Treasure Island",
     "Downtown"
@@ -55,17 +51,9 @@
     "The Mission",
     "Russian Hill"
   ],
-  "28": [
-    "Daly City BART",
-    "Fisherman's Wharf"
-  ],
   "29": [
     "Bayview",
     "The Presidio"
-  ],
-  "30": [
-    "The Presidio",
-    "Caltrain via Downtown"
   ],
   "31": [
     "The Richmond",
@@ -75,69 +63,21 @@
     "San Francisco General Hospital",
     "The Richmond District"
   ],
-  "35": [
-    "Glen Park",
-    "The Castro"
-  ],
   "37": [
     "Twin Peaks",
     "The Haight"
-  ],
-  "38": [
-    "The Richmond",
-    "Downtown"
   ],
   "39": [
     "Coit Tower",
     "Fisherman's Wharf"
   ],
-  "43": [
-    "Munich & Geneva via The Presidio",
-    "Fort Mason via The Presidio"
-  ],
   "44": [
     "Hunters Point",
     "The Richmond"
   ],
-  "45": [
-    "The Marina via Downtown",
-    "Caltrain via Downtown"
-  ],
-  "48": [
-    "Ocean Beach",
-    "Potrero Hill"
-  ],
-  "49": [
-    "City College",
-    "Fort Mason"
-  ],
-  "52": [
-    "The Excelsior",
-    "Forest Hill Station"
-  ],
-  "54": [
-    "Daly City BART",
-    "Hunters Point"
-  ],
   "55": [
     "Dogpatch",
     "16th Street/Mission BART Station"
-  ],
-  "56": [
-    "Arleta & Bayshore via Mansell",
-    "Visitacion Valley"
-  ],
-  "57": [
-    "Daly City BART via Stonestown",
-    "West Portal Station via Stonestown"
-  ],
-  "58": [
-    "Daly City via Daly City BART",
-    "Stonestown"
-  ],
-  "66": [
-    "Parkside",
-    "Inner Sunset"
   ],
   "67": [
     "Bernal Heights",
@@ -151,6 +91,10 @@
     "Daly City BART",
     "Downtown"
   ],
+  "1X": [
+    "Richmond District",
+    "Financial District"
+  ],
   "28R": [
     "Daly City BART",
     "The Inner Richmond"
@@ -163,40 +107,12 @@
     "The Richmond",
     "Downtown"
   ],
-  "8AX": [
-    "Visitacion Valley",
-    "North Beach via Downtown "
-  ],
-  "CA": [
-    "Van Ness",
-    "Embarcadero"
-  ],
-  "F": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
-  "FBUS": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
-  "J": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "KBUS": [
-    "Balboa Park",
-    "Downtown"
+  "LOWL": [
+    "SF Zoo via Downtown",
+    "Fisherman's Wharf via Downtown"
   ],
   "NBUS": [
     "Ocean Beach",
     "Caltrain"
-  ],
-  "PM": [
-    "Fisherman's Wharf",
-    " Powell and Market"
-  ],
-  "T": [
-    "Chinatown",
-    "Sunnydale"
   ]
 }
