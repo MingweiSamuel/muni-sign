@@ -1,6 +1,18 @@
 {
+  "1": [
+    "The Richmond",
+    "Downtown"
+  ],
   "2": [
     "The Richmond",
+    "Downtown"
+  ],
+  "5": [
+    "The Richmond",
+    "Downtown"
+  ],
+  "7": [
+    "Ocean Beach",
     "Downtown"
   ],
   "9": [
@@ -27,10 +39,6 @@
     "Hunters Point",
     "Fisherman's Wharf"
   ],
-  "21": [
-    "Inner Richmond",
-    "Civic Center"
-  ],
   "22": [
     "Mission Bay/UCSF",
     "The Marina"
@@ -43,37 +51,53 @@
     "Bayview",
     "Pacific Heights"
   ],
-  "25": [
-    "Treasure Island",
-    "Downtown"
-  ],
-  "27": [
-    "The Mission",
-    "Russian Hill"
-  ],
   "29": [
     "Bayview",
     "The Presidio"
+  ],
+  "30": [
+    "The Presidio",
+    "Caltrain via Downtown"
   ],
   "31": [
     "The Richmond",
     "Downtown/Caltrain"
   ],
-  "33": [
-    "San Francisco General Hospital",
-    "The Richmond District"
-  ],
   "35": [
     "Glen Park",
     "The Castro"
+  ],
+  "36": [
+    "The Mission District",
+    "Forest Hill/Midtown Terrace"
+  ],
+  "37": [
+    "Twin Peaks",
+    "The Haight"
   ],
   "38": [
     "The Richmond",
     "Downtown"
   ],
+  "39": [
+    "Coit Tower",
+    "Fisherman's Wharf"
+  ],
+  "44": [
+    "Hunters Point",
+    "The Richmond"
+  ],
+  "45": [
+    "The Marina via Downtown",
+    "Caltrain via Downtown"
+  ],
   "48": [
     "Ocean Beach",
     "Potrero Hill"
+  ],
+  "49": [
+    "City College",
+    "Fort Mason"
   ],
   "52": [
     "The Excelsior",
@@ -82,6 +106,18 @@
   "54": [
     "Daly City BART",
     "Hunters Point"
+  ],
+  "66": [
+    "Parkside",
+    "Inner Sunset"
+  ],
+  "67": [
+    "Bernal Heights",
+    "The Mission"
+  ],
+  "90": [
+    "Visitacion Valley",
+    "Fort Mason"
   ],
   "714": [
     "Daly City BART",
@@ -103,33 +139,17 @@
     "The Richmond",
     "Downtown"
   ],
+  "5R": [
+    "The Richmond",
+    "Downtown"
+  ],
   "8AX": [
     "Visitacion Valley",
     "North Beach via Downtown "
   ],
-  "8BX": [
-    "Visitacion Valley",
+  "LOWL": [
+    "SF Zoo via Downtown",
     "Fisherman's Wharf via Downtown"
-  ],
-  "9R": [
-    "Visitacion Valley",
-    "Downtown"
-  ],
-  "J": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "KBUS": [
-    "Balboa Park",
-    "Downtown"
-  ],
-  "NBUS": [
-    "Ocean Beach",
-    "Caltrain"
-  ],
-  "NOWL": [
-    "Ocean Beach",
-    "Downtown"
   ],
   "PH": [
     "Fisherman's Wharf",
