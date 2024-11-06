@@ -7,12 +7,12 @@
     "The Richmond",
     "Downtown"
   ],
-  "5": [
-    "The Richmond",
-    "Downtown"
-  ],
   "6": [
     "The Inner Sunset",
+    "Downtown"
+  ],
+  "7": [
+    "Ocean Beach",
     "Downtown"
   ],
   "8": [
@@ -135,10 +135,6 @@
     "Daly City BART",
     "Hunters Point"
   ],
-  "55": [
-    "Dogpatch",
-    "16th Street/Mission BART Station"
-  ],
   "56": [
     "Arleta & Bayshore via Mansell",
     "Visitacion Valley"
@@ -191,23 +187,19 @@
     "The Richmond",
     "Downtown"
   ],
-  "8AX": [
-    "Visitacion Valley",
-    "North Beach via Downtown "
-  ],
   "8BX": [
     "Visitacion Valley",
     "Fisherman's Wharf via Downtown"
+  ],
+  "9R": [
+    "Visitacion Valley",
+    "Downtown"
   ],
   "CA": [
     "Van Ness",
     "Embarcadero"
   ],
   "F": [
-    "The Castro",
-    "Fisherman's Wharf"
-  ],
-  "FBUS": [
     "The Castro",
     "Fisherman's Wharf"
   ],
@@ -234,6 +226,10 @@
   "M": [
     "Balboa Park",
     "Downtown"
+  ],
+  "NBUS": [
+    "Ocean Beach",
+    "Caltrain"
   ],
   "NOWL": [
     "Ocean Beach",
