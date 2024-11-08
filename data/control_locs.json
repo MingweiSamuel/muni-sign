@@ -7,13 +7,25 @@
     "The Richmond",
     "Downtown"
   ],
+  "5": [
+    "The Richmond",
+    "Downtown"
+  ],
   "6": [
     "The Inner Sunset",
+    "Downtown"
+  ],
+  "7": [
+    "Ocean Beach",
     "Downtown"
   ],
   "8": [
     "City College via Visitacion Valley",
     "Fisherman's Wharf via Downtown"
+  ],
+  "9": [
+    "Visitacion Valley",
+    "Downtown"
   ],
   "12": [
     "The Mission via Rincon Hill",
@@ -87,6 +99,10 @@
     "The Mission District",
     "Forest Hill/Midtown Terrace"
   ],
+  "37": [
+    "Twin Peaks",
+    "The Haight"
+  ],
   "38": [
     "The Richmond",
     "Downtown"
@@ -118,6 +134,10 @@
   "52": [
     "The Excelsior",
     "Forest Hill Station"
+  ],
+  "54": [
+    "Daly City BART",
+    "Hunters Point"
   ],
   "55": [
     "Dogpatch",
@@ -163,6 +183,10 @@
     "Richmond District",
     "Financial District"
   ],
+  "28R": [
+    "Daly City BART",
+    "The Inner Richmond"
+  ],
   "38R": [
     "The Richmond",
     "Downtown"
@@ -195,6 +219,14 @@
     "The Castro",
     "Fisherman's Wharf"
   ],
+  "J": [
+    "Balboa Park",
+    "Downtown"
+  ],
+  "K": [
+    "Balboa Park",
+    "Embarcadero"
+  ],
   "KBUS": [
     "Balboa Park",
     "Downtown"
@@ -203,9 +235,21 @@
     "The Zoo",
     "Downtown"
   ],
+  "LOWL": [
+    "SF Zoo via Downtown",
+    "Fisherman's Wharf via Downtown"
+  ],
+  "M": [
+    "Balboa Park",
+    "Downtown"
+  ],
   "N": [
     "Ocean Beach",
     "Caltrain via Downtown"
+  ],
+  "NBUS": [
+    "Ocean Beach",
+    "Caltrain"
   ],
   "NOWL": [
     "Ocean Beach",
@@ -222,5 +266,9 @@
   "T": [
     "Chinatown",
     "Sunnydale"
+  ],
+  "TBUS": [
+    "Chinatown via Downtown",
+    "Visitacion Valley via Downtown"
   ]
 }
