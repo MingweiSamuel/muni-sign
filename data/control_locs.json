@@ -231,6 +231,10 @@
     "Balboa Park",
     "Downtown"
   ],
+  "KT": [
+    "Balboa Park via Downtown^Hidden",
+    "Sunnydale via Downtown^Hidden"
+  ],
   "L": [
     "The Zoo",
     "Downtown"
