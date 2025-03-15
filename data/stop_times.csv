@@ -70,7 +70,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13085,Broadway & Steiner St,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@443,Fillmore St & Bay St@@@178,Fillmore St & Bay St@@@21,05:17:40,29:04:40,7.527272727272727,30.0,6.384615384615385,30.0,1,1,1,1,1,1,1
 13086,Broadway & Steiner St,22,FILLMORE,3,005B95,FFFFFF,0,16th St & Bryant St@@@24###Mission Bay North & 3rd St@@@419,Mission Bay North & 3rd St@@@174,Mission Bay North & 3rd St@@@21,05:42:06,29:23:19,7.679245283018868,29.166666666666668,6.338461538461538,29.166666666666668,1,1,1,1,1,1,1
 13087,Broadway & Stockton St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,0,Main St & Howard St@@@90###Valencia St & Cesar Chavez St@@@147,Main St & Howard St@@@63###Valencia St & Cesar Chavez St@@@63,,06:08:05,22:07:47,10.0,,10.0,,1,1,1,1,1,1,1
-13089,Beale St & Mission St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:45:14,08:19:43,,,,,1,1,1,1,1,0,0
+13089,Beale St & Mission St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:45:14,08:19:43,,,,,1,1,1,1,1,0,0
 13089,Beale St & Mission St,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@353,Transit Center Bay D@@@129,Transit Center Bay D@@@24,06:17:20,29:50:37,10.1,30.0,9.065217391304348,30.0,1,1,1,1,1,1,1
 13089,Beale St & Mission St,38R,GEARY RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay C@@@325,Transit Center Bay C@@@153,,06:40:20,21:41:37,10.097560975609756,,6.044117647058823,,1,1,1,1,1,1,1
 13089,Beale St & Mission St,5,FULTON,3,005B95,FFFFFF,1,Transit Center Bay B@@@299,Transit Center Bay B@@@117,,04:49:11,24:59:27,11.911764705882353,,10.125,,1,1,1,1,1,1,1
@@ -98,7 +98,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13114,3rd St & Brannan St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@172###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@3,Crissy Field Terminal@@@91,,05:05:55,24:00:55,15.0,,12.0,,1,1,1,1,1,1,1
 13114,3rd St & Brannan St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213###Sutter St & Kearny St@@@10,Lyon St & Greenwich St@@@98,,05:22:04,22:32:04,15.0,,9.975609756097562,,1,1,1,1,1,1,1
 13114,3rd St & Brannan St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:34:43,30:04:43,,30.0,,30.0,1,1,1,1,1,1,1
-13114,3rd St & Brannan St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@255###Stockton St & Washington St@@@7,Pacific Ave & Powell St@@@112,,05:35:14,24:17:14,11.941176470588236,,10.024390243902438,,1,1,1,1,1,1,1
+13114,3rd St & Brannan St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:35:14,24:17:14,,,,,1,1,1,1,1,1,1
 13115,3rd St & Carroll Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@27,24:11:55,30:12:55,,30.0,,30.0,1,1,1,1,1,1,1
 13115,3rd St & Carroll Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:34:00,06:19:00,,,,,1,1,1,1,1,1,1
 13116,3rd St & Carroll Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:14:32,29:44:32,,30.0,,30.0,1,1,1,1,1,1,1
@@ -106,13 +106,13 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13123,3rd St & Evans Ave,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@100,,08:24:10,22:24:45,12.65625,,12.393939393939394,,1,1,1,1,1,1,1
 13123,3rd St & Evans Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@27,24:07:00,30:08:00,,30.0,,30.0,1,1,1,1,1,1,1
 13123,3rd St & Evans Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:28:56,06:13:56,,,,,1,1,1,1,1,1,1
-13124,3rd St & Folsom St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@172###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@3,Crissy Field Terminal@@@91,,05:09:29,24:04:29,15.0,,12.0,,1,1,1,1,1,1,1
+13124,3rd St & Folsom St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@172###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@79,Crissy Field Terminal@@@91###Van Ness Ave & North Point St@@@66,,05:09:29,24:04:29,8.617021276595745,,6.866666666666666,,1,1,1,1,1,1,1
 13124,3rd St & Folsom St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213###Sutter St & Kearny St@@@10,Lyon St & Greenwich St@@@99,,05:25:24,22:35:24,15.0,,9.976190476190476,,1,1,1,1,1,1,1
 13124,3rd St & Folsom St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@165,,05:37:31,24:33:41,8.0,,7.033898305084746,,1,1,1,1,1,1,1
 13124,3rd St & Folsom St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,1,Kearny St & Pacific Ave@@@23,Kearny St & Pacific Ave@@@10,,06:55:15,10:11:00,7.888888888888889,,7.888888888888889,,1,1,1,1,1,0,0
 13124,3rd St & Folsom St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:19:54,10:01:47,7.625,,7.625,,1,1,1,1,1,0,0
 13124,3rd St & Folsom St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:37:35,30:07:35,,30.0,,30.0,1,1,1,1,1,1,1
-13124,3rd St & Folsom St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@255###Stockton St & Washington St@@@7,Pacific Ave & Powell St@@@112,,05:38:57,24:20:57,11.970588235294118,,10.024390243902438,,1,1,1,1,1,1,1
+13124,3rd St & Folsom St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:38:57,24:20:57,,,,,1,1,1,1,1,1,1
 13127,3rd St & Hudson Ave,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@145,Newhall St & Hudson@@@63,,06:25:41,22:41:10,20.25,,20.05,,1,1,1,1,1,1,1
 13127,3rd St & Hudson Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:19:14,29:49:14,,30.0,,30.0,1,1,1,1,1,1,1
 13127,3rd St & Hudson Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:16:14,23:58:14,,,,,1,1,1,1,1,1,1
@@ -126,13 +126,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13135,3rd St & Kirkwood Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@27,24:08:18,30:09:18,,30.0,,30.0,1,1,1,1,1,1,1
 13135,3rd St & Kirkwood Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:30:15,06:15:15,,,,,1,1,1,1,1,1,1
 13136,3rd St & Stevenson St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,1,Sutter St & Sansome St@@@209,Sutter St & Sansome St@@@101,,08:30:46,22:27:57,12.6875,,12.176470588235293,,1,1,1,1,1,1,1
-13136,3rd St & Stevenson St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@172###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@3,Crissy Field Terminal@@@91,,05:11:00,24:06:00,15.037037037037036,,12.0,,1,1,1,1,1,1,1
+13136,3rd St & Stevenson St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@172###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@79,Crissy Field Terminal@@@91###Van Ness Ave & North Point St@@@68,,05:11:00,24:06:00,8.5625,,6.866666666666666,,1,1,1,1,1,1,1
 13136,3rd St & Stevenson St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213###Sutter St & Kearny St@@@10,Lyon St & Greenwich St@@@98,,05:26:54,22:36:54,15.037037037037036,,9.975609756097562,,1,1,1,1,1,1,1
 13136,3rd St & Stevenson St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@165,,05:39:03,24:34:59,8.0,,7.033898305084746,,1,1,1,1,1,1,1
 13136,3rd St & Stevenson St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,1,Kearny St & Pacific Ave@@@23,Kearny St & Pacific Ave@@@10,,06:56:12,10:12:23,7.888888888888889,,7.888888888888889,,1,1,1,1,1,0,0
 13136,3rd St & Stevenson St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:20:50,10:03:02,7.625,,7.625,,1,1,1,1,1,0,0
 13136,3rd St & Stevenson St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:38:52,30:08:52,,30.0,,30.0,1,1,1,1,1,1,1
-13136,3rd St & Stevenson St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@239,Pacific Ave & Powell St@@@112,,07:55:46,23:59:33,11.970588235294118,,10.024390243902438,,1,1,1,1,1,1,1
 13141,3rd St & Palou Ave,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@12###Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@108,,05:06:00,24:19:00,12.088235294117647,,10.91891891891892,,1,1,1,1,1,1,1
 13141,3rd St & Palou Ave,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@145,Newhall St & Hudson@@@63,,06:24:00,22:39:00,20.2,,20.05,,1,1,1,1,1,1,1
 13141,3rd St & Palou Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:17:19,29:47:19,,30.0,,30.0,1,1,1,1,1,1,1
@@ -146,7 +145,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13144,3rd St & Bryant St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,1,Kearny St & Pacific Ave@@@23,Kearny St & Pacific Ave@@@9,,06:54:10,10:09:23,7.625,,7.625,,1,1,1,1,1,0,0
 13144,3rd St & Bryant St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@8,,07:18:49,10:00:20,7.571428571428571,,7.571428571428571,,1,1,1,1,1,0,0
 13144,3rd St & Bryant St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:36:07,30:06:07,,30.0,,30.0,1,1,1,1,1,1,1
-13144,3rd St & Bryant St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@239,Pacific Ave & Powell St@@@112,,07:54:05,23:56:10,11.941176470588236,,10.024390243902438,,1,1,1,1,1,1,1
 13145,3rd St & Revere Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:16:45,29:46:45,,30.0,,30.0,1,1,1,1,1,1,1
 13145,3rd St & Revere Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:13:02,23:55:02,,,,,1,1,1,1,1,1,1
 13146,3rd St & Salinas Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@27,24:13:21,30:14:21,,30.0,,30.0,1,1,1,1,1,1,1
@@ -157,31 +155,30 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13153,4th St & 3rd St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:30:54,30:00:54,,30.0,,30.0,1,1,1,1,1,1,1
 13153,4th St & 3rd St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:30:18,24:12:18,,,,,1,1,1,1,1,1,1
 13156,4th St & Brannan St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:53:54,29:53:54,,30.0,,30.0,1,1,1,1,1,1,1
-13156,4th St & Brannan St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@28,4th St & Berry St@@@112,,05:12:59,23:47:53,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
+13156,4th St & Brannan St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:12:59,05:57:59,,,,,1,1,1,1,1,1,1
 13158,4th St & Folsom St,30,STOCKTON,3,005B95,FFFFFF,1,Townsend St & 4th St@@@216,Townsend St & 4th St@@@91,,06:19:31,24:27:31,15.296296296296296,,11.970588235294118,,1,1,1,1,1,1,1
 13158,4th St & Folsom St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@96,,05:03:33,22:23:48,15.115384615384615,,9.975609756097562,,1,1,1,1,1,1,1
 13158,4th St & Folsom St,8,BAYSHORE,3,005B95,FFFFFF,0,City College Terminal@@@362,City College Terminal@@@170,,05:14:54,24:16:28,8.098039215686274,,7.086206896551724,,1,1,1,1,1,1,1
 13158,4th St & Folsom St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@2,,15:47:49,19:07:49,8.0,,8.0,,1,1,1,1,1,0,0
 13158,4th St & Folsom St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,,,16:00:15,18:56:15,,,,,1,1,1,1,1,0,0
 13158,4th St & Folsom St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:51:28,29:51:28,,30.0,,30.0,1,1,1,1,1,1,1
-13158,4th St & Folsom St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@28,4th St & Berry St@@@112,,05:09:32,23:45:46,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
+13158,4th St & Folsom St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:09:32,05:54:32,,,,,1,1,1,1,1,1,1
 13160,4th St & Mission St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@102,,08:07:39,22:05:46,12.363636363636363,,12.303030303030303,,1,1,1,1,1,1,1
-13160,4th St & Mission St,30,STOCKTON,3,005B95,FFFFFF,1,Townsend St & 4th St@@@216,Townsend St & 4th St@@@91,,06:17:54,24:25:54,15.222222222222221,,11.970588235294118,,1,1,1,1,1,1,1
+13160,4th St & Mission St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@65###Townsend St & 4th St@@@91,,06:17:54,24:25:54,15.222222222222221,,11.970588235294118,,1,1,1,1,1,1,1
 13160,4th St & Mission St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@96,,05:02:33,22:22:39,15.115384615384615,,9.975609756097562,,1,1,1,1,1,1,1
 13160,4th St & Mission St,8,BAYSHORE,3,005B95,FFFFFF,0,City College Terminal@@@362,City College Terminal@@@169,,05:13:39,24:15:02,8.1,,7.086206896551724,,1,1,1,1,1,1,1
 13160,4th St & Mission St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@2,,15:45:19,19:05:19,8.0,,8.0,,1,1,1,1,1,0,0
 13160,4th St & Mission St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@1,,15:57:56,18:53:56,,,,,1,1,1,1,1,0,0
 13160,4th St & Mission St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:50:02,29:50:02,,30.0,,30.0,1,1,1,1,1,1,1
-13160,4th St & Mission St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234,4th St & Berry St@@@112,,07:42:07,23:44:32,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
 13161,4th St & Market St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@102,,08:07:00,22:05:00,12.363636363636363,,12.303030303030303,,1,1,1,1,1,1,1
-13161,4th St & Market St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Townsend St & 4th St@@@216,Townsend St & 4th St@@@91,,06:17:00,24:57:00,15.222222222222221,,11.970588235294118,,1,1,1,1,1,1,1
+13161,4th St & Market St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:17:00,24:57:00,8.74468085106383,,6.916666666666667,,1,1,1,1,1,1,1
 13161,4th St & Market St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,05:02:00,22:22:00,15.074074074074074,,9.975609756097562,,1,1,1,1,1,1,1
 13161,4th St & Market St,5,FULTON,3,005B95,FFFFFF,0,Cabrillo St & La Playa St@@@21,,Cabrillo St & La Playa St@@@18,25:53:00,28:53:00,,30.0,,30.0,1,1,1,1,1,1,1
 13161,4th St & Market St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@169,,05:12:56,24:14:13,8.1,,7.086206896551724,,1,1,1,1,1,1,1
 13161,4th St & Market St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@3,,15:43:53,19:03:53,8.0,,8.0,,1,1,1,1,1,0,0
 13161,4th St & Market St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@1,,15:56:37,18:52:37,,,,,1,1,1,1,1,0,0
 13161,4th St & Market St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:49:13,29:49:13,,30.0,,30.0,1,1,1,1,1,1,1
-13161,4th St & Market St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@28,4th St & Berry St@@@112,,05:06:23,23:43:50,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
+13161,4th St & Market St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:06:23,05:51:23,,,,,1,1,1,1,1,1,1
 13164,4th St & Townsend St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@24,23:54:00,29:55:00,,30.0,,30.0,1,1,1,1,1,1,1
 13168,5th St & Folsom St,31,BALBOA,3,005B95,FFFFFF,1,Townsend St & 4th St@@@50,Townsend St & 4th St@@@21,,05:13:30,21:37:52,20.0,,20.0,,1,1,1,1,1,0,0
 13173,5th St & Mission St,31,BALBOA,3,005B95,FFFFFF,1,Townsend St & 4th St@@@50,Townsend St & 4th St@@@21,,05:11:57,21:36:05,20.05,,20.05,,1,1,1,1,1,0,0
@@ -970,18 +967,18 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13940,Chestnut St & Divisadero St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53,Crissy Field Terminal@@@92,,05:52:28,24:27:29,15.296296296296296,,11.8,,1,1,1,1,1,1,1
 13941,Chestnut St & Fillmore St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53,Crissy Field Terminal@@@92,,05:51:00,24:26:00,15.25925925925926,,11.8,,1,1,1,1,1,1,1
 13942,Chestnut St & Fillmore St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@91,,06:17:00,24:35:00,15.0,,11.911764705882353,,1,1,1,1,1,1,1
-13942,Chestnut St & Fillmore St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:21:00,07:52:00,,,,,1,1,1,1,1,0,0
+13942,Chestnut St & Fillmore St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:21:00,07:52:00,,,,,1,1,1,1,1,0,0
 13947,Chestnut St & Laguna St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53,Crissy Field Terminal@@@91,,05:49:27,24:24:45,15.222222222222221,,11.735294117647058,,1,1,1,1,1,1,1
 13948,Chestnut St & Laguna St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@91,,06:18:49,24:36:31,15.037037037037036,,11.911764705882353,,1,1,1,1,1,1,1
-13948,Chestnut St & Laguna St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:23:17,07:54:17,,,,,1,1,1,1,1,0,0
+13948,Chestnut St & Laguna St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:23:17,07:54:17,,,,,1,1,1,1,1,0,0
 13952,Chestnut St & Pierce St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53,Crissy Field Terminal@@@92,,05:51:42,24:26:42,15.296296296296296,,11.8,,1,1,1,1,1,1,1
 13953,Chestnut St & Pierce St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@91,,06:15:55,24:33:19,15.0,,11.911764705882353,,1,1,1,1,1,1,1
-13953,Chestnut St & Pierce St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:19:36,07:50:22,,,,,1,1,1,1,1,0,0
+13953,Chestnut St & Pierce St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:19:36,07:50:22,,,,,1,1,1,1,1,0,0
 13957,Chestnut St & Van Ness Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@92,,06:21:13,24:38:31,15.0,,11.942857142857143,,1,1,1,1,1,1,1
-13957,Chestnut St & Van Ness Ave,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:26:00,07:57:00,,,,,1,1,1,1,1,0,0
+13957,Chestnut St & Van Ness Ave,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:26:00,07:57:00,,,,,1,1,1,1,1,0,0
 13958,Chestnut St & Webster St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53,Crissy Field Terminal@@@92,,05:50:29,24:25:35,15.25925925925926,,11.8,,1,1,1,1,1,1,1
 13959,Chestnut St & Webster St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@91,,06:17:37,24:35:30,15.0,,11.911764705882353,,1,1,1,1,1,1,1
-13959,Chestnut St & Webster St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:21:46,07:52:46,,,,,1,1,1,1,1,0,0
+13959,Chestnut St & Webster St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:21:46,07:52:46,,,,,1,1,1,1,1,0,0
 13960,Chicago Way & Cordova Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@73,,05:57:52,24:47:52,20.75,,13.766666666666667,,1,1,1,1,1,1,1
 13961,Chicago Way & Cordova Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@73,,05:02:36,23:52:16,19.95,,13.8,,1,1,1,1,1,1,1
 13962,Chicago Way & Naylor St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@73,,05:01:51,23:51:37,19.95,,13.766666666666667,,1,1,1,1,1,1,1
@@ -1037,7 +1034,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14023,Clay St & Leavenworth St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@395,Clay St & Drumm St@@@168,,04:59:43,24:13:09,9.853658536585366,,5.0120481927710845,,1,1,1,1,1,1,1
 14024,Clay St & Mason St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@395,Clay St & Drumm St@@@167,,05:01:45,24:15:41,9.878048780487806,,5.024390243902439,,1,1,1,1,1,1,1
 14025,Clay St & Montgomery St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@395,Clay St & Drumm St@@@170,,05:05:46,24:19:46,9.904761904761905,,5.0120481927710845,,1,1,1,1,1,1,1
-14025,Clay St & Montgomery St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:40:54,08:14:37,,,,,1,1,1,1,1,0,0
+14025,Clay St & Montgomery St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:40:54,08:14:37,,,,,1,1,1,1,1,0,0
 14026,Clay St & Polk St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@395,Clay St & Drumm St@@@170,,04:58:00,24:11:00,9.857142857142858,,5.0120481927710845,,1,1,1,1,1,1,1
 14027,Clay St & Powell St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@395,Clay St & Drumm St@@@168,,05:02:00,24:16:00,9.878048780487806,,5.024096385542169,,1,1,1,1,1,1,1
 14028,Clay St & Sansome St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@395,Clay St & Drumm St@@@170,,05:06:00,24:20:00,9.904761904761905,,5.0120481927710845,,1,1,1,1,1,1,1
@@ -1093,37 +1090,37 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14099,Cole St & Waller St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@72,,05:38:39,24:23:54,20.2,,13.931034482758621,,1,1,1,1,1,1,1
 14099,Cole St & Waller St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@25,,,05:28:14,24:15:56,,,,,1,1,1,1,1,1,1
 14099,Cole St & Waller St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:35:22,29:35:22,,30.0,,30.0,1,1,1,1,1,1,1
-14100,Columbus Ave & Bay St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@89,,06:03:43,24:42:43,7.537037037037037,,5.9855072463768115,,1,1,1,1,1,1,1
+14100,Columbus Ave & Bay St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@89,,06:03:43,24:42:43,8.74468085106383,,6.85,,1,1,1,1,1,1,1
 14100,Columbus Ave & Bay St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:38:17,29:38:17,,30.0,,30.0,1,1,1,1,1,1,1
 14101,Columbus Ave & Broadway,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@162,,05:45:23,24:40:22,7.976744186046512,,7.086206896551724,,1,1,1,1,1,1,1
 14101,Columbus Ave & Broadway,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:24:43,10:08:15,7.625,,7.625,,1,1,1,1,1,0,0
-14103,Columbus Ave & Chestnut St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@90,,05:24:04,24:18:04,7.5636363636363635,,5.942028985507246,,1,1,1,1,1,1,1
+14103,Columbus Ave & Chestnut St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@70,,05:24:04,24:18:04,8.489795918367347,,6.80327868852459,,1,1,1,1,1,1,1
 14103,Columbus Ave & Chestnut St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:48:53,30:18:53,,30.0,,30.0,1,1,1,1,1,1,1
 14104,Columbus Ave & Chestnut St,PM,POWELL-MASON CABLE CAR,5,B49A36,000000,0,Taylor St & Bay St@@@267,Taylor St & Bay St@@@132,,06:53:09,23:19:06,9.581395348837209,,9.581395348837209,,1,1,1,1,1,1,1
-14105,Columbus Ave & Filbert St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@92,,06:06:44,24:45:44,7.5636363636363635,,5.9714285714285715,,1,1,1,1,1,1,1
+14105,Columbus Ave & Filbert St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@92,,06:06:44,24:45:44,8.666666666666666,,6.852459016393443,,1,1,1,1,1,1,1
 14105,Columbus Ave & Filbert St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:40:45,29:40:45,,30.0,,30.0,1,1,1,1,1,1,1
-14106,Columbus Ave & Francisco St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@90,,05:24:31,24:18:31,7.5636363636363635,,5.956521739130435,,1,1,1,1,1,1,1
+14106,Columbus Ave & Francisco St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@70,,05:24:31,24:18:31,8.489795918367347,,6.819672131147541,,1,1,1,1,1,1,1
 14106,Columbus Ave & Francisco St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:49:17,30:19:17,,30.0,,30.0,1,1,1,1,1,1,1
-14107,Columbus Ave & Francisco St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@91,,06:04:38,24:43:38,7.5636363636363635,,5.9855072463768115,,1,1,1,1,1,1,1
+14107,Columbus Ave & Francisco St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@67###Townsend St & 4th St@@@91,,06:04:38,24:43:38,8.666666666666666,,6.852459016393443,,1,1,1,1,1,1,1
 14107,Columbus Ave & Francisco St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:39:02,29:39:02,,30.0,,30.0,1,1,1,1,1,1,1
 14108,Columbus Ave & Green St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@162,,05:46:20,24:41:11,7.976744186046512,,7.103448275862069,,1,1,1,1,1,1,1
 14108,Columbus Ave & Green St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:25:18,10:09:01,7.625,,7.625,,1,1,1,1,1,0,0
 14111,Columbus Ave & Kearny St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@162,,05:44:47,24:39:52,7.976744186046512,,7.086206896551724,,1,1,1,1,1,1,1
 14111,Columbus Ave & Kearny St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:24:21,10:07:45,7.625,,7.625,,1,1,1,1,1,0,0
 14113,Columbus Ave & Lombard St,PM,POWELL-MASON CABLE CAR,5,B49A36,000000,0,Taylor St & Bay St@@@267,Taylor St & Bay St@@@132,,06:52:29,23:18:26,9.604651162790697,,9.604651162790697,,1,1,1,1,1,1,1
-14114,Columbus Ave & Lombard St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@91,,06:05:45,24:44:45,7.5636363636363635,,5.9855072463768115,,1,1,1,1,1,1,1
+14114,Columbus Ave & Lombard St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:05:45,24:44:45,8.666666666666666,,6.916666666666667,,1,1,1,1,1,1,1
 14114,Columbus Ave & Lombard St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:39:57,29:39:57,,30.0,,30.0,1,1,1,1,1,1,1
-14115,Columbus Ave & Mason St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@89,,05:23:00,24:17:00,7.555555555555555,,5.985714285714286,,1,1,1,1,1,1,1
+14115,Columbus Ave & Mason St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@68,,05:23:00,24:17:00,8.583333333333334,,6.80327868852459,,1,1,1,1,1,1,1
 14115,Columbus Ave & Mason St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:47:54,30:17:54,,30.0,,30.0,1,1,1,1,1,1,1
-14116,Columbus Ave & North Point St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@90,,05:25:08,24:19:08,7.5636363636363635,,5.956521739130435,,1,1,1,1,1,1,1
+14116,Columbus Ave & North Point St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@70,,05:25:08,24:19:08,8.489795918367347,,6.819672131147541,,1,1,1,1,1,1,1
 14116,Columbus Ave & North Point St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:49:51,30:19:51,,30.0,,30.0,1,1,1,1,1,1,1
-14118,Columbus Ave & Taylor St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@91,,06:05:16,24:44:16,7.5636363636363635,,6.0,,1,1,1,1,1,1,1
+14118,Columbus Ave & Taylor St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:05:16,24:44:16,8.666666666666666,,6.933333333333334,,1,1,1,1,1,1,1
 14118,Columbus Ave & Taylor St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:39:33,29:39:33,,30.0,,30.0,1,1,1,1,1,1,1
-14119,Columbus Ave & Union St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@91###Van Ness Ave & North Point St@@@91,,05:22:00,24:16:00,7.527272727272727,,5.927536231884058,,1,1,1,1,1,1,1
+14119,Columbus Ave & Union St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@91###Van Ness Ave & North Point St@@@68,,05:22:00,24:16:00,8.583333333333334,,6.766666666666667,,1,1,1,1,1,1,1
 14119,Columbus Ave & Union St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@162,,05:47:10,24:41:53,7.976744186046512,,7.103448275862069,,1,1,1,1,1,1,1
 14119,Columbus Ave & Union St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:25:48,10:09:43,7.625,,7.625,,1,1,1,1,1,0,0
 14119,Columbus Ave & Union St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:47:00,30:17:00,,30.0,,30.0,1,1,1,1,1,1,1
-14120,Columbus Ave & Union St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,Post St & Grant Ave@@@91###Townsend St & 4th St@@@92,,06:07:00,24:46:00,7.509090909090909,,5.9714285714285715,,1,1,1,1,1,1,1
+14120,Columbus Ave & Union St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@92,,06:07:00,24:46:00,8.702127659574469,,6.852459016393443,,1,1,1,1,1,1,1
 14120,Columbus Ave & Union St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@170,,05:05:00,24:05:00,8.040816326530612,,7.033898305084746,,1,1,1,1,1,1,1
 14120,Columbus Ave & Union St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@3,,15:43:00,18:39:00,8.0,,8.0,,1,1,1,1,1,0,0
 14120,Columbus Ave & Union St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:41:00,29:41:00,,30.0,,30.0,1,1,1,1,1,1,1
@@ -1364,7 +1361,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14341,Daly City BART Station,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:04:00,22:04:00,25.0625,,20.45,,1,1,1,1,1,1,1
 14341,Daly City BART Station,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@101,19th Ave & Buckingham Way@@@42,,06:08:00,22:08:00,30.0,,30.0,,1,1,1,1,1,1,1
 14341,Daly City BART Station,714,BART EARLY BIRD,3,005B95,FFFFFF,1,Transit Center Bay C@@@2,,,04:05:00,05:30:00,,,,,1,1,1,1,1,0,0
-14347,Davis St & Pine St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:44:44,08:19:09,,,,,1,1,1,1,1,0,0
+14347,Davis St & Pine St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:44:44,08:19:09,,,,,1,1,1,1,1,0,0
 14350,De Haro St & 16th St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:29:34,22:18:34,20.0,,15.037037037037036,,1,1,1,1,1,1,1
 14351,De Haro St & 17th St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:29:09,22:18:09,20.05,,15.037037037037036,,1,1,1,1,1,1,1
 14352,De Haro St & 18th St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:28:20,22:17:20,20.05,,15.037037037037036,,1,1,1,1,1,1,1
@@ -1429,14 +1426,14 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14403,Diamond St & Surrey St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@105,Laguna Honda Blvd/Forest Hill Sta@@@49,,08:12:09,22:08:57,30.307692307692307,,20.15,,1,1,1,1,1,1,1
 14404,Diamond St & Sussex St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@105,Laguna Honda Blvd/Forest Hill Sta@@@49,,08:12:39,22:09:22,30.307692307692307,,20.15,,1,1,1,1,1,1,1
 14405,Diamond St & Sussex St,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@105,Dublin St & La Grande Ave@@@49,,08:20:32,22:17:46,30.0,,20.15,,1,1,1,1,1,1,1
-14406,Divisadero St & Bay St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:17:16,07:47:38,,,,,1,1,1,1,1,0,0
+14406,Divisadero St & Bay St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:17:16,07:47:38,,,,,1,1,1,1,1,0,0
 14407,Divisadero St & Beach St,30,STOCKTON,3,005B95,FFFFFF,0,Divisadero St & Chestnut St@@@53,,,19:57:14,24:29:54,,,,,1,1,1,1,1,1,1
 14407,Divisadero St & Beach St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@4###Townsend St & 4th St@@@171,Townsend St & 4th St@@@93,,06:58:20,20:06:20,14.964285714285714,,11.882352941176471,,1,1,1,1,1,1,1
 14408,Divisadero St & Bush St,24,DIVISADERO,3,005B95,FFFFFF,1,Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@109,,05:43:27,24:12:24,12.205882352941176,,10.736842105263158,,1,1,1,1,1,1,1
 14409,Divisadero St & California St,24,DIVISADERO,3,005B95,FFFFFF,1,Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@109,,05:44:23,24:13:14,12.205882352941176,,10.736842105263158,,1,1,1,1,1,1,1
 14410,Divisadero St & California St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@281###Cortland Ave & Bayshore Blvd@@@6,3rd St & Palou Ave@@@108,,04:14:53,24:24:53,12.030303030303031,,10.512820512820513,,1,1,1,1,1,1,1
 14411,Divisadero St & Chestnut St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@91,,06:15:00,24:32:00,15.0,,11.911764705882353,,1,1,1,1,1,1,1
-14411,Divisadero St & Chestnut St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:18:13,07:48:45,,,,,1,1,1,1,1,0,0
+14411,Divisadero St & Chestnut St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:18:13,07:48:45,,,,,1,1,1,1,1,0,0
 14412,Divisadero St & Clay St,24,DIVISADERO,3,005B95,FFFFFF,1,Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@109,,05:45:16,24:14:01,12.205882352941176,,10.736842105263158,,1,1,1,1,1,1,1
 14413,Divisadero St & Clay St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@281###Cortland Ave & Bayshore Blvd@@@6,3rd St & Palou Ave@@@111,,04:14:07,24:24:07,12.029411764705882,,10.475,,1,1,1,1,1,1,1
 14414,Divisadero St & Eddy St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@42###Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@107,Divisadero St & Sutter St@@@24,05:40:00,29:31:00,12.181818181818182,30.0,10.789473684210526,30.0,1,1,1,1,1,1,1
@@ -1444,7 +1441,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14415,Divisadero St & Eddy St,31,BALBOA,3,005B95,FFFFFF,0,Cabrillo St & La Playa St@@@148,Cabrillo St & La Playa St@@@62,,06:00:45,22:14:45,20.2,,20.105263157894736,,1,1,1,1,1,1,1
 14418,Divisadero St & Francisco St,30,STOCKTON,3,005B95,FFFFFF,0,Divisadero St & Chestnut St@@@53,,,19:58:33,24:30:43,,,,,1,1,1,1,1,1,1
 14418,Divisadero St & Francisco St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@4###Townsend St & 4th St@@@171,Townsend St & 4th St@@@91,,06:59:27,20:07:27,15.0,,11.911764705882353,,1,1,1,1,1,1,1
-14418,Divisadero St & Francisco St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:17:45,07:48:13,,,,,1,1,1,1,1,0,0
+14418,Divisadero St & Francisco St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:17:45,07:48:13,,,,,1,1,1,1,1,0,0
 14421,Divisadero St & Geary Blvd,24,DIVISADERO,3,005B95,FFFFFF,1,Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@107,,05:41:27,24:10:58,12.181818181818182,,10.789473684210526,,1,1,1,1,1,1,1
 14422,Divisadero St & Geary Blvd,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@284###Cortland Ave & Bayshore Blvd@@@30,3rd St & Palou Ave@@@110,Cortland Ave & Bayshore Blvd@@@15,04:16:55,28:27:28,12.029411764705882,30.0,10.512820512820513,30.0,1,1,1,1,1,1,1
 14423,Divisadero St & Haight St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@42###Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@109,Divisadero St & Sutter St@@@21,05:35:00,29:26:00,12.176470588235293,30.0,10.789473684210526,30.0,1,1,1,1,1,1,1
@@ -1516,14 +1513,11 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14504,The Embarcadero & Broadway,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:10:13,23:11:30,12.46875,,12.46875,,1,1,1,1,1,1,1
 14504,The Embarcadero & Broadway,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:34:06,23:34:06,,,,,1,1,1,1,1,1,1
 14504,The Embarcadero & Broadway,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,The Embarcadero & Ferry Building@@@12###Wawona/46th Ave /Sf Zoo@@@42,,The Embarcadero & Ferry Building@@@12###Wawona/46th Ave /Sf Zoo@@@24,23:48:21,30:53:51,,25.0,,25.0,1,1,1,1,1,1,1
-14506,The Embarcadero & Brannan St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:22:03,24:17:49,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 14506,The Embarcadero & Brannan St,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@281,King St & 4th St@@@110,,07:50:08,24:20:31,12.272727272727273,,9.902439024390244,,1,1,1,1,1,1,1
 14508,The Embarcadero & Folsom St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@19,,,05:25:12,05:25:12,,,,,1,1,1,1,1,1,1
 14508,The Embarcadero & Folsom St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:06:31,29:38:31,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
-14509,The Embarcadero & Folsom St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:19:00,24:14:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 14509,The Embarcadero & Folsom St,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@281,King St & 4th St@@@111,,07:47:00,24:17:00,12.272727272727273,,9.904761904761905,,1,1,1,1,1,1,1
 14510,The Embarcadero & Folsom St,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@5,,,07:57:00,05:57:00,,,,,1,1,1,1,1,1,1
-14510,The Embarcadero & Folsom St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:22:00,23:57:00,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
 14510,The Embarcadero & Folsom St,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@8,,,08:02:00,06:40:00,,,,,1,1,1,1,1,1,1
 14510,The Embarcadero & Folsom St,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@9,,,07:55:00,07:00:00,,,,,1,1,1,1,1,1,1
 14510,The Embarcadero & Folsom St,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247###The Embarcadero & Folsom St@@@12,Judah/La Playa/Ocean Beach@@@112,,07:20:00,23:50:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
@@ -1849,13 +1843,13 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14820,Kearny St & Clay St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@164,,05:43:24,24:38:41,8.0,,7.067796610169491,,1,1,1,1,1,1,1
 14820,Kearny St & Clay St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,1,Kearny St & Pacific Ave@@@23,Kearny St & Pacific Ave@@@10,,06:58:54,10:16:23,7.888888888888889,,7.888888888888889,,1,1,1,1,1,0,0
 14820,Kearny St & Clay St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:23:30,10:06:37,7.625,,7.625,,1,1,1,1,1,0,0
-14821,Kearny St & Geary St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@18,Crissy Field Terminal@@@92,,05:12:00,24:07:00,15.037037037037036,,11.657142857142857,,1,1,1,1,1,1,1
+14821,Kearny St & Geary St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@68,,05:12:00,24:07:00,8.5625,,6.754098360655738,,1,1,1,1,1,1,1
 14821,Kearny St & Geary St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213###Sutter St & Kearny St@@@10,Lyon St & Greenwich St@@@98,,05:27:00,22:37:00,15.037037037037036,,9.975609756097562,,1,1,1,1,1,1,1
 14821,Kearny St & Geary St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@163,,05:40:05,24:35:52,8.022727272727273,,7.0344827586206895,,1,1,1,1,1,1,1
 14821,Kearny St & Geary St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,1,Kearny St & Pacific Ave@@@23,Kearny St & Pacific Ave@@@10,,06:56:51,10:13:21,7.888888888888889,,7.888888888888889,,1,1,1,1,1,0,0
 14821,Kearny St & Geary St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:21:28,10:03:53,7.625,,7.625,,1,1,1,1,1,0,0
 14821,Kearny St & Geary St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:39:45,30:09:45,,30.0,,30.0,1,1,1,1,1,1,1
-14821,Kearny St & Geary St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@255###Stockton St & Washington St@@@7,Pacific Ave & Powell St@@@114,,05:41:45,24:23:45,11.971428571428572,,10.024390243902438,,1,1,1,1,1,1,1
+14821,Kearny St & Geary St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:41:45,24:23:45,,,,,1,1,1,1,1,1,1
 14822,Kearny St & Jackson St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@369,Kearny St & North Point St@@@164,,05:44:07,24:39:18,8.0,,7.067796610169491,,1,1,1,1,1,1,1
 14822,Kearny St & Jackson St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,1,Kearny St & Pacific Ave@@@23,Kearny St & Pacific Ave@@@10,,06:59:20,10:17:02,7.888888888888889,,7.888888888888889,,1,1,1,1,1,0,0
 14822,Kearny St & Jackson St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@9,,07:23:56,10:07:12,7.625,,7.625,,1,1,1,1,1,0,0
@@ -2137,7 +2131,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15051,Hudson Ave & Whitney Young Cir,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@100,,08:27:22,22:28:18,12.6875,,12.424242424242424,,1,1,1,1,1,1,1
 15051,Hudson Ave & Whitney Young Cir,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@295,Hudson Ave & 3rd St@@@111,Hudson Ave & 3rd St@@@24,06:35:03,29:43:03,12.212121212121213,30.428571428571427,9.904761904761905,30.428571428571427,1,1,1,1,1,1,1
 15051,Hudson Ave & Whitney Young Cir,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@145,Newhall St & Hudson@@@63,,06:28:11,22:44:23,20.25,,20.05,,1,1,1,1,1,1,1
-15056,Howard St & Main St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:47:19,08:22:12,,,,,1,1,1,1,1,0,0
+15056,Howard St & Main St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:47:19,08:22:12,,,,,1,1,1,1,1,0,0
 15059,Hyde St & Bay St,PH,POWELL-HYDE CABLE CAR,5,B49A36,000000,0,Hyde St & Beach St@@@324,Hyde St & Beach St@@@156,,06:46:06,23:17:02,8.07843137254902,,8.07843137254902,,1,1,1,1,1,1,1
 15060,Hyde St & Bay St,PH,POWELL-HYDE CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@306###Washington St & Mason St@@@18,Powell St & Market St@@@147,,07:11:01,23:36:55,8.5,,8.5,,1,1,1,1,1,1,1
 15061,Hyde St & Broadway,PH,POWELL-HYDE CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@306###Washington St & Mason St@@@18,Powell St & Market St@@@147,,07:15:28,23:40:55,8.5,,8.5,,1,1,1,1,1,1,1
@@ -2353,13 +2347,11 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15229,Kansas St & 26th St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,24th St & Castro St@@@30###Lower Great Hwy & Rivera St@@@189###Sunset Blvd & Quintara St@@@2,Lower Great Hwy & Rivera St@@@71,24th St & Castro St@@@21,05:07:47,29:06:47,20.0,30.0,14.107142857142858,30.0,1,1,1,1,1,1,1
 15232,Keith St & Oakdale Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,Bosworth St & Diamond St@@@30###California St & 6th Ave@@@271,California St & 6th Ave@@@114,Bosworth St & Diamond St@@@21,05:07:54,29:06:54,12.0,30.0,9.69767441860465,30.0,1,1,1,1,1,1,1
 15233,Keith St & Oakdale Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@295,Hudson Ave & 3rd St@@@111,Hudson Ave & 3rd St@@@24,06:33:27,29:41:27,12.212121212121213,30.428571428571427,9.904761904761905,30.428571428571427,1,1,1,1,1,1,1
-15234,King St & 2nd St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:24:24,24:20:45,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15234,King St & 2nd St,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@281,King St & 4th St@@@112,,07:52:29,24:23:10,12.294117647058824,,9.902439024390244,,1,1,1,1,1,1,1
 15235,King St & 2nd St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@19,,,05:20:19,05:20:19,,,,,1,1,1,1,1,1,1
 15235,King St & 2nd St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:02:52,29:34:52,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
 15236,King St & 2nd St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@25,,,06:00:10,24:42:00,,,,,1,1,1,1,1,1,1
 15236,King St & 2nd St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@27,25:02:51,30:02:51,,30.0,,30.0,1,1,1,1,1,1,1
-15237,King St & 2nd St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:16:12,23:51:12,12.0,,10.024390243902438,,1,1,1,1,1,1,1
 15237,King St & 2nd St,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247###The Embarcadero & Folsom St@@@12,Judah/La Playa/Ocean Beach@@@110,,07:13:26,23:44:54,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
 15240,King St & 4th St,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247###The Embarcadero & Folsom St@@@12,Judah/La Playa/Ocean Beach@@@112,,07:11:00,23:43:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15242,Kiska Rd & Ingalls St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@97,,08:33:00,22:34:00,12.741935483870968,,12.4375,,1,1,1,1,1,1,1
@@ -2537,15 +2529,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15405,Mcallister St & Van Ness Ave,5R,FULTON RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay B@@@60,Transit Center Bay B@@@35,,07:30:00,19:15:00,11.882352941176471,,11.882352941176471,,1,1,1,1,1,0,0
 15417,Metro Powell Station/Downtown,J,CHURCH,0,A96614,FFFFFF,1,Metro Embarcadero Station@@@190,Metro Embarcadero Station@@@84,,08:07:35,23:48:35,15.0,,15.0,,1,1,1,1,1,1,1
 15417,Metro Powell Station/Downtown,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:14:35,23:52:35,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-15417,Metro Powell Station/Downtown,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:13:35,24:08:35,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15417,Metro Powell Station/Downtown,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@110,,08:22:35,24:02:35,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 15417,Metro Powell Station/Downtown,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:18:35,23:58:35,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15417,Metro Powell Station/Downtown,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@256,King St & 4th St@@@112,,08:06:35,24:02:35,12.264705882352942,,9.902439024390244,,1,1,1,1,1,1,1
-15418,Balboa Park BART/Mezzanine Level,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:40:00,23:39:00,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15418,Balboa Park BART/Mezzanine Level,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@10###Ulloa St & Lenox Way@@@22,,,04:57:00,07:14:00,,,,,1,1,1,1,1,1,1
 15419,Metro Van Ness Station,J,CHURCH,0,A96614,FFFFFF,1,Metro Embarcadero Station@@@190,Metro Embarcadero Station@@@84,,08:05:00,23:46:00,15.0,,15.0,,1,1,1,1,1,1,1
 15419,Metro Van Ness Station,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:12:00,23:50:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-15419,Metro Van Ness Station,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:11:00,24:06:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15419,Metro Van Ness Station,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@112,,08:20:00,24:00:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15419,Metro Van Ness Station,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:16:00,23:56:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15419,Metro Van Ness Station,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@256,King St & 4th St@@@111,,08:04:00,24:00:00,12.272727272727273,,9.904761904761905,,1,1,1,1,1,1,1
@@ -2608,33 +2597,33 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15455,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@83,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:47:08,21:16:08,30.0,,30.0,,1,1,1,1,1,1,1
 15456,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@85,Valencia St & Mission St@@@42,,08:23:08,21:21:45,30.0,,30.0,,1,1,1,1,1,1,1
 15456,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@83,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:44:08,21:13:08,30.0,,30.0,,1,1,1,1,1,1,1
-15457,North Point St & Divisadero St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:16:45,07:47:02,,,,,1,1,1,1,1,0,0
+15457,North Point St & Divisadero St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:16:45,07:47:02,,,,,1,1,1,1,1,0,0
 15458,North Point St & Hyde St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@105,,05:03:33,24:03:50,11.911764705882353,,11.852941176470589,,1,1,1,1,1,1,1
-15458,North Point St & Hyde St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@91,,05:26:05,24:20:05,7.537037037037037,,5.914285714285715,,1,1,1,1,1,1,1
+15458,North Point St & Hyde St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@69,,05:26:05,24:20:05,8.4375,,6.833333333333333,,1,1,1,1,1,1,1
 15458,North Point St & Hyde St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:50:43,30:20:43,,30.0,,30.0,1,1,1,1,1,1,1
 15459,North Point St & Hyde St,28,19TH AVENUE,3,005B95,FFFFFF,1,Powell St & Beach St@@@259,Powell St & Beach St@@@103,,05:47:37,24:42:37,12.484848484848484,,12.029411764705882,,1,1,1,1,1,1,1
-15459,North Point St & Hyde St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@90###Townsend St & 4th St@@@89,,06:02:39,24:41:39,7.518518518518518,,5.9714285714285715,,1,1,1,1,1,1,1
+15459,North Point St & Hyde St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@89,,06:02:39,24:41:39,8.72340425531915,,6.85,,1,1,1,1,1,1,1
 15459,North Point St & Hyde St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:37:25,29:37:25,,30.0,,30.0,1,1,1,1,1,1,1
 15460,North Point St & Jones St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@107,,05:02:46,24:02:39,11.885714285714286,,11.852941176470589,,1,1,1,1,1,1,1
 15461,North Point St & Jones St,28,19TH AVENUE,3,005B95,FFFFFF,1,Powell St & Beach St@@@259,Powell St & Beach St@@@103,,05:48:31,24:43:31,12.484848484848484,,12.029411764705882,,1,1,1,1,1,1,1
 15462,North Point St & Kearny St,8,BAYSHORE,3,005B95,FFFFFF,0,City College Terminal@@@362,City College Terminal@@@169,,05:00:18,24:00:18,8.020833333333334,,7.0,,1,1,1,1,1,1,1
 15462,North Point St & Kearny St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@3,,15:36:25,18:32:25,8.0,,8.0,,1,1,1,1,1,0,0
 15464,North Point St & Larkin St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@105,,05:04:01,24:04:31,11.911764705882353,,11.852941176470589,,1,1,1,1,1,1,1
-15464,North Point St & Larkin St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@91,,05:26:38,24:20:38,7.537037037037037,,5.928571428571429,,1,1,1,1,1,1,1
+15464,North Point St & Larkin St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@69,,05:26:38,24:20:38,8.4375,,6.85,,1,1,1,1,1,1,1
 15464,North Point St & Larkin St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:51:13,30:21:13,,30.0,,30.0,1,1,1,1,1,1,1
 15466,North Point St & Mason St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@108,,05:01:54,24:01:21,11.857142857142858,,11.857142857142858,,1,1,1,1,1,1,1
 15467,North Point St & Mason St,28,19TH AVENUE,3,005B95,FFFFFF,1,Powell St & Beach St@@@259,Powell St & Beach St@@@103,,05:49:33,24:44:33,12.484848484848484,,12.029411764705882,,1,1,1,1,1,1,1
 15468,North Point St & Polk St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@105,,05:04:35,24:05:23,11.911764705882353,,11.852941176470589,,1,1,1,1,1,1,1
-15468,North Point St & Polk St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@91,,05:27:20,24:21:20,7.537037037037037,,5.914285714285715,,1,1,1,1,1,1,1
+15468,North Point St & Polk St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@70,,05:27:20,24:21:20,8.4375,,6.836065573770492,,1,1,1,1,1,1,1
 15468,North Point St & Polk St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:51:51,30:21:51,,30.0,,30.0,1,1,1,1,1,1,1
 15469,North Point St & Polk St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@67,,05:54:34,22:45:34,20.263157894736842,,15.115384615384615,,1,1,1,1,1,1,1
 15469,North Point St & Polk St,28,19TH AVENUE,3,005B95,FFFFFF,1,Powell St & Beach St@@@259,Powell St & Beach St@@@103,,05:46:46,24:41:46,12.484848484848484,,12.029411764705882,,1,1,1,1,1,1,1
-15469,North Point St & Polk St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@91,,06:01:32,24:40:32,7.509090909090909,,5.9855072463768115,,1,1,1,1,1,1,1
+15469,North Point St & Polk St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:01:32,24:40:32,8.6875,,6.85,,1,1,1,1,1,1,1
 15469,North Point St & Polk St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:36:30,29:36:30,,30.0,,30.0,1,1,1,1,1,1,1
 15470,North Point St & Stockton St,8,BAYSHORE,3,005B95,FFFFFF,0,City College Terminal@@@362,City College Terminal@@@169,,05:01:09,24:01:09,8.020833333333334,,7.0,,1,1,1,1,1,1,1
 15470,North Point St & Stockton St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@3,,15:37:37,18:33:37,8.0,,8.0,,1,1,1,1,1,0,0
 15471,North Point St & Stockton St,39,COIT,3,005B95,FFFFFF,0,Coit Tower@@@93,Coit Tower@@@63,,09:05:00,19:05:00,20.0,,20.0,,1,1,1,1,1,1,1
-15472,North Point St & Van Ness Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,4th St & Market St@@@2###Post St & Grant Ave@@@89###Townsend St & 4th St@@@91,,06:01:00,24:40:00,7.509090909090909,,5.9855072463768115,,1,1,1,1,1,1,1
+15472,North Point St & Van Ness Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Market St@@@2###4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:01:00,24:40:00,8.6875,,6.85,,1,1,1,1,1,1,1
 15472,North Point St & Van Ness Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:36:03,29:36:03,,30.0,,30.0,1,1,1,1,1,1,1
 15474,Naples St & Athens St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@73,,05:05:17,23:54:38,19.95,,13.8,,1,1,1,1,1,1,1
 15475,Naples St & Brunswick St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@73,,05:55:41,24:45:41,20.7,,13.733333333333333,,1,1,1,1,1,1,1
@@ -3170,26 +3159,21 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15718,Masonic Ave & Turk St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@72,,05:44:37,24:29:37,20.3,,13.89655172413793,,1,1,1,1,1,1,1
 15719,Masonic Ave & Turk St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@73,,05:18:19,24:09:19,20.3,,13.7,,1,1,1,1,1,1,1
 15726,Metro Church Station/Downtown,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@110,,08:10:08,23:48:08,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
-15726,Metro Church Station/Downtown,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:09:08,24:04:08,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15726,Metro Church Station/Downtown,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@112,,08:18:08,23:58:08,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15726,Metro Church Station/Downtown,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:14:08,23:54:08,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15727,Metro Civic Center Station/Downtn,J,CHURCH,0,A96614,FFFFFF,1,Metro Embarcadero Station@@@190,Metro Embarcadero Station@@@84,,08:06:15,23:47:15,15.0,,15.0,,1,1,1,1,1,1,1
 15727,Metro Civic Center Station/Downtn,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:13:15,23:51:15,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-15727,Metro Civic Center Station/Downtn,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:12:15,24:07:15,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15727,Metro Civic Center Station/Downtn,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@110,,08:21:15,24:01:15,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 15727,Metro Civic Center Station/Downtn,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:17:15,23:57:15,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15727,Metro Civic Center Station/Downtn,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@256,King St & 4th St@@@112,,08:05:15,24:01:15,12.264705882352942,,9.902439024390244,,1,1,1,1,1,1,1
 15728,Metro Castro Station/Downtown,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:09:00,23:47:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-15728,Metro Castro Station/Downtown,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@110,,08:08:00,24:03:00,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
 15728,Metro Castro Station/Downtown,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@112,,08:17:00,23:57:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15728,Metro Castro Station/Downtown,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:13:00,23:53:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15730,Metro Forest Hill Station/Downtown,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:03:53,23:41:53,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-15730,Metro Forest Hill Station/Downtown,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:02:48,23:57:48,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15730,Metro Forest Hill Station/Downtown,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@110,,08:11:53,23:51:53,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 15730,Metro Forest Hill Station/Downtown,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:07:53,23:47:53,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15731,Metro Montgomery Station/Downtown,J,CHURCH,0,A96614,FFFFFF,1,Metro Embarcadero Station@@@190,Metro Embarcadero Station@@@84,,08:08:49,23:49:49,15.0,,15.0,,1,1,1,1,1,1,1
 15731,Metro Montgomery Station/Downtown,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:15:49,23:53:49,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-15731,Metro Montgomery Station/Downtown,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:14:49,24:09:49,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 15731,Metro Montgomery Station/Downtown,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@110,,08:23:49,24:03:49,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 15731,Metro Montgomery Station/Downtown,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@111,,08:19:49,23:59:49,12.088235294117647,,10.025,,1,1,1,1,1,1,1
 15731,Metro Montgomery Station/Downtown,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@256,King St & 4th St@@@112,,08:07:49,24:03:49,12.264705882352942,,9.902439024390244,,1,1,1,1,1,1,1
@@ -3241,11 +3225,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15779,Ocean Ave & Aptos Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:36:25,30:38:25,,30.0,,30.0,1,1,1,1,1,1,1
 15779,Ocean Ave & Aptos Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:53:18,23:48:24,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
 15779,Ocean Ave & Aptos Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:09:20,24:09:20,,,,,1,1,1,1,1,1,1
-15779,Ocean Ave & Aptos Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:52:35,23:48:41,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15780,Ocean Ave & Aptos Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:51:17,29:21:17,,30.0,,30.0,1,1,1,1,1,1,1
-15780,Ocean Ave & Aptos Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:07:31,24:16:31,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
+15780,Ocean Ave & Aptos Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:07:31,24:16:31,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15780,Ocean Ave & Aptos Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:43:13,06:28:13,,,,,1,1,1,1,1,1,1
-15780,Ocean Ave & Aptos Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@110,,08:06:31,24:22:31,12.06060606060606,,10.0,,1,1,1,1,1,1,1
 15781,Ocean Ave/Balboa Park BART Station,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@116,,05:40:00,24:30:00,12.181818181818182,,8.702127659574469,,1,1,1,1,1,1,1
 15781,Ocean Ave/Balboa Park BART Station,49,VAN NESS-MISSION,3,005B95,FFFFFF,1,Mission St & 26th St@@@18###Van Ness Ave & North Point St@@@420,Van Ness Ave & North Point St@@@176,,05:01:24,24:48:45,8.0,,6.0,,1,1,1,1,1,1,1
 15782,Ocean Ave & Cayuga Ave,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:21:40,24:18:55,12.0,,8.604166666666666,,1,1,1,1,1,1,1
@@ -3253,18 +3235,13 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15783,Ocean Ave & Cayuga Ave,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@118,,05:41:55,24:31:34,12.205882352941176,,8.702127659574469,,1,1,1,1,1,1,1
 15783,Ocean Ave & Cayuga Ave,49,VAN NESS-MISSION,3,005B95,FFFFFF,1,Mission St & 26th St@@@18###Van Ness Ave & North Point St@@@420,Van Ness Ave & North Point St@@@174,,05:03:35,24:51:29,8.0,,6.0,,1,1,1,1,1,1,1
 15784,Ocean Ave/Ccsf Pedestrian Bridge,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:44:58,23:42:02,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
-15784,Ocean Ave/Ccsf Pedestrian Bridge,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@110,,07:44:45,23:42:48,12.030303030303031,,10.0,,1,1,1,1,1,1,1
-15785,Ocean Ave/Ccsf Pedestrian Bridge,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:14:00,24:23:00,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
-15785,Ocean Ave/Ccsf Pedestrian Bridge,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:13:00,24:29:00,12.147058823529411,,9.951219512195122,,1,1,1,1,1,1,1
-15786,Ocean Ave & Cerritos Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@110,,08:07:08,24:23:08,12.030303030303031,,9.975609756097562,,1,1,1,1,1,1,1
+15785,Ocean Ave/Ccsf Pedestrian Bridge,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:14:00,24:23:00,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
 15787,Ocean Ave & Dorado Ter,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:34:14,30:36:14,,30.0,,30.0,1,1,1,1,1,1,1
 15787,Ocean Ave & Dorado Ter,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:49:34,23:45:33,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
 15787,Ocean Ave & Dorado Ter,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:06:38,24:06:38,,,,,1,1,1,1,1,1,1
-15787,Ocean Ave & Dorado Ter,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:49:05,23:46:04,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15788,Ocean Ave & Fairfield Way,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:35:08,30:37:08,,30.0,,30.0,1,1,1,1,1,1,1
 15788,Ocean Ave & Fairfield Way,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:51:07,23:46:44,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
 15788,Ocean Ave & Fairfield Way,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:07:45,24:07:45,,,,,1,1,1,1,1,1,1
-15788,Ocean Ave & Fairfield Way,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:50:32,23:47:09,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15790,Ocean Ave & Howth St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@118,,05:24:30,24:21:15,12.0,,8.617021276595745,,1,1,1,1,1,1,1
 15790,Ocean Ave & Howth St,49,VAN NESS-MISSION,3,005B95,FFFFFF,0,City College Terminal@@@439,City College Terminal@@@171,,05:03:44,24:43:44,8.12,,6.088235294117647,,1,1,1,1,1,1,1
 15791,Ocean Ave & Howth St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@116,,05:39:26,24:29:34,12.181818181818182,,8.702127659574469,,1,1,1,1,1,1,1
@@ -3272,28 +3249,23 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15792,Ocean Ave & Junipero Serra Blvd,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:50:01,29:20:01,,30.0,,30.0,1,1,1,1,1,1,1
 15792,Ocean Ave & Junipero Serra Blvd,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:41:33,06:26:33,,,,,1,1,1,1,1,1,1
 15793,Ocean Ave & Jules Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:53:12,29:23:12,,30.0,,30.0,1,1,1,1,1,1,1
-15793,Ocean Ave & Jules Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@110,,08:10:15,24:19:15,12.090909090909092,,10.048780487804878,,1,1,1,1,1,1,1
+15793,Ocean Ave & Jules Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@110,,08:10:15,24:19:15,12.090909090909092,,10.048780487804878,,1,1,1,1,1,1,1
 15793,Ocean Ave & Jules Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:45:43,06:30:43,,,,,1,1,1,1,1,1,1
-15793,Ocean Ave & Jules Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@110,,08:09:15,24:25:15,12.06060606060606,,9.975609756097562,,1,1,1,1,1,1,1
 15794,Ocean Ave & Lee St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:25:50,24:22:22,12.0,,8.604166666666666,,1,1,1,1,1,1,1
 15794,Ocean Ave & Lee St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:32:14,30:34:14,,30.0,,30.0,1,1,1,1,1,1,1
 15794,Ocean Ave & Lee St,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@110,,07:46:11,23:42:58,12.090909090909092,,9.975609756097562,,1,1,1,1,1,1,1
 15794,Ocean Ave & Lee St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:04:11,24:04:11,,,,,1,1,1,1,1,1,1
-15794,Ocean Ave & Lee St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:45:53,23:43:40,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15795,Ocean Ave & Lee St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@117,,05:37:53,24:28:25,12.181818181818182,,8.6875,,1,1,1,1,1,1,1
 15795,Ocean Ave & Lee St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:54:56,29:24:56,,30.0,,30.0,1,1,1,1,1,1,1
-15795,Ocean Ave & Lee St,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@111,,08:12:45,24:21:45,12.117647058823529,,10.05,,1,1,1,1,1,1,1
+15795,Ocean Ave & Lee St,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@111,,08:12:45,24:21:45,12.117647058823529,,10.05,,1,1,1,1,1,1,1
 15795,Ocean Ave & Lee St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:48:01,06:33:01,,,,,1,1,1,1,1,1,1
-15795,Ocean Ave & Lee St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:11:45,24:27:45,12.176470588235293,,9.975609756097562,,1,1,1,1,1,1,1
 15796,Ocean Ave & Mission St,49,VAN NESS-MISSION,3,005B95,FFFFFF,0,City College Terminal@@@439,City College Terminal@@@174,,05:00:00,24:40:00,8.137254901960784,,6.086956521739131,,1,1,1,1,1,1,1
 15797,Ocean Ave & Miramar Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:33:24,30:35:24,,30.0,,30.0,1,1,1,1,1,1,1
 15797,Ocean Ave & Miramar Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:48:09,23:44:28,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
 15797,Ocean Ave & Miramar Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:05:36,24:05:36,,,,,1,1,1,1,1,1,1
-15797,Ocean Ave & Miramar Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:47:44,23:45:03,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15798,Ocean Ave & Miramar Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:53:58,29:23:58,,30.0,,30.0,1,1,1,1,1,1,1
-15798,Ocean Ave & Miramar Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:11:22,24:20:22,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
+15798,Ocean Ave & Miramar Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:11:22,24:20:22,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15798,Ocean Ave & Miramar Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:46:44,06:31:44,,,,,1,1,1,1,1,1,1
-15798,Ocean Ave & Miramar Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:10:22,24:26:22,12.147058823529411,,9.951219512195122,,1,1,1,1,1,1,1
 15800,Ocean Ave & Otsego Ave,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@284,Fitzgerald Ave & Keith St@@@118,,05:41:20,24:31:05,12.176470588235293,,8.702127659574469,,1,1,1,1,1,1,1
 15800,Ocean Ave & Otsego Ave,49,VAN NESS-MISSION,3,005B95,FFFFFF,1,Mission St & 26th St@@@18###Van Ness Ave & North Point St@@@420,Van Ness Ave & North Point St@@@176,,05:02:55,24:50:39,8.0,,6.0,,1,1,1,1,1,1,1
 15801,Ocean Ave & Persia Ave,49,VAN NESS-MISSION,3,005B95,FFFFFF,1,Mission St & 26th St@@@18###Van Ness Ave & North Point St@@@420,Van Ness Ave & North Point St@@@174,,05:04:00,24:52:00,8.0,,6.0,,1,1,1,1,1,1,1
@@ -3304,16 +3276,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15806,Ocean Ave & San Leandro Way,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:37:08,30:39:08,,30.0,,30.0,1,1,1,1,1,1,1
 15806,Ocean Ave & San Leandro Way,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:54:31,23:49:20,12.058823529411764,,10.0,,1,1,1,1,1,1,1
 15806,Ocean Ave & San Leandro Way,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:10:13,24:10:13,,,,,1,1,1,1,1,1,1
-15806,Ocean Ave & San Leandro Way,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:53:44,23:49:33,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15807,Ocean Ave & San Leandro Way,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:50:38,29:20:38,,30.0,,30.0,1,1,1,1,1,1,1
-15807,Ocean Ave & San Leandro Way,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:06:35,24:15:35,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
+15807,Ocean Ave & San Leandro Way,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:06:35,24:15:35,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 15807,Ocean Ave & San Leandro Way,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:42:21,06:27:21,,,,,1,1,1,1,1,1,1
-15807,Ocean Ave & San Leandro Way,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@109,,08:05:35,24:21:35,12.06060606060606,,10.0,,1,1,1,1,1,1,1
 15808,Ocean Ave & Victoria St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:52:25,29:22:25,,30.0,,30.0,1,1,1,1,1,1,1
-15808,Ocean Ave & Victoria St,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@110,,08:09:08,24:18:08,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
+15808,Ocean Ave & Victoria St,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@110,,08:09:08,24:18:08,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
 15808,Ocean Ave & Victoria St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:44:42,06:29:42,,,,,1,1,1,1,1,1,1
-15808,Ocean Ave & Victoria St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@110,,08:08:08,24:24:08,12.030303030303031,,9.975609756097562,,1,1,1,1,1,1,1
-15809,Ocean Ave & Westgate Dr,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:51:48,23:48:06,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 15810,O'Farrell St & Grant Ave,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@353,Transit Center Bay D@@@130,Transit Center Bay D@@@24,06:11:23,29:45:23,10.048780487804878,30.0,9.088888888888889,30.0,1,1,1,1,1,1,1
 15810,O'Farrell St & Grant Ave,38R,GEARY RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay C@@@325,Transit Center Bay C@@@153,,06:34:23,21:35:51,10.024390243902438,,6.044117647058823,,1,1,1,1,1,1,1
 15813,O'Farrell St & Larkin St,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@353,Transit Center Bay D@@@130,Transit Center Bay D@@@24,06:04:20,29:40:27,10.048780487804878,30.142857142857142,9.088888888888889,30.0,1,1,1,1,1,1,1
@@ -3696,7 +3664,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16123,Portola Dr & Woodside Ave,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@189###Sunset Blvd & Quintara St@@@2,Lower Great Hwy & Rivera St@@@72,,05:25:43,24:25:43,20.05,,13.931034482758621,,1,1,1,1,1,1,1
 16124,Post St & Gough St,2,SUTTER,3,005B95,FFFFFF,1,Steuart St & Mission St@@@114,Steuart St & Mission St@@@63,,06:31:34,18:46:17,20.1,,20.05,,1,1,1,1,1,1,1
 16125,Post St & Grant Ave,2,SUTTER,3,005B95,FFFFFF,1,Steuart St & Mission St@@@114,Steuart St & Mission St@@@63,,06:39:52,18:56:04,20.15,,20.05,,1,1,1,1,1,1,1
-16125,Post St & Grant Ave,30,STOCKTON,3,005B95,FFFFFF,0,Van Ness Ave & North Point St@@@102,Van Ness Ave & North Point St@@@91,,08:28:00,15:59:00,15.11111111111111,,12.0,,1,1,1,1,1,1,1
 16126,Post St & Hyde St,2,SUTTER,3,005B95,FFFFFF,1,Steuart St & Mission St@@@114,Steuart St & Mission St@@@63,,06:35:27,18:50:51,20.1,,20.1,,1,1,1,1,1,1,1
 16127,Post St & Jones St,2,SUTTER,3,005B95,FFFFFF,1,Steuart St & Mission St@@@114,Steuart St & Mission St@@@61,,06:37:01,18:52:41,20.15,,20.05263157894737,,1,1,1,1,1,1,1
 16129,Point Lobos Ave & 46th Ave,38,GEARY,3,005B95,FFFFFF,0,48th Ave & Point Lobos Ave@@@82,,48th Ave & Point Lobos Ave@@@24,21:08:20,29:42:24,,30.0,,30.0,1,1,1,1,1,1,1
@@ -3878,8 +3845,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16322,Sagamore St & Capitol Ave,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@142,Daly City BART West Station Rd@@@64,,06:31:56,22:37:56,20.25,,19.904761904761905,,1,1,1,1,1,1,1
 16323,Sagamore St & Capitol Ave,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@63,,05:45:16,22:00:01,20.05,,20.0,,1,1,1,1,1,1,1
 16324,Sagamore St & Orizaba Ave,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@63,,05:44:29,21:59:19,20.05,,20.0,,1,1,1,1,1,1,1
-16327,Sansome St & California St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:42:30,08:16:30,,,,,1,1,1,1,1,0,0
-16328,Sansome St & Clay St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:41:43,08:15:35,,,,,1,1,1,1,1,0,0
+16327,Sansome St & California St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:42:30,08:16:30,,,,,1,1,1,1,1,0,0
+16328,Sansome St & Clay St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:41:43,08:15:35,,,,,1,1,1,1,1,0,0
 16332,Sansome St & Pine St,1X,CALIFORNIA EXPRESS,3,BF2B45,FFFFFF,1,Davis St & Pine St@@@3,,,08:09:41,08:59:41,,,,,1,1,1,1,1,0,0
 16333,Sansome St & Sacramento St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@237,Jackson St & Van Ness Ave@@@124,,06:43:00,22:46:00,10.175,,9.975609756097562,,1,1,1,1,1,1,1
 16337,Sansome St & Washington St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@237,Jackson St & Van Ness Ave@@@124,,06:44:14,22:47:27,10.175,,9.975609756097562,,1,1,1,1,1,1,1
@@ -3979,7 +3946,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16373,San Bruno Ave & Wayland St,90,SAN BRUNO OWL,3,666666,FFFFFF,1,Van Ness Ave & North Point St@@@30,,Van Ness Ave & North Point St@@@18,24:13:44,28:43:44,,30.0,,30.0,1,1,1,1,1,1,1
 16374,Santa Clara Ave & Monterey Blvd,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:16:59,22:13:59,30.076923076923077,,20.1,,1,1,1,1,1,1,1
 16375,Santa Clara Ave & Saint Francis Blvd,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:35:44,22:26:32,30.0,,19.8,,1,1,1,1,1,1,1
-16376,Scott St & North Point St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:16:04,07:46:15,,,,,1,1,1,1,1,0,0
+16376,Scott St & North Point St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:16:04,07:46:15,,,,,1,1,1,1,1,0,0
 16382,Schwerin St & Garrison Ave,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@222,Sunnydale Ave / Mclaren School@@@80,,06:02:41,24:50:41,10.384615384615385,,10.384615384615385,,1,1,1,1,1,1,1
 16382,Schwerin St & Garrison Ave,9R,SAN BRUNO RAPID,3,BF2B45,FFFFFF,0,Sunnydale Ave / Mclaren School@@@58,Sunnydale Ave / Mclaren School@@@34,,06:39:48,18:47:12,12.06060606060606,,12.06060606060606,,1,1,1,1,1,0,0
 16383,Schwerin St & Garrison Ave,9,SAN BRUNO,3,005B95,FFFFFF,1,Market St & Steuart St@@@214,Market St & Steuart St@@@84,,05:07:48,23:55:30,10.0,,10.0,,1,1,1,1,1,1,1
@@ -4110,9 +4077,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16501,Steuart St & Market St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@19,,,05:27:41,05:27:41,,,,,1,1,1,1,1,1,1
 16501,Steuart St & Market St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:08:33,29:40:33,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
 16503,West Portal/Sloat/St Francis Circle,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:48:50,29:18:50,,30.0,,30.0,1,1,1,1,1,1,1
-16503,West Portal/Sloat/St Francis Circle,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:04:00,24:13:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
+16503,West Portal/Sloat/St Francis Circle,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:04:00,24:13:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16503,West Portal/Sloat/St Francis Circle,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:40:00,06:25:00,,,,,1,1,1,1,1,1,1
-16503,West Portal/Sloat/St Francis Circle,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:03:00,24:19:00,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
 16503,West Portal/Sloat/St Francis Circle,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@275,San Jose Ave & Niagra Ave@@@112,,05:44:00,24:41:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16504,Saint Francis Blvd & Santa Clara Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:16:23,22:13:23,30.076923076923077,,20.1,,1,1,1,1,1,1,1
 16505,Saint Francis Blvd & Santa Ana Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:36:09,22:27:01,30.0,,19.75,,1,1,1,1,1,1,1
@@ -4121,63 +4087,61 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16508,Saint Francis Blvd & San Fernando Way,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:15:31,22:12:31,30.076923076923077,,20.1,,1,1,1,1,1,1,1
 16509,Still St & Lyell St,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,Bosworth St & Diamond St@@@30###California St & 6th Ave@@@271,California St & 6th Ave@@@113,Bosworth St & Diamond St@@@21,05:23:52,29:19:40,12.0,30.0,9.738095238095237,30.0,1,1,1,1,1,1,1
 16509,Still St & Lyell St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@105,Laguna Honda Blvd/Forest Hill Sta@@@49,,08:09:53,22:07:06,30.307692307692307,,20.15,,1,1,1,1,1,1,1
-16511,Stockton St & Clay St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@91,,05:17:15,24:11:55,7.592592592592593,,5.871428571428571,,1,1,1,1,1,1,1
+16511,Stockton St & Clay St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@68,,05:17:15,24:11:55,8.702127659574469,,6.754098360655738,,1,1,1,1,1,1,1
 16511,Stockton St & Clay St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213,Lyon St & Greenwich St@@@98,,05:32:15,22:12:15,15.074074074074074,,9.975609756097562,,1,1,1,1,1,1,1
 16511,Stockton St & Clay St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:43:36,30:13:36,,30.0,,30.0,1,1,1,1,1,1,1
-16512,Stockton St & Columbus Ave,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@91,,05:20:30,24:14:43,7.509090909090909,,5.871428571428571,,1,1,1,1,1,1,1
+16512,Stockton St & Columbus Ave,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@66,,05:20:30,24:14:43,8.659574468085106,,6.754098360655738,,1,1,1,1,1,1,1
 16512,Stockton St & Columbus Ave,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213,Lyon St & Greenwich St@@@98,,05:35:30,22:15:30,15.074074074074074,,10.0,,1,1,1,1,1,1,1
 16512,Stockton St & Columbus Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:45:56,30:15:56,,30.0,,30.0,1,1,1,1,1,1,1
-16513,Stockton St & Columbus Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,Post St & Grant Ave@@@91###Townsend St & 4th St@@@91,,06:07:52,24:47:01,7.509090909090909,,5.971014492753623,,1,1,1,1,1,1,1
+16513,Stockton St & Columbus Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:07:52,24:47:01,8.702127659574469,,6.766666666666667,,1,1,1,1,1,1,1
 16513,Stockton St & Columbus Ave,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,04:52:48,22:11:57,15.037037037037036,,9.951219512195122,,1,1,1,1,1,1,1
 16513,Stockton St & Columbus Ave,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@170,,05:05:52,24:06:01,8.040816326530612,,7.033898305084746,,1,1,1,1,1,1,1
 16513,Stockton St & Columbus Ave,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@2,,15:44:27,18:40:27,8.0,,8.0,,1,1,1,1,1,0,0
 16513,Stockton St & Columbus Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:41:52,29:41:52,,30.0,,30.0,1,1,1,1,1,1,1
 16515,Stockton St & Filbert St,39,COIT,3,005B95,FFFFFF,1,North Point St & Stockton St@@@93,North Point St & Stockton St@@@60,,09:24:19,19:24:19,20.0,,20.0,,1,1,1,1,1,1,1
-16516,Stockton St & Geary St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Townsend St & 4th St@@@216,Townsend St & 4th St@@@91,,06:15:06,24:55:06,15.222222222222221,,11.970588235294118,,1,1,1,1,1,1,1
+16516,Stockton St & Geary St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:15:06,24:55:06,8.74468085106383,,6.916666666666667,,1,1,1,1,1,1,1
 16516,Stockton St & Geary St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@99,,05:00:06,22:20:06,15.074074074074074,,9.976190476190476,,1,1,1,1,1,1,1
 16516,Stockton St & Geary St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@171,,05:11:55,24:13:03,8.08,,7.084745762711864,,1,1,1,1,1,1,1
 16516,Stockton St & Geary St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@3,,15:41:50,19:01:50,8.0,,8.0,,1,1,1,1,1,0,0
 16516,Stockton St & Geary St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@1,,15:54:43,18:50:43,,,,,1,1,1,1,1,0,0
 16516,Stockton St & Geary St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:48:03,29:48:03,,30.0,,30.0,1,1,1,1,1,1,1
-16516,Stockton St & Geary St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@28,4th St & Berry St@@@111,,05:04:44,23:42:49,12.058823529411764,,10.05,,1,1,1,1,1,1,1
+16516,Stockton St & Geary St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:04:44,05:49:44,,,,,1,1,1,1,1,1,1
 16517,Stockton St & Greenwich St,39,COIT,3,005B95,FFFFFF,1,North Point St & Stockton St@@@93,North Point St & Stockton St@@@60,,09:23:48,19:23:48,20.0,,20.0,,1,1,1,1,1,1,1
 16518,Stockton St & Greenwich St,39,COIT,3,005B95,FFFFFF,0,Coit Tower@@@93,Coit Tower@@@63,,09:16:19,19:16:19,20.0,,20.0,,1,1,1,1,1,1,1
 16519,Stockton St & Lombard St,39,COIT,3,005B95,FFFFFF,0,Coit Tower@@@93,Coit Tower@@@63,,09:16:46,19:16:46,20.0,,20.0,,1,1,1,1,1,1,1
-16520,Stockton St & Pacific Ave,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@91,,05:18:46,24:13:14,7.509090909090909,,5.871428571428571,,1,1,1,1,1,1,1
+16520,Stockton St & Pacific Ave,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@68,,05:18:46,24:13:14,8.729166666666666,,6.754098360655738,,1,1,1,1,1,1,1
 16520,Stockton St & Pacific Ave,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213,Lyon St & Greenwich St@@@98,,05:33:46,22:13:46,15.074074074074074,,10.0,,1,1,1,1,1,1,1
 16520,Stockton St & Pacific Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:44:41,30:14:41,,30.0,,30.0,1,1,1,1,1,1,1
-16521,Stockton St & Pacific Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,Post St & Grant Ave@@@91###Townsend St & 4th St@@@91,,06:08:58,24:48:18,7.527272727272727,,5.971014492753623,,1,1,1,1,1,1,1
+16521,Stockton St & Pacific Ave,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:08:58,24:48:18,8.72340425531915,,6.766666666666667,,1,1,1,1,1,1,1
 16521,Stockton St & Pacific Ave,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@99,,04:53:55,22:13:14,15.074074074074074,,9.952380952380953,,1,1,1,1,1,1,1
 16521,Stockton St & Pacific Ave,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@170,,05:06:58,24:07:18,8.061224489795919,,7.0508474576271185,,1,1,1,1,1,1,1
 16521,Stockton St & Pacific Ave,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@4,,15:33:10,18:53:10,8.333333333333334,,8.333333333333334,,1,1,1,1,1,0,0
 16521,Stockton St & Pacific Ave,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@2,,15:46:17,18:42:17,8.0,,8.0,,1,1,1,1,1,0,0
 16521,Stockton St & Pacific Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:42:58,29:42:58,,30.0,,30.0,1,1,1,1,1,1,1
-16522,Stockton St & Sacramento St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,Post St & Grant Ave@@@91###Townsend St & 4th St@@@89,,06:10:54,24:50:33,7.555555555555555,,6.0,,1,1,1,1,1,1,1
+16522,Stockton St & Sacramento St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@89,,06:10:54,24:50:33,8.608695652173912,,6.783333333333333,,1,1,1,1,1,1,1
 16522,Stockton St & Sacramento St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,04:55:50,22:15:29,15.074074074074074,,9.975609756097562,,1,1,1,1,1,1,1
 16522,Stockton St & Sacramento St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@168,,05:08:54,24:09:33,8.061224489795919,,7.051724137931035,,1,1,1,1,1,1,1
 16522,Stockton St & Sacramento St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@3,,15:36:23,18:56:23,8.0,,8.0,,1,1,1,1,1,0,0
 16522,Stockton St & Sacramento St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@2,,15:49:30,18:45:30,8.0,,8.0,,1,1,1,1,1,0,0
 16522,Stockton St & Sacramento St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:44:54,29:44:54,,30.0,,30.0,1,1,1,1,1,1,1
-16522,Stockton St & Sacramento St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234,4th St & Berry St@@@112,,07:40:13,23:40:29,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
-16523,Stockton St & Sutter St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@90,,05:15:00,24:10:00,7.518518518518518,,5.901408450704225,,1,1,1,1,1,1,1
+16523,Stockton St & Sutter St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@68,,05:15:00,24:10:00,8.5625,,6.786885245901639,,1,1,1,1,1,1,1
 16523,Stockton St & Sutter St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213,Lyon St & Greenwich St@@@98,,05:30:00,22:10:00,15.037037037037036,,9.951219512195122,,1,1,1,1,1,1,1
 16523,Stockton St & Sutter St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:42:00,30:12:00,,30.0,,30.0,1,1,1,1,1,1,1
-16523,Stockton St & Sutter St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@255###Stockton St & Washington St@@@7,Pacific Ave & Powell St@@@112,,05:44:26,24:26:26,12.0,,10.024390243902438,,1,1,1,1,1,1,1
-16524,Stockton St & Sutter St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,Post St & Grant Ave@@@91###Townsend St & 4th St@@@90,,06:13:00,24:53:00,7.555555555555555,,5.985714285714286,,1,1,1,1,1,1,1
+16523,Stockton St & Sutter St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:44:26,24:26:26,,,,,1,1,1,1,1,1,1
+16524,Stockton St & Sutter St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@90,,06:13:00,24:53:00,8.608695652173912,,6.868852459016393,,1,1,1,1,1,1,1
 16524,Stockton St & Sutter St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,04:58:00,22:18:00,15.074074074074074,,9.975609756097562,,1,1,1,1,1,1,1
 16524,Stockton St & Sutter St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@171,,05:11:00,24:12:00,8.08,,7.084745762711864,,1,1,1,1,1,1,1
 16524,Stockton St & Sutter St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@3,,15:40:00,19:00:00,8.0,,8.0,,1,1,1,1,1,0,0
 16524,Stockton St & Sutter St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@1,,15:53:00,18:49:00,,,,,1,1,1,1,1,0,0
 16524,Stockton St & Sutter St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:47:00,29:47:00,,30.0,,30.0,1,1,1,1,1,1,1
-16524,Stockton St & Sutter St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234,4th St & Berry St@@@111,,07:40:53,23:41:54,12.088235294117647,,10.05,,1,1,1,1,1,1,1
 16525,Stockton St & Union St,39,COIT,3,005B95,FFFFFF,1,North Point St & Stockton St@@@93,North Point St & Stockton St@@@60,,09:24:47,19:24:47,20.0,,20.0,,1,1,1,1,1,1,1
-16526,Stockton St & Washington St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###Post St & Grant Ave@@@102###Townsend St & 4th St@@@216,Post St & Grant Ave@@@92###Townsend St & 4th St@@@91,,06:10:16,24:49:48,7.527272727272727,,5.985714285714286,,1,1,1,1,1,1,1
+16526,Stockton St & Washington St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@30###4th St & Mission St@@@76###Townsend St & 4th St@@@216,4th St & Mission St@@@66###Townsend St & 4th St@@@91,,06:10:15,24:49:48,8.72340425531915,,6.766666666666667,,1,1,1,1,1,1,1
 16526,Stockton St & Washington St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,04:55:12,22:14:44,15.074074074074074,,9.951219512195122,,1,1,1,1,1,1,1
-16526,Stockton St & Washington St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@168,,05:08:16,24:08:48,8.061224489795919,,7.051724137931035,,1,1,1,1,1,1,1
+16526,Stockton St & Washington St,8,BAYSHORE,3,005B95,FFFFFF,0,4th St & Market St@@@1###City College Terminal@@@362,City College Terminal@@@168,,05:08:15,24:08:48,8.061224489795919,,7.051724137931035,,1,1,1,1,1,1,1
 16526,Stockton St & Washington St,8AX,BAYSHORE A EXPRESS,3,005B95,FFFFFF,0,Geneva Street & Schwerin Street@@@28,Geneva Street & Schwerin Street@@@3,,15:35:19,18:55:19,8.0,,8.0,,1,1,1,1,1,0,0
-16526,Stockton St & Washington St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@2,,15:48:27,18:44:27,8.0,,8.0,,1,1,1,1,1,0,0
-16526,Stockton St & Washington St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:44:16,29:44:16,,30.0,,30.0,1,1,1,1,1,1,1
-16526,Stockton St & Washington St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@28,4th St & Berry St@@@112,,05:00:00,23:40:00,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
+16526,Stockton St & Washington St,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,0,City College Terminal@@@23,City College Terminal@@@2,,15:48:26,18:44:26,8.0,,8.0,,1,1,1,1,1,0,0
+16526,Stockton St & Washington St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:44:15,29:44:15,,30.0,,30.0,1,1,1,1,1,1,1
+16526,Stockton St & Washington St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:00:00,05:45:00,,,,,1,1,1,1,1,1,1
 16529,Sunset Blvd & Judah St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@283,Fitzgerald Ave & Keith St@@@119,,05:15:07,24:10:39,12.147058823529411,,8.583333333333334,,1,1,1,1,1,1,1
 16530,Sunset Blvd & Judah St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@34###Bowley St & Lincoln Blvd@@@245,Bowley St & Lincoln Blvd@@@119,,05:48:34,24:41:25,12.058823529411764,,8.583333333333334,,1,1,1,1,1,1,1
 16535,Sunset Blvd & Lawton St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@283,Fitzgerald Ave & Keith St@@@119,,05:16:08,24:11:23,12.117647058823529,,8.604166666666666,,1,1,1,1,1,1,1
@@ -4240,10 +4204,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16594,Sutter St & Hyde St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@62,,07:10:36,19:35:54,20.157894736842106,,20.1,,1,1,1,1,1,1,1
 16595,Sutter St & Jones St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@63,,07:09:33,19:34:20,20.15,,20.1,,1,1,1,1,1,1,1
 16596,Sutter St & Kearny St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@63,,07:06:32,19:30:02,20.1,,20.05,,1,1,1,1,1,1,1
-16596,Sutter St & Kearny St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@18,Crissy Field Terminal@@@92,,05:14:00,24:09:00,15.037037037037036,,11.628571428571428,,1,1,1,1,1,1,1
+16596,Sutter St & Kearny St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@92###Van Ness Ave & North Point St@@@68,,05:14:00,24:09:00,8.5625,,6.786885245901639,,1,1,1,1,1,1,1
 16596,Sutter St & Kearny St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213###Sutter St & Kearny St@@@10,Lyon St & Greenwich St@@@98,,05:29:00,22:39:00,15.037037037037036,,9.951219512195122,,1,1,1,1,1,1,1
 16596,Sutter St & Kearny St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:40:40,30:10:40,,30.0,,30.0,1,1,1,1,1,1,1
-16596,Sutter St & Kearny St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@239,Pacific Ave & Powell St@@@112,,07:56:53,24:01:46,12.0,,10.024390243902438,,1,1,1,1,1,1,1
 16597,Sutter St & Larkin St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@60,,07:11:06,19:36:40,20.157894736842106,,20.157894736842106,,1,1,1,1,1,1,1
 16598,Sutter St & Leavenworth St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@63,,07:10:04,19:35:07,20.15,,20.1,,1,1,1,1,1,1,1
 16599,Sutter St & Laguna St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@63,,07:15:18,19:41:18,20.15,,20.1,,1,1,1,1,1,1,1
@@ -4374,12 +4337,10 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16738,Ulloa St & Lenox Way,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@191###Sunset Blvd & Quintara St@@@2,Lower Great Hwy & Rivera St@@@72,,05:30:00,24:30:00,20.05,,13.931034482758621,,1,1,1,1,1,1,1
 16738,Ulloa St & Lenox Way,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@32,,,05:24:00,06:11:00,,,,,1,1,1,1,1,1,1
 16738,Ulloa St & Lenox Way,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:20:00,29:45:00,,25.0,,25.0,1,1,1,1,1,1,1
-16739,West Portal Station,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:00:00,24:09:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16739,West Portal Station,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:00:00,24:15:00,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
+16739,West Portal Station,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:00:00,24:09:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16739,West Portal Station,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:21:00,23:57:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16739,West Portal Station,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@112,,08:13:00,24:01:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16740,West Portal Station,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,08:02:00,23:56:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16740,West Portal Station,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:01:00,23:56:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16740,West Portal Station,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@110,,08:10:00,23:50:00,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 16740,West Portal Station,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10###West Portal Station@@@1,Metro Embarcadero Station@@@112,,08:06:00,23:50:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16744,Ulloa St & West Portal Ave,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@56,,05:00:00,22:00:00,25.0,,20.0,,1,1,1,1,1,1,1
@@ -4446,7 +4407,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16806,Van Ness Ave & Bay St,90,SAN BRUNO OWL,3,666666,FFFFFF,1,Van Ness Ave & North Point St@@@30,,Van Ness Ave & North Point St@@@21,24:41:30,29:11:30,,30.0,,30.0,1,1,1,1,1,1,1
 16806,Van Ness Ave & Bay St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:35:38,29:35:38,,30.0,,30.0,1,1,1,1,1,1,1
 16819,Van Ness Ave & North Point St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@257,Daly City BART Parking Lot E@@@105,,05:05:00,24:06:00,11.911764705882353,,11.852941176470589,,1,1,1,1,1,1,1
-16819,Van Ness Ave & North Point St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@91,,05:28:00,24:22:00,15.23076923076923,,11.742857142857142,,1,1,1,1,1,1,1
+16819,Van Ness Ave & North Point St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@70,,05:28:00,24:22:00,15.23076923076923,,11.742857142857142,,1,1,1,1,1,1,1
 16819,Van Ness Ave & North Point St,49,VAN NESS-MISSION,3,005B95,FFFFFF,0,City College Terminal@@@421###Van Ness Ave & Market St@@@11,City College Terminal@@@175,,05:00:00,24:21:00,8.0,,5.942857142857143,,1,1,1,1,1,1,1
 16819,Van Ness Ave & North Point St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:52:20,30:22:20,,30.0,,30.0,1,1,1,1,1,1,1
 16835,Vicente St & 30th Ave,66,QUINTARA,3,005B95,FFFFFF,1,9th Ave & Judah St@@@135,9th Ave & Judah St@@@63,,08:13:00,22:12:00,20.0,,20.0,,1,1,1,1,1,1,1
@@ -4493,7 +4454,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16898,West Portal Ave & 14th Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:40:34,30:42:34,,30.0,,30.0,1,1,1,1,1,1,1
 16898,West Portal Ave & 14th Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@110,,07:59:40,23:53:40,12.090909090909092,,10.0,,1,1,1,1,1,1,1
 16898,West Portal Ave & 14th Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:14:25,24:14:25,,,,,1,1,1,1,1,1,1
-16898,West Portal Ave & 14th Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:58:40,23:53:40,12.058823529411764,,10.0,,1,1,1,1,1,1,1
 16898,West Portal Ave & 14th Ave,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10###Ulloa St & Lenox Way@@@32###West Portal Station@@@1,Metro Embarcadero Station@@@112,,05:21:00,23:47:40,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16899,West Portal Ave & 15th Ave,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:25:02,22:22:37,24.875,,20.55,,1,1,1,1,1,1,1
 16904,West Portal Ave & Vicente St,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:00:42,22:00:42,25.0,,20.0,,1,1,1,1,1,1,1
@@ -4588,44 +4548,36 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16989,Yerba Buena Ave & Ravenwood Dr,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@72,,05:21:19,24:08:57,20.05,,13.862068965517242,,1,1,1,1,1,1,1
 16990,Yerba Buena Ave & Saint Elmo Way,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@72,,05:41:45,24:33:00,20.7,,13.758620689655173,,1,1,1,1,1,1,1
 16991,Metro Castro Station/Outbound,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@112,,08:08:00,24:02:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16991,Metro Castro Station/Outbound,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:09:00,24:08:00,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 16991,Metro Castro Station/Outbound,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:14:00,23:50:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16991,Metro Castro Station/Outbound,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@110,,08:06:00,23:54:00,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
 16992,Metro Embarcadero Station,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6,Metro Embarcadero Station@@@112,,08:17:00,23:55:00,,,,,1,1,1,1,1,1,1
-16992,Metro Embarcadero Station,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:16:00,24:11:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16992,Metro Embarcadero Station,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@12,Metro Embarcadero Station@@@112,,08:25:00,24:05:00,,,,,1,1,1,1,1,1,1
 16992,Metro Embarcadero Station,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10,Metro Embarcadero Station@@@112,,08:21:00,24:01:00,,,,,1,1,1,1,1,1,1
 16992,Metro Embarcadero Station,N,JUDAH,0,005B95,FFFFFF,1,King St & 4th St@@@259,King St & 4th St@@@110,,08:05:00,24:05:00,12.272727272727273,,9.902439024390244,,1,1,1,1,1,1,1
 16993,Forest Hill Station Outbound,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@110,,08:13:03,24:07:03,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
-16993,Forest Hill Station Outbound,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:14:03,24:13:03,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
 16993,Forest Hill Station Outbound,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:19:03,23:55:03,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16993,Forest Hill Station Outbound,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@111,,08:11:03,23:59:03,12.058823529411764,,10.025,,1,1,1,1,1,1,1
 16994,Metro Montgomery Station/Outbound,J,CHURCH,0,A96614,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@193,Balboa Park BART/Mezzanine Level@@@84,,08:01:05,23:57:05,15.0,,15.0,,1,1,1,1,1,1,1
 16994,Metro Montgomery Station/Outbound,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@110,,08:01:05,23:55:05,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
-16994,Metro Montgomery Station/Outbound,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:02:02,24:01:02,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
 16994,Metro Montgomery Station/Outbound,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:07:05,23:43:05,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16994,Metro Montgomery Station/Outbound,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@112,,07:59:05,23:47:05,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16994,Metro Montgomery Station/Outbound,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247,Judah/La Playa/Ocean Beach@@@110,,08:09:05,23:54:05,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 16995,Metro Powell Station/Outbound,J,CHURCH,0,A96614,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@193,Balboa Park BART/Mezzanine Level@@@84,,08:02:23,23:58:23,15.0,,15.0,,1,1,1,1,1,1,1
 16995,Metro Powell Station/Outbound,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@112,,08:02:23,23:56:23,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16995,Metro Powell Station/Outbound,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@111,,08:03:15,24:02:15,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 16995,Metro Powell Station/Outbound,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:08:23,23:44:23,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16995,Metro Powell Station/Outbound,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@112,,08:00:23,23:48:23,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16995,Metro Powell Station/Outbound,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247,Judah/La Playa/Ocean Beach@@@109,,08:10:23,23:55:23,12.090909090909092,,10.025,,1,1,1,1,1,1,1
 16996,Van Ness Station Outbound,J,CHURCH,0,A96614,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@193,Balboa Park BART/Mezzanine Level@@@84,,08:05:00,24:01:00,15.0,,15.0,,1,1,1,1,1,1,1
 16996,Van Ness Station Outbound,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@112,,08:05:00,23:59:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16996,Van Ness Station Outbound,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:06:00,24:05:00,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 16996,Van Ness Station Outbound,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@110,,08:11:00,23:47:00,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
 16996,Van Ness Station Outbound,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@112,,08:03:00,23:51:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16996,Van Ness Station Outbound,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247,Judah/La Playa/Ocean Beach@@@112,,08:13:00,23:58:00,12.117647058823529,,10.024390243902438,,1,1,1,1,1,1,1
 16997,Metro Civic Center Station/Outbd,J,CHURCH,0,A96614,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@193,Balboa Park BART/Mezzanine Level@@@84,,08:03:50,23:59:50,15.0,,15.0,,1,1,1,1,1,1,1
 16997,Metro Civic Center Station/Outbd,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@112,,08:03:50,23:57:50,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16997,Metro Civic Center Station/Outbd,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:04:37,24:03:37,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 16997,Metro Civic Center Station/Outbd,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@110,,08:09:50,23:45:50,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
 16997,Metro Civic Center Station/Outbd,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@111,,08:01:50,23:49:50,12.088235294117647,,10.025,,1,1,1,1,1,1,1
 16997,Metro Civic Center Station/Outbd,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247,Judah/La Playa/Ocean Beach@@@110,,08:11:50,23:56:50,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 16998,Metro Church Station/Outbound,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@112,,08:06:55,24:00:55,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16998,Metro Church Station/Outbound,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:07:55,24:06:55,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 16998,Metro Church Station/Outbound,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@111,,08:12:55,23:48:55,12.058823529411764,,10.025,,1,1,1,1,1,1,1
 16998,Metro Church Station/Outbound,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@112,,08:04:55,23:52:55,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16999,7th St & Bryant St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:33:48,22:22:48,20.05,,15.037037037037036,,1,1,1,1,1,1,1
@@ -4676,33 +4628,26 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17078,Juan Bautista Cir & Font Blvd,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@54,,05:14:48,22:14:48,25.125,,20.263157894736842,,1,1,1,1,1,1,1
 17099,Mission St & San Jose Ave,14,MISSION,3,005B95,FFFFFF,1,Mission St & 26th St@@@45###Steuart St & Mission St@@@436,Steuart St & Mission St@@@163,Mission St & 26th St@@@12###Steuart St & Mission St@@@39,05:15:00,29:46:00,10.0,14.125,7.0,14.125,1,1,1,1,1,1,1
 17109,West Portal/Sloat/St Francis Circle,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:58:00,23:52:00,12.058823529411764,,10.0,,1,1,1,1,1,1,1
-17109,West Portal/Sloat/St Francis Circle,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:57:00,23:52:00,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 17109,West Portal/Sloat/St Francis Circle,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@10###Ulloa St & Lenox Way@@@32###West Portal Station@@@1,Metro Embarcadero Station@@@112,,05:19:00,23:46:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 17113,Junipero Serra Blvd & Ocean Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:56:17,23:50:41,12.058823529411764,,10.0,,1,1,1,1,1,1,1
-17113,Junipero Serra Blvd & Ocean Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:55:24,23:50:48,12.029411764705882,,10.0,,1,1,1,1,1,1,1
-17114,Junipero Serra Blvd & Ocean Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@111,,08:05:32,24:14:32,12.058823529411764,,10.05,,1,1,1,1,1,1,1
-17114,Junipero Serra Blvd & Ocean Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:04:32,24:20:32,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
+17114,Junipero Serra Blvd & Ocean Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@111,,08:05:32,24:14:32,12.058823529411764,,10.05,,1,1,1,1,1,1,1
 17123,Market St & Sanchez St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:02:31,22:02:31,12.058823529411764,,12.058823529411764,,1,1,1,1,1,1,1
 17125,West Portal Ave & 14th Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:47:39,29:17:39,,30.0,,30.0,1,1,1,1,1,1,1
-17125,West Portal Ave & 14th Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:02:04,24:11:23,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
+17125,West Portal Ave & 14th Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:02:04,24:11:23,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 17125,West Portal Ave & 14th Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:37:54,06:22:54,,,,,1,1,1,1,1,1,1
-17125,West Portal Ave & 14th Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@243,Balboa Park BART/Mezzanine Level@@@112,,08:01:33,24:17:23,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
 17125,West Portal Ave & 14th Ave,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@275,San Jose Ave & Niagra Ave@@@112,,05:41:51,24:39:23,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 17127,Geneva Ave & Rio Verde St,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@222,Sunnydale Ave / Mclaren School@@@80,,06:04:33,24:52:33,10.384615384615385,,10.384615384615385,,1,1,1,1,1,1,1
 17127,Geneva Ave & Rio Verde St,9R,SAN BRUNO RAPID,3,BF2B45,FFFFFF,0,Sunnydale Ave / Mclaren School@@@58,Sunnydale Ave / Mclaren School@@@35,,06:41:13,18:49:20,12.058823529411764,,12.058823529411764,,1,1,1,1,1,0,0
 17128,Tioga Ave & Rutland St,56,RUTLAND,3,005B95,FFFFFF,1,Visitacion Valley Middle School@@@129,Visitacion Valley Middle School@@@63,,07:10:25,21:09:38,20.0,,20.0,,1,1,1,1,1,1,1
 17129,Mission St & 7th St,14,MISSION,3,005B95,FFFFFF,1,Steuart St & Mission St@@@474,Steuart St & Mission St@@@165,Steuart St & Mission St@@@45,04:56:07,29:32:44,9.761904761904763,15.0,6.95,15.0,1,1,1,1,1,1,1
 17142,California St & Van Ness Ave,CA,CALIFORNIA STREET CABLE CAR,5,B49A36,000000,1,California St & Drumm St@@@201###California St & Hyde St@@@18,California St & Drumm St@@@117,,07:00:00,21:42:00,10.921052631578947,,10.921052631578947,,1,1,1,1,1,1,1
-17145,The Embarcadero & Brannan St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:18:42,23:53:42,12.0,,10.024390243902438,,1,1,1,1,1,1,1
 17145,The Embarcadero & Brannan St,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247###The Embarcadero & Folsom St@@@12,Judah/La Playa/Ocean Beach@@@112,,07:16:14,23:47:05,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 17149,Letterman Dr & Lombard St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@72,,05:56:00,24:41:00,20.4,,13.931034482758621,,1,1,1,1,1,1,1
 17151,Portola Ave & Claremont Ave,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@189###Sunset Blvd & Quintara St@@@2,Lower Great Hwy & Rivera St@@@72,,05:28:51,24:28:51,20.05,,13.931034482758621,,1,1,1,1,1,1,1
 17160,California St & 8th Ave,1,CALIFORNIA,3,005B95,FFFFFF,0,Geary Blvd & 33rd Ave@@@336,Geary Blvd & 33rd Ave@@@126,,04:42:28,24:14:32,10.024390243902438,,10.024390243902438,,1,1,1,1,1,1,1
 17160,California St & 8th Ave,1X,CALIFORNIA EXPRESS,3,BF2B45,FFFFFF,0,33rd Ave & Geary Blvd@@@3,,,16:58:34,17:58:34,,,,,1,1,1,1,1,0,0
 17164,San Jose Ave & Geneva Ave,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@222###The Embarcadero & Folsom St@@@10###Ulloa St & Lenox Way@@@10###West Portal Station@@@1,Metro Embarcadero Station@@@112,,06:19:00,23:26:00,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
-17166,4th St & King St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:14:00,23:49:00,12.0,,10.024390243902438,,1,1,1,1,1,1,1
 17166,4th St & King St,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@246,Chinatown - Rose Pak Station@@@112,,06:45:00,23:49:00,12.0,,10.048780487804878,,1,1,1,1,1,1,1
-17166,4th St & King St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@239,Pacific Ave & Powell St@@@112,,07:52:00,23:52:00,11.941176470588236,,10.024390243902438,,1,1,1,1,1,1,1
 17171,3rd St & Paul Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@27,24:12:56,30:13:56,,30.0,,30.0,1,1,1,1,1,1,1
 17171,3rd St & Paul Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:35:55,06:20:55,,,,,1,1,1,1,1,1,1
 17181,Columbus Ave & Chestnut St,PM,POWELL-MASON CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@249###Washington St & Mason St@@@18,Powell St & Market St@@@126,,07:01:28,23:25:28,9.878048780487806,,9.878048780487806,,1,1,1,1,1,1,1
@@ -4731,7 +4676,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17214,5th St & Folsom St,31,BALBOA,3,005B95,FFFFFF,0,Cabrillo St & La Playa St@@@50,Cabrillo St & La Playa St@@@21,,05:43:44,21:58:01,20.05,,20.05,,1,1,1,1,1,0,0
 17217,Metro Embarcadero Station,J,CHURCH,0,A96614,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@193,Balboa Park BART/Mezzanine Level@@@86,,08:00:00,23:56:00,15.0,,15.0,,1,1,1,1,1,1,1
 17217,Metro Embarcadero Station,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@239,Balboa Park BART/Mezzanine Level@@@110,,08:00:00,23:54:00,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
-17217,Metro Embarcadero Station,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240,Balboa Park BART/Mezzanine Level@@@112,,08:01:00,24:00:00,12.029411764705882,,10.024390243902438,,1,1,1,1,1,1,1
 17217,Metro Embarcadero Station,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:06:00,23:42:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 17217,Metro Embarcadero Station,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@240,San Jose Ave & Niagra Ave@@@112,,07:58:00,23:46:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 17217,Metro Embarcadero Station,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247,Judah/La Playa/Ocean Beach@@@112,,08:08:00,23:53:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
@@ -4821,48 +4765,29 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17334,Bayshore Blvd & Blanken Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:10:00,29:40:00,,30.0,,30.0,1,1,1,1,1,1,1
 17334,Bayshore Blvd & Blanken Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:04:19,23:46:19,,,,,1,1,1,1,1,1,1
 17335,Raymond Ave & Elliot St,56,RUTLAND,3,005B95,FFFFFF,1,Visitacion Valley Middle School@@@129,Visitacion Valley Middle School@@@63,,07:12:34,21:11:58,20.0,,20.0,,1,1,1,1,1,1,1
-17342,Third Street/Gilman/Paul,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@112,,07:04:00,24:47:00,12.147058823529411,,10.073170731707316,,1,1,1,1,1,1,1
 17342,Third Street/Gilman/Paul,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@111,,07:09:00,24:28:00,12.06060606060606,,9.880952380952381,,1,1,1,1,1,1,1
-17343,Third Street & Carroll Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:24:14,25:01:14,11.941176470588236,,10.0,,1,1,1,1,1,1,1
 17343,Third Street & Carroll Ave,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:31:14,24:41:14,11.941176470588236,,10.0,,1,1,1,1,1,1,1
-17344,Third Street & Carroll Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@112,,07:02:39,24:45:39,12.147058823529411,,10.073170731707316,,1,1,1,1,1,1,1
 17344,Third Street & Carroll Ave,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@113,,07:07:39,24:26:39,12.058823529411764,,9.880952380952381,,1,1,1,1,1,1,1
-17345,Third Street & Williams Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:25:47,25:02:47,11.970588235294118,,10.0,,1,1,1,1,1,1,1
 17345,Third Street & Williams Ave,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:32:47,24:42:47,11.941176470588236,,10.0,,1,1,1,1,1,1,1
-17346,Third Street & Williams Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@112,,07:01:02,24:44:02,12.147058823529411,,10.073170731707316,,1,1,1,1,1,1,1
 17346,Third Street & Williams Ave,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,07:06:02,24:25:02,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
-17347,Third Street/Gilman/Paul,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:23:00,25:00:00,11.941176470588236,,10.0,,1,1,1,1,1,1,1
 17347,Third Street/Gilman/Paul,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:30:00,24:40:00,11.941176470588236,,10.0,,1,1,1,1,1,1,1
-17352,Third Street & Evans Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:31:35,25:08:35,11.970588235294118,,10.0,,1,1,1,1,1,1,1
 17352,Third Street & Evans Ave,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:38:35,24:48:35,11.970588235294118,,10.048780487804878,,1,1,1,1,1,1,1
-17353,Third Street & Marin St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:34:00,25:11:00,11.970588235294118,,10.0,,1,1,1,1,1,1,1
 17353,Third Street & Marin St,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:41:00,24:51:00,11.970588235294118,,10.048780487804878,,1,1,1,1,1,1,1
-17354,Third Street & 23rd St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:02:08,23:36:46,11.970588235294118,,10.0,,1,1,1,1,1,1,1
 17354,Third Street & 23rd St,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@246,Chinatown - Rose Pak Station@@@112,,06:30:08,23:37:12,11.970588235294118,,10.048780487804878,,1,1,1,1,1,1,1
-17355,Third Street & 20th St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:04:00,23:39:00,12.0,,10.0,,1,1,1,1,1,1,1
 17355,Third Street & 20th St,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@246,Chinatown - Rose Pak Station@@@113,,06:32:00,23:39:00,12.0,,10.05,,1,1,1,1,1,1,1
-17356,Ucsf Medical Center (Mariposa),KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:06:03,23:41:03,12.0,,10.0,,1,1,1,1,1,1,1
 17356,Ucsf Medical Center (Mariposa),T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@246,Chinatown - Rose Pak Station@@@112,,06:34:40,23:41:03,12.0,,10.048780487804878,,1,1,1,1,1,1,1
-17357,Ucsf / Chase Center (16th St),KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@112,,07:08:15,23:43:15,12.0,,10.0,,1,1,1,1,1,1,1
 17357,Ucsf / Chase Center (16th St),T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@246,Chinatown - Rose Pak Station@@@112,,06:37:31,23:43:15,12.0,,10.048780487804878,,1,1,1,1,1,1,1
-17358,Third Street & Mission Rock St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###The Embarcadero & Folsom St@@@4,Balboa Park BART/Mezzanine Level@@@111,,07:10:37,23:45:37,12.0,,10.025,,1,1,1,1,1,1,1
 17358,Third Street & Mission Rock St,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@246,Chinatown - Rose Pak Station@@@112,,06:40:36,23:45:37,12.0,,10.073170731707316,,1,1,1,1,1,1,1
-17359,Third Street & Mission Rock St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:29:03,24:26:21,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
 17359,Third Street & Mission Rock St,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@260,Bayshore Blvd & Sunnydale Ave@@@112,,08:13:56,24:06:38,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
-17360,Ucsf / Chase Center (16th Street),KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@110,,08:30:45,24:28:18,12.090909090909092,,10.048780487804878,,1,1,1,1,1,1,1
 17360,Ucsf / Chase Center (16th Street),T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@260,Bayshore Blvd & Sunnydale Ave@@@111,,08:16:22,24:08:50,12.029411764705882,,10.05,,1,1,1,1,1,1,1
-17361,Ucsf Medical Center (Mariposa),KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:32:15,24:30:00,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
 17361,Ucsf Medical Center (Mariposa),T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@260,Bayshore Blvd & Sunnydale Ave@@@112,,08:18:30,24:10:45,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
-17362,Third Street & 20th St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@111,,08:34:00,24:32:00,12.117647058823529,,10.05,,1,1,1,1,1,1,1
 17362,Third Street & 20th St,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@260,Bayshore Blvd & Sunnydale Ave@@@112,,08:21:00,24:13:00,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
 17363,Third Street & 23rd St,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@260,Bayshore Blvd & Sunnydale Ave@@@112,,08:23:12,24:14:46,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
-17364,Third Street & Marin St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@112,,06:53:00,24:36:00,12.117647058823529,,10.048780487804878,,1,1,1,1,1,1,1
 17364,Third Street & Marin St,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,06:58:00,24:17:00,12.058823529411764,,10.073170731707316,,1,1,1,1,1,1,1
-17365,Third Street & Evans Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@110,,06:55:27,24:38:27,12.121212121212121,,10.073170731707316,,1,1,1,1,1,1,1
 17365,Third Street & Evans Ave,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,07:00:27,24:19:27,12.058823529411764,,10.097560975609756,,1,1,1,1,1,1,1
 17366,4th St & Berry St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@209,Palou Ave & 3rd St@@@100,,08:12:07,22:10:58,12.375,,12.303030303030303,,1,1,1,1,1,1,1
 17366,4th St & Berry St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@24,23:54:37,29:55:32,,30.0,,30.0,1,1,1,1,1,1,1
-17366,4th St & Berry St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@28,4th St & Berry St@@@110,,05:15:00,23:55:00,,,,,1,1,1,1,1,1,1
+17366,4th St & Berry St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:15:00,06:00:00,,,,,1,1,1,1,1,1,1
 17376,Third St & Le Conte Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:12:24,29:42:24,,30.0,,30.0,1,1,1,1,1,1,1
 17376,Third St & Le Conte Ave,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:07:25,23:49:25,,,,,1,1,1,1,1,1,1
 17377,Third St & Marin St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,1,Sutter St & Sansome St@@@209,Sutter St & Sansome St@@@101,,08:17:10,22:15:51,12.375,,12.029411764705882,,1,1,1,1,1,1,1
@@ -4877,33 +4802,19 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17382,Third St & Mariposa St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@28,,,05:21:27,06:06:27,,,,,1,1,1,1,1,1,1
 17383,Presidio Transit Center,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@73,,05:08:35,23:59:35,20.2,,13.633333333333333,,1,1,1,1,1,1,1
 17383,Presidio Transit Center,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@70,,05:54:06,24:39:06,20.42105263157895,,13.931034482758621,,1,1,1,1,1,1,1
-17390,Third Street/Hudson/Innes,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@109,,06:56:32,24:39:32,12.121212121212121,,10.05,,1,1,1,1,1,1,1
 17390,Third Street/Hudson/Innes,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,07:01:32,24:20:32,12.058823529411764,,10.073170731707316,,1,1,1,1,1,1,1
-17391,Third Street/Kirkwood/La Salle,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@109,,06:57:25,24:40:25,12.121212121212121,,10.05,,1,1,1,1,1,1,1
 17391,Third Street/Kirkwood/La Salle,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@113,,07:02:25,24:21:25,12.058823529411764,,9.952380952380953,,1,1,1,1,1,1,1
-17392,Third Street/Oakdale/Palou,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@112,,06:59:00,24:42:00,12.147058823529411,,10.073170731707316,,1,1,1,1,1,1,1
 17392,Third Street/Oakdale/Palou,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,07:04:00,24:23:00,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
-17393,Third Street/Revere/Shafter,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@112,,06:59:49,24:42:49,12.147058823529411,,10.073170731707316,,1,1,1,1,1,1,1
 17393,Third Street/Revere/Shafter,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,07:04:49,24:23:49,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
-17394,Third Street & Le Conte Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@109,,07:05:28,24:48:28,12.151515151515152,,10.075,,1,1,1,1,1,1,1
 17394,Third Street & Le Conte Ave,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@111,,07:10:28,24:29:28,12.06060606060606,,9.880952380952381,,1,1,1,1,1,1,1
-17395,Bayshore Blvd & Blanken Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@272,Bayshore Blvd & Sunnydale Ave@@@110,,07:08:24,24:51:24,12.121212121212121,,10.048780487804878,,1,1,1,1,1,1,1
 17395,Bayshore Blvd & Blanken Ave,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@290,Bayshore Blvd & Sunnydale Ave@@@112,,07:13:24,24:32:24,12.147058823529411,,9.853658536585366,,1,1,1,1,1,1,1
-17397,4th St & King St,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,08:27:00,24:24:00,12.088235294117647,,10.048780487804878,,1,1,1,1,1,1,1
 17397,4th St & King St,T,THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@260,Bayshore Blvd & Sunnydale Ave@@@112,,08:11:00,24:04:00,12.029411764705882,,10.048780487804878,,1,1,1,1,1,1,1
-17398,Bayshore Blvd & Sunnydale Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:18:00,24:55:00,11.941176470588236,,10.024390243902438,,1,1,1,1,1,1,1
 17398,Bayshore Blvd & Sunnydale Ave,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:25:00,24:35:00,11.941176470588236,,10.0,,1,1,1,1,1,1,1
-17399,Bayshore Blvd & Areta Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:19:18,24:56:18,11.941176470588236,,10.0,,1,1,1,1,1,1,1
 17399,Bayshore Blvd & Areta Ave,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:26:18,24:36:18,11.941176470588236,,10.0,,1,1,1,1,1,1,1
-17400,Third Street & Le Conte Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:21:50,24:58:50,11.941176470588236,,10.0,,1,1,1,1,1,1,1
 17400,Third Street & Le Conte Ave,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:28:50,24:38:50,11.941176470588236,,10.0,,1,1,1,1,1,1,1
-17401,Third Street/Revere/Shafter,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@113,,07:26:58,25:03:58,11.970588235294118,,9.976190476190476,,1,1,1,1,1,1,1
 17401,Third Street/Revere/Shafter,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@114,,07:33:58,24:43:58,11.971428571428572,,10.0,,1,1,1,1,1,1,1
-17402,Third Street/Oakdale/Palou,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:28:00,25:05:00,11.970588235294118,,9.975609756097562,,1,1,1,1,1,1,1
 17402,Third Street/Oakdale/Palou,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:35:00,24:45:00,11.970588235294118,,10.0,,1,1,1,1,1,1,1
-17403,Third Street/Kirkwood/La Salle,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:29:24,25:06:24,11.970588235294118,,9.975609756097562,,1,1,1,1,1,1,1
 17403,Third Street/Kirkwood/La Salle,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@111,,07:36:24,24:46:24,11.970588235294118,,10.0,,1,1,1,1,1,1,1
-17404,Third Street/Hudson/Innes,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@240###Third Street & Marin St@@@35,Balboa Park BART/Mezzanine Level@@@112,,07:30:23,25:07:23,11.970588235294118,,9.975609756097562,,1,1,1,1,1,1,1
 17404,Third Street/Hudson/Innes,T,THIRD,0,BF2B45,FFFFFF,0,Chinatown - Rose Pak Station@@@244###Third Street & Marin St@@@46,Chinatown - Rose Pak Station@@@112,,07:37:23,24:47:23,11.970588235294118,,10.024390243902438,,1,1,1,1,1,1,1
 17405,4th St & King St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:33:00,30:03:00,,30.0,,30.0,1,1,1,1,1,1,1
 17405,4th St & King St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:33:00,24:15:00,,,,,1,1,1,1,1,1,1
@@ -4911,7 +4822,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17425,Monterey Blvd & San Anselmo Ave,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@114,Sloat Blvd & 47th Ave@@@49,,06:35:07,22:25:49,29.923076923076923,,19.8,,1,1,1,1,1,1,1
 17428,Newhall St & Fairfax Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@295,Hudson Ave & 3rd St@@@110,Hudson Ave & 3rd St@@@24,06:40:15,29:47:24,12.303030303030303,30.428571428571427,9.902439024390244,30.428571428571427,1,1,1,1,1,1,1
 17431,Silver Ave & Lisbon St,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,Bosworth St & Diamond St@@@30###California St & 6th Ave@@@271,California St & 6th Ave@@@113,Bosworth St & Diamond St@@@21,05:20:35,29:17:39,12.0,30.0,9.738095238095237,30.0,1,1,1,1,1,1,1
-17444,California St & Battery St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:43:02,08:17:08,,,,,1,1,1,1,1,0,0
+17444,California St & Battery St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:43:02,08:17:08,,,,,1,1,1,1,1,0,0
 17444,California St & Battery St,CA,CALIFORNIA STREET CABLE CAR,5,B49A36,000000,1,California St & Drumm St@@@201,California St & Drumm St@@@114,,07:09:22,20:46:06,11.0,,11.0,,1,1,1,1,1,1,1
 17447,The Embarcadero & Brannan St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@19,,,05:22:27,05:22:27,,,,,1,1,1,1,1,1,1
 17447,The Embarcadero & Brannan St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:04:28,29:36:28,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -4957,7 +4868,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17592,Cesar Chavez St & Valencia St,27,BRYANT,3,005B95,FFFFFF,1,Pacific Ave & Van Ness Ave@@@171,Pacific Ave & Van Ness Ave@@@72,,05:02:09,22:02:27,19.80952380952381,,15.0,,1,1,1,1,1,1,1
 17592,Cesar Chavez St & Valencia St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@92,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:24:57,22:24:57,30.0,,30.0,,1,1,1,1,1,1,1
 17606,Daly City BART West Station Rd,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@64,,05:40:00,21:55:00,20.0,,20.0,,1,1,1,1,1,1,1
-17621,Beach St & Divisadero St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:15:00,07:45:00,,,,,1,1,1,1,1,0,0
+17621,Beach St & Divisadero St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:15:00,07:45:00,,,,,1,1,1,1,1,0,0
 17622,5th St & Brannan St,31,BALBOA,3,005B95,FFFFFF,1,Townsend St & 4th St@@@50,Townsend St & 4th St@@@21,,05:16:16,21:41:01,20.0,,20.0,,1,1,1,1,1,0,0
 17622,5th St & Brannan St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223,Townsend St & Lusk St@@@98,,05:06:09,22:26:51,15.148148148148149,,9.975609756097562,,1,1,1,1,1,1,1
 17624,Zoo Rd & Amory Rd,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@101,Mission St & Flournoy@@@42,,06:09:41,22:09:41,30.0,,30.0,,1,1,1,1,1,1,1
@@ -5027,7 +4938,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17772,Newhall St & Hudson,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@142,Daly City BART West Station Rd@@@63,,05:50:00,22:00:00,20.2,,20.0,,1,1,1,1,1,1,1
 17778,San Jose Ave & Geneva Ave,J,CHURCH,0,A96614,FFFFFF,1,Church St & Duboce Ave@@@39###Metro Embarcadero Station@@@190,Metro Embarcadero Station@@@84,,05:00:00,24:00:00,15.0,,14.925925925925926,,1,1,1,1,1,1,1
 17778,San Jose Ave & Geneva Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@234###The Embarcadero & Folsom St@@@6###West Portal Station@@@2,Metro Embarcadero Station@@@112,,07:41:00,23:39:00,12.058823529411764,,9.975609756097562,,1,1,1,1,1,1,1
-17778,San Jose Ave & Geneva Ave,KT,INGLESIDE-THIRD,0,BF2B45,FFFFFF,1,Bayshore Blvd & Sunnydale Ave@@@242,Bayshore Blvd & Sunnydale Ave@@@112,,07:41:00,23:40:00,12.029411764705882,,10.0,,1,1,1,1,1,1,1
 17783,Presidio Blvd & Letterman Dr,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@71,,05:52:44,24:37:44,20.36842105263158,,13.866666666666667,,1,1,1,1,1,1,1
 17787,Lombard St & Gough St,28,19TH AVENUE,3,005B95,FFFFFF,1,Powell St & Beach St@@@259,Powell St & Beach St@@@101,,05:43:50,24:38:50,12.4375,,12.029411764705882,,1,1,1,1,1,1,1
 17787,Lombard St & Gough St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@33,,Ulloa St & West Portal Ave@@@24,24:34:05,29:34:05,,30.0,,30.0,1,1,1,1,1,1,1
@@ -5072,7 +4982,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17854,Geary Blvd & Arguello Blvd,38,GEARY,3,005B95,FFFFFF,0,48th Ave & Point Lobos Ave@@@82###Geary Blvd & 32nd Ave@@@138###V.A. Hospital@@@131,Geary Blvd & 32nd Ave@@@65###V.A. Hospital@@@65,48th Ave & Point Lobos Ave@@@21,05:50:46,29:29:22,10.024390243902438,30.0,9.155555555555555,30.0,1,1,1,1,1,1,1
 17854,Geary Blvd & Arguello Blvd,38R,GEARY RAPID,3,BF2B45,FFFFFF,0,48th Ave & Point Lobos Ave@@@329,48th Ave & Point Lobos Ave@@@154,,06:28:48,21:28:48,10.024390243902438,,6.0144927536231885,,1,1,1,1,1,1,1
 17856,Chestnut St & Gough St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Market St@@@17###Townsend St & 4th St@@@211,Townsend St & 4th St@@@91,,06:20:03,24:37:32,15.0,,11.911764705882353,,1,1,1,1,1,1,1
-17856,Chestnut St & Gough St,30X,30X MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:24:48,07:55:48,,,,,1,1,1,1,1,0,0
+17856,Chestnut St & Gough St,30X,MARINA EXPRESS,3,005B95,FFFFFF,1,Hward St&Spear@@@2,,,07:24:48,07:55:48,,,,,1,1,1,1,1,0,0
 17857,Chestnut St & Gough St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53,Crissy Field Terminal@@@91,,05:48:14,24:23:47,15.25925925925926,,11.764705882352942,,1,1,1,1,1,1,1
 17860,Donahue St & Innes Ave,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@169,Beach St & Polk St@@@70,,05:10:59,22:00:50,20.0,,15.0,,1,1,1,1,1,1,1
 17862,Broadway & Sansome St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,0,Main St & Howard St@@@90###Valencia St & Cesar Chavez St@@@147,Main St & Howard St@@@61###Valencia St & Cesar Chavez St@@@63,,06:11:55,22:11:05,10.0,,10.0,,1,1,1,1,1,1,1
@@ -5260,7 +5170,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 18105,Van Ness Ave & Market St,49,VAN NESS-MISSION,3,005B95,FFFFFF,0,City College Terminal@@@421###Van Ness Ave & Market St@@@11,City College Terminal@@@174,,05:14:00,24:37:00,8.03921568627451,,6.028985507246377,,1,1,1,1,1,1,1
 18105,Van Ness Ave & Market St,90,SAN BRUNO OWL,3,666666,FFFFFF,0,Bayshore Blvd & Arleta Ave@@@33,,Bayshore Blvd & Arleta Ave@@@24,24:30:00,29:30:00,,30.0,,30.0,1,1,1,1,1,1,1
 18109,Townsend St & Lusk St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@172###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@3,Crissy Field Terminal@@@94,,05:05:00,24:00:00,15.0,,12.0,,1,1,1,1,1,1,1
-18109,Townsend St & Lusk St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@239,Pacific Ave & Powell St@@@112,,07:52:45,23:53:30,11.941176470588236,,10.024390243902438,,1,1,1,1,1,1,1
 18110,Townsend St & Lusk St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213###Sutter St & Kearny St@@@10,Lyon St & Greenwich St@@@98,,05:20:00,22:30:00,15.0,,10.0,,1,1,1,1,1,1,1
 18112,Grove St & Gough St,21,HAYES,3,005B95,FFFFFF,0,Fulton St & 8th Ave@@@104,Fulton St & 8th Ave@@@42,,05:16:12,22:21:25,20.2,,20.2,,0,0,0,0,0,1,1
 18113,Grove St & Laguna St,21,HAYES,3,005B95,FFFFFF,0,Fulton St & 8th Ave@@@104,Fulton St & 8th Ave@@@42,,05:17:11,22:22:32,20.2,,20.2,,0,0,0,0,0,1,1
@@ -5270,11 +5179,11 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 18115,Santos St & Sunrise Way,8,BAYSHORE,3,005B95,FFFFFF,1,Bayshore Blvd & Blanken Ave@@@1###Kearny St & North Point St@@@369,Kearny St & North Point St@@@170,,05:09:55,24:09:47,7.959183673469388,,7.016949152542373,,1,1,1,1,1,1,1
 18115,Santos St & Sunrise Way,8BX,BAYSHORE B EXPRESS,3,005B95,FFFFFF,1,Kearny St & North Point St@@@20,Kearny St & North Point St@@@3,,06:47:19,09:20:01,8.0,,8.0,,1,1,1,1,1,0,0
 18115,Santos St & Sunrise Way,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@24,24:04:56,29:34:56,,30.0,,30.0,1,1,1,1,1,1,1
-18116,Stockton St & Washington St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@120,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@91,,05:17:53,24:12:28,7.592592592592593,,5.871428571428571,,1,1,1,1,1,1,1
+18116,Stockton St & Washington St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@175###Divisadero St & Chestnut St@@@53###Van Ness Ave & North Point St@@@94,Crissy Field Terminal@@@90###Van Ness Ave & North Point St@@@68,,05:17:53,24:12:28,8.702127659574469,,6.754098360655738,,1,1,1,1,1,1,1
 18116,Stockton St & Washington St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@213,Lyon St & Greenwich St@@@98,,05:32:53,22:12:53,15.074074074074074,,9.975609756097562,,1,1,1,1,1,1,1
 18116,Stockton St & Washington St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@27,24:44:03,30:14:03,,30.0,,30.0,1,1,1,1,1,1,1
-18117,Stockton St & Washington St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@255###Stockton St & Washington St@@@7,Pacific Ave & Powell St@@@112,,05:47:00,24:29:00,12.0,,10.0,,1,1,1,1,1,1,1
-18118,Pacific Ave & Powell St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,4th St & Berry St@@@234###Visitacion Ave & Bay Shore Blvd@@@16,4th St & Berry St@@@112,,06:07:00,23:39:00,12.058823529411764,,10.048780487804878,,1,1,1,1,1,1,1
+18117,Stockton St & Washington St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,0,Pacific Ave & Powell St@@@16###Stockton St & Washington St@@@7,,,05:47:00,24:29:00,,,,,0,0,0,0,0,1,1
+18118,Pacific Ave & Powell St,TBUS,THIRD BUS,3,BF2B45,FFFFFF,1,Visitacion Ave & Bay Shore Blvd@@@16,,,06:00:00,07:45:00,,,,,0,0,0,0,0,1,1
 18121,Seven Seas Ave & Bruton St,25,TREASURE ISLAND,3,005B95,FFFFFF,1,Transit Center Bay 29@@@134###Transit Center Bay E@@@42,Transit Center Bay 29@@@55,Transit Center Bay E@@@27,06:36:59,30:09:59,25.0,30.0,20.0,30.0,1,1,1,1,1,1,1
 18122,Seven Seas Ave & Bruton St,25,TREASURE ISLAND,3,005B95,FFFFFF,1,Transit Center Bay 29@@@134###Transit Center Bay E@@@42,Transit Center Bay 29@@@53,Transit Center Bay E@@@27,06:48:43,30:21:43,25.0,30.0,20.0,30.0,1,1,1,1,1,1,1
 18133,22nd St & Illinois St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@213,22nd St & Iowa St@@@73,22nd St & Iowa St@@@21,06:06:09,29:11:09,20.2,30.0,13.566666666666666,30.0,1,1,1,1,1,1,1
