@@ -231,9 +231,17 @@
     "Balboa Park",
     "Downtown"
   ],
+  "KLM": [
+    "St. Francis Circle",
+    "Brannan & The Embarcadero"
+  ],
   "L": [
     "The Zoo",
     "Downtown"
+  ],
+  "LBUS": [
+    "SF Zoo",
+    "West Portal"
   ],
   "LOWL": [
     "SF Zoo via Downtown",
