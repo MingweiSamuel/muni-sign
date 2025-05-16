@@ -290,7 +290,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13264,15th Ave & Pacheco St,66,QUINTARA,3,005B95,FFFFFF,0,Vicente St & 30th Ave@@@137,Vicente St & 30th Ave@@@63,,08:06:03,22:05:40,20.0,,20.0,,1,1,1,1,1,1,1
 13265,15th Ave & Quintara St,66,QUINTARA,3,005B95,FFFFFF,0,Vicente St & 30th Ave@@@137,Vicente St & 30th Ave@@@63,,08:06:32,22:06:05,20.0,,20.0,,1,1,1,1,1,1,1
 13266,15th Ave & Taraval St,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:26:42,24:00:19,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-13266,15th Ave & Taraval St,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:32:52,24:03:06,,,,,1,1,1,1,1,0,0
 13266,15th Ave & Taraval St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:21:47,29:46:47,,25.0,,25.0,1,1,1,1,1,1,1
 13267,15th Ave & Taraval St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:09:04,29:59:04,,25.0,,25.0,1,1,1,1,1,1,1
 13270,15th Ave & West Portal Ave,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:02:41,22:02:41,25.0,,20.05,,1,1,1,1,1,1,1
@@ -625,23 +624,18 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13598,46th Ave & Taraval St,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@60,,06:18:01,22:20:44,20.05263157894737,,20.05263157894737,,1,1,1,1,1,1,1
 13599,46th Ave & Taraval St,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:19:35,22:08:21,20.0,,20.0,,1,1,1,1,1,1,1
 13599,46th Ave & Taraval St,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:01:57,24:21:57,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-13599,46th Ave & Taraval St,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:17:08,23:44:08,,,,,1,1,1,1,1,0,0
 13599,46th Ave & Taraval St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:01:34,29:51:34,,25.0,,25.0,1,1,1,1,1,1,1
 13600,46th Ave & Ulloa St,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:18:31,22:21:18,20.05,,20.05,,1,1,1,1,1,1,1
 13600,46th Ave & Ulloa St,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:37:48,24:12:34,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-13600,46th Ave & Ulloa St,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:45:06,24:16:06,,,,,1,1,1,1,1,0,0
 13600,46th Ave & Ulloa St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:30:27,29:55:27,,25.0,,25.0,1,1,1,1,1,1,1
 13601,46th Ave & Ulloa St,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:19:03,22:07:54,20.0,,20.0,,1,1,1,1,1,1,1
 13601,46th Ave & Ulloa St,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:01:18,24:21:18,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-13601,46th Ave & Ulloa St,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:16:25,23:43:25,,,,,1,1,1,1,1,0,0
 13601,46th Ave & Ulloa St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:01:02,29:51:02,,25.0,,25.0,1,1,1,1,1,1,1
 13602,46th Ave & Vicente St,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@144,19th Ave & Buckingham Way@@@63,,06:19:01,22:21:52,20.05,,20.05,,1,1,1,1,1,1,1
 13602,46th Ave & Vicente St,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:38:31,24:13:25,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-13602,46th Ave & Vicente St,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:45:41,24:16:41,,,,,1,1,1,1,1,0,0
 13602,46th Ave & Vicente St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:31:01,29:56:01,,25.0,,25.0,1,1,1,1,1,1,1
 13603,46th Ave & Vicente St,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:18:31,22:07:27,20.0,,20.0,,1,1,1,1,1,1,1
 13603,46th Ave & Vicente St,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:00:40,24:20:40,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-13603,46th Ave & Vicente St,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:15:42,23:42:42,,,,,1,1,1,1,1,0,0
 13603,46th Ave & Vicente St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:00:31,29:50:31,,25.0,,25.0,1,1,1,1,1,1,1
 13604,46th Ave & Wawona St,18,46TH AVENUE,3,005B95,FFFFFF,1,33rd Ave & Geary Blvd@@@33###Legion Of Honor@@@111,Legion Of Honor@@@63,,06:18:00,22:07:00,20.0,,20.0,,1,1,1,1,1,1,1
 13605,47th Ave & Noriega St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@227,Transit Center Bay E@@@105,,05:00:54,22:00:54,12.058823529411764,,12.029411764705882,,1,1,1,1,1,1,1
@@ -2377,8 +2371,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15247,Laguna Honda Blvd/Forest Hill Sta,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@71,,05:35:00,24:27:00,20.57894736842105,,13.7,,1,1,1,1,1,1,1
 15247,Laguna Honda Blvd/Forest Hill Sta,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@262,Hudson Ave & 3rd St@@@113,,06:12:00,24:16:00,12.058823529411764,,9.80952380952381,,1,1,1,1,1,1,1
 15247,Laguna Honda Blvd/Forest Hill Sta,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@105,Dublin St & La Grande Ave@@@49,,08:11:00,22:08:00,30.0,,20.0,,1,1,1,1,1,1,1
-15247,Laguna Honda Blvd/Forest Hill Sta,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:48:00,24:28:00,,,,,1,1,1,1,1,0,0
-15247,Laguna Honda Blvd/Forest Hill Sta,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:21:00,24:01:00,,,,,1,1,1,1,1,0,0
 15249,Laguna Honda Blvd & Idora Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@194,Marina Blvd & Laguna St@@@73,,05:25:22,24:12:32,20.1,,13.866666666666667,,1,1,1,1,1,1,1
 15250,Laguna Honda Blvd & Idora Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@196,Munich St & Geneva Ave@@@71,,05:36:35,24:28:24,20.57894736842105,,13.7,,1,1,1,1,1,1,1
 15253,7th Ave & Laguna Honda,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@92,Laguna Honda Blvd/Forest Hill Sta@@@42,,09:06:02,22:58:10,30.0,,30.0,,1,1,1,1,1,1,1
@@ -2852,7 +2844,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15639,Market St & 2nd St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:19:43,23:19:43,12.78125,,12.78125,,1,1,1,1,1,1,1
 15639,Market St & 2nd St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:40:57,23:40:57,,,,,1,1,1,1,1,1,1
 15639,Market St & 2nd St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:05:08,05:50:08,,,,,1,1,1,1,1,1,1
-15639,Market St & 2nd St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:18:58,23:58:58,,,,,1,1,1,1,1,0,0
 15639,Market St & 2nd St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@24,23:54:54,29:19:54,,25.0,,25.0,1,1,1,1,1,1,1
 15639,Market St & 2nd St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:30:46,07:45:30,,,,,1,1,1,1,1,1,1
 15639,Market St & 2nd St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:11:54,29:43:54,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -2862,7 +2853,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15640,Market St & 3rd St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@102,,06:19:25,22:19:25,12.151515151515152,,12.151515151515152,,1,1,1,1,1,1,1
 15640,Market St & 3rd St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:39:42,24:19:42,,,,,1,1,1,1,1,1,1
 15640,Market St & 3rd St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:43:51,24:43:51,,,,,1,1,1,1,1,1,1
-15640,Market St & 3rd St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:48:08,24:28:08,,,,,1,1,1,1,1,0,0
 15640,Market St & 3rd St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:36:42,30:26:42,,25.0,,25.0,1,1,1,1,1,1,1
 15640,Market St & 3rd St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:49:00,24:32:47,,,,,1,1,1,1,1,1,1
 15640,Market St & 3rd St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:53:23,29:53:23,,30.0,,30.0,1,1,1,1,1,1,1
@@ -2879,7 +2869,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15643,Market St & 4th St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@102,,06:18:00,22:18:00,12.151515151515152,,12.151515151515152,,1,1,1,1,1,1,1
 15643,Market St & 4th St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:38:43,24:18:43,,,,,1,1,1,1,1,1,1
 15643,Market St & 4th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:42:25,24:42:25,,,,,1,1,1,1,1,1,1
-15643,Market St & 4th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:46:47,24:26:47,,,,,1,1,1,1,1,0,0
 15643,Market St & 4th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:35:43,30:25:43,,25.0,,25.0,1,1,1,1,1,1,1
 15643,Market St & 4th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:47:58,24:31:56,,,,,1,1,1,1,1,1,1
 15643,Market St & 4th St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:52:26,29:52:26,,30.0,,30.0,1,1,1,1,1,1,1
@@ -2892,7 +2881,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15645,Market St & 5th St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@102,,06:16:45,22:16:45,12.151515151515152,,12.151515151515152,,1,1,1,1,1,1,1
 15645,Market St & 5th St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:37:44,24:17:44,,,,,1,1,1,1,1,1,1
 15645,Market St & 5th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:40:58,24:40:58,,,,,1,1,1,1,1,1,1
-15645,Market St & 5th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:45:28,24:25:28,,,,,1,1,1,1,1,0,0
 15645,Market St & 5th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:34:44,30:24:44,,25.0,,25.0,1,1,1,1,1,1,1
 15645,Market St & 5th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:46:57,24:31:05,,,,,1,1,1,1,1,1,1
 15645,Market St & 5th St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:51:31,29:51:31,,30.0,,30.0,1,1,1,1,1,1,1
@@ -2905,7 +2893,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15647,Market St & 6th St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:15:21,22:15:21,12.147058823529411,,12.147058823529411,,1,1,1,1,1,1,1
 15647,Market St & 6th St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:36:47,24:16:47,,,,,1,1,1,1,1,1,1
 15647,Market St & 6th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:39:34,24:39:34,,,,,1,1,1,1,1,1,1
-15647,Market St & 6th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:44:09,24:24:09,,,,,1,1,1,1,1,0,0
 15647,Market St & 6th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:33:47,30:23:47,,25.0,,25.0,1,1,1,1,1,1,1
 15647,Market St & 6th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:45:57,24:30:16,,,,,1,1,1,1,1,1,1
 15647,Market St & 6th St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:50:36,29:50:36,,30.0,,30.0,1,1,1,1,1,1,1
@@ -2916,7 +2903,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15650,Market St & 7th St,9R,SAN BRUNO RAPID,3,BF2B45,FFFFFF,1,Main St & Mission St@@@56,Main St & Mission St@@@35,,07:46:49,18:48:46,11.882352941176471,,11.882352941176471,,1,1,1,1,1,0,0
 15650,Market St & 7th St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:14:00,22:14:00,12.147058823529411,,12.147058823529411,,1,1,1,1,1,1,1
 15650,Market St & 7th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:38:11,24:38:11,,,,,1,1,1,1,1,1,1
-15650,Market St & 7th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:42:53,24:22:53,,,,,1,1,1,1,1,0,0
 15650,Market St & 7th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:32:50,30:22:50,,25.0,,25.0,1,1,1,1,1,1,1
 15650,Market St & 7th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:44:58,24:29:27,,,,,1,1,1,1,1,1,1
 15650,Market St & 7th St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:49:42,29:49:42,,30.0,,30.0,1,1,1,1,1,1,1
@@ -2927,7 +2913,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15651,Market St & 8th St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:12:46,22:12:46,12.147058823529411,,12.147058823529411,,1,1,1,1,1,1,1
 15651,Market St & 8th St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:34:54,24:14:54,,,,,1,1,1,1,1,1,1
 15651,Market St & 8th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:36:48,24:36:48,,,,,1,1,1,1,1,1,1
-15651,Market St & 8th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:41:36,24:21:36,,,,,1,1,1,1,1,0,0
 15651,Market St & 8th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:31:54,30:21:54,,25.0,,25.0,1,1,1,1,1,1,1
 15651,Market St & 8th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:43:59,24:28:39,,,,,1,1,1,1,1,1,1
 15651,Market St & 8th St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:48:49,29:48:49,,30.0,,30.0,1,1,1,1,1,1,1
@@ -2938,14 +2923,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15652,Market St & 9th St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:11:50,22:11:50,12.147058823529411,,12.147058823529411,,1,1,1,1,1,1,1
 15652,Market St & 9th St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:34:15,24:14:15,,,,,1,1,1,1,1,1,1
 15652,Market St & 9th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:35:51,24:35:51,,,,,1,1,1,1,1,1,1
-15652,Market St & 9th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:40:43,24:20:43,,,,,1,1,1,1,1,0,0
 15652,Market St & 9th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:31:15,30:21:15,,25.0,,25.0,1,1,1,1,1,1,1
 15652,Market St & 9th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:43:19,24:28:05,,,,,1,1,1,1,1,1,1
 15652,Market St & 9th St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:48:12,29:48:12,,30.0,,30.0,1,1,1,1,1,1,1
 15653,Market St & 15th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@98,Parkridge Dr & Burnett Ave@@@49,,09:19:39,22:07:39,30.076923076923077,,20.0,,1,1,1,1,1,1,1
 15654,Market St & 16th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@98,Parkridge Dr & Burnett Ave@@@50,,09:21:03,22:09:03,30.076923076923077,,19.952380952380953,,1,1,1,1,1,1,1
 15654,Market St & 16th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:23:31,06:08:31,,,,,1,1,1,1,1,1,1
-15654,Market St & 16th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:37:29,24:17:29,,,,,1,1,1,1,1,0,0
 15654,Market St & 16th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:09:31,29:34:31,,25.0,,25.0,1,1,1,1,1,1,1
 15655,Market St & 5th  St,6,HAIGHT-PARNASSUS,3,005B95,FFFFFF,0,11th St & Market St@@@9###14th Ave & Quintara St@@@166,14th Ave & Quintara St@@@63,,05:40:19,24:30:19,20.0,,19.95,,1,1,1,1,1,1,1
 15655,Market St & 5th  St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@229,Ortega St & 48th Ave@@@105,,05:07:09,22:07:19,12.0,,11.970588235294118,,1,1,1,1,1,1,1
@@ -2954,7 +2937,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15655,Market St & 5th  St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:24:39,23:24:19,12.78125,,12.78125,,1,1,1,1,1,1,1
 15655,Market St & 5th  St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:44:18,23:44:18,,,,,1,1,1,1,1,1,1
 15655,Market St & 5th  St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:10:01,05:55:01,,,,,1,1,1,1,1,1,1
-15655,Market St & 5th  St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:23:03,24:03:03,,,,,1,1,1,1,1,0,0
 15655,Market St & 5th  St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,23:58:15,29:23:15,,25.0,,25.0,1,1,1,1,1,1,1
 15655,Market St & 5th  St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:33:50,07:48:18,,,,,1,1,1,1,1,1,1
 15655,Market St & 5th  St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:15:15,29:47:15,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -2965,7 +2947,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15656,Market St & 7th St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:28:00,23:27:00,12.75,,12.75,,1,1,1,1,1,1,1
 15656,Market St & 7th St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:46:32,23:46:32,,,,,1,1,1,1,1,1,1
 15656,Market St & 7th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:13:16,05:58:16,,,,,1,1,1,1,1,1,1
-15656,Market St & 7th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:25:45,24:05:45,,,,,1,1,1,1,1,0,0
 15656,Market St & 7th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:00:29,29:25:29,,25.0,,25.0,1,1,1,1,1,1,1
 15656,Market St & 7th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:35:52,07:50:09,,,,,1,1,1,1,1,1,1
 15656,Market St & 7th St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:17:29,29:49:29,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -2975,7 +2956,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15657,Market St & Battery St,9R,SAN BRUNO RAPID,3,BF2B45,FFFFFF,0,Sunnydale Ave / Mclaren School@@@58,Sunnydale Ave / Mclaren School@@@35,,06:02:43,18:03:06,12.0,,12.0,,1,1,1,1,1,0,0
 15657,Market St & Battery St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:18:00,23:18:00,12.46875,,12.46875,,1,1,1,1,1,1,1
 15657,Market St & Battery St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:03:30,05:48:30,,,,,1,1,1,1,1,1,1
-15657,Market St & Battery St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:17:37,23:57:37,,,,,1,1,1,1,1,0,0
 15657,Market St & Battery St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@24,23:53:47,29:18:47,,25.0,,25.0,1,1,1,1,1,1,1
 15657,Market St & Battery St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:29:44,07:44:35,,,,,1,1,1,1,1,1,1
 15657,Market St & Battery St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:10:47,29:42:47,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -2990,33 +2970,27 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15659,Market St & Buchanan St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@90###17th St & Noe St@@@6,,07:36:32,23:35:32,12.806451612903226,,12.806451612903226,,1,1,1,1,1,1,1
 15659,Market St & Buchanan St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:54:32,23:54:32,,,,,1,1,1,1,1,1,1
 15659,Market St & Buchanan St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:20:38,06:05:38,,,,,1,1,1,1,1,1,1
-15659,Market St & Buchanan St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:34:32,24:14:32,,,,,1,1,1,1,1,0,0
 15659,Market St & Buchanan St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:06:38,29:31:38,,25.0,,25.0,1,1,1,1,1,1,1
 15659,Market St & Buchanan St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@19,,,05:42:31,05:42:31,,,,,1,1,1,1,1,1,1
 15659,Market St & Buchanan St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:23:56,29:55:56,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
 15661,Market St & Church St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:38:00,23:37:00,13.0625,,13.0625,,1,1,1,1,1,1,1
 15661,Market St & Church St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:56:00,23:56:00,,,,,1,1,1,1,1,1,1
 15661,Market St & Church St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:21:39,06:06:39,,,,,1,1,1,1,1,1,1
-15661,Market St & Church St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:36:00,24:16:00,,,,,1,1,1,1,1,0,0
 15661,Market St & Church St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:07:39,29:32:39,,25.0,,25.0,1,1,1,1,1,1,1
 15662,Market St & Church St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:04:00,22:04:00,12.088235294117647,,12.088235294117647,,1,1,1,1,1,1,1
 15662,Market St & Church St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:29:00,24:09:00,,,,,1,1,1,1,1,1,1
-15662,Market St & Church St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:33:00,24:13:00,,,,,1,1,1,1,1,0,0
 15663,Market St & Clayton St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@151,25th St & Potrero Ave@@@64,,05:30:37,22:10:44,20.263157894736842,,19.523809523809526,,1,1,1,1,1,1,1
 15663,Market St & Clayton St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:25:13,24:25:13,,,,,1,1,1,1,1,1,1
 15663,Market St & Clayton St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:19:24,30:09:24,,25.0,,25.0,1,1,1,1,1,1,1
 15665,Market St & Castro St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@99,Masonic Ave & Haight St@@@49,,09:01:00,22:00:00,30.0,,20.0,,1,1,1,1,1,1,1
 15665,Market St & Castro St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:28:00,24:28:00,,,,,1,1,1,1,1,1,1
-15665,Market St & Castro St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:31:17,24:11:17,,,,,1,1,1,1,1,0,0
 15665,Market St & Castro St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:22:00,30:12:00,,25.0,,25.0,1,1,1,1,1,1,1
 15667,Market St & 17th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@98,Parkridge Dr & Burnett Ave@@@50,,09:22:00,22:10:00,30.076923076923077,,19.952380952380953,,1,1,1,1,1,1,1
 15667,Market St & 17th St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:24:00,06:09:00,,,,,1,1,1,1,1,1,1
-15667,Market St & 17th St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:37:52,24:17:52,,,,,1,1,1,1,1,0,0
 15667,Market St & 17th St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:10:00,29:35:00,,25.0,,25.0,1,1,1,1,1,1,1
 15668,Market St & Dolores St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:05:12,22:05:12,12.088235294117647,,12.088235294117647,,1,1,1,1,1,1,1
 15668,Market St & Dolores St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:29:48,24:09:48,,,,,1,1,1,1,1,1,1
 15668,Market St & Dolores St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:30:54,24:30:54,,,,,1,1,1,1,1,1,1
-15668,Market St & Dolores St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:34:12,24:14:12,,,,,1,1,1,1,1,0,0
 15668,Market St & Dolores St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:25:52,30:15:52,,25.0,,25.0,1,1,1,1,1,1,1
 15668,Market St & Dolores St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:37:45,24:22:45,,,,,1,1,1,1,1,1,1
 15668,Market St & Dolores St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:43:25,29:43:25,,30.0,,30.0,1,1,1,1,1,1,1
@@ -3026,7 +3000,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15669,Market St & Drumm St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:15:37,23:16:06,12.46875,,12.46875,,1,1,1,1,1,1,1
 15669,Market St & Drumm St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:38:21,23:38:21,,,,,1,1,1,1,1,1,1
 15669,Market St & Drumm St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:01:21,05:46:21,,,,,1,1,1,1,1,1,1
-15669,Market St & Drumm St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:15:49,23:55:49,,,,,1,1,1,1,1,0,0
 15669,Market St & Drumm St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@24,23:52:19,29:17:19,,25.0,,25.0,1,1,1,1,1,1,1
 15669,Market St & Drumm St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:28:23,07:43:21,,,,,1,1,1,1,1,1,1
 15669,Market St & Drumm St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:09:19,29:41:19,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -3034,14 +3007,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15672,Market St & Gough St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@90###17th St & Noe St@@@6,,07:33:38,23:32:38,12.806451612903226,,12.806451612903226,,1,1,1,1,1,1,1
 15672,Market St & Gough St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:51:38,23:51:38,,,,,1,1,1,1,1,1,1
 15672,Market St & Gough St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:18:57,06:03:57,,,,,1,1,1,1,1,1,1
-15672,Market St & Gough St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:31:38,24:11:38,,,,,1,1,1,1,1,0,0
 15672,Market St & Gough St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:04:57,29:29:57,,25.0,,25.0,1,1,1,1,1,1,1
 15672,Market St & Gough St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:40:16,07:54:03,,,,,1,1,1,1,1,1,1
 15672,Market St & Gough St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:22:03,29:54:03,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
 15673,Market St & Gough St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@102,,06:08:08,22:08:08,12.090909090909092,,12.090909090909092,,1,1,1,1,1,1,1
 15673,Market St & Gough St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:31:45,24:11:45,,,,,1,1,1,1,1,1,1
 15673,Market St & Gough St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:32:51,24:32:51,,,,,1,1,1,1,1,1,1
-15673,Market St & Gough St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:37:08,24:17:08,,,,,1,1,1,1,1,0,0
 15673,Market St & Gough St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:28:29,30:18:29,,25.0,,25.0,1,1,1,1,1,1,1
 15673,Market St & Gough St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:40:22,24:25:22,,,,,1,1,1,1,1,1,1
 15673,Market St & Gough St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:45:36,29:45:36,,30.0,,30.0,1,1,1,1,1,1,1
@@ -3050,7 +3021,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15675,Market St & Guerrero St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:06:26,22:06:26,12.088235294117647,,12.088235294117647,,1,1,1,1,1,1,1
 15675,Market St & Guerrero St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:30:37,24:10:37,,,,,1,1,1,1,1,1,1
 15675,Market St & Guerrero St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:31:43,24:31:43,,,,,1,1,1,1,1,1,1
-15675,Market St & Guerrero St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:35:26,24:15:26,,,,,1,1,1,1,1,0,0
 15675,Market St & Guerrero St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:26:58,30:16:58,,25.0,,25.0,1,1,1,1,1,1,1
 15675,Market St & Guerrero St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:38:51,24:23:51,,,,,1,1,1,1,1,1,1
 15675,Market St & Guerrero St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:44:20,29:44:20,,30.0,,30.0,1,1,1,1,1,1,1
@@ -3061,7 +3031,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15676,Market St & Hyde St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:29:10,23:28:10,12.75,,12.75,,1,1,1,1,1,1,1
 15676,Market St & Hyde St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:47:29,23:47:29,,,,,1,1,1,1,1,1,1
 15676,Market St & Hyde St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:14:39,05:59:39,,,,,1,1,1,1,1,1,1
-15676,Market St & Hyde St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:26:55,24:06:55,,,,,1,1,1,1,1,0,0
 15676,Market St & Hyde St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:01:26,29:26:26,,25.0,,25.0,1,1,1,1,1,1,1
 15676,Market St & Hyde St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:36:44,07:50:56,,,,,1,1,1,1,1,1,1
 15676,Market St & Hyde St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:18:26,29:50:26,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -3072,11 +3041,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15678,Market St & Kearny St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:21:18,23:21:18,12.75,,12.75,,1,1,1,1,1,1,1
 15678,Market St & Kearny St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:41:59,23:41:59,,,,,1,1,1,1,1,1,1
 15678,Market St & Kearny St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:06:38,05:51:38,,,,,1,1,1,1,1,1,1
-15678,Market St & Kearny St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:20:14,24:00:14,,,,,1,1,1,1,1,0,0
 15678,Market St & Kearny St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,23:55:56,29:20:56,,25.0,,25.0,1,1,1,1,1,1,1
 15678,Market St & Kearny St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:31:42,07:46:22,,,,,1,1,1,1,1,1,1
 15678,Market St & Kearny St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:12:56,29:44:56,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
-15679,Market St & Larkin St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:28:03,24:08:03,,,,,1,1,1,1,1,0,0
 15680,Market St & Larkin St,6,HAIGHT-PARNASSUS,3,005B95,FFFFFF,0,11th St & Market St@@@9###14th Ave & Quintara St@@@166,14th Ave & Quintara St@@@63,,05:45:24,24:35:24,20.1,,19.95,,1,1,1,1,1,1,1
 15680,Market St & Larkin St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@229,Ortega St & 48th Ave@@@105,,05:11:36,22:12:24,12.029411764705882,,11.941176470588236,,1,1,1,1,1,1,1
 15680,Market St & Larkin St,9,SAN BRUNO,3,005B95,FFFFFF,0,Bayshore Blvd & Visitacion Ave@@@55###Sunnydale Ave / Mclaren School@@@222,Bayshore Blvd & Visitacion Ave@@@36###Sunnydale Ave / Mclaren School@@@84,,05:33:36,24:13:24,11.942857142857143,,10.097560975609756,,1,1,1,1,1,1,1
@@ -3089,7 +3056,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15681,Market St & Laguna St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@90###17th St & Noe St@@@6,,07:35:34,23:34:34,12.806451612903226,,12.806451612903226,,1,1,1,1,1,1,1
 15681,Market St & Laguna St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:53:34,23:53:34,,,,,1,1,1,1,1,1,1
 15681,Market St & Laguna St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:20:05,06:05:05,,,,,1,1,1,1,1,1,1
-15681,Market St & Laguna St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:33:34,24:13:34,,,,,1,1,1,1,1,0,0
 15681,Market St & Laguna St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:06:05,29:31:05,,25.0,,25.0,1,1,1,1,1,1,1
 15681,Market St & Laguna St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@19,,,05:41:46,05:41:46,,,,,1,1,1,1,1,1,1
 15681,Market St & Laguna St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:23:18,29:55:18,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -3107,7 +3073,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15685,Market St & New Montgomery St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@102,,06:20:16,22:20:16,12.121212121212121,,12.121212121212121,,1,1,1,1,1,1,1
 15685,Market St & New Montgomery St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:40:17,24:20:17,,,,,1,1,1,1,1,1,1
 15685,Market St & New Montgomery St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:44:43,24:44:43,,,,,1,1,1,1,1,1,1
-15685,Market St & New Montgomery St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:48:55,24:28:55,,,,,1,1,1,1,1,0,0
 15685,Market St & New Montgomery St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:37:16,30:27:16,,25.0,,25.0,1,1,1,1,1,1,1
 15685,Market St & New Montgomery St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:49:36,24:33:17,,,,,1,1,1,1,1,1,1
 15685,Market St & New Montgomery St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:53:56,29:53:56,,30.0,,30.0,1,1,1,1,1,1,1
@@ -3117,7 +3082,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15687,Market St & Noe St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:01:13,22:01:13,12.058823529411764,,12.058823529411764,,1,1,1,1,1,1,1
 15687,Market St & Noe St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:26:13,24:06:13,,,,,1,1,1,1,1,1,1
 15687,Market St & Noe St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:28:30,24:28:30,,,,,1,1,1,1,1,1,1
-15687,Market St & Noe St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:31:41,24:11:41,,,,,1,1,1,1,1,0,0
 15687,Market St & Noe St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:22:40,30:12:40,,25.0,,25.0,1,1,1,1,1,1,1
 15688,Market St & Powell St,5,FULTON,3,005B95,FFFFFF,0,Cabrillo St & La Playa St@@@258###Fulton St & 8th Ave@@@62,Cabrillo St & La Playa St@@@84###Fulton St & 8th Ave@@@35,Cabrillo St & La Playa St@@@18,05:08:00,28:57:00,12.0,30.0,10.024390243902438,30.0,1,1,1,1,1,1,1
 15688,Market St & Powell St,5R,FULTON RAPID,3,BF2B45,FFFFFF,0,Cabrillo St & La Playa St@@@61,Cabrillo St & La Playa St@@@35,,07:09:00,19:15:00,11.970588235294118,,11.970588235294118,,1,1,1,1,1,0,0
@@ -3128,19 +3092,16 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15690,Market St & Sanchez St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:39:29,23:38:06,13.0625,,13.0625,,1,1,1,1,1,1,1
 15690,Market St & Sanchez St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:56:14,23:56:14,,,,,1,1,1,1,1,1,1
 15690,Market St & Sanchez St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:22:24,06:07:24,,,,,1,1,1,1,1,1,1
-15690,Market St & Sanchez St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:36:35,24:16:35,,,,,1,1,1,1,1,0,0
 15690,Market St & Sanchez St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:08:24,29:33:24,,25.0,,25.0,1,1,1,1,1,1,1
 15691,Market St & Sanchez St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@99,Masonic Ave & Haight St@@@49,,09:04:46,22:03:13,30.0,,20.0,,1,1,1,1,1,1,1
 15691,Market St & Sanchez St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:27:34,24:07:34,,,,,1,1,1,1,1,1,1
 15691,Market St & Sanchez St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:29:20,24:29:20,,,,,1,1,1,1,1,1,1
-15691,Market St & Sanchez St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:32:22,24:12:22,,,,,1,1,1,1,1,0,0
 15691,Market St & Sanchez St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:23:47,30:13:47,,25.0,,25.0,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,6,HAIGHT-PARNASSUS,3,005B95,FFFFFF,1,Market St & South Van Ness Ave@@@10###Steuart St & Don Chee Way@@@168,Steuart St & Don Chee Way@@@64,,05:36:00,25:07:00,20.15,,19.761904761904763,,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@227,Transit Center Bay E@@@105,,05:31:00,22:32:00,12.235294117647058,,12.117647058823529,,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@102,,06:10:00,22:10:00,12.090909090909092,,12.090909090909092,,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:33:00,24:13:00,,,,,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:34:00,24:34:00,,,,,1,1,1,1,1,1,1
-15692,Market St & South Van Ness Ave,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:39:00,24:19:00,,,,,1,1,1,1,1,0,0
 15692,Market St & South Van Ness Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:30:00,30:20:00,,25.0,,25.0,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:42:00,24:27:00,,,,,1,1,1,1,1,1,1
 15692,Market St & South Van Ness Ave,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:47:00,29:47:00,,30.0,,30.0,1,1,1,1,1,1,1
@@ -3155,7 +3116,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15694,Market St & Stockton St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:23:00,23:23:00,12.78125,,12.78125,,1,1,1,1,1,1,1
 15694,Market St & Stockton St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:43:14,23:43:14,,,,,1,1,1,1,1,1,1
 15694,Market St & Stockton St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:08:27,05:53:27,,,,,1,1,1,1,1,1,1
-15694,Market St & Stockton St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:21:44,24:01:44,,,,,1,1,1,1,1,0,0
 15694,Market St & Stockton St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,23:57:11,29:22:11,,25.0,,25.0,1,1,1,1,1,1,1
 15694,Market St & Stockton St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:32:50,07:47:24,,,,,1,1,1,1,1,1,1
 15694,Market St & Stockton St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:14:11,29:46:11,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -3166,7 +3126,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15695,Market St & Taylor St,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@93###17th St & Noe St@@@6,,07:26:22,23:25:42,12.75,,12.75,,1,1,1,1,1,1,1
 15695,Market St & Taylor St,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:45:25,23:45:25,,,,,1,1,1,1,1,1,1
 15695,Market St & Taylor St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:11:39,05:56:39,,,,,1,1,1,1,1,1,1
-15695,Market St & Taylor St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:24:24,24:04:24,,,,,1,1,1,1,1,0,0
 15695,Market St & Taylor St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,23:59:23,29:24:23,,25.0,,25.0,1,1,1,1,1,1,1
 15695,Market St & Taylor St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:34:51,07:49:14,,,,,1,1,1,1,1,1,1
 15695,Market St & Taylor St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:16:23,29:48:23,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -3175,7 +3134,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15696,Market St & Van Ness Ave,F,MARKET & WHARVES,0,B49A36,000000,0,17th St & Castro St@@@171###17th St & Noe St@@@42,17th St & Castro St@@@90###17th St & Noe St@@@6,,07:32:00,23:31:00,12.806451612903226,,12.806451612903226,,1,1,1,1,1,1,1
 15696,Market St & Van Ness Ave,FBUS,MARKET & WHARVES BUS,0,,,0,17th St & Castro St@@@3,,,23:50:00,23:50:00,,,,,1,1,1,1,1,1,1
 15696,Market St & Van Ness Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:18:00,06:03:00,,,,,1,1,1,1,1,1,1
-15696,Market St & Van Ness Ave,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:30:00,24:10:00,,,,,1,1,1,1,1,0,0
 15696,Market St & Van Ness Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@27,24:04:00,29:29:00,,25.0,,25.0,1,1,1,1,1,1,1
 15696,Market St & Van Ness Ave,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:39:00,07:53:00,,,,,1,1,1,1,1,1,1
 15696,Market St & Van Ness Ave,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:21:00,29:53:00,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -4115,7 +4073,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16501,Steuart St & Market St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@63,,07:01:02,19:24:02,20.1,,20.0,,1,1,1,1,1,1,1
 16501,Steuart St & Market St,6,HAIGHT-PARNASSUS,3,005B95,FFFFFF,0,11th St & Market St@@@9###14th Ave & Quintara St@@@166,14th Ave & Quintara St@@@63,,05:31:11,24:20:36,20.0,,20.0,,1,1,1,1,1,1,1
 16501,Steuart St & Market St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:00:14,05:45:14,,,,,1,1,1,1,1,1,1
-16501,Steuart St & Market St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:15:00,23:55:00,,,,,1,1,1,1,1,0,0
 16501,Steuart St & Market St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@24,23:51:33,29:16:33,,25.0,,25.0,1,1,1,1,1,1,1
 16501,Steuart St & Market St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Duboce Ave & Church St@@@11###Judah/La Playa/Ocean Beach@@@19,,,05:27:41,07:42:43,,,,,1,1,1,1,1,1,1
 16501,Steuart St & Market St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@36,,Judah/La Playa/Ocean Beach@@@24,24:08:33,29:40:33,,30.285714285714285,,30.285714285714285,1,1,1,1,1,1,1
@@ -4269,64 +4226,44 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16612,Sutter St & Taylor St,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@63,,07:09:02,19:33:33,20.1,,20.1,,1,1,1,1,1,1,1
 16613,Sutter St & Van Ness Ave,2,SUTTER,3,005B95,FFFFFF,0,Presidio Ave & California St@@@114,Presidio Ave & California St@@@61,,07:12:00,19:38:00,20.157894736842106,,20.15,,1,1,1,1,1,1,1
 16615,Taraval St & 17th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:12:58,24:31:58,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16615,Taraval St & 17th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:26:06,23:54:55,,,,,1,1,1,1,1,0,0
 16615,Taraval St & 17th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:08:34,29:58:34,,25.0,,25.0,1,1,1,1,1,1,1
 16616,Taraval St & 19th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:28:00,24:02:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16616,Taraval St & 19th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:34:29,24:04:51,,,,,1,1,1,1,1,0,0
 16616,Taraval St & 19th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:22:48,29:47:48,,25.0,,25.0,1,1,1,1,1,1,1
 16617,Taraval St & 19th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:12:00,24:31:00,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16617,Taraval St & 19th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:25:22,23:53:59,,,,,1,1,1,1,1,0,0
 16617,Taraval St & 19th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:08:01,29:58:01,,25.0,,25.0,1,1,1,1,1,1,1
 16619,Taraval St & 22nd Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:11:09,24:30:16,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16619,Taraval St & 22nd Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:24:37,23:53:01,,,,,1,1,1,1,1,0,0
 16619,Taraval St & 22nd Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:07:26,29:57:26,,25.0,,25.0,1,1,1,1,1,1,1
 16620,Taraval St & 23rd Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:29:38,24:03:38,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16620,Taraval St & 23rd Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:36:25,24:06:57,,,,,1,1,1,1,1,0,0
 16620,Taraval St & 23rd Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:24:01,29:49:01,,25.0,,25.0,1,1,1,1,1,1,1
 16622,Taraval St & 26th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:30:30,24:04:30,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16622,Taraval St & 26th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:37:26,24:08:03,,,,,1,1,1,1,1,0,0
 16622,Taraval St & 26th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:24:40,29:49:40,,25.0,,25.0,1,1,1,1,1,1,1
 16623,Taraval St & 26th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:09:15,24:28:39,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16623,Taraval St & 26th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:23:12,23:51:09,,,,,1,1,1,1,1,0,0
 16623,Taraval St & 26th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:06:20,29:56:20,,25.0,,25.0,1,1,1,1,1,1,1
 16626,Taraval St & 30th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@111,,05:31:54,24:05:54,12.058823529411764,,10.025,,1,1,1,1,1,1,1
-16626,Taraval St & 30th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:39:04,24:09:50,,,,,1,1,1,1,1,0,0
 16626,Taraval St & 30th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:25:42,29:50:42,,25.0,,25.0,1,1,1,1,1,1,1
 16627,Taraval St & 30th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@110,,06:07:36,24:27:14,12.090909090909092,,10.0,,1,1,1,1,1,1,1
-16627,Taraval St & 30th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:21:57,23:49:33,,,,,1,1,1,1,1,0,0
 16627,Taraval St & 30th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:05:22,29:55:22,,25.0,,25.0,1,1,1,1,1,1,1
 16628,Taraval St & 32nd Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:32:36,24:06:36,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16628,Taraval St & 32nd Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:39:55,24:10:44,,,,,1,1,1,1,1,0,0
 16628,Taraval St & 32nd Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:26:13,29:51:13,,25.0,,25.0,1,1,1,1,1,1,1
 16629,Taraval St & 32nd Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@110,,06:06:48,24:26:32,12.090909090909092,,10.0,,1,1,1,1,1,1,1
-16629,Taraval St & 32nd Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:21:21,23:48:45,,,,,1,1,1,1,1,0,0
 16629,Taraval St & 32nd Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:04:54,29:54:54,,25.0,,25.0,1,1,1,1,1,1,1
 16632,Taraval St & 40th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@110,,05:35:07,24:09:20,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
-16632,Taraval St & 40th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:42:55,24:13:55,,,,,1,1,1,1,1,0,0
 16632,Taraval St & 40th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:28:18,29:53:18,,25.0,,25.0,1,1,1,1,1,1,1
 16633,Taraval St & 40th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:03:42,24:23:42,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16633,Taraval St & 40th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:19:05,23:46:05,,,,,1,1,1,1,1,0,0
 16633,Taraval St & 40th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:03:00,29:53:00,,25.0,,25.0,1,1,1,1,1,1,1
 16634,Taraval St & 42nd Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:35:46,24:10:07,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16634,Taraval St & 42nd Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:43:27,24:14:27,,,,,1,1,1,1,1,0,0
 16634,Taraval St & 42nd Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:28:49,29:53:49,,25.0,,25.0,1,1,1,1,1,1,1
 16635,Taraval St & 42nd Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:03:07,24:23:07,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16635,Taraval St & 42nd Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:18:26,23:45:26,,,,,1,1,1,1,1,0,0
 16635,Taraval St & 42nd Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:02:31,29:52:31,,25.0,,25.0,1,1,1,1,1,1,1
 16636,Taraval St & 44th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:36:25,24:10:54,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16636,Taraval St & 44th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:43:59,24:14:59,,,,,1,1,1,1,1,0,0
 16636,Taraval St & 44th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:29:21,29:54:21,,25.0,,25.0,1,1,1,1,1,1,1
 16637,Taraval St & 44th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:02:32,24:22:32,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16637,Taraval St & 44th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:17:47,23:44:47,,,,,1,1,1,1,1,0,0
 16637,Taraval St & 44th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:02:03,29:52:03,,25.0,,25.0,1,1,1,1,1,1,1
 16638,Taraval St & 46th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:37:04,24:11:41,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16638,Taraval St & 46th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:44:31,24:15:31,,,,,1,1,1,1,1,0,0
 16638,Taraval St & 46th Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:29:52,29:54:52,,25.0,,25.0,1,1,1,1,1,1,1
 16640,Taraval St & Sunset Blvd,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@112,,05:34:00,24:08:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-16640,Taraval St & Sunset Blvd,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:42:00,24:13:00,,,,,1,1,1,1,1,0,0
 16640,Taraval St & Sunset Blvd,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:27:24,29:52:24,,25.0,,25.0,1,1,1,1,1,1,1
 16641,Taraval St & Sunset Blvd,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:05:00,24:25:00,12.088235294117647,,10.0,,1,1,1,1,1,1,1
-16641,Taraval St & Sunset Blvd,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:20:00,23:47:00,,,,,1,1,1,1,1,0,0
 16641,Taraval St & Sunset Blvd,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:03:51,29:53:51,,25.0,,25.0,1,1,1,1,1,1,1
 16644,Taylor St & Bay St,PM,POWELL-MASON CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@249###Washington St & Mason St@@@18,Powell St & Market St@@@129,,07:00:00,23:24:00,9.880952380952381,,9.880952380952381,,1,1,1,1,1,1,1
 16645,Taylor St & Columbus Ave,PM,POWELL-MASON CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@249###Washington St & Mason St@@@18,Powell St & Market St@@@126,,07:00:50,23:24:50,9.878048780487806,,9.878048780487806,,1,1,1,1,1,1,1
@@ -4399,7 +4336,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16737,Ulloa St & Forest Side Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:10:04,30:00:04,,25.0,,25.0,1,1,1,1,1,1,1
 16738,Ulloa St & Lenox Way,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@191###Sunset Blvd & Quintara St@@@2,Lower Great Hwy & Rivera St@@@72,,05:30:00,24:30:00,20.05,,13.931034482758621,,1,1,1,1,1,1,1
 16738,Ulloa St & Lenox Way,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@32,,,05:24:00,06:11:00,,,,,1,1,1,1,1,1,1
-16738,Ulloa St & Lenox Way,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:30:00,24:00:00,,,,,1,1,1,1,1,0,0
 16738,Ulloa St & Lenox Way,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@42,,Wawona/46th Ave /Sf Zoo@@@30,24:20:00,29:45:00,,25.0,,25.0,1,1,1,1,1,1,1
 16739,West Portal Station,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:00:00,24:09:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 16739,West Portal Station,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@240,47th Ave & Cutler Ave@@@112,,08:21:00,23:57:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
@@ -4408,7 +4344,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16740,West Portal Station,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16,Metro Embarcadero Station@@@110,,08:10:00,23:50:00,12.090909090909092,,10.024390243902438,,1,1,1,1,1,1,1
 16740,West Portal Station,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@14###West Portal Station@@@1,Metro Embarcadero Station@@@112,,08:06:00,23:50:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16744,Ulloa St & West Portal Ave,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@56,,05:00:00,22:00:00,25.0,,20.0,,1,1,1,1,1,1,1
-16744,Ulloa St & West Portal Ave,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:17:00,23:57:00,,,,,1,1,1,1,1,0,0
 16744,Ulloa St & West Portal Ave,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@38,,,05:40:00,24:38:00,,,,,1,1,1,1,1,1,1
 16745,Union St & Baker St,45,UNION-STOCKTON,3,005B95,FFFFFF,0,Lyon St & Greenwich St@@@238,Lyon St & Greenwich St@@@98,,04:33:24,22:28:17,15.222222222222221,,9.853658536585366,,1,1,1,1,1,1,1
 16746,Union St & Baker St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@223###Union St & Pierce St@@@15,Townsend St & Lusk St@@@98,,04:41:01,22:31:01,15.0,,10.0,,1,1,1,1,1,1,1
@@ -4519,7 +4454,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16898,West Portal Ave & 14th Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:40:34,30:42:34,,30.0,,30.0,1,1,1,1,1,1,1
 16898,West Portal Ave & 14th Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@235###The Embarcadero & Folsom St@@@7###West Portal Station@@@2,Metro Embarcadero Station@@@110,,07:59:40,23:53:40,12.090909090909092,,10.0,,1,1,1,1,1,1,1
 16898,West Portal Ave & 14th Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:14:25,24:14:25,,,,,1,1,1,1,1,1,1
-16898,West Portal Ave & 14th Ave,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:16:48,23:56:48,,,,,1,1,1,1,1,0,0
 16898,West Portal Ave & 14th Ave,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@14###Ulloa St & Lenox Way@@@32###West Portal Station@@@1,Metro Embarcadero Station@@@112,,05:21:00,23:47:40,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 16899,West Portal Ave & 15th Ave,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:25:02,22:22:37,24.875,,20.55,,1,1,1,1,1,1,1
 16904,West Portal Ave & Vicente St,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:00:42,22:00:42,25.0,,20.0,,1,1,1,1,1,1,1
@@ -4541,7 +4475,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16929,Washington St & Taylor St,PH,POWELL-HYDE CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@306###Washington St & Mason St@@@18,Powell St & Market St@@@144,,07:19:04,23:44:10,8.53191489361702,,8.53191489361702,,1,1,1,1,1,1,1
 16931,Washington St & Webster St,24,DIVISADERO,3,005B95,FFFFFF,1,Jackson St & Webster St@@@244,Jackson St & Webster St@@@108,,05:49:39,23:56:42,12.242424242424242,,10.717948717948717,,1,1,1,1,1,1,1
 16932,Wawona/46th Ave /Sf Zoo,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:00:00,24:20:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
-16932,Wawona/46th Ave /Sf Zoo,LBUS,TARAVAL BUS,3,942D83,FFFFFF,1,Ulloa St & Claremont St@@@11,,,21:15:00,23:42:00,,,,,1,1,1,1,1,0,0
 16932,Wawona/46th Ave /Sf Zoo,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@30,24:00:00,29:50:00,,25.0,,25.0,1,1,1,1,1,1,1
 16933,Woodside Ave & Balceta Ave,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@91,Valencia St & Mission St@@@42,,08:17:28,22:17:13,30.0,,30.0,,1,1,1,1,1,1,1
 16933,Woodside Ave & Balceta Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@262,Hudson Ave & 3rd St@@@110,,06:12:41,24:16:55,12.06060606060606,,9.829268292682928,,1,1,1,1,1,1,1
@@ -4696,14 +4629,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17099,Mission St & San Jose Ave,14,MISSION,3,005B95,FFFFFF,1,Mission St & 26th St@@@45###Steuart St & Mission St@@@436,Steuart St & Mission St@@@163,Mission St & 26th St@@@12###Steuart St & Mission St@@@39,05:15:00,29:46:00,10.0,14.125,7.0,14.125,1,1,1,1,1,1,1
 17109,West Portal/Sloat/St Francis Circle,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@235###The Embarcadero & Folsom St@@@7###West Portal Station@@@2###West Portal/Sloat/St Francis Circle@@@10,Metro Embarcadero Station@@@112,,07:58:00,23:56:00,12.058823529411764,,10.0,,1,1,1,1,1,1,1
 17109,West Portal/Sloat/St Francis Circle,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@14###Ulloa St & Lenox Way@@@32###West Portal Station@@@1###West Portal/Sloat/St Francis Circle@@@10,Metro Embarcadero Station@@@112,,05:19:00,23:46:00,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
-17112,West Portal Ave & Ulloa St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:17:01,23:57:01,,,,,1,1,1,1,1,0,0
 17113,Junipero Serra Blvd & Ocean Ave,K,INGLESIDE,0,437C93,FFFFFF,1,Metro Embarcadero Station@@@235###The Embarcadero & Folsom St@@@7###West Portal Station@@@2###West Portal/Sloat/St Francis Circle@@@10,Metro Embarcadero Station@@@112,,07:56:17,23:54:41,12.058823529411764,,10.0,,1,1,1,1,1,1,1
 17114,Junipero Serra Blvd & Ocean Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@254,Balboa Park BART/Mezzanine Level@@@111,,08:05:32,24:20:24,12.058823529411764,,10.05,,1,1,1,1,1,1,1
 17123,Market St & Sanchez St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:02:31,22:02:31,12.058823529411764,,12.058823529411764,,1,1,1,1,1,1,1
 17125,West Portal Ave & 14th Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@36,,19th Ave & Holloway Ave@@@21,23:47:39,29:17:39,,30.0,,30.0,1,1,1,1,1,1,1
 17125,West Portal Ave & 14th Ave,K,INGLESIDE,0,437C93,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@244,Balboa Park BART/Mezzanine Level@@@112,,08:02:04,24:11:23,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 17125,West Portal Ave & 14th Ave,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@28,,,05:37:54,06:22:54,,,,,1,1,1,1,1,1,1
-17125,West Portal Ave & 14th Ave,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:53:46,24:33:46,,,,,1,1,1,1,1,0,0
 17125,West Portal Ave & 14th Ave,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@279,San Jose Ave & Niagra Ave@@@112,,05:41:51,24:39:23,12.058823529411764,,10.024390243902438,,1,1,1,1,1,1,1
 17127,Geneva Ave & Rio Verde St,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@222,Sunnydale Ave / Mclaren School@@@80,,06:04:33,24:52:33,10.384615384615385,,10.384615384615385,,1,1,1,1,1,1,1
 17127,Geneva Ave & Rio Verde St,9R,SAN BRUNO RAPID,3,BF2B45,FFFFFF,0,Sunnydale Ave / Mclaren School@@@58,Sunnydale Ave / Mclaren School@@@35,,06:41:13,18:49:20,12.058823529411764,,12.058823529411764,,1,1,1,1,1,0,0
@@ -4738,7 +4669,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17205,West Portal Ave & Sloat Blvd,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@144,Ulloa St & West Portal Ave@@@55,,05:24:25,22:22:08,24.875,,20.55,,1,1,1,1,1,1,1
 17205,West Portal Ave & Sloat Blvd,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@39,,Ulloa St & West Portal Ave@@@30,24:39:23,30:41:23,,30.0,,30.0,1,1,1,1,1,1,1
 17205,West Portal Ave & Sloat Blvd,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:12:58,24:12:58,,,,,1,1,1,1,1,1,1
-17205,West Portal Ave & Sloat Blvd,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:13:00,23:53:00,,,,,1,1,1,1,1,0,0
 17208,Sloat Blvd & 47th Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@112,Palou Ave & 3rd St@@@49,,06:08:37,22:04:43,30.0,,19.95,,1,1,1,1,1,1,1
 17209,Crescent Ave & Ellsworth St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@113,Palou Ave & 3rd St@@@49,,06:30:12,22:28:45,30.076923076923077,,20.2,,1,1,1,1,1,1,1
 17211,20th Ave/Stonestown Mall,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@144,Daly City BART Station@@@55,,05:06:42,22:06:42,25.0625,,20.15,,1,1,1,1,1,1,1
@@ -4751,7 +4681,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17217,Metro Embarcadero Station,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@247,Judah/La Playa/Ocean Beach@@@112,,08:08:00,23:53:00,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 17220,Ashbury St & Clayton St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@151,25th St & Potrero Ave@@@65,,05:28:12,22:07:39,20.25,,19.476190476190474,,1,1,1,1,1,1,1
 17227,Market St & Steuart St,9,SAN BRUNO,3,005B95,FFFFFF,0,Bayshore Blvd & Visitacion Ave@@@55###Sunnydale Ave / Mclaren School@@@222,Bayshore Blvd & Visitacion Ave@@@35###Sunnydale Ave / Mclaren School@@@86,,05:21:00,24:00:00,12.0,,10.0,,1,1,1,1,1,1,1
-17227,Market St & Steuart St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@34,,,21:15:00,23:55:04,,,,,1,1,1,1,1,0,0
 17228,Duncan St & Amber Dr,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@105,Dublin St & La Grande Ave@@@48,,08:14:43,22:12:28,30.0,,20.157894736842106,,1,1,1,1,1,1,1
 17229,Diamond Heights Blvd & Duncan St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@105,Laguna Honda Blvd/Forest Hill Sta@@@49,,08:19:12,22:15:12,30.307692307692307,,19.85,,1,1,1,1,1,1,1
 17230,Plymouth Ave & Broad St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@142,Daly City BART West Station Rd@@@63,,06:30:32,22:36:32,20.2,,19.95,,1,1,1,1,1,1,1
@@ -4770,7 +4699,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17264,Market St & 1st St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@213,Jones St & Beach St@@@105,,06:22:00,22:22:00,12.205882352941176,,12.205882352941176,,1,1,1,1,1,1,1
 17264,Market St & 1st St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@15,,,22:41:32,24:21:32,,,,,1,1,1,1,1,1,1
 17264,Market St & 1st St,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,1,Steuart St & Mission St@@@28,,,05:46:34,24:46:34,,,,,1,1,1,1,1,1,1
-17264,Market St & 1st St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,1,Market St & Main St@@@17,,,21:50:38,24:30:38,,,,,1,1,1,1,1,0,0
 17264,Market St & 1st St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@45,,Jones St & Beach St@@@33,24:38:32,30:28:32,,25.0,,25.0,1,1,1,1,1,1,1
 17264,Market St & 1st St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@36,,,05:50:55,24:34:22,,,,,1,1,1,1,1,1,1
 17264,Market St & 1st St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@33,,Townsend St & 5th St@@@24,24:55:07,29:55:07,,30.0,,30.0,1,1,1,1,1,1,1
@@ -4937,7 +4865,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17572,17th Ave & Quintara St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@191###Sunset Blvd & Quintara St@@@2,Lower Great Hwy & Rivera St@@@73,,05:34:32,24:34:32,20.05,,13.766666666666667,,1,1,1,1,1,1,1
 17573,Quintara St & 17th Ave,66,QUINTARA,3,005B95,FFFFFF,0,Vicente St & 30th Ave@@@137,Vicente St & 30th Ave@@@63,,08:06:57,22:06:27,20.0,,20.0,,1,1,1,1,1,1,1
 17577,Bernal Heights Blvd & Powhattan St,67,BERNAL HEIGHTS,3,005B95,FFFFFF,0,Ellsworth St & Crescent Ave@@@147,Ellsworth St & Crescent Ave@@@63,,06:09:45,22:09:45,20.0,,20.0,,1,1,1,1,1,1,1
-17582,Ulloa St & West Portal Ave Arrive,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:52:00,24:32:00,,,,,1,1,1,1,1,0,0
 17592,Cesar Chavez St & Valencia St,27,BRYANT,3,005B95,FFFFFF,1,Pacific Ave & Van Ness Ave@@@171,Pacific Ave & Van Ness Ave@@@72,,05:02:09,22:02:27,19.80952380952381,,15.0,,1,1,1,1,1,1,1
 17592,Cesar Chavez St & Valencia St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@92,Laguna Honda Blvd/Forest Hill Sta@@@42,,08:24:57,22:24:57,30.0,,30.0,,1,1,1,1,1,1,1
 17606,Daly City BART West Station Rd,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@144,Newhall St & Hudson@@@64,,05:40:00,21:55:00,20.0,,20.0,,1,1,1,1,1,1,1
@@ -4987,7 +4914,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17747,Executive Park Blvd & Thomas Mellon Dr,56,RUTLAND,3,005B95,FFFFFF,0,50 Thomas Mellon Dr@@@96###San Bruno Ave & Arleta Ave@@@30,50 Thomas Mellon Dr@@@63,,07:30:07,21:10:28,20.0,,20.0,,1,1,1,1,1,1,1
 17750,C. Chavez St&Florida St,27,BRYANT,3,005B95,FFFFFF,0,24th St & Mission St@@@169,24th St & Mission St@@@70,,05:38:35,22:32:13,20.4,,15.0,,1,1,1,1,1,1,1
 17751,C. Chavez St&Harrison St,27,BRYANT,3,005B95,FFFFFF,0,24th St & Mission St@@@169,24th St & Mission St@@@70,,05:39:02,22:32:51,20.4,,15.0,,1,1,1,1,1,1,1
-17755,West Portal Ave & Ulloa St,KLM,MUNI METRO SHUTTLE,3,008547,FFFFFF,0,West Portal Ave & Sloat Blvd@@@17,,,21:52:05,24:32:05,,,,,1,1,1,1,1,0,0
 17756,Palou Ave & Newhall St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@12###Fillmore St & Jackson St@@@28###Jackson St & Webster St@@@244,Jackson St & Webster St@@@109,,05:07:38,24:20:52,12.088235294117647,,10.894736842105264,,1,1,1,1,1,1,1
 17757,Haight St & Gough St,6,HAIGHT-PARNASSUS,3,005B95,FFFFFF,1,Market St & South Van Ness Ave@@@10###Steuart St & Don Chee Way@@@168,Steuart St & Don Chee Way@@@63,,05:33:48,25:04:26,20.15,,19.95,,1,1,1,1,1,1,1
 17757,Haight St & Gough St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@227,Transit Center Bay E@@@103,,05:29:28,22:30:18,12.242424242424242,,12.117647058823529,,1,1,1,1,1,1,1
@@ -5264,7 +5190,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 18134,23rd St & 3rd St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@213,22nd St & Iowa St@@@73,22nd St & Iowa St@@@21,06:07:10,29:12:10,20.2,30.0,13.566666666666666,30.0,1,1,1,1,1,1,1
 18135,25th Ave & California St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@283,Fitzgerald Ave & Keith St@@@120,,05:02:00,24:00:00,12.0,,8.551020408163266,,1,1,1,1,1,1,1
 18136,Ulloa St & 14th Ave,L,TARAVAL,0,942D83,FFFFFF,0,47th Ave & Cutler Ave@@@272,47th Ave & Cutler Ave@@@110,,05:25:26,23:58:57,12.06060606060606,,10.024390243902438,,1,1,1,1,1,1,1
-18136,Ulloa St & 14th Ave,LBUS,TARAVAL BUS,3,942D83,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@11,,,21:31:31,24:01:38,,,,,1,1,1,1,1,0,0
 18137,Ulloa St & 14th Ave,L,TARAVAL,0,942D83,FFFFFF,1,Metro Embarcadero Station@@@232###The Embarcadero & Folsom St@@@16###Ulloa St & West Portal Ave@@@31,Metro Embarcadero Station@@@112,,06:15:03,24:34:03,12.088235294117647,,10.024390243902438,,1,1,1,1,1,1,1
 18147,Hudson Ave & Cashmere St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,1,Sutter St & Sansome St@@@209,Sutter St & Sansome St@@@101,,08:12:03,22:11:41,12.375,,12.029411764705882,,1,1,1,1,1,1,1
 18149,Seven Seas Ave & Johnson St,25,TREASURE ISLAND,3,005B95,FFFFFF,1,Transit Center Bay 29@@@134###Transit Center Bay E@@@42,Transit Center Bay 29@@@53,Transit Center Bay E@@@27,06:47:27,30:20:27,25.0,30.0,20.0,30.0,1,1,1,1,1,1,1
