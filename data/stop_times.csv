@@ -400,8 +400,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13408,20th Ave & Winston Dr,58,LAKE MERCED,3,005B95,FFFFFF,0,Mission St & Flournoy@@@66,Mission St & Flournoy@@@28,,06:00:39,22:00:39,30.0,,30.0,,0,0,0,0,0,1,1
 13409,20th Ave & Winston Dr,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@92,Daly City BART Station@@@34,,05:07:32,22:07:32,25.0625,,25.0625,,0,0,0,0,0,1,1
 13410,20th St & 3rd St,55,DOGPATCH,3,005B95,FFFFFF,1,16th St & Mission St@@@104,16th St & Mission St@@@44,,05:00:00,22:00:00,20.0,,20.0,,0,0,0,0,0,1,1
-13414,20th St & Collingwood St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:01:36,21:01:46,30.0,,30.0,,0,0,0,0,0,1,1
-13415,20th St & Eureka St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:02:11,21:02:24,30.0,,30.0,,0,0,0,0,0,1,1
+13414,20th St & Collingwood St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:02:12,21:02:25,30.0,,30.0,,0,0,0,0,0,1,1
+13415,20th St & Eureka St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:02:46,21:03:03,30.0,,30.0,,0,0,0,0,0,1,1
 13424,21st St & Douglass St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:35:00,21:06:00,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13425,22nd Ave & Irving St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:10:43,24:11:34,12.117647058823529,,12.117647058823529,,0,0,0,0,0,1,1
 13426,22nd Ave & Judah St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:10:02,24:10:47,12.117647058823529,,12.117647058823529,,0,0,0,0,0,1,1
@@ -437,7 +437,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13461,24th St & Church St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@126,22nd St & Iowa St@@@42,22nd St & Iowa St@@@12,05:50:11,28:56:09,20.05,30.0,20.05,30.0,0,0,0,0,0,1,1
 13462,24th St & Castro St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@18,,22nd St & Iowa St@@@12,24:52:00,28:52:00,,30.0,,30.0,0,0,0,0,0,1,1
 13463,24th St & Castro St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@126,22nd St & Iowa St@@@42,22nd St & Iowa St@@@12,05:48:00,28:52:28,20.0,30.0,20.0,30.0,0,0,0,0,0,1,1
-13465,24th St & Diamond St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:05:42,21:06:16,30.0,,30.0,,0,0,0,0,0,1,1
+13465,24th St & Diamond St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:06:17,21:06:55,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13466,24th St & Dolores St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,24th St & Castro St@@@20###Lower Great Hwy & Rivera St@@@110,Lower Great Hwy & Rivera St@@@42,24th St & Castro St@@@14,05:18:07,29:17:07,20.05,30.0,20.05,30.0,0,0,0,0,0,1,1
 13467,24th St & Dolores St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@126,22nd St & Iowa St@@@42,22nd St & Iowa St@@@12,05:50:58,28:56:52,20.05,30.0,20.05,30.0,0,0,0,0,0,1,1
 13468,24th St & Douglass St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:31:23,21:02:23,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
@@ -967,21 +967,17 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14093,Cole St & Carmel St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:09:57,22:09:57,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14094,Cole St & Frederick St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:07:33,22:07:33,30.0,,30.0,,0,0,0,0,0,1,1
 14094,Cole St & Frederick St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:24:27,24:15:45,20.45,,20.45,,0,0,0,0,0,1,1
-14094,Cole St & Frederick St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:48:25,08:04:25,,,,,0,0,0,0,0,1,1
 14094,Cole St & Frederick St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:33:01,30:03:01,,30.0,,30.0,0,0,0,0,0,1,1
 14095,Cole St & Haight St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:19:35,22:17:35,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14095,Cole St & Haight St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:34:14,24:24:14,20.25,,20.25,,0,0,0,0,0,1,1
-14095,Cole St & Haight St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@20,,,05:23:10,24:13:10,,,,,0,0,0,0,0,1,1
 14095,Cole St & Haight St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:35:53,29:35:53,,30.0,,30.0,0,0,0,0,0,1,1
 14096,Cole St & Haight St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:06:29,22:06:29,30.0,,30.0,,0,0,0,0,0,1,1
 14096,Cole St & Haight St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:23:32,24:14:44,20.45,,20.45,,0,0,0,0,0,1,1
-14096,Cole St & Haight St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:47:37,08:03:37,,,,,0,0,0,0,0,1,1
 14096,Cole St & Haight St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:32:10,30:02:10,,30.0,,30.0,0,0,0,0,0,1,1
 14097,Cole St & Parnassus Ave,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:17:53,22:15:53,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14098,Cole St & Parnassus Ave,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:08:27,22:08:27,30.0,,30.0,,0,0,0,0,0,1,1
 14099,Cole St & Waller St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:19:15,22:17:15,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14099,Cole St & Waller St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:33:54,24:23:54,20.2,,20.2,,0,0,0,0,0,1,1
-14099,Cole St & Waller St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@20,,,05:22:56,24:12:56,,,,,0,0,0,0,0,1,1
 14099,Cole St & Waller St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:35:35,29:35:35,,30.0,,30.0,0,0,0,0,0,1,1
 14100,Columbus Ave & Bay St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Mission St@@@54###Townsend St & 4th St@@@136,4th St & Mission St@@@42###Townsend St & 4th St@@@54,,06:03:43,24:10:43,8.595744680851064,,8.595744680851064,,0,0,0,0,0,1,1
 14100,Columbus Ave & Bay St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@22,,Ulloa St & West Portal Ave@@@16,24:36:17,29:36:17,,30.0,,30.0,0,0,0,0,0,1,1
@@ -1199,12 +1195,12 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14313,Castro St & 17th St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:30:31,29:21:39,12.151515151515152,30.0,12.151515151515152,30.0,0,0,0,0,0,1,1
 14314,Castro St & 18th St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:30:00,29:21:00,12.151515151515152,30.0,12.151515151515152,30.0,0,0,0,0,0,1,1
 14315,Castro St & 18th St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:26:00,28:38:00,12.088235294117647,30.0,12.088235294117647,30.0,0,0,0,0,0,1,1
-14315,Castro St & 18th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:00:20,21:00:20,30.0,,30.0,,0,0,0,0,0,1,1
+14315,Castro St & 18th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:00:55,21:00:59,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14316,Castro St & 19th St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:26:26,28:38:43,12.088235294117647,30.0,12.088235294117647,30.0,0,0,0,0,0,1,1
-14316,Castro St & 19th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:00:34,21:00:37,30.0,,30.0,,0,0,0,0,0,1,1
+14316,Castro St & 19th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:01:09,21:01:16,30.0,,30.0,,0,0,0,0,0,1,1
 14317,Castro St & 19th St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:29:21,29:20:09,12.151515151515152,30.0,12.151515151515152,30.0,0,0,0,0,0,1,1
 14318,Castro St & 20th St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:26:54,28:39:31,12.088235294117647,30.0,12.088235294117647,30.0,0,0,0,0,0,1,1
-14318,Castro St & 20th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:01:11,21:01:18,30.0,,30.0,,0,0,0,0,0,1,1
+14318,Castro St & 20th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:01:46,21:01:57,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14319,Castro St & 20th St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:28:54,29:19:32,12.151515151515152,30.0,12.151515151515152,30.0,0,0,0,0,0,1,1
 14320,Castro St & 21st St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:28:24,29:18:52,12.151515151515152,30.0,12.151515151515152,30.0,0,0,0,0,0,1,1
 14321,Castro St & 21st St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:27:24,28:40:21,12.117647058823529,30.0,12.117647058823529,30.0,0,0,0,0,0,1,1
@@ -1253,21 +1249,21 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14369,Diamond Heights Blvd & Gold Mine Dr,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:16:00,22:17:00,30.0,,30.0,,0,0,0,0,0,1,1
 14371,Diamond St & 24th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:30:34,21:01:34,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14371,Diamond St & 24th St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@108,22nd St & Iowa St@@@42,,05:47:22,24:26:22,20.0,,20.0,,0,0,0,0,0,1,1
-14372,Diamond St & 25th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:06:15,21:06:53,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14372,Diamond St & 25th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:06:51,21:07:32,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14373,Diamond St & 25th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:29:48,21:00:48,30.153846153846153,,30.153846153846153,,0,0,0,0,0,1,1
 14373,Diamond St & 25th St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@108,22nd St & Iowa St@@@42,,05:46:45,24:25:45,20.0,,20.0,,0,0,0,0,0,1,1
 14374,Diamond St & 26th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:29:01,21:00:01,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-14375,Diamond St & 26th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:06:57,21:07:39,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14375,Diamond St & 26th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:07:32,21:08:17,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14376,Diamond St & 27th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@26,,07:28:15,20:59:15,30.083333333333332,,30.083333333333332,,0,0,0,0,0,1,1
-14377,Diamond St & 27th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:07:34,21:08:19,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14377,Diamond St & 27th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:08:09,21:08:58,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14378,Diamond St & 28th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:27:28,20:58:28,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-14379,Diamond St & 28th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:08:11,21:09:00,30.0,,30.0,,0,0,0,0,0,1,1
-14380,Diamond St & 29th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:08:43,21:09:36,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14379,Diamond St & 28th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:08:46,21:09:39,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14380,Diamond St & 29th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:09:18,21:10:14,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14381,Diamond St & 29th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:26:41,20:57:41,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14382,Diamond St & Arbor St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:13:15,22:11:52,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 14383,Diamond St & Arbor St,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:20:09,22:20:27,30.0,,30.0,,0,0,0,0,0,1,1
 14384,Diamond St & Cesar Chavez St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@26,,07:28:38,20:59:38,30.083333333333332,,30.083333333333332,,0,0,0,0,0,1,1
-14385,Diamond St & Cesar Chavez St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:07:15,21:07:59,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14385,Diamond St & Cesar Chavez St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:07:50,21:08:37,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14386,Diamond St & Bosworth St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:25:00,22:25:00,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14386,Diamond St & Bosworth St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:36:00,22:28:00,30.0,,30.0,,0,0,0,0,0,1,1
 14387,Diamond St & Bosworth St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:26:00,22:26:00,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
@@ -1278,14 +1274,14 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14389,Diamond St & Chenery St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:18:31,21:19:31,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14389,Diamond St & Chenery St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:34:32,22:33:32,30.0,,30.0,,0,0,0,0,0,1,1
 14389,Diamond St & Chenery St,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:21:48,22:21:50,30.0,,30.0,,0,0,0,0,0,1,1
-14390,Diamond St & Clipper St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:06:34,21:07:13,30.0,,30.0,,0,0,0,0,0,1,1
+14390,Diamond St & Clipper St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:07:09,21:07:52,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14391,Diamond St & Clipper St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:29:24,21:00:24,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14392,Diamond St & Conrad St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:13:56,22:12:27,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 14393,Diamond St & Conrad St,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:19:24,22:19:50,30.0,,30.0,,0,0,0,0,0,1,1
 14394,Diamond St & Diamond Heights Blvd,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:26:00,20:57:00,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14395,Diamond St & Diamond Heights Blvd,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:14:27,22:12:52,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 14397,Diamond St & Diamond Heights Blvd,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:10:00,21:11:00,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-14398,Diamond St & Duncan St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:07:48,21:08:35,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14398,Diamond St & Duncan St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:08:23,21:09:14,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14399,Diamond St & Duncan St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:27:51,20:58:51,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14400,Diamond St & Moffitt St,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:19:54,22:20:15,30.0,,30.0,,0,0,0,0,0,1,1
 14401,Diamond St & Moffitt St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:13:20,22:11:56,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
@@ -1310,7 +1306,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14422,Divisadero St & Geary Blvd,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@10,04:16:55,28:26:58,12.029411764705882,30.0,12.029411764705882,30.0,0,0,0,0,0,1,1
 14423,Divisadero St & Haight St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@70,Divisadero St & Sutter St@@@14,05:34:00,29:26:00,12.176470588235293,30.0,12.176470588235293,30.0,0,0,0,0,0,1,1
 14424,Divisadero St & Haight St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:22:00,28:33:00,12.058823529411764,30.0,12.058823529411764,30.0,0,0,0,0,0,1,1
-14424,Divisadero St & Haight St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@20,,,05:25:54,24:15:54,,,,,0,0,0,0,0,1,1
 14425,Divisadero St & Hayes St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:36:10,29:28:10,12.181818181818182,30.0,12.181818181818182,30.0,0,0,0,0,0,1,1
 14426,Divisadero St & Hayes St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:20:16,28:30:50,12.058823529411764,30.0,12.058823529411764,30.0,0,0,0,0,0,1,1
 14427,Divisadero St & Jackson St,24,DIVISADERO,3,005B95,FFFFFF,1,Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@70,,05:43:36,24:15:42,12.205882352941176,,12.205882352941176,,0,0,0,0,0,1,1
@@ -1329,8 +1324,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14438,Division St & Townsend St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@102,Beach St & Polk St@@@42,,05:31:06,22:20:06,20.05,,20.05,,0,0,0,0,0,1,1
 14439,Delta St & Tioga Ave,56,RUTLAND,3,005B95,FFFFFF,1,Visitacion Valley Middle School@@@86,Visitacion Valley Middle School@@@42,,07:08:57,21:09:04,20.0,,20.0,,0,0,0,0,0,1,1
 14440,Donahue St & Innes Ave,19,POLK,3,005B95,FFFFFF,0,Galvez Ave & Hill Ave@@@102,Galvez Ave & Hill Ave@@@42,,05:43:06,22:45:14,20.35,,20.35,,0,0,0,0,0,1,1
-14443,Douglass St & 24th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:04:59,21:05:29,30.0,,30.0,,0,0,0,0,0,1,1
-14444,Douglass St & Alvarado St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:04:03,21:04:28,30.0,,30.0,,0,0,0,0,0,1,1
+14443,Douglass St & 24th St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:05:34,21:06:07,30.0,,30.0,,0,0,0,0,0,1,1
+14444,Douglass St & Alvarado St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:04:39,21:05:07,30.0,,30.0,,0,0,0,0,0,1,1
 14445,Drumm St & California St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@152,Jackson St & Van Ness Ave@@@84,,06:38:10,22:41:10,10.21951219512195,,10.21951219512195,,0,0,0,0,0,1,1
 14447,Duboce Ave & Church St,N,JUDAH,0,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@162,Judah/La Playa/Ocean Beach@@@70,,06:47:04,24:01:04,12.117647058823529,,12.117647058823529,,0,0,0,0,0,1,1
 14447,Duboce Ave & Church St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:42:00,07:58:00,,,,,0,0,0,0,0,1,1
@@ -1421,9 +1416,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14535,Eureka St & 18th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:37:57,21:08:57,30.153846153846153,,30.153846153846153,,0,0,0,0,0,1,1
 14536,Eureka St & 19th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:37:11,21:08:11,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14537,Eureka St & 20th St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:36:24,21:07:24,30.153846153846153,,30.153846153846153,,0,0,0,0,0,1,1
-14538,Eureka St & 21st St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:02:48,21:03:05,30.0,,30.0,,0,0,0,0,0,1,1
+14538,Eureka St & 21st St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:03:23,21:03:43,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14539,Eureka St & 21st St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:35:37,21:06:37,30.153846153846153,,30.153846153846153,,0,0,0,0,0,1,1
-14540,Eureka St & 22nd St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:03:25,21:03:45,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14540,Eureka St & 22nd St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:04:00,21:04:24,30.0,,30.0,,0,0,0,0,0,1,1
 14543,Eureka St & Market St,35,EUREKA,3,005B95,FFFFFF,1,Castro St & Market St@@@56,Castro St & Market St@@@28,,07:38:25,21:09:25,30.153846153846153,,30.153846153846153,,0,0,0,0,0,1,1
 14544,Eucalyptus Dr & 19th Ave,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@92,Daly City BART Station@@@34,,05:05:44,22:05:44,25.0,,25.0,,0,0,0,0,0,1,1
 14545,Eucalyptus Dr & 19th Ave,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@92,Ulloa St & West Portal Ave@@@34,,05:22:08,22:22:08,24.875,,24.875,,0,0,0,0,0,1,1
@@ -1484,8 +1479,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14611,Fillmore St & Eddy St,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@262###Fillmore St & Sutter St@@@24,Fillmore St & Bay St@@@106,Fillmore St & Bay St@@@12###Fillmore St & Sutter St@@@6,05:23:46,30:26:46,7.769230769230769,29.875,7.769230769230769,29.875,0,0,0,0,0,1,1
 14612,Fillmore St & Eddy St,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:28:33,29:31:00,7.4363636363636365,29.285714285714285,7.4363636363636365,29.285714285714285,0,0,0,0,0,1,1
 14613,Fillmore St & Golden Gate Ave,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@262###Fillmore St & Sutter St@@@24,Fillmore St & Bay St@@@106,Fillmore St & Bay St@@@12###Fillmore St & Sutter St@@@6,05:22:44,30:25:44,7.769230769230769,29.875,7.769230769230769,29.875,0,0,0,0,0,1,1
-14614,Fillmore St & Geary Blvd,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@262###Fillmore St & Sutter St@@@24,Fillmore St & Bay St@@@108,Fillmore St & Bay St@@@12###Fillmore St & Sutter St@@@6,05:25:27,30:28:27,7.830188679245283,29.875,7.830188679245283,29.875,0,0,0,0,0,1,1
-14615,Fillmore St & Geary Blvd,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:27:10,29:29:16,7.4363636363636365,29.285714285714285,7.4363636363636365,29.285714285714285,0,0,0,0,0,1,1
+14614,Fillmore St & Geary Blvd,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@262###Fillmore St & Sutter St@@@24,Fillmore St & Bay St@@@108,Fillmore St & Bay St@@@12###Fillmore St & Sutter St@@@6,05:25:15,30:28:15,7.811320754716981,29.875,7.811320754716981,29.875,0,0,0,0,0,1,1
+14615,Fillmore St & Geary Blvd,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:26:57,29:29:00,7.4363636363636365,29.285714285714285,7.4363636363636365,29.285714285714285,0,0,0,0,0,1,1
 14616,Fillmore St & Grove St,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@262###Fillmore St & Sutter St@@@24,Fillmore St & Bay St@@@108,Fillmore St & Bay St@@@12###Fillmore St & Sutter St@@@6,05:21:05,30:23:47,7.773584905660377,29.875,7.773584905660377,29.875,0,0,0,0,0,1,1
 14617,Fillmore St & Grove St,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:30:31,29:34:02,7.472727272727273,29.285714285714285,7.472727272727273,29.285714285714285,0,0,0,0,0,1,1
 14618,Fillmore St & Haight St,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:32:00,29:37:00,7.490909090909091,29.285714285714285,7.490909090909091,29.285714285714285,0,0,0,0,0,1,1
@@ -1509,7 +1504,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14637,Fillmore St & Sacramento St,22,FILLMORE,3,005B95,FFFFFF,0,Fillmore St & Sutter St@@@18###Mission Bay North & 4th St@@@264,Mission Bay North & 4th St@@@110,Mission Bay North & 4th St@@@16,05:44:12,29:25:51,7.722222222222222,29.285714285714285,7.722222222222222,29.285714285714285,0,0,0,0,0,1,1
 14640,Fillmore St & Sutter St,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@262###Fillmore St & Sutter St@@@24,Fillmore St & Bay St@@@108,Fillmore St & Bay St@@@14###Fillmore St & Sutter St@@@6,05:26:00,30:29:00,7.830188679245283,30.0,7.830188679245283,30.0,0,0,0,0,0,1,1
 14641,Fillmore St & Sutter St,22,FILLMORE,3,005B95,FFFFFF,0,Fillmore St & Sutter St@@@18###Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:26:00,29:28:00,7.4363636363636365,29.285714285714285,7.4363636363636365,29.285714285714285,0,0,0,0,0,1,1
-14642,Fillmore St & Turk St,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:29:17,29:31:55,7.454545454545454,29.285714285714285,7.454545454545454,29.285714285714285,0,0,0,0,0,1,1
+14642,Fillmore St & Turk St,22,FILLMORE,3,005B95,FFFFFF,0,Mission Bay North & 4th St@@@286,Mission Bay North & 4th St@@@112,Mission Bay North & 4th St@@@16,04:29:18,29:31:56,7.454545454545454,29.285714285714285,7.454545454545454,29.285714285714285,0,0,0,0,0,1,1
 14643,Fillmore St & Union St,22,FILLMORE,3,005B95,FFFFFF,1,Fillmore St & Bay St@@@282,Fillmore St & Bay St@@@110,Fillmore St & Bay St@@@14,05:12:42,29:06:42,7.574074074074074,30.0,7.574074074074074,30.0,0,0,0,0,0,1,1
 14645,Fitzgerald Ave & Hawes St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@22###Bowley St & Lincoln Blvd@@@142,Bowley St & Lincoln Blvd@@@70,,05:01:48,24:01:48,12.0,,12.0,,0,0,0,0,0,1,1
 14646,Fitzgerald Ave & Ingalls St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@22###Bowley St & Lincoln Blvd@@@142,Bowley St & Lincoln Blvd@@@70,,05:01:07,24:01:07,12.0,,12.0,,0,0,0,0,0,1,1
@@ -1794,27 +1789,22 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14938,Hahn St & Sunnydale Ave,8,BAYSHORE,3,005B95,FFFFFF,0,City College Terminal@@@260,City College Terminal@@@116,,05:34:16,24:38:53,7.2105263157894735,,7.2105263157894735,,0,0,0,0,0,1,1
 14938,Hahn St & Sunnydale Ave,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@26,,Ulloa St & West Portal Ave@@@18,24:20:14,30:20:14,,30.0,,30.0,0,0,0,0,0,1,1
 14940,Haight St & Baker St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@68,,05:18:49,24:22:19,12.090909090909092,,12.090909090909092,,0,0,0,0,0,1,1
-14940,Haight St & Baker St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:45:10,08:01:10,,,,,0,0,0,0,0,1,1
 14940,Haight St & Baker St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@16,24:29:33,29:59:33,,30.0,,30.0,0,0,0,0,0,1,1
 14941,Haight St & Buchanan St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:15:23,24:17:24,12.058823529411764,,12.058823529411764,,0,0,0,0,0,1,1
 14942,Haight St & Buchanan St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@68,,05:25:57,24:30:16,12.212121212121213,,12.212121212121213,,0,0,0,0,0,1,1
 14943,Haight St & Buena Vista East Ave,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:21:33,24:24:54,12.235294117647058,,12.235294117647058,,0,0,0,0,0,1,1
-14943,Haight St & Buena Vista East Ave,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@20,,,05:25:10,24:15:10,,,,,0,0,0,0,0,1,1
 14943,Haight St & Buena Vista East Ave,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:38:32,29:38:32,,30.0,,30.0,0,0,0,0,0,1,1
 14946,Haight St & Clayton St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,1,Arguello Blvd & California St@@@14###Sacramento St & Cherry St@@@84,Sacramento St & Cherry St@@@40,,06:25:38,23:12:05,21.0,,21.0,,0,0,0,0,0,1,1
 14946,Haight St & Clayton St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:05:47,22:05:47,30.0,,30.0,,0,0,0,0,0,1,1
 14946,Haight St & Clayton St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:22:57,24:14:04,20.4,,20.4,,0,0,0,0,0,1,1
 14946,Haight St & Clayton St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:20:42,24:24:53,12.147058823529411,,12.147058823529411,,0,0,0,0,0,1,1
-14946,Haight St & Clayton St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:47:06,08:03:06,,,,,0,0,0,0,0,1,1
 14946,Haight St & Clayton St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:31:37,30:01:37,,30.0,,30.0,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@98,25th St & Potrero Ave@@@42,,05:24:11,22:03:48,19.35,,19.35,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:20:17,22:18:17,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:34:54,24:24:54,20.25,,20.25,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:19:14,24:22:03,12.176470588235293,,12.176470588235293,,0,0,0,0,0,1,1
-14947,Haight St & Clayton St,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@20,,,05:23:38,24:13:38,,,,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:36:31,29:36:31,,30.0,,30.0,0,0,0,0,0,1,1
 14950,Haight St & Divisadero St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@68,,05:17:58,24:21:05,12.090909090909092,,12.090909090909092,,0,0,0,0,0,1,1
-14950,Haight St & Divisadero St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:44:22,08:00:22,,,,,0,0,0,0,0,1,1
 14950,Haight St & Divisadero St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@16,24:28:42,29:58:42,,30.0,,30.0,0,0,0,0,0,1,1
 14951,Haight St & Divisadero St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:22:49,24:26:27,12.205882352941176,,12.205882352941176,,0,0,0,0,0,1,1
 14951,Haight St & Divisadero St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:39:31,29:39:31,,30.0,,30.0,0,0,0,0,0,1,1
@@ -1824,10 +1814,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14954,Haight St & Gough St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:14:08,24:15:38,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 14955,Haight St & Laguna St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:14:59,24:16:50,12.058823529411764,,12.058823529411764,,0,0,0,0,0,1,1
 14957,Haight St & Masonic Ave,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:20:00,24:24:00,12.117647058823529,,12.117647058823529,,0,0,0,0,0,1,1
-14957,Haight St & Masonic Ave,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:46:19,08:02:19,,,,,0,0,0,0,0,1,1
 14957,Haight St & Masonic Ave,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:30:47,30:00:47,,30.0,,30.0,0,0,0,0,0,1,1
 14958,Haight St & Masonic Ave,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:20:00,24:23:00,12.205882352941176,,12.205882352941176,,0,0,0,0,0,1,1
-14958,Haight St & Masonic Ave,NBUS,JUDAH BUS,3,005B95,FFFFFF,1,Townsend St & 5th St@@@20,,,05:24:14,24:14:14,,,,,0,0,0,0,0,1,1
 14958,Haight St & Masonic Ave,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:37:19,29:37:19,,30.0,,30.0,0,0,0,0,0,1,1
 14960,Haight St & Pierce St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:17:06,24:19:52,12.088235294117647,,12.088235294117647,,0,0,0,0,0,1,1
 14960,Haight St & Pierce St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@16,24:27:50,29:57:50,,30.0,,30.0,0,0,0,0,0,1,1
