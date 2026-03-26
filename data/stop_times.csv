@@ -1997,7 +1997,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15171,Judson Ave & Gennessee St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:43:02,24:36:02,20.736842105263158,,20.736842105263158,,0,0,0,0,0,1,1
 15172,Judson Ave & Gennessee St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:13:34,24:03:34,19.95,,19.95,,0,0,0,0,0,1,1
 15173,Jefferson St & Divisadero St,30,STOCKTON,3,005B95,FFFFFF,0,Divisadero St & Chestnut St@@@36,,,05:36:24,24:28:40,,,,,0,0,0,0,0,1,1
-15173,Jefferson St & Divisadero St,30,STOCKTON,3,005B95,FFFFFF,1,Townsend St & 4th St@@@104,Townsend St & 4th St@@@58,,06:58:15,20:07:15,14.964285714285714,,14.964285714285714,,0,0,0,0,0,1,1
 15174,Jefferson St & Powell St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@142,Jones St & Beach St@@@68,,06:35:41,22:34:41,12.333333333333334,,12.333333333333334,,0,0,0,0,0,1,1
 15174,Jefferson St & Powell St,FBUS,MARKET & WHARVES BUS,0,,,1,Jones St & Beach St@@@10,,,22:53:09,24:33:09,,,,,0,0,0,0,0,1,1
 15174,Jefferson St & Powell St,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@30,,Jones St & Beach St@@@24,24:48:31,30:38:31,,25.0,,25.0,0,0,0,0,0,1,1
