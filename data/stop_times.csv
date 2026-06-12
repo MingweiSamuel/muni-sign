@@ -246,6 +246,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13241,11th St & Howard St,90,SAN BRUNO OWL,3,666666,FFFFFF,0,Bayshore Blvd & Arleta Ave@@@22,,Bayshore Blvd & Arleta Ave@@@16,24:32:24,29:32:24,,30.0,,30.0,0,0,0,0,0,1,1
 13243,11th St & Mission St,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@190,Sunnydale Ave / Mclaren School@@@84,,05:34:00,24:26:00,10.097560975609756,,10.097560975609756,,0,0,0,0,0,1,1
 13243,11th St & Mission St,90,SAN BRUNO OWL,3,666666,FFFFFF,0,Bayshore Blvd & Arleta Ave@@@22,,Bayshore Blvd & Arleta Ave@@@16,24:31:43,29:31:43,,30.0,,30.0,0,0,0,0,0,1,1
+13244,11th St & Market St,9,SAN BRUNO,3,005B95,FFFFFF,1,Market St & Steuart St@@@184,Market St & Steuart St@@@84,,05:34:00,24:22:00,10.048780487804878,,10.048780487804878,,0,0,0,0,0,1,1
 13245,11th St & Market St,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@190,Sunnydale Ave / Mclaren School@@@84,,05:33:24,24:25:24,10.097560975609756,,10.097560975609756,,0,0,0,0,0,1,1
 13247,14th Ave & Quintara St,6,HAYES-PARNASSUS,3,005B95,FFFFFF,1,Hyde St & Grove St@@@116,Hyde St & Grove St@@@44,,05:00:00,24:00:00,20.0,,20.0,,0,0,0,0,0,1,1
 13248,14th Ave & Santiago St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@110,Lower Great Hwy & Rivera St@@@42,,05:32:14,24:32:14,20.05,,20.05,,0,0,0,0,0,1,1
