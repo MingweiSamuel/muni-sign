@@ -1518,6 +1518,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14655,Folsom St & 1st St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:33:02,22:35:36,19.85,,19.85,,0,0,0,0,0,1,1
 14657,Folsom St & 3rd St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:30:25,22:32:37,19.8,,19.8,,0,0,0,0,0,1,1
 14658,Folsom St & 4th St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:29:00,22:31:00,19.8,,19.8,,0,0,0,0,0,1,1
+14658,Folsom St & 4th St,30,STOCKTON,3,005B95,FFFFFF,0,Van Ness Ave & North Point St@@@54,Van Ness Ave & North Point St@@@40,,07:25:00,15:46:00,19.94736842105263,,19.94736842105263,,0,0,0,0,0,1,1
 14659,Folsom St & 5th St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:27:59,22:29:49,19.8,,19.8,,0,0,0,0,0,1,1
 14660,Folsom St & 6th St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:26:58,22:28:37,19.8,,19.8,,0,0,0,0,0,1,1
 14661,Folsom St & 7th St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:25:47,22:27:15,19.75,,19.75,,0,0,0,0,0,1,1
