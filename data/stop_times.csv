@@ -173,7 +173,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13181,6th Ave & Clement St,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@70,,05:58:54,24:03:54,12.0,,12.0,,0,0,0,0,0,1,1
 13184,6th Ave & Geary Blvd,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:41:00,24:40:00,12.176470588235293,,12.176470588235293,,0,0,0,0,0,1,1
 13185,6th Ave & Geary Blvd,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@70,,06:00:00,24:05:00,12.0,,12.0,,0,0,0,0,0,1,1
-13188,1697 7th Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:03:46,22:55:46,30.0,,30.0,,0,0,0,0,0,1,1
+13188,1697 7th Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:51,22:55:46,30.0,,30.0,,0,0,0,0,0,1,1
 13188,1697 7th Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:31:40,24:24:05,20.63157894736842,,20.63157894736842,,0,0,0,0,0,1,1
 13188,1697 7th Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@70,,06:09:40,24:14:40,12.058823529411764,,12.058823529411764,,0,0,0,0,0,1,1
 13189,1697 7th Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:26:16,24:16:16,20.15,,20.15,,0,0,0,0,0,1,1
@@ -307,9 +307,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13304,17th Ave & Rivera St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@108,22nd St & Iowa St@@@42,,05:31:29,24:10:53,20.0,,20.0,,0,0,0,0,0,1,1
 13305,17th Ave & Rivera St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,0,Lower Great Hwy & Rivera St@@@110,Lower Great Hwy & Rivera St@@@40,,05:33:43,24:33:43,20.05263157894737,,20.05263157894737,,0,0,0,0,0,1,1
 13306,17th Ave & Santiago St,48,QUINTARA-24TH STREET,3,005B95,FFFFFF,1,22nd St & Iowa St@@@108,22nd St & Iowa St@@@42,,05:32:09,24:11:30,20.05,,20.05,,0,0,0,0,0,1,1
-13307,17th St & Belvedere St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:16:21,22:14:21,30.0,,30.0,,0,0,0,0,0,1,1
-13309,17th St & Clayton St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:16:04,22:14:04,30.0,,30.0,,0,0,0,0,0,1,1
-13310,17th St & Cole St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:16:42,22:14:42,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+13307,17th St & Belvedere St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:14:31,22:12:31,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+13309,17th St & Clayton St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:14:14,22:12:14,30.0,,30.0,,0,0,0,0,0,1,1
+13310,17th St & Cole St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:14:53,22:12:53,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13311,17th St & Castro St,F,MARKET & WHARVES,0,B49A36,000000,1,Jones St & Beach St@@@142,Jones St & Beach St@@@70,,06:00:00,22:00:00,12.058823529411764,,12.058823529411764,,0,0,0,0,0,1,1
 13311,17th St & Castro St,FBUS,MARKET & WHARVES BUS,3,B49A36,000000,1,Jones St & Beach St@@@10,,,22:25:00,24:05:00,,,,,0,0,0,0,0,1,1
 13314,17th St & Diamond St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:22:41,22:22:41,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
@@ -507,7 +507,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13537,30th St & Dolores St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:29:35,22:28:35,30.0,,30.0,,0,0,0,0,0,1,1
 13537,30th St & Dolores St,J,CHURCH,0,A96614,FFFFFF,1,Church St & Duboce Ave@@@30###Metro Embarcadero Station@@@122,Metro Embarcadero Station@@@56,,05:08:21,24:08:21,14.962962962962964,,14.962962962962964,,0,0,0,0,0,1,1
 13538,30th St & Dolores St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:35:08,28:50:53,12.147058823529411,30.0,12.147058823529411,30.0,0,0,0,0,0,1,1
-13538,30th St & Dolores St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:41:04,22:32:14,30.0,,30.0,,0,0,0,0,0,1,1
+13538,30th St & Dolores St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:36:18,22:32:14,30.0,,30.0,,0,0,0,0,0,1,1
 13538,30th St & Dolores St,J,CHURCH,0,A96614,FFFFFF,0,Balboa Park BART/Mezzanine Level@@@154,Balboa Park BART/Mezzanine Level@@@56,,05:40:46,25:14:46,15.074074074074074,,15.074074074074074,,0,0,0,0,0,1,1
 13540,30th St & Mission St,24,DIVISADERO,3,005B95,FFFFFF,1,Divisadero St & Sutter St@@@28###Fillmore St & Jackson St@@@16###Jackson St & Webster St@@@158,Jackson St & Webster St@@@68,Divisadero St & Sutter St@@@14,05:20:00,29:08:00,12.121212121212121,30.0,12.121212121212121,30.0,0,0,0,0,0,1,1
 13540,30th St & Mission St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:29:00,22:28:00,30.0,,30.0,,0,0,0,0,0,1,1
@@ -755,8 +755,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13803,Buckingham Way & Winston Dr,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@92,Ulloa St & West Portal Ave@@@32,,05:17:44,22:17:44,25.133333333333333,,25.133333333333333,,0,0,0,0,0,1,1
 13812,Bush St & Hyde St,27,BRYANT,3,005B95,FFFFFF,0,24th St & Mission St@@@102,24th St & Mission St@@@40,,05:14:26,22:05:55,20.05263157894737,,20.05263157894737,,0,0,0,0,0,1,1
 13814,Bush St & Leavenworth St,27,BRYANT,3,005B95,FFFFFF,0,24th St & Mission St@@@102,24th St & Mission St@@@42,,05:14:56,22:06:35,20.05,,20.05,,0,0,0,0,0,1,1
-13818,Buena Vista Ave E & Buena Vista Ter,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:12:21,22:10:21,30.0,,30.0,,0,0,0,0,0,1,1
-13819,Buena Vista Ter & Buena Vista Ave E,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:11:35,22:09:35,30.0,,30.0,,0,0,0,0,0,1,1
 13820,Buena Vista Ter & Roosevelt Way,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:10:45,22:08:45,30.0,,30.0,,0,0,0,0,0,1,1
 13822,California St & 4th Ave,1,CALIFORNIA,3,005B95,FFFFFF,0,Geary Blvd & 33rd Ave@@@222,Geary Blvd & 33rd Ave@@@84,,04:41:25,24:16:13,10.024390243902438,,10.024390243902438,,0,0,0,0,0,1,1
 13823,California St & 4th Ave,1,CALIFORNIA,3,005B95,FFFFFF,1,California St & Presidio Ave@@@18###Clay St & Drumm St@@@204,Clay St & Drumm St@@@84,,05:08:42,24:35:33,10.048780487804878,,10.048780487804878,,0,0,0,0,0,1,1
@@ -879,27 +877,27 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 13962,Chicago Way & Naylor St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:01:37,23:51:37,19.95,,19.95,,0,0,0,0,0,1,1
 13963,Chicago Way & Naylor St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:55:26,24:48:26,20.75,,20.75,,0,0,0,0,0,1,1
 13964,Chicago Way & South Hill Blvd,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:55:55,24:48:55,20.75,,20.75,,0,0,0,0,0,1,1
-13965,Chenery St & 30th St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:40:38,22:31:51,30.0,,30.0,,0,0,0,0,0,1,1
+13965,Chenery St & 30th St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:35:52,22:31:51,30.0,,30.0,,0,0,0,0,0,1,1
 13966,Chenery St & 30th St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:30:13,22:29:13,30.0,,30.0,,0,0,0,0,0,1,1
 13967,Chenery St & Castro St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:17:54,21:18:54,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13967,Chenery St & Castro St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:34:03,22:33:03,30.0,,30.0,,0,0,0,0,0,1,1
-13968,Chenery St & Fairmount St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:39:26,22:30:52,30.0,,30.0,,0,0,0,0,0,1,1
+13968,Chenery St & Fairmount St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:34:40,22:30:52,30.0,,30.0,,0,0,0,0,0,1,1
 13969,Chenery St & Mateo St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:16:18,21:17:18,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13969,Chenery St & Mateo St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:32:47,22:31:47,30.0,,30.0,,0,0,0,0,0,1,1
 13970,Chenery St & Mateo St,35,EUREKA,3,005B95,FFFFFF,1,Market St & Castro St@@@56,Market St & Castro St@@@28,,07:22:01,20:53:01,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-13970,Chenery St & Mateo St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:38:03,22:29:43,30.0,,30.0,,0,0,0,0,0,1,1
+13970,Chenery St & Mateo St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:33:17,22:29:43,30.0,,30.0,,0,0,0,0,0,1,1
 13971,Chenery St & Miguel St,35,EUREKA,3,005B95,FFFFFF,1,Market St & Castro St@@@56,Market St & Castro St@@@28,,07:22:28,20:53:28,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-13971,Chenery St & Miguel St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:38:33,22:30:07,30.0,,30.0,,0,0,0,0,0,1,1
+13971,Chenery St & Miguel St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:33:47,22:30:07,30.0,,30.0,,0,0,0,0,0,1,1
 13972,Chenery St & Miguel St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:15:48,21:16:48,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13972,Chenery St & Miguel St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:32:14,22:31:14,30.0,,30.0,,0,0,0,0,0,1,1
 13973,Chenery St & Natick St,35,EUREKA,3,005B95,FFFFFF,1,Market St & Castro St@@@56,Market St & Castro St@@@28,,07:21:01,20:52:01,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-13973,Chenery St & Natick St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:36:58,22:28:48,30.0,,30.0,,0,0,0,0,0,1,1
+13973,Chenery St & Natick St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:32:12,22:28:48,30.0,,30.0,,0,0,0,0,0,1,1
 13974,Chenery St & Randall St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:30:57,22:29:57,30.0,,30.0,,0,0,0,0,0,1,1
-13975,Chenery St & Randall St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:39:44,22:31:06,30.0,,30.0,,0,0,0,0,0,1,1
+13975,Chenery St & Randall St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:34:58,22:31:06,30.0,,30.0,,0,0,0,0,0,1,1
 13976,Chenery St & Roanoke St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:16:55,21:17:55,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 13976,Chenery St & Roanoke St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:33:16,22:32:16,30.0,,30.0,,0,0,0,0,0,1,1
 13977,Chenery St & Roanoke St,35,EUREKA,3,005B95,FFFFFF,1,Market St & Castro St@@@56,Market St & Castro St@@@28,,07:21:34,20:52:34,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-13977,Chenery St & Roanoke St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:37:34,22:29:18,30.0,,30.0,,0,0,0,0,0,1,1
+13977,Chenery St & Roanoke St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:32:48,22:29:18,30.0,,30.0,,0,0,0,0,0,1,1
 13978,Brotherhood Way & Chumasero Dr,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@92,Ulloa St & West Portal Ave@@@34,,05:09:17,22:09:17,25.125,,25.125,,0,0,0,0,0,1,1
 13979,Chumasero Dr & Brotherhood Way,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@92,Daly City BART Station@@@32,,05:16:46,22:16:46,25.2,,25.2,,0,0,0,0,0,1,1
 13981,Chumasero Dr & Font Blvd,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@92,Daly City BART Station@@@34,,05:16:10,22:16:10,25.1875,,25.1875,,0,0,0,0,0,1,1
@@ -936,10 +934,10 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14029,Clay St & Stockton St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@212,Clay St & Drumm St@@@86,,05:02:53,24:17:07,9.880952380952381,,9.880952380952381,,0,0,0,0,0,1,1
 14030,Clay St & Taylor St,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@212,Clay St & Drumm St@@@84,,05:01:02,24:14:48,9.878048780487806,,9.878048780487806,,0,0,0,0,0,1,1
 14031,Clay St & Van Ness Ave,1,CALIFORNIA,3,005B95,FFFFFF,1,Clay St & Drumm St@@@212,Clay St & Drumm St@@@86,,04:57:03,24:10:13,9.857142857142858,,9.857142857142858,,0,0,0,0,0,1,1
-14032,Clarendon Ave & Clarendon Woods S,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:54:32,22:46:32,30.0,,30.0,,0,0,0,0,0,1,1
-14033,Clarendon Ave & Galewood Circle,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@116,Laguna Honda Blvd/Forest Hill Sta@@@56,,08:55:19,22:52:01,15.37037037037037,,15.37037037037037,,0,0,0,0,0,1,1
-14035,Clarendon Ave & Olympia Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:54:58,22:46:58,30.0,,30.0,,0,0,0,0,0,1,1
-14037,Clarendon Ave & Panorama Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@116,Laguna Honda Blvd/Forest Hill Sta@@@56,,08:55:29,22:52:11,15.37037037037037,,15.37037037037037,,0,0,0,0,0,1,1
+14032,Clarendon Ave & Clarendon Woods S,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:49:37,22:46:32,30.0,,30.0,,0,0,0,0,0,1,1
+14033,Clarendon Ave & Galewood Circle,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@116,Laguna Honda Blvd/Forest Hill Sta@@@56,,08:50:24,22:52:01,14.62962962962963,,14.62962962962963,,0,0,0,0,0,1,1
+14035,Clarendon Ave & Olympia Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:50:03,22:46:58,30.0,,30.0,,0,0,0,0,0,1,1
+14037,Clarendon Ave & Panorama Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@116,Laguna Honda Blvd/Forest Hill Sta@@@56,,08:50:34,22:52:11,14.62962962962963,,14.62962962962963,,0,0,0,0,0,1,1
 14069,Clement St & Legion Of Honor Dr,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@16,,,19:20:36,21:59:36,,,,,0,0,0,0,0,1,1
 14069,Clement St & Legion Of Honor Dr,18,46TH AVENUE,3,005B95,FFFFFF,1,Legion Of Honor@@@74,Legion Of Honor@@@42,,06:34:39,18:38:39,20.05,,20.05,,0,0,0,0,0,1,1
 14070,Clayton St & Twin Peaks Blvd,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@98,25th St & Potrero Ave@@@44,,05:27:59,22:08:39,19.476190476190474,,19.476190476190474,,0,0,0,0,0,1,1
@@ -958,8 +956,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14087,Coit Tower,39,COIT,3,005B95,FFFFFF,1,North Point St & Stockton St@@@62,North Point St & Stockton St@@@42,,09:20:00,19:20:00,20.0,,20.0,,0,0,0,0,0,1,1
 14088,Cole St & 17th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:09:38,22:09:38,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14089,Cole St & Alma St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:09:00,22:09:00,30.0,,30.0,,0,0,0,0,0,1,1
-14090,Cole St & Alma St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:17:18,22:15:18,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-14091,Cole St & Carl St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:18:19,22:16:19,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14090,Cole St & Alma St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:15:28,22:13:28,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14091,Cole St & Carl St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:16:29,22:14:29,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14091,Cole St & Carl St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:33:00,24:23:00,20.2,,20.2,,0,0,0,0,0,1,1
 14092,Cole St & Carl St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:08:04,22:08:04,30.0,,30.0,,0,0,0,0,0,1,1
 14092,Cole St & Carl St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:24:53,24:16:15,20.45,,20.45,,0,0,0,0,0,1,1
@@ -967,15 +965,15 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14094,Cole St & Frederick St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:07:33,22:07:33,30.0,,30.0,,0,0,0,0,0,1,1
 14094,Cole St & Frederick St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:24:27,24:15:45,20.45,,20.45,,0,0,0,0,0,1,1
 14094,Cole St & Frederick St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:33:01,30:03:01,,30.0,,30.0,0,0,0,0,0,1,1
-14095,Cole St & Haight St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:19:35,22:17:35,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14095,Cole St & Haight St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:17:45,22:15:45,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14095,Cole St & Haight St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:34:14,24:24:14,20.25,,20.25,,0,0,0,0,0,1,1
 14095,Cole St & Haight St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:35:53,29:35:53,,30.0,,30.0,0,0,0,0,0,1,1
 14096,Cole St & Haight St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:06:29,22:06:29,30.0,,30.0,,0,0,0,0,0,1,1
 14096,Cole St & Haight St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:23:32,24:14:44,20.45,,20.45,,0,0,0,0,0,1,1
 14096,Cole St & Haight St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:32:10,30:02:10,,30.0,,30.0,0,0,0,0,0,1,1
-14097,Cole St & Parnassus Ave,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:17:53,22:15:53,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14097,Cole St & Parnassus Ave,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:16:03,22:14:03,30.0,,30.0,,0,0,0,0,0,1,1
 14098,Cole St & Parnassus Ave,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:08:27,22:08:27,30.0,,30.0,,0,0,0,0,0,1,1
-14099,Cole St & Waller St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:19:15,22:17:15,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14099,Cole St & Waller St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:17:25,22:15:25,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14099,Cole St & Waller St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:33:54,24:23:54,20.2,,20.2,,0,0,0,0,0,1,1
 14099,Cole St & Waller St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:35:35,29:35:35,,30.0,,30.0,0,0,0,0,0,1,1
 14100,Columbus Ave & Bay St,30,STOCKTON,3,005B95,FFFFFF,1,4th St & Mission St@@@54###Townsend St & 4th St@@@136,4th St & Mission St@@@42###Townsend St & 4th St@@@54,,06:03:43,24:10:43,8.574468085106384,,8.574468085106384,,0,0,0,0,0,1,1
@@ -1112,7 +1110,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14235,Fulton St & Stanyan St,5,FULTON,3,005B95,FFFFFF,1,4th St & Market St@@@18###Transit Center Bay B@@@276,Transit Center Bay B@@@120,4th St & Market St@@@12,04:25:33,28:50:34,7.016949152542373,30.0,7.016949152542373,30.0,0,0,0,0,0,1,1
 14236,Fulton St & Stanyan Stw,33,ASHBURY-18TH ST,3,005B95,FFFFFF,1,Arguello Blvd & California St@@@14###Sacramento St & Cherry St@@@84,Sacramento St & Cherry St@@@40,,06:28:51,23:16:47,21.05263157894737,,21.05263157894737,,0,0,0,0,0,1,1
 14236,Fulton St & Stanyan Stw,5,FULTON,3,005B95,FFFFFF,0,6th Ave & Fulton St@@@22###Cabrillo St & La Playa St@@@272,Cabrillo St & La Playa St@@@118,6th Ave & Fulton St@@@2###Cabrillo St & La Playa St@@@14,05:25:17,29:29:50,7.051724137931035,28.0,7.051724137931035,28.0,0,0,0,0,0,1,1
-14238,Fowler Ave & Portola Dr,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:20:37,22:19:17,30.0,,30.0,,0,0,0,0,0,1,1
+14238,Fowler Ave & Portola Dr,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:20:38,22:19:17,30.0,,30.0,,0,0,0,0,0,1,1
 14245,Garfield St & Beverly St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@22###Bowley St & Lincoln Blvd@@@142,Bowley St & Lincoln Blvd@@@68,,05:28:13,24:28:13,12.030303030303031,,12.030303030303031,,0,0,0,0,0,1,1
 14246,Garfield St & Bright St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@22###Bowley St & Lincoln Blvd@@@142,Bowley St & Lincoln Blvd@@@70,,05:26:06,24:26:06,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 14247,Garfield St & Bright St,29,SUNSET,3,005B95,FFFFFF,0,Fitzgerald Ave & Keith St@@@168,Fitzgerald Ave & Keith St@@@66,,05:27:42,24:26:42,12.46875,,12.46875,,0,0,0,0,0,1,1
@@ -1219,7 +1217,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14333,Castro St & Elizabeth St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:28:36,28:42:21,12.117647058823529,30.0,12.117647058823529,30.0,0,0,0,0,0,1,1
 14334,Castro St & Market St,24,DIVISADERO,3,005B95,FFFFFF,0,3rd St & Palou Ave@@@182###Cortland Ave & Bayshore Blvd@@@20,3rd St & Palou Ave@@@70,Cortland Ave & Bayshore Blvd@@@12,04:25:32,28:37:25,12.088235294117647,30.0,12.088235294117647,30.0,0,0,0,0,0,1,1
 14334,Castro St & Market St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:00:12,21:00:13,30.0,,30.0,,0,0,0,0,0,1,1
-14335,City View Way & Knollview Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:02,22:50:02,30.0,,30.0,,0,0,0,0,0,1,1
+14335,City View Way & Knollview Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:53:07,22:50:02,30.0,,30.0,,0,0,0,0,0,1,1
 14336,Curtis St & Prague St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:53:32,24:46:32,20.7,,20.7,,0,0,0,0,0,1,1
 14337,Cargo Way & 3rd St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@24,,19th Ave & Holloway Ave@@@16,24:23:33,29:53:33,,30.0,,30.0,0,0,0,0,0,1,1
 14338,Cargo Way & 3rd St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,0,Ulloa St & West Portal Ave@@@26,,Ulloa St & West Portal Ave@@@18,24:04:28,30:04:28,,30.0,,30.0,0,0,0,0,0,1,1
@@ -1264,11 +1262,11 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14384,Diamond St & Cesar Chavez St,35,EUREKA,3,005B95,FFFFFF,1,Market St & Castro St@@@56,Market St & Castro St@@@26,,07:28:47,20:59:47,30.083333333333332,,30.083333333333332,,0,0,0,0,0,1,1
 14385,Diamond St & Cesar Chavez St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:08:03,21:08:51,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14386,Diamond St & Bosworth St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:25:00,22:25:00,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-14386,Diamond St & Bosworth St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:36:00,22:28:00,30.0,,30.0,,0,0,0,0,0,1,1
+14386,Diamond St & Bosworth St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:31:14,22:28:00,30.0,,30.0,,0,0,0,0,0,1,1
 14387,Diamond St & Bosworth St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:26:00,22:26:00,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
 14387,Diamond St & Bosworth St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:35:00,22:34:00,30.0,,30.0,,0,0,0,0,0,1,1
 14388,Diamond St & Chenery St,35,EUREKA,3,005B95,FFFFFF,1,Market St & Castro St@@@56,Market St & Castro St@@@28,,07:20:30,20:51:30,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-14388,Diamond St & Chenery St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:36:24,22:28:20,30.0,,30.0,,0,0,0,0,0,1,1
+14388,Diamond St & Chenery St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:31:38,22:28:20,30.0,,30.0,,0,0,0,0,0,1,1
 14388,Diamond St & Chenery St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:11:25,22:10:21,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 14389,Diamond St & Chenery St,35,EUREKA,3,005B95,FFFFFF,0,Bosworth St & Diamond St@@@58,Bosworth St & Diamond St@@@28,,07:18:31,21:19:31,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14389,Diamond St & Chenery St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:34:32,22:33:32,30.0,,30.0,,0,0,0,0,0,1,1
@@ -1512,7 +1510,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14648,Fitzgerald Ave & Keith St,29,SUNSET,3,005B95,FFFFFF,1,25th Ave & California St@@@22###Bowley St & Lincoln Blvd@@@142,Bowley St & Lincoln Blvd@@@72,,05:00:00,24:00:00,12.0,,12.0,,0,0,0,0,0,1,1
 14649,Foerster St & Flood Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:14:38,24:04:38,19.95,,19.95,,0,0,0,0,0,1,1
 14650,Foerster St & Judson Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:14:13,24:04:13,19.95,,19.95,,0,0,0,0,0,1,1
-14651,Foerster St & Mangels Ave,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:30:33,22:23:39,30.0,,30.0,,0,0,0,0,0,1,1
+14651,Foerster St & Mangels Ave,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:25:46,22:23:39,30.0,,30.0,,0,0,0,0,0,1,1
 14652,Foerster St & Mangels Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:39:21,22:37:21,30.0,,30.0,,0,0,0,0,0,1,1
 14654,Foerster St & Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:39:41,22:37:41,30.0,,30.0,,0,0,0,0,0,1,1
 14655,Folsom St & 1st St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,1,Jackson St & Van Ness Ave@@@98,Jackson St & Van Ness Ave@@@42,,06:33:02,22:35:36,19.85,,19.85,,0,0,0,0,0,1,1
@@ -1729,7 +1727,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14874,Legion Of Honor,18,46TH AVENUE,3,005B95,FFFFFF,0,19th Ave & Buckingham Way@@@96,19th Ave & Buckingham Way@@@42,,06:00:02,22:01:02,20.0,,20.0,,0,0,0,0,0,1,1
 14876,Laguna Honda Blvd & Balceta Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:22:58,24:12:58,20.1,,20.1,,0,0,0,0,0,1,1
 14877,Laguna Honda Blvd & Balceta Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:35:02,24:28:02,20.63157894736842,,20.63157894736842,,0,0,0,0,0,1,1
-14878,Laguna Honda Blvd & Clarendon Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:05:15,22:57:15,30.0,,30.0,,0,0,0,0,0,1,1
+14878,Laguna Honda Blvd & Clarendon Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:00:20,22:57:15,30.0,,30.0,,0,0,0,0,0,1,1
 14878,Laguna Honda Blvd & Clarendon Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:33:06,24:25:53,20.57894736842105,,20.57894736842105,,0,0,0,0,0,1,1
 14878,Laguna Honda Blvd & Clarendon Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@70,,06:11:06,24:16:06,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 14881,Geneva Ave & Howth St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:10:54,24:00:54,19.95,,19.95,,0,0,0,0,0,1,1
@@ -1800,7 +1798,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 14946,Haight St & Clayton St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,0,Ortega St & 48th Ave@@@158,Ortega St & 48th Ave@@@70,,05:20:42,24:24:53,12.147058823529411,,12.147058823529411,,0,0,0,0,0,1,1
 14946,Haight St & Clayton St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@18,24:31:37,30:01:37,,30.0,,30.0,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,0,25th St & Potrero Ave@@@98,25th St & Potrero Ave@@@42,,05:24:11,22:03:48,19.35,,19.35,,0,0,0,0,0,1,1
-14947,Haight St & Clayton St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:20:17,22:18:17,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+14947,Haight St & Clayton St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:18:27,22:16:27,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:34:54,24:24:54,20.25,,20.25,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,7,HAIGHT-NORIEGA,3,005B95,FFFFFF,1,Transit Center Bay E@@@156,Transit Center Bay E@@@70,,05:19:14,24:22:03,12.176470588235293,,12.176470588235293,,0,0,0,0,0,1,1
 14947,Haight St & Clayton St,NOWL,OWL JUDAH,3,666666,FFFFFF,1,Townsend St & 5th St@@@22,,Townsend St & 5th St@@@16,24:36:31,29:36:31,,30.0,,30.0,0,0,0,0,0,1,1
@@ -2123,14 +2121,14 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15242,Kiska Rd & Ingalls St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,0,Palou Ave & 3rd St@@@130,Palou Ave & 3rd St@@@64,,08:33:00,22:39:00,12.741935483870968,,12.741935483870968,,0,0,0,0,0,1,1
 15242,Kiska Rd & Ingalls St,15,BAYVIEW HUNTERS POINT EXPRESS,3,005B95,FFFFFF,1,Sutter St & Sansome St@@@130,Sutter St & Sansome St@@@68,,08:12:00,22:12:00,12.363636363636363,,12.363636363636363,,0,0,0,0,0,1,1
 15242,Kiska Rd & Ingalls St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@96,Newhall St & Hudson@@@42,,06:23:42,22:49:42,20.25,,20.25,,0,0,0,0,0,1,1
-15243,Laguna Honda Blvd & Clarendon Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:53:42,22:45:42,30.0,,30.0,,0,0,0,0,0,1,1
+15243,Laguna Honda Blvd & Clarendon Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:48:47,22:45:42,30.0,,30.0,,0,0,0,0,0,1,1
 15243,Laguna Honda Blvd & Clarendon Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:24:41,24:14:41,20.15,,20.15,,0,0,0,0,0,1,1
 15243,Laguna Honda Blvd & Clarendon Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:30:41,24:28:41,12.058823529411764,,12.058823529411764,,0,0,0,0,0,1,1
-15244,Laguna Honda Blvd & Dewey Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:52:45,22:44:48,30.0,,30.0,,0,0,0,0,0,1,1
+15244,Laguna Honda Blvd & Dewey Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:47:50,22:44:48,30.0,,30.0,,0,0,0,0,0,1,1
 15244,Laguna Honda Blvd & Dewey Blvd,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:23:41,24:13:41,20.1,,20.1,,0,0,0,0,0,1,1
 15244,Laguna Honda Blvd & Dewey Blvd,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:29:44,24:27:44,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 15244,Laguna Honda Blvd & Dewey Blvd,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:23:34,22:21:34,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
-15245,Laguna Honda Blvd/Opp Forest Hill,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:53:00,22:45:00,30.0,,30.0,,0,0,0,0,0,1,1
+15245,Laguna Honda Blvd/Opp Forest Hill,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:48:05,22:45:00,30.0,,30.0,,0,0,0,0,0,1,1
 15245,Laguna Honda Blvd/Opp Forest Hill,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:24:00,24:14:00,20.1,,20.1,,0,0,0,0,0,1,1
 15245,Laguna Honda Blvd/Opp Forest Hill,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:30:00,24:28:00,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 15247,Laguna Honda Blvd/Forest Hill Sta,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:18:00,22:16:00,30.0,,30.0,,0,0,0,0,0,1,1
@@ -2139,7 +2137,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15247,Laguna Honda Blvd/Forest Hill Sta,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:11:00,22:11:00,30.0,,30.0,,0,0,0,0,0,1,1
 15249,Laguna Honda Blvd & Idora Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:22:32,24:12:32,20.1,,20.1,,0,0,0,0,0,1,1
 15250,Laguna Honda Blvd & Idora Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:35:24,24:28:24,20.63157894736842,,20.63157894736842,,0,0,0,0,0,1,1
-15253,7th Ave & Laguna Honda,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:04:10,22:56:10,30.0,,30.0,,0,0,0,0,0,1,1
+15253,7th Ave & Laguna Honda,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:59:15,22:56:10,30.0,,30.0,,0,0,0,0,0,1,1
 15253,7th Ave & Laguna Honda,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:32:03,24:24:34,20.57894736842105,,20.57894736842105,,0,0,0,0,0,1,1
 15253,7th Ave & Laguna Honda,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@70,,06:10:03,24:15:03,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 15254,Laguna Honda Blvd & Portola Dr,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:35:48,24:28:48,20.7,,20.7,,0,0,0,0,0,1,1
@@ -2299,25 +2297,25 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15422,Monterey Blvd & Baden St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@30,,06:27:49,22:27:27,29.928571428571427,,29.928571428571427,,0,0,0,0,0,1,1
 15422,Monterey Blvd & Baden St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:36:37,22:35:13,30.0,,30.0,,0,0,0,0,0,1,1
 15423,Monterey Blvd & Baden St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:23:28,22:23:28,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-15423,Monterey Blvd & Baden St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:33:37,22:26:06,30.0,,30.0,,0,0,0,0,0,1,1
+15423,Monterey Blvd & Baden St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:28:51,22:26:06,30.0,,30.0,,0,0,0,0,0,1,1
 15424,Monterey Blvd & Congo St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:28:27,22:27:57,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
 15424,Monterey Blvd & Congo St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:37:10,22:35:38,30.0,,30.0,,0,0,0,0,0,1,1
 15425,Monterey Blvd & Congo St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:22:59,22:22:59,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-15425,Monterey Blvd & Congo St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:32:56,22:25:33,30.0,,30.0,,0,0,0,0,0,1,1
+15425,Monterey Blvd & Congo St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:28:10,22:25:33,30.0,,30.0,,0,0,0,0,0,1,1
 15426,Monterey Blvd & Detroit St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:29:11,22:28:33,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
 15426,Monterey Blvd & Detroit St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:37:50,22:36:07,30.0,,30.0,,0,0,0,0,0,1,1
 15427,Monterey Blvd & Detroit St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:22:34,22:22:34,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-15427,Monterey Blvd & Detroit St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:32:22,22:25:06,30.0,,30.0,,0,0,0,0,0,1,1
+15427,Monterey Blvd & Detroit St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:27:36,22:25:06,30.0,,30.0,,0,0,0,0,0,1,1
 15428,Monterey Blvd & Edna St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:29:41,22:28:57,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
 15428,Monterey Blvd & Edna St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:38:17,22:36:27,30.0,,30.0,,0,0,0,0,0,1,1
 15429,Monterey Blvd & Edna St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:21:59,22:21:59,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-15429,Monterey Blvd & Edna St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:31:33,22:24:26,30.0,,30.0,,0,0,0,0,0,1,1
+15429,Monterey Blvd & Edna St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:26:46,22:24:26,30.0,,30.0,,0,0,0,0,0,1,1
 15430,Monterey Blvd & El Verano Way,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:33:38,22:32:12,30.0,,30.0,,0,0,0,0,0,1,1
 15431,Monterey Blvd & Faxon Ave,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:19:13,22:19:13,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 15432,Monterey Blvd & Foerster St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:30:25,22:29:32,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
 15432,Monterey Blvd & Foerster St,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:15:15,24:05:15,19.95,,19.95,,0,0,0,0,0,1,1
 15433,Monterey Blvd & Foerster St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:21:35,22:21:35,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-15433,Monterey Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:31:00,22:24:00,30.0,,30.0,,0,0,0,0,0,1,1
+15433,Monterey Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:26:13,22:24:00,30.0,,30.0,,0,0,0,0,0,1,1
 15434,Monterey Blvd & Gennessee St,23,MONTEREY,3,005B95,FFFFFF,1,Palou Ave & 3rd St@@@66,Palou Ave & 3rd St@@@28,,06:21:00,22:21:00,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 15434,Monterey Blvd & Gennessee St,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@40,,05:42:00,24:35:00,20.736842105263158,,20.736842105263158,,0,0,0,0,0,1,1
 15435,Monterey Blvd & Gennessee St,23,MONTEREY,3,005B95,FFFFFF,0,Sloat Blvd & 47th Ave@@@66,Sloat Blvd & 47th Ave@@@28,,06:31:00,22:30:00,29.923076923076923,,29.923076923076923,,0,0,0,0,0,1,1
@@ -2339,20 +2337,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15445,Monterey Blvd & Valdez Ave,43,MASONIC,3,005B95,FFFFFF,0,Munich St & Geneva Ave@@@112,Munich St & Geneva Ave@@@42,,05:41:01,24:34:01,20.7,,20.7,,0,0,0,0,0,1,1
 15446,Mt Vernon Ave & Howth St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@96,Newhall St & Hudson@@@42,,05:44:30,22:04:30,20.0,,20.0,,0,0,0,0,0,1,1
 15447,Mt Vernon Ave & Louisburg St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@96,Newhall St & Hudson@@@42,,05:44:44,22:04:44,20.0,,20.0,,0,0,0,0,0,1,1
-15450,555 Myra Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:25:51,21:22:51,30.0,,30.0,,0,0,0,0,0,1,1
-15450,555 Myra Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:46:51,21:14:51,30.0,,30.0,,0,0,0,0,0,1,1
-15451,555 Myra Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:23:42,21:21:08,30.0,,30.0,,0,0,0,0,0,1,1
-15451,555 Myra Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:44:42,21:12:42,30.0,,30.0,,0,0,0,0,0,1,1
-15452,Myra Way & Dalewood Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:25:00,21:22:00,30.0,,30.0,,0,0,0,0,0,1,1
-15452,Myra Way & Dalewood Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:46:00,21:14:00,30.0,,30.0,,0,0,0,0,0,1,1
-15453,Myra Way & Molimo Dr,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:24:03,21:21:22,30.0,,30.0,,0,0,0,0,0,1,1
-15453,Myra Way & Molimo Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:45:03,21:13:03,30.0,,30.0,,0,0,0,0,0,1,1
-15454,Myra Way & Molimo Dr,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:25:35,21:22:35,30.0,,30.0,,0,0,0,0,0,1,1
-15454,Myra Way & Molimo Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:46:35,21:14:35,30.0,,30.0,,0,0,0,0,0,1,1
-15455,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:26:08,21:23:08,30.0,,30.0,,0,0,0,0,0,1,1
-15455,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:47:08,21:15:08,30.0,,30.0,,0,0,0,0,0,1,1
-15456,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:23:08,21:20:45,30.0,,30.0,,0,0,0,0,0,1,1
-15456,Myra Way & Omar Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:44:08,21:12:08,30.0,,30.0,,0,0,0,0,0,1,1
 15458,North Point St & Hyde St,28,19TH AVENUE,3,005B95,FFFFFF,0,Daly City BART Parking Lot E@@@168,Daly City BART Parking Lot E@@@70,,05:03:33,24:05:28,11.911764705882353,,11.911764705882353,,0,0,0,0,0,1,1
 15458,North Point St & Hyde St,30,STOCKTON,3,005B95,FFFFFF,0,Crissy Field Terminal@@@104###Divisadero St & Chestnut St@@@36###Van Ness Ave & North Point St@@@54,Crissy Field Terminal@@@56###Van Ness Ave & North Point St@@@44,,05:25:05,24:19:05,8.489795918367347,,8.489795918367347,,0,0,0,0,0,1,1
 15458,North Point St & Hyde St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@24,,19th Ave & Holloway Ave@@@18,24:51:43,30:21:43,,30.0,,30.0,0,0,0,0,0,1,1
@@ -2482,7 +2466,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15568,Mission St & 26th St,49,VAN NESS-MISSION,3,005B95,FFFFFF,0,City College Terminal@@@264,City College Terminal@@@104,,05:25:20,24:27:41,8.098039215686274,,8.098039215686274,,0,0,0,0,0,1,1
 15571,Mission St & 30th St,14,MISSION,3,005B95,FFFFFF,1,Steuart St & Mission St@@@312,Steuart St & Mission St@@@104,Steuart St & Mission St@@@30,05:34:00,29:16:00,8.0,13.714285714285714,8.0,13.714285714285714,0,0,0,0,0,1,1
 15571,Mission St & 30th St,14R,MISSION RAPID,3,BF2B45,FFFFFF,1,Mission St & Main St@@@184,Mission St & Main St@@@82,,05:19:00,22:20:00,10.075,,10.075,,0,0,0,0,0,1,1
-15571,Mission St & 30th St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:42:00,22:33:00,30.0,,30.0,,0,0,0,0,0,1,1
+15571,Mission St & 30th St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:37:14,22:33:00,30.0,,30.0,,0,0,0,0,0,1,1
 15571,Mission St & 30th St,49,VAN NESS-MISSION,3,005B95,FFFFFF,1,Van Ness Ave & North Point St@@@262,Van Ness Ave & North Point St@@@106,,05:13:00,24:12:00,7.980769230769231,,7.980769230769231,,0,0,0,0,0,1,1
 15572,Mission St & 30th St,14,MISSION,3,005B95,FFFFFF,0,Mission St & San Jose Ave@@@310,Mission St & San Jose Ave@@@106,Mission St & San Jose Ave@@@32,05:37:00,29:27:00,7.980769230769231,13.4,7.980769230769231,13.4,0,0,0,0,0,1,1
 15572,Mission St & 30th St,14R,MISSION RAPID,3,BF2B45,FFFFFF,0,Daly City BART Station@@@182,Daly City BART Station@@@84,,05:54:00,22:28:00,10.121951219512194,,10.121951219512194,,0,0,0,0,0,1,1
@@ -2833,7 +2817,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15696,Market St & Van Ness Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@28,,Wawona/46th Ave /Sf Zoo@@@18,24:04:00,29:29:00,,25.0,,25.0,0,0,0,0,0,1,1
 15696,Market St & Van Ness Ave,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:37:00,07:53:00,,,,,0,0,0,0,0,1,1
 15696,Market St & Van Ness Ave,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@16,24:20:00,29:50:00,,30.0,,30.0,0,0,0,0,0,1,1
-15697,Marview Way & Panorama Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:56:30,22:48:30,30.0,,30.0,,0,0,0,0,0,1,1
+15697,Marview Way & Panorama Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:51:35,22:48:30,30.0,,30.0,,0,0,0,0,0,1,1
 15698,Moscow St & Brazil Ave,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@42,,06:11:29,22:22:53,20.1,,20.1,,0,0,0,0,0,1,1
 15699,Moscow St & Excelsior Ave,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@42,,06:10:58,22:22:24,20.1,,20.1,,0,0,0,0,0,1,1
 15700,Moscow St & France Ave,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@40,,06:13:57,22:25:10,20.157894736842106,,20.157894736842106,,0,0,0,0,0,1,1
@@ -2987,11 +2971,11 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15817,O'Farrell St & Powell St,38R,GEARY RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay C@@@174,Transit Center Bay C@@@84,,06:33:00,21:34:00,10.024390243902438,,10.024390243902438,,0,0,0,0,0,1,1
 15818,O'Farrell St & Van Ness Ave,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@228,Transit Center Bay D@@@84,Transit Center Bay D@@@16,05:58:00,29:40:00,10.048780487804878,30.0,10.048780487804878,30.0,0,0,0,0,0,1,1
 15818,O'Farrell St & Van Ness Ave,38R,GEARY RAPID,3,BF2B45,FFFFFF,1,Transit Center Bay C@@@174,Transit Center Bay C@@@84,,06:27:00,21:28:00,10.048780487804878,,10.048780487804878,,0,0,0,0,0,1,1
-15820,Oakpark Dr & Forest Knolls Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:00:36,22:52:36,30.0,,30.0,,0,0,0,0,0,1,1
-15821,Olympia Way & Clarendon Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:59:34,22:51:34,30.0,,30.0,,0,0,0,0,0,1,1
-15822,Olympia Way & Dellbrook Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:59:13,22:51:13,30.0,,30.0,,0,0,0,0,0,1,1
-15823,Olympia Way & Dellbrook Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:57,22:50:57,30.0,,30.0,,0,0,0,0,0,1,1
-15824,Olympia Way & Panorama Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:48,22:50:48,30.0,,30.0,,0,0,0,0,0,1,1
+15820,Oakpark Dr & Forest Knolls Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:55:41,22:52:36,30.0,,30.0,,0,0,0,0,0,1,1
+15821,Olympia Way & Clarendon Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:54:39,22:51:34,30.0,,30.0,,0,0,0,0,0,1,1
+15822,Olympia Way & Dellbrook Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:54:18,22:51:13,30.0,,30.0,,0,0,0,0,0,1,1
+15823,Olympia Way & Dellbrook Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:54:02,22:50:57,30.0,,30.0,,0,0,0,0,0,1,1
+15824,Olympia Way & Panorama Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:53:53,22:50:48,30.0,,30.0,,0,0,0,0,0,1,1
 15825,Orizaba Ave & Broad St,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@172,San Jose Ave & Niagra Ave@@@68,,05:54:13,25:02:57,12.151515151515152,,12.151515151515152,,0,0,0,0,0,1,1
 15826,Ortega St & 9th Ave,6,HAYES-PARNASSUS,3,005B95,FFFFFF,1,Hyde St & Grove St@@@116,Hyde St & Grove St@@@42,,05:02:16,24:02:16,20.0,,20.0,,0,0,0,0,0,1,1
 15827,Ortega St & 10th Ave,6,HAYES-PARNASSUS,3,005B95,FFFFFF,0,14th Ave & Quintara St@@@114,14th Ave & Quintara St@@@42,,05:38:51,24:25:25,20.6,,20.6,,0,0,0,0,0,1,1
@@ -3167,8 +3151,8 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 15978,Plymouth Ave & Thrift St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@42,,06:23:03,22:35:03,20.2,,20.2,,0,0,0,0,0,1,1
 15979,Plymouth Ave & Thrift St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@96,Newhall St & Hudson@@@42,,05:42:42,22:02:42,20.0,,20.0,,0,0,0,0,0,1,1
 15980,Plymouth Ave & Yerba Buena Ave,43,MASONIC,3,005B95,FFFFFF,1,Marina Blvd & Laguna St@@@112,Marina Blvd & Laguna St@@@42,,05:17:59,24:07:59,20.05,,20.05,,0,0,0,0,0,1,1
-15981,Panorama Dr & Dellbrook Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:56:03,22:48:03,30.0,,30.0,,0,0,0,0,0,1,1
-15982,Panorama Dr & Starview Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:19,22:50:19,30.0,,30.0,,0,0,0,0,0,1,1
+15981,Panorama Dr & Dellbrook Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:51:08,22:48:03,30.0,,30.0,,0,0,0,0,0,1,1
+15982,Panorama Dr & Starview Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:53:24,22:50:19,30.0,,30.0,,0,0,0,0,0,1,1
 15983,Polk St & Broadway,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@102,Beach St & Polk St@@@42,,05:50:48,22:41:48,20.15,,20.15,,0,0,0,0,0,1,1
 15984,Polk St & Broadway,19,POLK,3,005B95,FFFFFF,0,Galvez Ave & Hill Ave@@@102,Galvez Ave & Hill Ave@@@42,,05:09:38,22:06:11,20.0,,20.0,,0,0,0,0,0,1,1
 15987,Polk St & Francisco St,19,POLK,3,005B95,FFFFFF,1,Beach St & Polk St@@@102,Beach St & Polk St@@@40,,05:53:51,22:44:51,20.263157894736842,,20.263157894736842,,0,0,0,0,0,1,1
@@ -3438,19 +3422,15 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16222,Right Of Way/Liberty St,J,CHURCH,0,A96614,FFFFFF,1,Church St & Duboce Ave@@@30###Metro Embarcadero Station@@@122,Metro Embarcadero Station@@@56,,05:16:07,24:16:07,14.962962962962964,,14.962962962962964,,0,0,0,0,0,1,1
 16223,Right Of Way/Ocean Ave,M,OCEAN VIEW,0,008547,FFFFFF,0,San Jose Ave & Niagra Ave@@@172,San Jose Ave & Niagra Ave@@@68,,05:45:07,24:53:07,12.090909090909092,,12.090909090909092,,0,0,0,0,0,1,1
 16224,Right Of Way/Ocean Ave,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@138###The Embarcadero & Folsom St@@@6###Ulloa St & Lenox Way@@@28,Metro Embarcadero Station@@@70,,05:17:25,23:44:25,12.058823529411764,,12.058823529411764,,0,0,0,0,0,1,1
-16228,Reposa Way & Myra Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:22:36,21:20:24,30.0,,30.0,,0,0,0,0,0,1,1
-16228,Reposa Way & Myra Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:43:36,21:11:36,30.0,,30.0,,0,0,0,0,0,1,1
-16229,Reposa Way & Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:22:00,21:20:00,30.0,,30.0,,0,0,0,0,0,1,1
-16229,Reposa Way & Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:43:00,21:11:00,30.0,,30.0,,0,0,0,0,0,1,1
-16230,414 Roosevelt Way,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:14:23,22:12:23,30.0,,30.0,,0,0,0,0,0,1,1
+16230,414 Roosevelt Way,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:12:33,22:10:33,30.0,,30.0,,0,0,0,0,0,1,1
 16231,415 Roosevelt Way,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:13:03,22:13:03,30.0,,30.0,,0,0,0,0,0,1,1
 16232,Roosevelt Way & 14th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:15:31,22:15:31,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 16233,Roosevelt Way & 15th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:14:35,22:14:35,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-16234,Roosevelt Way & 17th St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:15:41,22:13:41,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+16234,Roosevelt Way & 17th St,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:13:52,22:11:52,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 16235,Roosevelt Way & 17th St,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:11:39,22:11:39,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 16236,Roosevelt Way & Clifford Ter,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:12:43,22:12:43,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-16237,Roosevelt Way & Clifford Ter,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:14:41,22:12:41,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
-16238,Roosevelt Way & Lower Ter,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:14:57,22:12:57,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+16237,Roosevelt Way & Clifford Ter,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:12:50,22:10:50,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
+16238,Roosevelt Way & Lower Ter,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:13:08,22:11:08,30.0,,30.0,,0,0,0,0,0,1,1
 16239,Roosevelt Way & Lower Ter,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:12:20,22:12:20,30.0,,30.0,,0,0,0,0,0,1,1
 16240,Roosevelt Way & Museum Way,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:13:55,22:13:55,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 16241,Russia Ave & Moscow St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@40,,06:13:25,22:24:41,20.157894736842106,,20.157894736842106,,0,0,0,0,0,1,1
@@ -3611,9 +3591,9 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16422,Silver Ave & San Bruno Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,Bosworth St & Diamond St@@@20###California St & 6th Ave@@@170,California St & 6th Ave@@@70,Bosworth St & Diamond St@@@14,05:14:00,29:23:00,12.0,31.666666666666668,12.0,31.666666666666668,0,0,0,0,0,1,1
 16424,Silver Ave & Topeka Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,Bosworth St & Diamond St@@@20###California St & 6th Ave@@@170,California St & 6th Ave@@@70,Bosworth St & Diamond St@@@14,05:12:18,29:21:38,12.0,31.666666666666668,12.0,31.666666666666668,0,0,0,0,0,1,1
 16425,Starr King Way & Gough St,38,GEARY,3,005B95,FFFFFF,1,Transit Center Bay D@@@228,Transit Center Bay D@@@82,Transit Center Bay D@@@16,05:56:44,29:38:59,10.05,30.0,10.05,30.0,0,0,0,0,0,1,1
-16426,Skyview Way & Aquavista Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:17,22:49:17,30.0,,30.0,,0,0,0,0,0,1,1
-16427,Skyview Way & City View Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:50,22:49:50,30.0,,30.0,,0,0,0,0,0,1,1
-16428,Skyview Way & Gladeview Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:35,22:49:35,30.0,,30.0,,0,0,0,0,0,1,1
+16426,Skyview Way & Aquavista Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:52:22,22:49:17,30.0,,30.0,,0,0,0,0,0,1,1
+16427,Skyview Way & City View Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:52:55,22:49:50,30.0,,30.0,,0,0,0,0,0,1,1
+16428,Skyview Way & Gladeview Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:52:40,22:49:35,30.0,,30.0,,0,0,0,0,0,1,1
 16429,Skyline Blvd & Zoo Rd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@66,19th Ave & Buckingham Way@@@28,,06:24:53,22:24:53,30.0,,30.0,,0,0,0,0,0,1,1
 16431,Skyline Blvd & Harding Rd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@66,19th Ave & Buckingham Way@@@28,,06:24:20,22:24:20,30.0,,30.0,,0,0,0,0,0,1,1
 16432,Skyline Blvd & Lake Merced Blvd,58,LAKE MERCED,3,005B95,FFFFFF,1,19th Ave & Buckingham Way@@@66,19th Ave & Buckingham Way@@@28,,06:25:54,22:25:54,30.0,,30.0,,0,0,0,0,0,1,1
@@ -3863,29 +3843,29 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16654,Telegraph Hill Blvd & Filbert St,39,COIT,3,005B95,FFFFFF,1,North Point St & Stockton St@@@62,North Point St & Stockton St@@@40,,09:20:36,19:20:36,20.0,,20.0,,0,0,0,0,0,1,1
 16655,Telegraph Hill Blvd & Greenwich St,39,COIT,3,005B95,FFFFFF,0,Coit Tower@@@62,Coit Tower@@@42,,09:18:43,19:18:43,20.0,,20.0,,0,0,0,0,0,1,1
 16656,Telegraph Hill Blvd & Greenwich St,39,COIT,3,005B95,FFFFFF,1,North Point St & Stockton St@@@62,North Point St & Stockton St@@@40,,09:21:10,19:21:10,20.0,,20.0,,0,0,0,0,0,1,1
-16658,636 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:41:24,22:39:24,30.0,,30.0,,0,0,0,0,0,1,1
-16659,636 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:28:31,22:22:08,30.0,,30.0,,0,0,0,0,0,1,1
-16660,900 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:29:39,22:22:59,30.0,,30.0,,0,0,0,0,0,1,1
+16658,636 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:41:25,22:39:24,30.0,,30.0,,0,0,0,0,0,1,1
+16659,636 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:23:47,22:22:08,30.0,,30.0,,0,0,0,0,0,1,1
+16660,900 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:24:52,22:22:59,30.0,,30.0,,0,0,0,0,0,1,1
 16661,900 Teresita Blvd,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:40:13,22:38:13,30.0,,30.0,,0,0,0,0,0,1,1
-16662,Teresita Blvd & Bella Vista Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:28:13,22:21:54,30.0,,30.0,,0,0,0,0,0,1,1
+16662,Teresita Blvd & Bella Vista Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:23:27,22:21:54,30.0,,30.0,,0,0,0,0,0,1,1
 16663,Teresita Blvd & El Sereno Ct,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:42:05,22:40:05,30.0,,30.0,,0,0,0,0,0,1,1
-16664,Teresita Blvd & El Sereno Ct,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:27:50,22:21:37,30.0,,30.0,,0,0,0,0,0,1,1
-16665,Teresita Blvd & Evelyn Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:21:16,22:20:05,30.0,,30.0,,0,0,0,0,0,1,1
-16666,Teresita Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:28:53,22:22:24,30.0,,30.0,,0,0,0,0,0,1,1
-16667,Teresita Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:30:12,22:23:24,30.0,,30.0,,0,0,0,0,0,1,1
-16668,Teresita Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:41:01,22:39:01,30.0,,30.0,,0,0,0,0,0,1,1
-16669,Teresita Blvd & Fowler Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:49:13,22:41:58,30.0,,30.0,,0,0,0,0,0,1,1
+16664,Teresita Blvd & El Sereno Ct,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:23:05,22:21:37,30.0,,30.0,,0,0,0,0,0,1,1
+16665,Teresita Blvd & Evelyn Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:21:17,22:20:05,30.0,,30.0,,0,0,0,0,0,1,1
+16666,Teresita Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:24:08,22:22:24,30.0,,30.0,,0,0,0,0,0,1,1
+16667,Teresita Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:25:25,22:23:24,30.0,,30.0,,0,0,0,0,0,1,1
+16668,Teresita Blvd & Foerster St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:41:03,22:39:01,30.0,,30.0,,0,0,0,0,0,1,1
+16669,Teresita Blvd & Fowler Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:44:21,22:41:58,30.0,,30.0,,0,0,0,0,0,1,1
 16670,Teresita Blvd & Gaviota Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:42:33,22:40:33,30.0,,30.0,,0,0,0,0,0,1,1
-16671,Teresita Blvd & Gaviota Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:27:20,22:21:15,30.0,,30.0,,0,0,0,0,0,1,1
-16672,Teresita Blvd & Isola Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:48:30,22:41:24,30.0,,30.0,,0,0,0,0,0,1,1
-16673,Teresita Blvd & Isola Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:21:40,22:20:35,30.0,,30.0,,0,0,0,0,0,1,1
-16675,Teresita Blvd & Marietta Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:41:39,22:39:39,30.0,,30.0,,0,0,0,0,0,1,1
-16676,Teresita Blvd & Marietta Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:48:49,22:41:39,30.0,,30.0,,0,0,0,0,0,1,1
-16677,Teresita Blvd & Portola Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:49:57,22:42:33,30.0,,30.0,,0,0,0,0,0,1,1
-16678,Teresita Blvd & Reposa Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:48:00,22:41:00,30.0,,30.0,,0,0,0,0,0,1,1
-16679,Teresita Blvd & Reposa Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:27:00,22:21:00,30.0,,30.0,,0,0,0,0,0,1,1
+16671,Teresita Blvd & Gaviota Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:22:34,22:21:15,30.0,,30.0,,0,0,0,0,0,1,1
+16672,Teresita Blvd & Isola Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:43:40,22:41:24,30.0,,30.0,,0,0,0,0,0,1,1
+16673,Teresita Blvd & Isola Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:21:42,22:20:35,30.0,,30.0,,0,0,0,0,0,1,1
+16675,Teresita Blvd & Marietta Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:41:40,22:39:39,30.0,,30.0,,0,0,0,0,0,1,1
+16676,Teresita Blvd & Marietta Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:43:56,22:41:39,30.0,,30.0,,0,0,0,0,0,1,1
+16677,Teresita Blvd & Portola Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:45:04,22:42:33,30.0,,30.0,,0,0,0,0,0,1,1
+16678,Teresita Blvd & Reposa Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:43:11,22:41:00,30.0,,30.0,,0,0,0,0,0,1,1
+16679,Teresita Blvd & Reposa Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:22:16,22:21:00,30.0,,30.0,,0,0,0,0,0,1,1
 16680,Teresita Blvd & Stillings Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:40:38,22:38:38,30.0,,30.0,,0,0,0,0,0,1,1
-16681,Teresita Blvd & Stillings Ave,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:29:16,22:22:42,30.0,,30.0,,0,0,0,0,0,1,1
+16681,Teresita Blvd & Stillings Ave,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:24:30,22:22:42,30.0,,30.0,,0,0,0,0,0,1,1
 16695,Townsend St & 4th St,45,UNION-STOCKTON,3,005B95,FFFFFF,1,Townsend St & Lusk St@@@132,Townsend St & Lusk St@@@56,,05:07:07,22:27:58,15.185185185185185,,15.185185185185185,,0,0,0,0,0,1,1
 16695,Townsend St & 4th St,NBUS,JUDAH BUS,3,005B95,FFFFFF,0,Judah/La Playa/Ocean Beach@@@18,,,05:17:00,07:33:00,,,,,0,0,0,0,0,1,1
 16695,Townsend St & 4th St,NOWL,OWL JUDAH,3,666666,FFFFFF,0,Judah/La Playa/Ocean Beach@@@24,,Judah/La Playa/Ocean Beach@@@16,24:00:20,29:30:20,,30.0,,30.0,0,0,0,0,0,1,1
@@ -3978,8 +3958,6 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16789,University St & Bacon St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@42,,06:07:01,22:18:43,20.1,,20.1,,0,0,0,0,0,1,1
 16792,University St & Felton St,54,FELTON,3,005B95,FFFFFF,0,Daly City BART West Station Rd@@@94,Daly City BART West Station Rd@@@42,,06:07:45,22:19:25,20.1,,20.1,,0,0,0,0,0,1,1
 16793,University St & Woolsey St,54,FELTON,3,005B95,FFFFFF,1,Newhall St & Hudson@@@96,Newhall St & Hudson@@@42,,06:00:18,22:22:51,20.1,,20.1,,0,0,0,0,0,1,1
-16796,Upper Ter & Buena Vista Ave West,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:13:26,22:11:26,30.0,,30.0,,0,0,0,0,0,1,1
-16797,Upper Ter & Masonic Ave,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:13:39,22:11:39,30.076923076923077,,30.076923076923077,,0,0,0,0,0,1,1
 16800,Van Ness Ave & Chestnut St,28,19TH AVENUE,3,005B95,FFFFFF,1,Powell St & Beach St@@@170,Powell St & Beach St@@@68,,05:39:27,24:41:21,12.454545454545455,,12.454545454545455,,0,0,0,0,0,1,1
 16800,Van Ness Ave & Chestnut St,49,VAN NESS-MISSION,3,005B95,FFFFFF,1,Van Ness Ave & North Point St@@@262,Van Ness Ave & North Point St@@@106,,05:39:41,24:39:41,8.01923076923077,,8.01923076923077,,0,0,0,0,0,1,1
 16800,Van Ness Ave & Chestnut St,90,SAN BRUNO OWL,3,666666,FFFFFF,1,Van Ness Ave & North Point St@@@20,,Van Ness Ave & North Point St@@@14,24:41:54,29:11:54,,30.0,,30.0,0,0,0,0,0,1,1
@@ -4032,14 +4010,14 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16898,West Portal Ave & 14th Ave,M,OCEAN VIEW,0,008547,FFFFFF,1,Metro Embarcadero Station@@@138###The Embarcadero & Folsom St@@@6###Ulloa St & Lenox Way@@@28,Metro Embarcadero Station@@@70,,05:21:00,23:47:40,12.088235294117647,,12.088235294117647,,0,0,0,0,0,1,1
 16899,West Portal Ave & 15th Ave,57,PARKMERCED,3,005B95,FFFFFF,1,Ulloa St & West Portal Ave@@@92,Ulloa St & West Portal Ave@@@34,,05:25:02,22:24:37,24.875,,24.875,,0,0,0,0,0,1,1
 16904,West Portal Ave & Vicente St,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@92,Daly City BART Station@@@34,,05:00:42,22:00:42,25.0,,25.0,,0,0,0,0,0,1,1
-16907,117 Warren Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:01:20,22:53:20,30.0,,30.0,,0,0,0,0,0,1,1
-16908,345 Warren Dr E,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:02:17,22:54:17,30.0,,30.0,,0,0,0,0,0,1,1
-16909,400 Warren Dr E,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:02:38,22:54:38,30.0,,30.0,,0,0,0,0,0,1,1
-16910,455 Warren Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:02:50,22:54:50,30.0,,30.0,,0,0,0,0,0,1,1
-16911,Warren Dr & Christopher Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:01:44,22:53:44,30.0,,30.0,,0,0,0,0,0,1,1
-16912,Warren Dr & Devonshire Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:02:01,22:54:01,30.0,,30.0,,0,0,0,0,0,1,1
-16913,Warren Dr & Locksley Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:03:10,22:55:10,30.0,,30.0,,0,0,0,0,0,1,1
-16914,Warren Dr & Oakpark Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:00:47,22:52:47,30.0,,30.0,,0,0,0,0,0,1,1
+16907,117 Warren Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:56:25,22:53:20,30.0,,30.0,,0,0,0,0,0,1,1
+16908,345 Warren Dr E,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:22,22:54:17,30.0,,30.0,,0,0,0,0,0,1,1
+16909,400 Warren Dr E,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:43,22:54:38,30.0,,30.0,,0,0,0,0,0,1,1
+16910,455 Warren Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:55,22:54:50,30.0,,30.0,,0,0,0,0,0,1,1
+16911,Warren Dr & Christopher Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:56:49,22:53:44,30.0,,30.0,,0,0,0,0,0,1,1
+16912,Warren Dr & Devonshire Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:57:06,22:54:01,30.0,,30.0,,0,0,0,0,0,1,1
+16913,Warren Dr & Locksley Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:15,22:55:10,30.0,,30.0,,0,0,0,0,0,1,1
+16914,Warren Dr & Oakpark Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:55:52,22:52:47,30.0,,30.0,,0,0,0,0,0,1,1
 16920,Washington St & Jones St,PH,POWELL-HYDE CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@204###Washington St & Mason St@@@12,Powell St & Market St@@@96,,07:18:21,23:43:31,8.53191489361702,,8.53191489361702,,0,0,0,0,0,1,1
 16921,Washington St & Larkin St,27,BRYANT,3,005B95,FFFFFF,0,24th St & Mission St@@@102,24th St & Mission St@@@42,,05:11:45,22:02:20,20.0,,20.0,,0,0,0,0,0,1,1
 16922,Washington St & Leavenworth St,PH,POWELL-HYDE CABLE CAR,5,B49A36,000000,1,Powell St & Market St@@@204###Washington St & Mason St@@@12,Powell St & Market St@@@96,,07:17:40,23:42:54,8.53191489361702,,8.53191489361702,,0,0,0,0,0,1,1
@@ -4055,7 +4033,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16933,Woodside Ave & Balceta Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@68,,06:12:41,24:17:55,12.06060606060606,,12.06060606060606,,0,0,0,0,0,1,1
 16933,Woodside Ave & Balceta Ave,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:11:53,22:12:03,30.0,,30.0,,0,0,0,0,0,1,1
 16933,Woodside Ave & Balceta Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@30,,Jones St & Beach St@@@20,24:13:31,30:03:31,,25.0,,25.0,0,0,0,0,0,1,1
-16934,Woodside Ave & Hernandez Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:51:30,22:43:48,30.0,,30.0,,0,0,0,0,0,1,1
+16934,Woodside Ave & Hernandez Ave,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:46:35,22:43:48,30.0,,30.0,,0,0,0,0,0,1,1
 16934,Woodside Ave & Hernandez Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:29:00,24:27:00,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 16934,Woodside Ave & Hernandez Ave,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:22:31,22:20:31,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 16934,Woodside Ave & Hernandez Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@28,,Wawona/46th Ave /Sf Zoo@@@18,24:19:15,29:44:15,,25.0,,25.0,0,0,0,0,0,1,1
@@ -4063,7 +4041,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16935,Woodside Ave & Hernandez Ave,44,O'SHAUGHNESSY,3,005B95,FFFFFF,0,Hudson Ave & 3rd St@@@166,Hudson Ave & 3rd St@@@68,,06:12:49,24:18:06,12.06060606060606,,12.06060606060606,,0,0,0,0,0,1,1
 16935,Woodside Ave & Hernandez Ave,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:12:03,22:12:16,30.0,,30.0,,0,0,0,0,0,1,1
 16935,Woodside Ave & Hernandez Ave,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@30,,Jones St & Beach St@@@20,24:13:40,30:03:40,,25.0,,25.0,0,0,0,0,0,1,1
-16937,Woodside Ave & Portola Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:50:33,22:43:02,30.0,,30.0,,0,0,0,0,0,1,1
+16937,Woodside Ave & Portola Dr,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:45:38,22:43:02,30.0,,30.0,,0,0,0,0,0,1,1
 16937,Woodside Ave & Portola Dr,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:28:25,24:26:25,12.0,,12.0,,0,0,0,0,0,1,1
 16937,Woodside Ave & Portola Dr,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:21:43,22:19:43,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 16937,Woodside Ave & Portola Dr,KBUS,INGLESIDE BUS,3,437C93,FFFFFF,0,San Jose Ave & Geneva Ave@@@24,,,05:32:02,08:17:02,,,,,0,0,0,0,0,1,1
@@ -4071,7 +4049,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 16938,Woodside Ave & Portola Dr,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@58,Valencia St & Mission St@@@28,,08:19:57,22:18:26,30.0,,30.0,,0,0,0,0,0,1,1
 16938,Woodside Ave & Portola Dr,52,EXCELSIOR,3,005B95,FFFFFF,0,Dublin St & La Grande Ave@@@58,Dublin St & La Grande Ave@@@28,,08:12:45,22:13:06,30.0,,30.0,,0,0,0,0,0,1,1
 16938,Woodside Ave & Portola Dr,LOWL,OWL TARAVAL,3,666666,FFFFFF,1,Jones St & Beach St@@@30,,Jones St & Beach St@@@20,24:14:18,30:04:18,,25.0,,25.0,0,0,0,0,0,1,1
-16939,Woodside Ave & Ulloa St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:50:58,22:43:23,30.0,,30.0,,0,0,0,0,0,1,1
+16939,Woodside Ave & Ulloa St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:46:03,22:43:23,30.0,,30.0,,0,0,0,0,0,1,1
 16939,Woodside Ave & Ulloa St,44,O'SHAUGHNESSY,3,005B95,FFFFFF,1,California St & 6th Ave@@@170,California St & 6th Ave@@@70,,05:28:40,24:26:40,12.029411764705882,,12.029411764705882,,0,0,0,0,0,1,1
 16939,Woodside Ave & Ulloa St,52,EXCELSIOR,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:22:04,22:20:04,30.307692307692307,,30.307692307692307,,0,0,0,0,0,1,1
 16939,Woodside Ave & Ulloa St,LOWL,OWL TARAVAL,3,666666,FFFFFF,0,Wawona/46th Ave /Sf Zoo@@@28,,Wawona/46th Ave /Sf Zoo@@@18,24:18:56,29:43:56,,25.0,,25.0,0,0,0,0,0,1,1
@@ -4296,9 +4274,7 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 17304,Geneva Ave&Carter St,8,BAYSHORE,3,005B95,FFFFFF,1,Kearny St & North Point St@@@264,Kearny St & North Point St@@@120,,05:08:16,24:10:08,7.0,,7.0,,0,0,0,0,0,1,1
 17304,Geneva Ave&Carter St,91,3RD-19TH AVE OWL,3,666666,FFFFFF,1,19th Ave & Holloway Ave@@@24,,19th Ave & Holloway Ave@@@16,24:03:10,29:33:10,,30.0,,30.0,0,0,0,0,0,1,1
 17306,West Portal Ave & 14th Ave,57,PARKMERCED,3,005B95,FFFFFF,0,Daly City BART Station@@@92,Daly City BART Station@@@34,,05:01:44,22:01:44,25.0,,25.0,,0,0,0,0,0,1,1
-17307,Myra Way & Reposa Way,36,TERESITA,3,005B95,FFFFFF,0,Valencia St & Mission St@@@54,Valencia St & Mission St@@@28,,08:26:21,21:23:21,30.0,,30.0,,0,0,0,0,0,1,1
-17307,Myra Way & Reposa Way,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@52,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:47:21,21:15:21,30.0,,30.0,,0,0,0,0,0,1,1
-17308,7th Ave & Lawton St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,09:03:20,22:55:20,30.0,,30.0,,0,0,0,0,0,1,1
+17308,7th Ave & Lawton St,36,TERESITA,3,005B95,FFFFFF,1,Laguna Honda Blvd/Forest Hill Sta@@@58,Laguna Honda Blvd/Forest Hill Sta@@@28,,08:58:25,22:55:20,30.0,,30.0,,0,0,0,0,0,1,1
 17310,Roosevelt Way & Buena Vista Ter,37,CORBETT,3,005B95,FFFFFF,0,Parkridge Dr & Burnett Ave@@@54,Parkridge Dr & Burnett Ave@@@28,,09:15:01,22:15:01,30.0,,30.0,,0,0,0,0,0,1,1
 17312,Folsom St & 24th St,12,FOLSOM-PACIFIC,3,005B95,FFFFFF,0,Valencia St & Cesar Chavez St@@@98,Valencia St & Cesar Chavez St@@@42,,06:36:00,22:40:00,20.2,,20.2,,0,0,0,0,0,1,1
 17312,Folsom St & 24th St,67,BERNAL HEIGHTS,3,005B95,FFFFFF,0,Ellsworth St & Crescent Ave@@@98,Ellsworth St & Crescent Ave@@@42,,06:02:46,22:04:09,20.05,,20.05,,0,0,0,0,0,1,1
@@ -4727,3 +4703,4 @@ stop_code,stop_name,route_short_name,route_long_name,route_type,route_color,rout
 18162,Brookdale Ave & Blythdale Ave,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@190,Sunnydale Ave / Mclaren School@@@82,,06:03:01,24:57:01,10.475,,10.475,,0,0,0,0,0,1,1
 18163,Western Access Road & Sunnyvale Ave,9,SAN BRUNO,3,005B95,FFFFFF,0,Sunnydale Ave / Mclaren School@@@190,Sunnydale Ave / Mclaren School@@@80,,06:03:40,24:57:40,10.487179487179487,,10.487179487179487,,0,0,0,0,0,1,1
 18164,Clayton St & Deming St,33,ASHBURY-18TH ST,3,005B95,FFFFFF,1,Arguello Blvd & California St@@@14###Sacramento St & Cherry St@@@84,Sacramento St & Cherry St@@@40,,06:21:40,23:06:32,20.68421052631579,,20.68421052631579,,0,0,0,0,0,1,1
+18180,Roosevelt Way & Park Hill Ave,37,CORBETT,3,005B95,FFFFFF,1,Masonic Ave & Haight St@@@54,Masonic Ave & Haight St@@@28,,09:11:07,22:09:07,30.0,,30.0,,0,0,0,0,0,1,1
